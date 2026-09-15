@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  schedule:
+    - cron: '0 0/6 * * *'
+  workflow_dispatch:
+
+jobs:
+  download:
+    name: Get data from website
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - shell: bash
+        run: |
+          ./getUrls.sh
+
+      - name: Upload website to artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: html
+          path: html
+
+  save:
+    name: save-change
+    needs: download
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: html
+          path: html
+
+      - name: Commit files
+        continue-on-error: true
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add -f *
+          git commit -m "Update $(date +%F) $(date +%R)"
+
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
