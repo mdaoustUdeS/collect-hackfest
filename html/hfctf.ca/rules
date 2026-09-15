@@ -1,0 +1,430 @@
+<!doctype html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="description" content="Hackfest CTF">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="HiBootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    
+    
+    <title>Hackfest CTF | Règlements</title>
+
+    
+    <link rel="icon" href="https://hfctf.ca/images/faviconhf.png" type="image/png" sizes="16x16">
+
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/bootstrap.min.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/animate.min.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/owl.carousel.min.css"  type="text/css" media="all" />
+    <link rel="stylesheet" href="https://hfctf.ca/css/owl.theme.default.min.css"  type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/meanmenu.min.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/magnific-popup.min.css" type="text/css" media="all" />
+    
+    <link rel='stylesheet' href='https://hfctf.ca/css/boxicons.min.css' type="text/css" media="all" />
+    
+    <link rel='stylesheet' href='https://hfctf.ca/css/flaticon.css' type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/nice-select.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/style.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/responsive.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/override.css" type="text/css" media="all" />
+</head>
+<body>
+<div class="preloader bg-blue">
+    <div class="preloader-wrapper">
+        <div class="preloader-content">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+
+<div class="fixed-top">
+    <div class="topbar">
+        <div class="topbar-inner">
+            <div class="container-fluid">
+                <div
+                    class="row justify-content-center justify-content-lg-between"
+                >
+                    <div class="topbar-item topbar-right">
+                        <ul class="social-list social-list-gray-secondcolor">
+                            <li>
+                                <a href="https://discord.gg/WcT5Xrd"
+                                    ><span
+                                        class="iconify"
+                                        data-icon="la:discord"
+                                        data-width="25"
+                                        data-height="25"
+                                    ></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/hackfest"
+                                    ><i class="flaticon-facebook"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/hackfest_ca"
+                                    ><i class="flaticon-twitter"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.youtube.com/user/hackfestca"
+                                    ><i class="flaticon-youtube"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/hackfestca/"
+                                    ><i class="flaticon-instagram"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.flickr.com/photos/hackfest2k9/"
+                                    ><span
+                                        class="iconify"
+                                        data-icon="ri:flickr-line"
+                                        data-width="25"
+                                        data-height="25"
+                                    ></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="topbar-item topbar-left">
+                        <ul class="topbar-list topbar-list-white">
+                            <li>
+                                <a href="https://hackfestca.square.site/"
+                                    ><i class="flaticon-shopping-cart"></i>
+                                    Boutique</a
+                                >
+                            </li>
+                             
+                            <li>
+                                <a href="https://hfctf.ca/en/rules/">English</a>
+                            </li>
+                             
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-area sticky-black navbar-area-2">
+        <div class="mobile-nav">
+            <a href="index.html" class="mobile-brand">
+                <img
+                    src="https://hfctf.ca/images/logo-white-tiny.png"
+                    alt="logo"
+                    class="logo main-brand"
+                />
+                <img
+                    src="https://hfctf.ca/images/logo-black-tiny.png"
+                    alt="logo"
+                    class="logo hover-brand"
+                />
+            </a>
+        </div>
+        <div class="main-nav">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img
+                            src="https://hfctf.ca/images/logo-white-tiny.png"
+                            alt="logo"
+                            class="logo main-brand"
+                        />
+                        <img
+                            src="https://hfctf.ca/images/logo-black-tiny.png"
+                            alt="logo"
+                            class="logo hover-brand"
+                        />
+                    </a>
+                    <div
+                        class="collapse navbar-collapse mean-menu"
+                        id="navbarSupportedContent"
+                        style="display: block; margin-left: -6%"
+                    >
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a href="ctfs" class="nav-link"
+                                    >CTFs</a
+                                >
+                            </li><li class="nav-item">
+                                <a href="rules" class="nav-link"
+                                    >Règlements</a
+                                >
+                            </li><li class="nav-item">
+                                <a href="team" class="nav-link"
+                                    >Équipe</a
+                                >
+                            </li><li class="nav-item">
+                                <a href="about" class="nav-link"
+                                    >À propos</a
+                                >
+                            </li>
+                            <span class="mobile-topbar-link">
+                                <li class="nav-item">
+                                    <a
+                                        href="https://hackfestca.square.site/"
+                                        class="nav-link"
+                                        >Boutique</a
+                                    >
+                                </li>
+                                 
+                                <li class="nav-item">
+                                    <a
+                                        href="https://hfctf.ca/en/rules/"
+                                        class="nav-link"
+                                        >English</a
+                                    >
+                                </li>
+                            </span>
+                             
+                        </ul>
+                    </div>
+                    <div class="navbar-option">
+                        <div class="navbar-option-item">
+                            </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+
+<header class="header-page-bg overflow-hidden header-page-bg-3">
+    <div class="bottom-frame"></div>
+    <div class="header-page-bg-inner">
+        <div class="header-page-line">
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+        </div>
+        <div class="container-fluid">
+            <div class="header-content header-content-white">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Accueil</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            Règlements
+                        </li>
+                    </ol>
+                </nav>
+                <h1>Règlements</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<section class="terms-section bg-black sec-pt-60 pb-100">
+    <div class="container">
+        
+        <div class="forum-details-block">
+            <h3>Règlements généraux</h3>
+            <ul
+                class="about-check-list about-check-list-second about-check-list-white"
+            >
+                
+                <li>Tout nom d&rsquo;équipe déplacé, injurieux, irrespectueux ou pouvant porter préjudice est proscrit</li>
+                
+                <li>Tout essai d&rsquo;altération du matériel sur place ou de changer les accès réseau aux tables est proscrit</li>
+                
+                <li>Tout essai de mettre en place un hotspot, faux scorebard, du Wi-Fi scan, etc. est proscrit</li>
+                
+                <li>Tout essai d&rsquo;utiliser l&rsquo;infrastructure du CTF comme proxy pour aller attaquer ailleurs est proscrit</li>
+                
+                <li>Tout essai de contaminer par n&rsquo;importe quel moyen d&rsquo;autres équipes ou le staff du HFCTF est proscrit</li>
+                
+                <li>Tout déni de service est interdit</li>
+                
+                <li>Ne pas attaquer le scoreboard</li>
+                
+                <li>Ne pas faire usage de force brute sur le système de soumission de flags</li>
+                
+                <li>Ne pas donner de flags ou des writeups/soluces lors de la compétition</li>
+                
+                <li>Ne pas altérer les flags</li>
+                
+                <li>Ne pas ruiner le plaisir de l&rsquo;événement pour d&rsquo;autres participants</li>
+                
+                <li>Soyez courtois et respectueux</li>
+                
+                <li>Si quelque chose semble brisé, laissez savoir au designer du challenge sur Discord ou venez nous voir en personne</li>
+                
+                <li>Quiconque allant à l&rsquo;encontre de ces règles sera expulsé du CTF, ainsi que l&rsquo;ensemble de son équipe</li>
+                
+            </ul>
+        </div>
+        <div class="forum-details-block">
+            <h3>Équipement requis</h3>
+            <ul
+                class="about-check-list about-check-list-second about-check-list-white"
+            >
+                
+                <li>Un PC/laptop et périphériques jugés nécessaires</li>
+                
+                <li>Ce qu&rsquo;il faut pour vous connecter au réseau Wi-Fi du CTF (si votre ordinateur n&rsquo;a pas déjà une carte Wi-Fi intégrée)</li>
+                
+            </ul>
+        </div>
+        <div class="forum-details-block">
+            <h3>Règlements d&#39;inscription au CTF</h3>
+            <ul
+                class="about-check-list about-check-list-second about-check-list-white"
+            >
+                
+                <li>Bien lire toutes les informations lors de votre inscription dans Eventbrite</li>
+                
+                <li>Une adresse courriel valide devra être fournie lors de l&rsquo;inscription</li>
+                
+                <li>Un compte sur le Discord du Hackfest est requis</li>
+                
+                <li>Les équipes peuvent être composées d&rsquo;un maximum de 6 personnes (nous mixerons les équipes non complètes)</li>
+                
+                <li>Rester à l&rsquo;affût sous la catégorie <code>HFCTF 2025</code> sur notre Discord</li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</section>
+
+
+
+
+</div>
+        
+<footer>
+    <div class="footer-upper footer-light footer-light-second page-bg page-bg-5 pt-100 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="footer-content-item">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="https://hfctf.ca/images/logo-white-tiny.png" alt="logo"></a>
+                        </div>
+                        <div class="footer-details footer-details-light">
+                            <ul class="social-list social-list-white">
+                                <li>
+                                <a href="https://discord.gg/WcT5Xrd"><span class="iconify" data-icon="la:discord" data-width="25" data-height="25"></span>
+                                </a>
+                            </li>
+                                <li>
+                                    <a href="https://www.facebook.com/hackfest"><i class="flaticon-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/hackfest_ca"><i class="flaticon-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/user/hackfestca"><i class="flaticon-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/hackfestca/"><i class="flaticon-instagram"></i></a>
+                                </li>
+                                <ul class="social-list social-list-white">
+                                    <li>
+                                    <a href="https://www.flickr.com/photos/hackfest2k9/"><span class="iconify" data-icon="ri:flickr-line" data-width="25" data-height="25"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="footer-content-list footer-content-item desk-pad-left-70">
+                        <div class="footer-content-title">
+                            <h3>Contactez-nous</h3>
+                        </div>
+                        <div class="footer-details footer-address">
+                            <div class="footer-address-item">
+                                <div class="footer-address-icon">
+                                    <i class="flaticon-email"></i>
+                                </div>
+                                <div class="footer-address-text">
+                                    <h4>Information</h4>
+                                    <p><a href="mailto:info@hfctf.ca">info@hfctf.ca</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-lower bg-black2">
+        <div class="container">
+            <div class="footer-copyright-text footer-copyright-text-secondcolor">
+                    <p>Fait avec 🤍 par l'équipe du HFCTF</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+        <div class="scroll-top" id="scrolltop">
+            <div class="scroll-top-inner scroll-top-inner-secondcolor">
+               Défiler vers le haut <i class="bx bx-down-arrow-alt"></i>
+            </div>
+        </div>
+
+
+<script src="https://hfctf.ca/js/jquery-3.5.1.min.js"></script>
+<script src="https://hfctf.ca/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.magnific-popup.min.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.waypoints.min.js"></script>
+<script src="https://hfctf.ca/js/jquery.counterup.min.js"></script>
+
+<script src="https://hfctf.ca/js/owl.carousel.min.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.nice-select.min.js"></script>
+
+<script src="https://hfctf.ca/js/isotope.pkgd.min.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.ajaxchimp.min.js"></script>
+
+<script src="https://hfctf.ca/js/form-validator.min.js"></script>
+
+<script src="https://hfctf.ca/js/contact-form-script.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.meanmenu.min.js"></script>
+
+<script src="https://hfctf.ca/js/script.js"></script>
+
+<script src='https://use.edgefonts.net/butcherman.js'></script>
+<script src='https://use.edgefonts.net/creepster.js'></script>
+<script src='https://use.edgefonts.net/emilys-candy.js'></script>
+
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</body>
+</html>

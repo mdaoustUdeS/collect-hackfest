@@ -1,0 +1,2614 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+
+
+
+
+<!-- Primary meta -->
+<title>Formations — Hackfest 2026</title>
+<meta name="description" content="7 formations en cybersécurité au Hackfest 2026 — de débutant à avancé, avec des experts reconnus.">
+<link rel="canonical" href="formations">
+
+<!-- Open Graph -->
+<meta property="og:type"        content="website">
+<meta property="og:site_name"   content="Hackfest 2026">
+<meta property="og:title"       content="Formations — Hackfest 2026">
+<meta property="og:description" content="7 formations en cybersécurité au Hackfest 2026 — de débutant à avancé, avec des experts reconnus.">
+<meta property="og:url"         content="https://hackfest.ca/formations/">
+<meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta property="og:image:alt"   content="Hackfest 2026">
+<meta property="og:locale"      content="fr_CA">
+
+<!-- Twitter Card -->
+<meta name="twitter:card"        content="summary">
+<meta name="twitter:site"        content="@hackfest_ca">
+<meta name="twitter:title"       content="Formations — Hackfest 2026">
+<meta name="twitter:description" content="7 formations en cybersécurité au Hackfest 2026 — de débutant à avancé, avec des experts reconnus.">
+<meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- Hreflang (bilingual) -->
+
+
+<link rel="alternate" hreflang="fr"        href="formations">
+<link rel="alternate" hreflang="en"        href="https://hackfest.ca/en/trainings/">
+<link rel="alternate" hreflang="x-default" href="formations">
+
+
+  <!-- Favicon and touch icon (192x192) -->
+<link rel="icon" type="image/webp" sizes="192x192" href="https://hackfest.ca/assets/images/touch-icon-192x192.webp">
+<link rel="apple-touch-icon" sizes="192x192" href="https://hackfest.ca/assets/images/touch-icon-192x192.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Orbitron:wght@400;500;600;700&family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/main.css">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/trainings.css">
+  <script defer src="https://analytics.hackfest.ca/script.js" data-website-id="0ce77795-100e-4f53-92c3-5ea0922c0b15"></script>
+</head>
+<body class="trainings-page">
+  <header class="site-header">
+  <div class="header-inner">
+    <div class="header-left">
+      <a href="index.html" class="logo">
+        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Hackfest Logo">
+      </a>
+      
+      
+      
+      
+      
+      
+      <span class="header-subbrand-sep" aria-hidden="true">/</span>
+      <a href="index.html"
+         class="header-subbrand-link">
+        <img src="https://hackfest.ca/assets/images/hackfest/sublogo-2026.webp"
+             alt="Hackfest 2026"
+             class="header-subbrand-img">
+      </a>
+      
+    </div>
+    <nav class="main-nav" id="mainNav">
+      <ul class="nav-list">
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Communauté</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item has-dropdown">
+              
+                <button class="nav-btn">Hackfest</button>
+              
+              
+              <ul class="dropdown sub-dropdown">
+                
+                <li><a href="ctfs">CTFs</a></li>
+                
+                <li><a href="villages">Villages</a></li>
+                
+                <li><a href="formations">Formations</a></li>
+                
+                <li><a href="spectacle">Spectacle</a></li>
+                
+                <li><a href="after-dark">After Dark</a></li>
+                
+                <li><a href="hackfest-schedule">Programme Hackfest</a></li>
+                
+                <li><a href="partenaires-hackfest">Partenaires</a></li>
+                
+              </ul>
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="polar">Polar</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="quebecsec">QuébecSec</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="ihack">iHack</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://securite.fm">French Connection</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="services">Services</a>
+          
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="sejour">Séjour</a>
+          
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="horaire">Horaire</a>
+          
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Partenaires</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="partenaires-hackfest">Hackfest</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="polar#sponsors">POLAR</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="infolettre-partenaires">Infolettre partenaires</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://sponsorship.hackfest.ca">Devenir partenaire</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Contact</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="a-propos">À propos</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="comite/index.html">Le comité</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="contact/index.html">Nous contacter</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="historique">Historique</a>
+          
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Archive</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="conferences">Présentations (Vidéos)</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+      </ul>
+
+      <!-- Mobile-only footer: CTAs and language switcher moved from header-right -->
+      <div class="mobile-nav-cta">
+        <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="btn btn-primary">S'inscrire</a>
+        <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor">Commanditer l'événement</a>
+        <a href="https://hackfest.ca/en/trainings/" class="mobile-nav-lang">
+          <svg class="globe-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          EN
+        </a>
+      </div>
+    </nav>
+    <div class="header-right">
+      <a href="https://hackfest.ca/en/trainings/" class="lang-switch"><svg class="globe-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> EN</a>
+      <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="btn btn-primary btn-sm">S'inscrire</a>
+      <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor btn-sm">Commanditer l'événement</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+  <main>
+
+    <!-- ===================================================================
+         HERO SECTION
+         Combined hero: title, subtitle, intro text, facts strip, trainers.
+         Dark bg with pulsing glow and scanline grid.
+         =================================================================== -->
+    <section class="trainings-hero">
+      <div class="trainings-hero-content">
+        <h1>Formations</h1>
+        <p class="trainings-hero-subtitle">Développez vos compétences avec des experts du domaine</p>
+
+        
+        <div class="trainings-hero-intro">
+          <h2>7 formations, un seul événement</h2>
+          <p>Le Hackfest propose des formations intensives données par des experts reconnus dans leur domaine. Des niveaux débutant à avancé, en français et en anglais — il y en a pour tous les profils. Chaque formation inclut des exercices pratiques, du contenu exclusif et une expérience immersive au cœur de la communauté cybersécurité québécoise.
+</p>
+          
+          
+        </div>
+        
+
+        
+        <div class="trainings-hero-overview">
+          <dl class="trainings-overview-facts">
+            
+            <div class="trainings-overview-fact">
+              <dt>Lieu</dt>
+              <dd>Hôtel Palace Royal</dd>
+            </div>
+            
+            <div class="trainings-overview-fact">
+              <dt>Dates</dt>
+              <dd>26–31 octobre 2026</dd>
+            </div>
+            
+            <div class="trainings-overview-fact">
+              <dt>Formations</dt>
+              <dd>7</dd>
+            </div>
+            
+            <div class="trainings-overview-fact">
+              <dt>Formateurs</dt>
+              <dd>9+</dd>
+            </div>
+            
+          </dl>
+
+          
+          <p class="trainings-overview-trainers">
+            <span class="trainings-overview-trainers-label">Vos formateurs:</span>
+            Claude Roy (@nwolc) · Simon Nolet (@Viper) · Samuel De Grace (@dax) · Alexandre Fournier · Karine Maréchal Richard · Shane MacDougall (@socal_canuck) · Franck (@PhenixCorp) · Francis Coats (@franciscoats) · Jean-François Brouillette
+          </p>
+          
+        </div>
+        
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         TRAINING CARDS GRID
+         One card per training. Cards are <button> elements with data-training
+         attribute used by trainings.js to identify which modal to open.
+         =================================================================== -->
+    <section class="trainings-grid-section">
+      <div class="trainings-grid">
+        
+        <button class="training-card" data-training="securite-101"
+                aria-haspopup="dialog" aria-controls="modal-securite-101">
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          
+          <div class="training-card-bg"></div>
+          
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="training-card-overlay"></div>
+
+          
+
+          <!-- Card content: name, meta badges, desc, CTA -->
+          <div class="training-card-content">
+            
+            <div class="training-card-icon" aria-hidden="true">🛡️</div>
+            
+            <h2 class="training-card-name">Sécurité 101-102-103-101C</h2>
+
+            <!-- Level and duration badges -->
+            <div class="training-card-meta">
+              <span class="training-card-level">Débutant</span>
+              
+              <span class="training-card-duration">1 journée par cours</span>
+              
+            </div>
+
+            <!-- Instruction language badge -->
+            <span class="training-card-lang training-card-lang--fr">
+              Français
+            </span>
+
+            
+            <span class="training-card-price">
+              
+                À partir de 450 $
+              
+            </span>
+            
+            <p class="training-card-desc">Formation unique créée par la communauté du Hackfest. Introduction à divers éléments essentiels de la sécurité informatique.</p>
+            <span class="training-card-cta">En savoir plus →</span>
+          </div>
+
+        </button>
+        
+        <button class="training-card" data-training="securite-physique"
+                aria-haspopup="dialog" aria-controls="modal-securite-physique">
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          
+          <div class="training-card-bg"></div>
+          
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="training-card-overlay"></div>
+
+          
+
+          <!-- Card content: name, meta badges, desc, CTA -->
+          <div class="training-card-content">
+            
+            <div class="training-card-icon" aria-hidden="true">🔒</div>
+            
+            <h2 class="training-card-name">Sécurité Physique 101, 201, 202</h2>
+
+            <!-- Level and duration badges -->
+            <div class="training-card-meta">
+              <span class="training-card-level">Multi-niveaux</span>
+              
+              <span class="training-card-duration">101: 1 journée, 201: 2 journées, 202: 1 journée</span>
+              
+            </div>
+
+            <!-- Instruction language badge -->
+            <span class="training-card-lang training-card-lang--fr">
+              Français
+            </span>
+
+            
+            <span class="training-card-price">
+              
+                À partir de 850 $ Tarif hâtif
+              
+            </span>
+            
+            <p class="training-card-desc">Explorez la sécurité physique sous tous ses angles — crochetage de serrures, contournement de contrôles d'accès et tests d'intrusion physique.</p>
+            <span class="training-card-cta">En savoir plus →</span>
+          </div>
+
+        </button>
+        
+        <button class="training-card" data-training="aiautomation"
+                aria-haspopup="dialog" aria-controls="modal-aiautomation">
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          
+          <div class="training-card-bg"></div>
+          
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="training-card-overlay"></div>
+
+          
+
+          <!-- Card content: name, meta badges, desc, CTA -->
+          <div class="training-card-content">
+            
+            <div class="training-card-icon" aria-hidden="true">💻</div>
+            
+            <h2 class="training-card-name">Sécurité & Automatisation Intelligente : Réduisez votre temps de réaction aux menaces</h2>
+
+            <!-- Level and duration badges -->
+            <div class="training-card-meta">
+              <span class="training-card-level">Intermédiaire</span>
+              
+              <span class="training-card-duration">1 journée</span>
+              
+            </div>
+
+            <!-- Instruction language badge -->
+            <span class="training-card-lang training-card-lang--fr">
+              Français
+            </span>
+
+            
+            <span class="training-card-price">
+              
+                500 $ Tarif hâtif
+              
+            </span>
+            
+            <p class="training-card-desc">Maîtrisez l'IA et l'automatisation pour accélérer vos workflows de sécurité : du pentest au triage de vulnérabilités.</p>
+            <span class="training-card-cta">En savoir plus →</span>
+          </div>
+
+        </button>
+        
+        <button class="training-card" data-training="gestion-crise"
+                aria-haspopup="dialog" aria-controls="modal-gestion-crise">
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          
+          <div class="training-card-bg"></div>
+          
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="training-card-overlay"></div>
+
+          
+
+          <!-- Card content: name, meta badges, desc, CTA -->
+          <div class="training-card-content">
+            
+            <div class="training-card-icon" aria-hidden="true">🚨</div>
+            
+            <h2 class="training-card-name">S'initier à la gestion de crise</h2>
+
+            <!-- Level and duration badges -->
+            <div class="training-card-meta">
+              <span class="training-card-level">Débutant</span>
+              
+              <span class="training-card-duration">1 journée</span>
+              
+            </div>
+
+            <!-- Instruction language badge -->
+            <span class="training-card-lang training-card-lang--fr">
+              Français
+            </span>
+
+            
+            <span class="training-card-price">
+              
+                500 $ Tarif hâtif
+              
+            </span>
+            
+            <p class="training-card-desc">Découvrez les bases de la gestion de crise cyber — planification, communication et coordination lors d'un incident majeur.</p>
+            <span class="training-card-cta">En savoir plus →</span>
+          </div>
+
+        </button>
+        
+        <button class="training-card" data-training="premier-repondant-ir"
+                aria-haspopup="dialog" aria-controls="modal-premier-repondant-ir">
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          
+          <div class="training-card-bg"></div>
+          
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="training-card-overlay"></div>
+
+          
+          <span class="training-card-badge">Ajoutée le 1 mai 2026</span>
+          
+
+          <!-- Card content: name, meta badges, desc, CTA -->
+          <div class="training-card-content">
+            
+            <div class="training-card-icon" aria-hidden="true">🧯</div>
+            
+            <h2 class="training-card-name">Devenir premier répondant en réponse aux cyberincidents</h2>
+
+            <!-- Level and duration badges -->
+            <div class="training-card-meta">
+              <span class="training-card-level">Intermédiaire</span>
+              
+              <span class="training-card-duration">3 jours (21 heures)</span>
+              
+            </div>
+
+            <!-- Instruction language badge -->
+            <span class="training-card-lang training-card-lang--fr">
+              Français
+            </span>
+
+            
+            <span class="training-card-price">
+              
+                1500 $
+              
+            </span>
+            
+            <p class="training-card-desc">Le temps est votre pire ennemi lors d'une cyberattaque. Êtes-vous prêt à agir ?</p>
+            <span class="training-card-cta">En savoir plus →</span>
+          </div>
+
+        </button>
+        
+        <button class="training-card" data-training="osint-bootcamp"
+                aria-haspopup="dialog" aria-controls="modal-osint-bootcamp">
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          
+          <div class="training-card-bg"></div>
+          
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="training-card-overlay"></div>
+
+          
+
+          <!-- Card content: name, meta badges, desc, CTA -->
+          <div class="training-card-content">
+            
+            <div class="training-card-icon" aria-hidden="true">🎯</div>
+            
+            <h2 class="training-card-name">OSINT/Social Engineering Bootcamp</h2>
+
+            <!-- Level and duration badges -->
+            <div class="training-card-meta">
+              <span class="training-card-level">Avancé</span>
+              
+              <span class="training-card-duration">2 jours</span>
+              
+            </div>
+
+            <!-- Instruction language badge -->
+            <span class="training-card-lang training-card-lang--en">
+              Anglais
+            </span>
+
+            
+            <span class="training-card-price">
+              
+                1 400 $ Tarif hâtif
+              
+            </span>
+            
+            <p class="training-card-desc">Bootcamp intensif de 2 jours donné par Shane MacDougall, double lauréat du black badge DEF CON.</p>
+            <span class="training-card-cta">En savoir plus →</span>
+          </div>
+
+        </button>
+        
+        <button class="training-card" data-training="azure-swat-phenix"
+                aria-haspopup="dialog" aria-controls="modal-azure-swat-phenix">
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          
+          <div class="training-card-bg"></div>
+          
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="training-card-overlay"></div>
+
+          
+
+          <!-- Card content: name, meta badges, desc, CTA -->
+          <div class="training-card-content">
+            
+            <div class="training-card-icon" aria-hidden="true">☁️</div>
+            
+            <h2 class="training-card-name">Formation Cloud Pragmatique & Security Ops</h2>
+
+            <!-- Level and duration badges -->
+            <div class="training-card-meta">
+              <span class="training-card-level">Avancé</span>
+              
+              <span class="training-card-duration">2 jours</span>
+              
+            </div>
+
+            <!-- Instruction language badge -->
+            <span class="training-card-lang training-card-lang--fr">
+              Français
+            </span>
+
+            
+            <span class="training-card-price">
+              
+                1 600 $
+              
+            </span>
+            
+            <p class="training-card-desc">Bootcamp opérationnel par @PhenixCorp — Microsoft & Azure, mode REAL-WORLD SWAT. À l'Hôtel Palace Royale ; billet Hackfest et repas inclus (non inclus : billet CTF).
+</p>
+            <span class="training-card-cta">En savoir plus →</span>
+          </div>
+
+        </button>
+        
+        
+        <div class="trainings-more-card" aria-hidden="true">
+          <div class="trainings-more-card-inner">
+            <span class="trainings-more-dot"></span>
+            <p class="trainings-more-label">D'autres formations arrivent bientôt</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         MODAL INFRASTRUCTURE
+         One hidden modal panel per training, rendered server-side.
+         The backdrop is shared by all modals.
+         =================================================================== -->
+
+    <!-- Shared backdrop — click to close -->
+    <div class="trainings-modal-backdrop" id="trainingsModalBackdrop" hidden></div>
+
+    
+    <div class="trainings-modal"
+         id="modal-securite-101"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-securite-101"
+         hidden>
+
+      <!-- Modal header: training name + register + close button (sticky) -->
+      <div class="trainings-modal-header">
+        <div class="trainings-modal-header-left">
+          <h2 class="trainings-modal-title" id="modal-title-securite-101">Sécurité 101-102-103-101C</h2>
+          <a href="https://www.eventbrite.com/e/billets-securite-101102103104-2026-1984352879881?utm_source=website&utm_medium=referral&utm_campaign=website"
+             class="trainings-modal-register-sticky"
+             target="_blank"
+             rel="noopener noreferrer">
+            S'inscrire
+          </a>
+        </div>
+        <button class="trainings-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: meta, tags, register (top), full desc, register (bottom) -->
+      <div class="trainings-modal-body">
+
+        
+
+        <!-- Meta row: level, duration, instruction language -->
+        <div class="trainings-modal-meta">
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Niveau</span>
+            <span class="trainings-modal-meta-value">Débutant</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Durée</span>
+            <span class="trainings-modal-meta-value">1 journée par cours</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Langue</span>
+            <span class="trainings-modal-meta-value">Français</span>
+          </div>
+        </div>
+
+        <!-- Pricing block (top) — early bird + regular -->
+        
+        <div class="trainings-modal-pricing">
+          
+          <div class="trainings-modal-price-tier">
+            <span class="trainings-modal-price-label">Régulier</span>
+            <span class="trainings-modal-price-value">À partir de 450 $</span>
+          </div>
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Dates</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">26–29 octobre 2026</span>
+          </div>
+          
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Lieu</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec</span>
+          </div>
+          
+        </div>
+        
+
+        <!-- Full description — markdown: headings, lists, hr, code -->
+        <div class="trainings-modal-desc"><h2 id="sécurité-101">Sécurité 101</h2>
+
+<p>Cette formation permettra au participant d’acquérir les compétences requises pour créer un audit de base de leur réseau informatique ou de participer à des jeux de sécurité (CTF). Une connaissance de base des protocoles réseau est un atout.</p>
+
+<h3 id="programme">Programme</h3>
+
+<ul>
+  <li>Introduction à l’intrusion (Pen testing) — méthodologies white, black, red et blue</li>
+  <li>Les étapes de l’intrusion</li>
+  <li>Outils de virtualisation (VMWare, VirtualBox)</li>
+  <li>Introduction et fondamentaux de Kali Linux — commandes de base, installation de logiciels, services, configuration réseau</li>
+  <li>Mise en place d’un environnement de test local</li>
+  <li>Introduction à netcat et alternatives (socat, powershell, powercat)</li>
+  <li>Visibilité réseau et revue des protocoles (TCP/UDP, IPv4/IPv6, 3-way handshake)</li>
+  <li>Tcpdump et Wireshark</li>
+  <li>Outils de découverte réseau : Nmap, Hping/Nping, Scapy</li>
+  <li>Découverte de vulnérabilités : Nessus, scripts Nmap</li>
+  <li>Exploitation : Metasploit</li>
+</ul>
+
+<h3 id="formateur">Formateur</h3>
+
+<p><strong>Claude Roy</strong> — Formateur indépendant et enseignant en informatique au Cégep de Sainte-Foy. Diplômé en génie informatique de l’Université Laval. Autodidacte certifié CCNA, CCAI, CCNA-Security et CCNP. Plus d’une décennie d’expérience en formation Cisco et cybersécurité.</p>
+
+<h3 id="prérequis">Prérequis</h3>
+
+<p>Portable requis (BYOD). Installation obligatoire d’une VM Kali Linux. VMWare Workstation ou Player fortement recommandé.</p>
+
+<hr />
+
+<h2 id="sécurité-102">Sécurité 102</h2>
+
+<p>Suite avancée du 101. Permet aux participants d’aller au-delà de l’audit de base et de participer activement à des jeux de hacking grâce à des techniques d’exploration et d’exploitation de vulnérabilités plus poussées.</p>
+
+<h3 id="programme-1">Programme</h3>
+
+<ul>
+  <li>Découverte avancée de mots de passe avec John et Hashcat</li>
+  <li>Sécurité web et hacking à l’aide de proxies (Webscarab, Burp, OWASP-ZAP)</li>
+  <li>Exploitation d’applications web : injection SQL, XSS, CSRF</li>
+  <li>Techniques de hacking réseau : pass-the-hash</li>
+  <li>Exercices avec proxy</li>
+  <li>Démonstrations et exercices de hacking côté client</li>
+  <li>Extraction de mots de passe à partir de services Windows, SAM local et mémoire</li>
+  <li>Démonstrations de hacking réseau pass-the-hash</li>
+</ul>
+
+<h3 id="formateur-1">Formateur</h3>
+
+<p><strong>Claude Roy</strong> — Voir bio ci-dessus.</p>
+
+<p><strong>Format :</strong> Démonstrations et exercices pratiques sous supervision du formateur.</p>
+
+<hr />
+
+<h2 id="sécurité-103">Sécurité 103</h2>
+
+<p>Suite logique du 101 et du 102. Initie les participants aux méthodologies utilisées par les testeurs d’intrusion pour obtenir un accès aux systèmes.</p>
+
+<h3 id="reconnaissance">Reconnaissance</h3>
+
+<ul>
+  <li>Outils de reconnaissance : FOCA, LinkedIn, Github</li>
+  <li>Suivi du balayage de ports</li>
+  <li>Identifiants par défaut</li>
+  <li>Balayage de vulnérabilités</li>
+  <li>Partage d’expérience de testeur d’intrusion professionnel</li>
+</ul>
+
+<h3 id="techniques-mitm">Techniques MITM</h3>
+
+<ul>
+  <li>Arp, Mitm6, Wpad, Responder</li>
+  <li>Découverte avancée de mots de passe</li>
+  <li>Password spraying</li>
+  <li>Utilisation avancée de Hashcat et variantes ésotériques</li>
+</ul>
+
+<h3 id="escalade-de-privilèges--sécurité-de-domaine">Escalade de privilèges &amp; sécurité de domaine</h3>
+
+<ul>
+  <li>Escalade Linux (SSH, Sudo, Setuid)</li>
+  <li>Escalade Windows (PTH, credential manager, lsass)</li>
+  <li>Architecture de sécurité de domaine</li>
+  <li>Gestion des utilisateurs de domaine, admin de domaine, admin local, comptes de service</li>
+  <li>Relations de confiance (trust relationships)</li>
+</ul>
+
+<h3 id="formateur-2">Formateur</h3>
+
+<p><strong>Simon Nolet</strong></p>
+
+<hr />
+
+<h2 id="sécurité-101c--introduction-au-cloud-aws-et-à-ses-vecteurs-dattaque">Sécurité 101C — Introduction au cloud AWS et à ses vecteurs d’attaque</h2>
+
+<p>Cette formation introduit les concepts fondamentaux du cloud computing à travers la plateforme Amazon Web Services (AWS), avec un accent particulier sur les enjeux de sécurité, les vecteurs d’attaque et les mauvaises configurations les plus courantes.</p>
+
+<h3 id="fondamentaux-du-cloud">Fondamentaux du cloud</h3>
+
+<ul>
+  <li>Vue d’ensemble du cloud computing, services managés, modèles de prix</li>
+  <li>Applications cloud-native</li>
+  <li>Architecture AWS, modèle de responsabilité partagée</li>
+  <li>Régions, zones de disponibilité, points de présence</li>
+  <li>Concepts serverless et niveau gratuit AWS</li>
+</ul>
+
+<h3 id="interfaces-et-accès-aws">Interfaces et accès AWS</h3>
+
+<ul>
+  <li>Console web, interface en ligne de commande (CLI) avec configuration interactive</li>
+  <li>SDKs, Amazon Resource Names (ARNs), AWS Signature Version 4</li>
+</ul>
+
+<h3 id="exploration-des-services-principaux">Exploration des services principaux</h3>
+
+<ul>
+  <li>Stockage : Simple Storage Service (S3) — exercices interactifs</li>
+  <li>Compute traditionnel : EC2, ECS, RDS — exercices interactifs</li>
+  <li>Serverless : Lambda — exercices interactifs</li>
+  <li>Intégration : EventBridge, SNS, SQS</li>
+</ul>
+
+<h3 id="ctf-débutant">CTF débutant</h3>
+
+<p>Défis AWS 1 à 15 (interactifs)</p>
+
+<h3 id="surface-dattaque-et-vecteurs">Surface d’attaque et vecteurs</h3>
+
+<ul>
+  <li>Objectifs d’attaque et vecteurs standard</li>
+  <li>IAM et STS, gestion des organisations</li>
+  <li>Configuration VPC, menaces internes</li>
+  <li>Scénarios d’attaque concrets (interactifs)</li>
+  <li>Exploitation des métadonnées EC2 (interactif)</li>
+  <li>Exposition de buckets S3 publics (interactif)</li>
+  <li>Fuites de clés d’accès AWS (interactif)</li>
+  <li>Défi CTF final (interactif)</li>
+</ul>
+
+<h3 id="formateur-3">Formateur</h3>
+
+<p><strong>Samuel De Grace / @dax</strong></p>
+
+<h3 id="prérequis-1">Prérequis</h3>
+
+<ul>
+  <li>AWS CLI</li>
+  <li>Session Manager plugin</li>
+  <li>Discord</li>
+  <li>Outils d’attaque depuis GitHub</li>
+</ul>
+
+<hr />
+
+<p><strong>Lieu —</strong> Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec.</p>
+
+<h2 id="inclus">Inclus</h2>
+
+<ul>
+  <li>1 billet Hackfest (conférences, villages, Beginner CTF, etc.)</li>
+  <li>Nourriture (dîner et café)</li>
+</ul>
+
+<h2 id="non-inclus">Non inclus</h2>
+
+<ul>
+  <li>Billet CTF</li>
+</ul>
+
+<h2 id="horaire">Horaire</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Cours</th>
+      <th>Horaire</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lundi 26 octobre</td>
+      <td>Sécurité 101</td>
+      <td>09h00–19h00</td>
+    </tr>
+    <tr>
+      <td>Mardi 27 octobre</td>
+      <td>Sécurité 102</td>
+      <td>09h00–19h00</td>
+    </tr>
+    <tr>
+      <td>Mercredi 28 octobre</td>
+      <td>Sécurité 101C</td>
+      <td>09h00–19h00</td>
+    </tr>
+    <tr>
+      <td>Jeudi 29 octobre</td>
+      <td>Sécurité 103</td>
+      <td>09h00–12h00 · 13h00–19h00</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="tarifs">Tarifs</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Billet</th>
+      <th>Prix</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sécurité 101</td>
+      <td>450 $</td>
+    </tr>
+    <tr>
+      <td>Sécurité 102</td>
+      <td>500 $</td>
+    </tr>
+    <tr>
+      <td>Sécurité 103</td>
+      <td>600 $</td>
+    </tr>
+    <tr>
+      <td>Sécurité 101C</td>
+      <td>450 $</td>
+    </tr>
+    <tr>
+      <td>Forfait 101 + 102</td>
+      <td>700 $</td>
+    </tr>
+    <tr>
+      <td>Forfait 102 + 103</td>
+      <td>800 $</td>
+    </tr>
+    <tr>
+      <td>Forfait 101 + 102 + 103</td>
+      <td>1 300 $</td>
+    </tr>
+    <tr>
+      <td>Forfait 102 + 103 + 101C</td>
+      <td>1 300 $</td>
+    </tr>
+    <tr>
+      <td>Forfait 101 + 102 + 103 + 101C</td>
+      <td>1 600 $</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>Pas de remboursements.</p>
+</div>
+
+        
+        <p class="trainings-modal-deadline">Inscription jusqu'au 2026-10-12</p>
+        
+        <p class="trainings-modal-refund">Pas de remboursements</p>
+
+      </div><!-- /.trainings-modal-body -->
+    </div><!-- /.trainings-modal -->
+    
+    <div class="trainings-modal"
+         id="modal-securite-physique"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-securite-physique"
+         hidden>
+
+      <!-- Modal header: training name + register + close button (sticky) -->
+      <div class="trainings-modal-header">
+        <div class="trainings-modal-header-left">
+          <h2 class="trainings-modal-title" id="modal-title-securite-physique">Sécurité Physique 101, 201, 202</h2>
+          <a href="https://www.eventbrite.com/e/billets-securite-physique-101201202-2026-1984354238946?utm_source=website&utm_medium=referral&utm_campaign=website"
+             class="trainings-modal-register-sticky"
+             target="_blank"
+             rel="noopener noreferrer">
+            S'inscrire
+          </a>
+        </div>
+        <button class="trainings-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: meta, tags, register (top), full desc, register (bottom) -->
+      <div class="trainings-modal-body">
+
+        
+        <div class="section-warning"><p>Le cours 101 est préalable au cours 201.</p></div>
+        
+
+        <!-- Meta row: level, duration, instruction language -->
+        <div class="trainings-modal-meta">
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Niveau</span>
+            <span class="trainings-modal-meta-value">Multi-niveaux</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Durée</span>
+            <span class="trainings-modal-meta-value">101: 1 journée, 201: 2 journées, 202: 1 journée</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Langue</span>
+            <span class="trainings-modal-meta-value">Français</span>
+          </div>
+        </div>
+
+        <!-- Pricing block (top) — early bird + regular -->
+        
+        <div class="trainings-modal-pricing">
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--early">
+            <span class="trainings-modal-price-label">Tarif hâtif</span>
+            <span class="trainings-modal-price-value">À partir de 850 $</span>
+            <span class="trainings-modal-price-until">jusqu'au 30 avril 2026</span>
+          </div>
+          
+          <div class="trainings-modal-price-tier">
+            <span class="trainings-modal-price-label">Régulier</span>
+            <span class="trainings-modal-price-value">À partir de 950 $</span>
+          </div>
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Dates</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">26–29 octobre 2026</span>
+          </div>
+          
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Lieu</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec</span>
+          </div>
+          
+        </div>
+        
+
+        <!-- Full description — markdown: headings, lists, hr, code -->
+        <div class="trainings-modal-desc"><h2 id="sécurité-physique-101--blue-team">Sécurité Physique 101 — Blue Team</h2>
+
+<p>La sécurité de l’information est supportée par 3 piliers indispensables : la sécurité des technologies de l’information, les filtrages de sécurité des ressources humaines et finalement, la sécurité physique.</p>
+
+<p>Cette formation s’attaque à ce dernier élément : la sécurité physique. Cet aspect est souvent négligé ou mal compris malgré qu’il précède la sécurité des technologies de l’information. Pour assurer la sécurité de l’information sur 360 degrés, il est important de maîtriser les éléments de base de ce pilier essentiel.</p>
+
+<h3 id="objectifs">Objectifs</h3>
+
+<ul>
+  <li>Comprendre les éléments de base en matière de sécurité</li>
+  <li>Démystifier le rôle et les interactions des diverses familles d’équipements (serrurerie, systèmes d’alarme, systèmes de contrôle d’accès, systèmes de caméras, etc.)</li>
+  <li>Apprendre les principaux éléments de terminologie propres à ces familles d’équipements</li>
+  <li>Analyser la sécurité physique de votre site</li>
+</ul>
+
+<h3 id="plan-de-cours">Plan de cours</h3>
+
+<h4 id="les-4-d-de-la-sécurité-deter-deny-detect-delay">Les 4 D de la sécurité (Deter, Deny, Detect, Delay)</h4>
+<ul>
+  <li>Décourager</li>
+  <li>Empêcher</li>
+  <li>Détecter</li>
+  <li>Retarder</li>
+</ul>
+
+<h4 id="diagrammes-de-séquences-dattaque-asd--adversary-sequence-diagram">Diagrammes de séquences d’attaque (ASD — Adversary Sequence Diagram)</h4>
+<p>Point de détection critique (CDP — Critical Detection Point).</p>
+
+<h4 id="conception-dun-plan-de-sécurité-physique-pps--physical-protection-system">Conception d’un plan de sécurité physique (PPS — Physical Protection System)</h4>
+
+<h4 id="serrurerie-détection-dintrusion-contrôle-daccès-et-vidéosurveillance">Serrurerie, détection d’intrusion, contrôle d’accès et vidéosurveillance</h4>
+<p>Abordés selon :</p>
+<ul>
+  <li>Terminologie</li>
+  <li>Concepts généraux</li>
+  <li>Démystification de préjugés technologiques sur l’utilisation, le fonctionnement, les failles de sécurité, etc.</li>
+</ul>
+
+<hr />
+
+<h2 id="sécurité-physique-201--red-team">Sécurité Physique 201 — Red Team</h2>
+
+<blockquote>
+  <p><strong>Le cours 101 est préalable au cours 201.</strong></p>
+</blockquote>
+
+<h3 id="préalables">Préalables</h3>
+<ul>
+  <li>Avoir suivi ou être inscrit à la formation Sécurité physique 101 — Blue Team</li>
+  <li>Occuper un emploi en sécurité physique ou en sécurité des technologies de l’information dans une entreprise ou organisme reconnu</li>
+</ul>
+
+<h3 id="description">Description</h3>
+
+<p>Qui n’a jamais entendu dire que la meilleure défense c’est l’attaque ? Voilà ce qui résume cette formation. Il s’agit ici de se placer dans l’esprit de l’attaquant et de comprendre son raisonnement intellectuel et technique afin de le contrer. Les principales attaques utilisées seront présentées avec des solutions possibles. Par extension, cette formation démystifie les tests de pénétration au niveau physique (Physical Red Team).</p>
+
+<h3 id="objectifs-1">Objectifs</h3>
+
+<ul>
+  <li>Comprendre les processus d’une attaque</li>
+  <li>Faire un survol des principales techniques d’attaque publiques utilisées par les criminels et les hackers pour s’attaquer à vos sites</li>
+  <li>Mieux anticiper les menaces et par conséquent mieux protéger vos installations</li>
+  <li>Apprendre les principes et règles propres aux tests de pénétration physique pour être en mesure de les réaliser à l’interne ou à l’externe</li>
+</ul>
+
+<h3 id="plan-de-cours-1">Plan de cours</h3>
+
+<h4 id="fondamentaux">Fondamentaux</h4>
+<ul>
+  <li>4 éléments constitutifs d’une menace</li>
+  <li>Règles d’engagement en matière de tests de pénétration</li>
+  <li>Discussion sur la légalité des attaques pour fins de tests</li>
+  <li>Brouillage</li>
+  <li>Interception de signaux</li>
+  <li>Vol à la tire</li>
+</ul>
+
+<h4 id="méthodologie-dune-attaque-réelle-sur-vos-installations">Méthodologie d’une attaque réelle sur vos installations</h4>
+<ul>
+  <li>Choix d’une cible</li>
+  <li>Recherche d’information en sources ouvertes</li>
+  <li>Surveillance et reconnaissance actives</li>
+  <li>Planification d’une attaque</li>
+  <li>Obtention des ressources nécessaires</li>
+  <li>Préparation de l’attaque (phase de test des méthodes)</li>
+  <li>Réalisation de l’attaque : infiltration → exploitation → exfiltration</li>
+</ul>
+
+<h4 id="éthique-et-réinitialisation">Éthique et réinitialisation</h4>
+<ul>
+  <li>Éthique en matière de tests de pénétration</li>
+  <li>Réinitialisation des systèmes de sécurité physique (ex. remplacement d’une serrure crochetée après les tests)</li>
+</ul>
+
+<h4 id="ingénierie-sociale">Ingénierie sociale</h4>
+
+<h4 id="techniques-de-contournement">Techniques de contournement</h4>
+
+<p><strong>Serrurerie :</strong></p>
+<ul>
+  <li>Crochetage, bumping, impressioning</li>
+  <li>Outils under/over the door</li>
+  <li>Copies de clés</li>
+  <li>Attaques sur systèmes de clés maîtresses</li>
+  <li>Cadenas, boîtes à clés, serrures à combinaison</li>
+</ul>
+
+<p><strong>Alarme :</strong></p>
+<ul>
+  <li>Sabotage des détecteurs de mouvement</li>
+  <li>Systèmes de communication, codes</li>
+  <li>Contacts magnétiques, bris de verre</li>
+</ul>
+
+<p><strong>Contrôle d’accès :</strong></p>
+<ul>
+  <li>Contournement des requêtes de sortie</li>
+  <li>Clonage de cartes, interception de signaux</li>
+  <li>Fabrication de cartes, numéros prédictibles</li>
+  <li>Piggybacking, tailgating</li>
+</ul>
+
+<p><strong>Vidéosurveillance :</strong>
+Discussion sur le contournement des systèmes de vidéosurveillance.</p>
+
+<hr />
+
+<h2 id="sécurité-physique-202--rétro-ingénierie-de-systèmes-de-sécurité-électroniques">Sécurité Physique 202 — Rétro-ingénierie de systèmes de sécurité électroniques</h2>
+
+<h3 id="préalables-1">Préalables</h3>
+<ul>
+  <li>Avoir suivi ou être inscrit à la formation Sécurité physique 201 — Red Team</li>
+  <li>Occuper un emploi en sécurité physique ou en sécurité des technologies de l’information</li>
+</ul>
+
+<h3 id="description-1">Description</h3>
+
+<p>En sécurité physique, nous utilisons une multitude de produits technologiques commerciaux comme des caméras, des systèmes de contrôle d’accès, des systèmes d’alarme, etc. Une belle présentation et une belle boîte de livraison ne garantissent en rien la qualité d’un produit. Malheureusement, de nombreux systèmes sont déficients de par leur conception, ils sont <strong>BAD</strong> (Broken As Designed). Il est donc important, tant en sécurité défensive (Blue Team) qu’offensive (Red Team) d’être en mesure d’effectuer la rétro-ingénierie partielle ou totale de ces composantes de sécurité. Formation théorique avec démonstrations en direct.</p>
+
+<h3 id="objectifs-2">Objectifs</h3>
+
+<ul>
+  <li>Comprendre le processus de rétro-ingénierie en sécurité physique</li>
+  <li>Effectuer des analyses de rétro-ingénierie sommaires</li>
+  <li>Éviter le déploiement de composantes BAD (Blue Team)</li>
+  <li>Exploiter les composantes BAD dans vos tests de pénétration (Red Team)</li>
+</ul>
+
+<h3 id="plan-de-cours-2">Plan de cours</h3>
+
+<h4 id="quest-ce-que-la-rétro-ingénierie-">Qu’est-ce que la rétro-ingénierie ?</h4>
+<p>Aspect légal.</p>
+
+<h4 id="étapes-de-rétro-ingénierie">Étapes de rétro-ingénierie</h4>
+<ol>
+  <li><strong>Comprendre le fonctionnement</strong> — comme utilisateur, comme installateur</li>
+  <li><strong>Revoir la littérature</strong></li>
+  <li><strong>Analyse physique</strong> — composantes externes, composantes internes (PCB)</li>
+  <li><strong>Analyse logicielle</strong> — interface utilisateur, fonctionnel (OS)</li>
+  <li><strong>Définir des vecteurs d’attaque</strong></li>
+  <li><strong>Tester de manière empirique</strong></li>
+  <li><strong>Documenter</strong></li>
+</ol>
+
+<h4 id="techniques-de-rétro-ingénierie">Techniques de rétro-ingénierie</h4>
+<ul>
+  <li>Circuits imprimés (PCB) — 2 types : schéma bloc et détaillé</li>
+  <li>EEPROM — lecture et interprétation</li>
+  <li>Systèmes de contrôle d’accès sans fil</li>
+  <li>Outils ProxMark3</li>
+  <li>Protocoles : Wiegand, SPI, I2C</li>
+  <li>Outils Saleae Logic Pro (analyseur logique)</li>
+  <li>Démonstrations de rétro-ingénierie sur des équipements réels</li>
+</ul>
+
+<hr />
+
+<h2 id="clientèle-visée">Clientèle visée</h2>
+
+<p>Toute personne occupant un emploi en sécurité physique ou en sécurité des technologies de l’information désirant améliorer la sécurité physique d’un site. S’adresse autant au personnel technique qu’aux gestionnaires. Visions Purple Team et Red Team présentées.</p>
+
+<h2 id="inclus">Inclus</h2>
+
+<ul>
+  <li>1 billet Hackfest (conférences, villages, Beginner CTF, etc.)</li>
+  <li>Nourriture (dîner et café)</li>
+</ul>
+
+<h2 id="non-inclus">Non inclus</h2>
+
+<ul>
+  <li>Billet CTF</li>
+</ul>
+
+<h2 id="horaire">Horaire</h2>
+
+<p>Du 26 au 29 octobre 2026, 09h00–17h00 chaque jour.</p>
+
+<h2 id="tarifs">Tarifs</h2>
+
+<h3 id="tarif-hâtif-jusquau-30-avril-2026">Tarif hâtif (jusqu’au 30 avril 2026)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Billet</th>
+      <th>Prix</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>101 — Blue Team</td>
+      <td>850 $</td>
+    </tr>
+    <tr>
+      <td>201 — Red Team</td>
+      <td>1 700 $</td>
+    </tr>
+    <tr>
+      <td>202 — Red Team Rétro</td>
+      <td>850 $</td>
+    </tr>
+    <tr>
+      <td>Forfait 101 + 201</td>
+      <td>2 500 $</td>
+    </tr>
+    <tr>
+      <td>Forfait 201 + 202</td>
+      <td>2 500 $</td>
+    </tr>
+    <tr>
+      <td>Forfait 101 + 201 + 202</td>
+      <td>3 200 $</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="tarif-régulier">Tarif régulier</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Billet</th>
+      <th>Prix</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>101 — Blue Team</td>
+      <td>950 $</td>
+    </tr>
+    <tr>
+      <td>201 — Red Team</td>
+      <td>1 900 $</td>
+    </tr>
+    <tr>
+      <td>202 — Red Team Rétro</td>
+      <td>950 $</td>
+    </tr>
+    <tr>
+      <td>Forfait 101 + 201</td>
+      <td>2 700 $</td>
+    </tr>
+    <tr>
+      <td>Forfait 201 + 202</td>
+      <td>2 700 $</td>
+    </tr>
+    <tr>
+      <td>Forfait 101 + 201 + 202</td>
+      <td>3 500 $</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="prérequis--logistique">Prérequis &amp; logistique</h2>
+
+<ul>
+  <li>Pièce d’identité valide avec photo obligatoire (le nom doit correspondre à l’inscription)</li>
+  <li>Preuve d’emploi actif en sécurité physique ou TI requise</li>
+  <li>Aucun enregistrement permis en classe</li>
+  <li>Le matériel de cours est protégé par le droit d’auteur</li>
+  <li>Le formateur se réserve le droit de refuser/annuler une inscription (avec remboursement)</li>
+</ul>
+
+<h2 id="formateur">Formateur</h2>
+
+<p>Biographie sur demande.</p>
+
+<hr />
+
+<p>Pas de remboursements.</p>
+</div>
+
+        
+        <p class="trainings-modal-deadline">Inscription jusqu'au 2026-10-12</p>
+        
+        <p class="trainings-modal-refund">Pas de remboursements</p>
+
+      </div><!-- /.trainings-modal-body -->
+    </div><!-- /.trainings-modal -->
+    
+    <div class="trainings-modal"
+         id="modal-aiautomation"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-aiautomation"
+         hidden>
+
+      <!-- Modal header: training name + register + close button (sticky) -->
+      <div class="trainings-modal-header">
+        <div class="trainings-modal-header-left">
+          <h2 class="trainings-modal-title" id="modal-title-aiautomation">Sécurité & Automatisation Intelligente : Réduisez votre temps de réaction aux menaces</h2>
+          <a href="https://www.eventbrite.com/e/billets-securite-automatisation-intelligente-2026-1984349750521?utm_source=website&utm_medium=referral&utm_campaign=website"
+             class="trainings-modal-register-sticky"
+             target="_blank"
+             rel="noopener noreferrer">
+            S'inscrire
+          </a>
+        </div>
+        <button class="trainings-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: meta, tags, register (top), full desc, register (bottom) -->
+      <div class="trainings-modal-body">
+
+        
+
+        <!-- Meta row: level, duration, instruction language -->
+        <div class="trainings-modal-meta">
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Niveau</span>
+            <span class="trainings-modal-meta-value">Intermédiaire</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Durée</span>
+            <span class="trainings-modal-meta-value">1 journée</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Langue</span>
+            <span class="trainings-modal-meta-value">Français</span>
+          </div>
+        </div>
+
+        <!-- Pricing block (top) — early bird + regular -->
+        
+        <div class="trainings-modal-pricing">
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--early">
+            <span class="trainings-modal-price-label">Tarif hâtif</span>
+            <span class="trainings-modal-price-value">500 $</span>
+            <span class="trainings-modal-price-until">jusqu'au 30 avril 2026</span>
+          </div>
+          
+          <div class="trainings-modal-price-tier">
+            <span class="trainings-modal-price-label">Régulier</span>
+            <span class="trainings-modal-price-value">700 $</span>
+          </div>
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Dates</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">29 octobre 2026</span>
+          </div>
+          
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Lieu</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec</span>
+          </div>
+          
+        </div>
+        
+
+        <!-- Full description — markdown: headings, lists, hr, code -->
+        <div class="trainings-modal-desc"><p>Cette formation pratique offre un tour d’horizon complet des outils IA et d’automatisation appliqués à la cybersécurité. Vous découvrirez comment exploiter VSCode et ses extensions IA.</p>
+
+<p>De plus vous explorerez où l’AI peut s’intégrer dans vos activités de sécurité comme le pentest, le triage de vulnérabilités et la gestion des vulnérabilités pour réduire drastiquement votre exposition au risque, votre temps de détection et de réponse aux menaces.</p>
+
+<p><strong>Prérequis :</strong> notions de base en cybersécurité et familiarité avec un environnement de développement (VS Code ou équivalent).</p>
+
+<p>Les participants repartiront avec des workflows concrets et prêts à intégrer dans leurs opérations de sécurité quotidiennes.</p>
+
+<h2 id="objectifs">Objectifs</h2>
+
+<ul>
+  <li>Comprendre les différents composants d’un système AI</li>
+  <li>Parcourir les différents risque et mitigations liés à l’AI</li>
+  <li>Apprendre à utiliser les outils d’AI pour automatiser des tâches</li>
+  <li>Explorer des exemples d’usages défensifs et offensifs de l’AI en sécurité informatique</li>
+</ul>
+
+<h2 id="syllabus-du-cours">Syllabus du cours</h2>
+
+<h3 id="programme-de-la-journée">Programme de la journée</h3>
+
+<h4 id="09h0010h00--théorie">09h00–10h00 — Théorie</h4>
+
+<ul>
+  <li>Histoire de l’AI</li>
+  <li>Types d’AI (Machine learning, LLM, Agent vs agentique)</li>
+  <li>Glossaire et architecture</li>
+  <li>Modèles Cloud vs self-hosted</li>
+</ul>
+
+<h4 id="10h0011h00--risques-mitigations-et-autres-considérations">10h00–11h00 — Risques, mitigations et autres considérations</h4>
+
+<ul>
+  <li>Biais</li>
+  <li>Sécurité et confidentialité des données</li>
+  <li>Injection de prompt</li>
+  <li>Hallucination</li>
+</ul>
+
+<h4 id="11h0012h00--vibe-coding-avec-vscode">11h00–12h00 — Vibe coding avec VSCode</h4>
+
+<ul>
+  <li>GitHub Copilot</li>
+  <li>Claude Code</li>
+  <li>Gemini Code Assist</li>
+</ul>
+
+<h4 id="12h0013h00--pause-dîner-et-réseautage">12h00–13h00 — Pause dîner et réseautage</h4>
+
+<h4 id="13h0014h30--automatisations-avec-agentique">13h00–14h30 — Automatisations avec agentique</h4>
+
+<ul>
+  <li>Tour d’horizon des outils d’automatisation :
+    <ul>
+      <li>AnythingLLM</li>
+      <li>Azure Logic Apps</li>
+      <li>Langchain</li>
+      <li>n8n</li>
+    </ul>
+  </li>
+  <li>Outiller notre agent :
+    <ul>
+      <li>Outils</li>
+      <li>Serveur MCP</li>
+      <li>Skills</li>
+      <li>Prompt engineering</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="14h3015h30--cas-dusage-défensifs">14h30–15h30 — Cas d’usage défensifs</h4>
+
+<ul>
+  <li>Enrichissement d’incident</li>
+  <li>Agrégateur de flux de nouvelles</li>
+  <li>Enquête et analyse de logs</li>
+  <li>RAG de documentation</li>
+  <li>KPI et reporting</li>
+</ul>
+
+<h4 id="15h3016h30--cas-dusage-offensifs">15h30–16h30 — Cas d’usage offensifs</h4>
+
+<ul>
+  <li>Caido Shift</li>
+  <li>Kali MCP</li>
+  <li>Autres outils pentest</li>
+</ul>
+
+<hr />
+
+<h2 id="logistique">Logistique</h2>
+<ul>
+  <li>Aucun prérequis technique n’est nécessaire pour suivre ce cours, mais les connaissances de base en informatique et en sécurité peuvent être bénéfiques.</li>
+  <li>Les participants auront besoin d’un ordinateur portable (Windows ou Linux).</li>
+  <li>Le cours sera dispensé en français, et les supports de cours seront également disponibles en français.</li>
+</ul>
+
+<hr />
+
+<p><strong>Date —</strong> Jeudi 29 octobre 2026, 09h00–17h30.</p>
+
+<p><strong>Lieu —</strong> Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec.</p>
+
+<h2 id="inclus">Inclus</h2>
+
+<ul>
+  <li>1 billet Hackfest (conférences, villages, Beginner CTF, etc.)</li>
+  <li>Nourriture (dîner et café)</li>
+</ul>
+
+<h2 id="non-inclus">Non inclus</h2>
+
+<ul>
+  <li>Billet CTF</li>
+</ul>
+
+<hr />
+
+<p>Pas de remboursements.</p>
+</div>
+
+        
+        <p class="trainings-modal-deadline">Inscription jusqu'au 2026-10-16</p>
+        
+        <p class="trainings-modal-refund">Pas de remboursements</p>
+
+      </div><!-- /.trainings-modal-body -->
+    </div><!-- /.trainings-modal -->
+    
+    <div class="trainings-modal"
+         id="modal-gestion-crise"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-gestion-crise"
+         hidden>
+
+      <!-- Modal header: training name + register + close button (sticky) -->
+      <div class="trainings-modal-header">
+        <div class="trainings-modal-header-left">
+          <h2 class="trainings-modal-title" id="modal-title-gestion-crise">S'initier à la gestion de crise</h2>
+          <a href="https://www.eventbrite.ca/e/billets-sinitier-a-la-gestion-de-crise-apprenez-pratiquez-et-dominez-2026-1984350597053?aff=oddtdtcreator&utm_source=website&utm_medium=referral&utm_campaign=website"
+             class="trainings-modal-register-sticky"
+             target="_blank"
+             rel="noopener noreferrer">
+            S'inscrire
+          </a>
+        </div>
+        <button class="trainings-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: meta, tags, register (top), full desc, register (bottom) -->
+      <div class="trainings-modal-body">
+
+        
+
+        <!-- Meta row: level, duration, instruction language -->
+        <div class="trainings-modal-meta">
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Niveau</span>
+            <span class="trainings-modal-meta-value">Débutant</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Durée</span>
+            <span class="trainings-modal-meta-value">1 journée</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Langue</span>
+            <span class="trainings-modal-meta-value">Français</span>
+          </div>
+        </div>
+
+        <!-- Pricing block (top) — early bird + regular -->
+        
+        <div class="trainings-modal-pricing">
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--early">
+            <span class="trainings-modal-price-label">Tarif hâtif</span>
+            <span class="trainings-modal-price-value">500 $</span>
+            <span class="trainings-modal-price-until">jusqu'au 1 mai 2026</span>
+          </div>
+          
+          <div class="trainings-modal-price-tier">
+            <span class="trainings-modal-price-label">Régulier</span>
+            <span class="trainings-modal-price-value">600 $</span>
+          </div>
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Dates</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">28 octobre 2026</span>
+          </div>
+          
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Lieu</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec</span>
+          </div>
+          
+        </div>
+        
+
+        <!-- Full description — markdown: headings, lists, hr, code -->
+        <div class="trainings-modal-desc"><p>Tôt ou tard, votre entreprise sera victime d’une cyberattaque. 60 % des entreprises qui subissent une cyberattaque font faillite. Ne perdez plus de temps à chercher quoi faire, comment le faire et qui contacter lorsque vous êtes cyberattaqué. Préparez-vous avant qu’il ne soit trop tard, car en face ils sont déjà prêts !</p>
+
+<hr />
+
+<p><strong>Date —</strong> Mercredi 28 octobre 2026, 09h00–17h00.</p>
+
+<p><strong>Lieu —</strong> Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec.</p>
+
+<h2 id="description">Description</h2>
+
+<p>Imaginez l’impact dévastateur d’une crise sur votre entreprise… Comment réagiriez-vous face à cette menace imminente ? Êtes-vous vraiment prêt à y faire face et à protéger ce que vous avez construit avec tant de passion ? Si l’incertitude vous envahit, alors notre formation exclusive en gestion de crise est la clé de votre réussite.</p>
+
+<p>En seulement 7 heures, plongez-vous dans une expérience d’apprentissage interactive. Nous dévoilerons les secrets de la gestion de crise pour maximiser l’efficacité de votre organisation. Vous développerez une compréhension des mécanismes de la gestion de crise, créerez une équipe solide et définirez clairement les rôles et responsabilités de chacun.</p>
+
+<p>Ensemble, nous irons encore plus loin ! Conscients que la pratique est la clé de la maîtrise, nous vous plongerons dans une simulation de crise réaliste et stimulante en après-midi. Vous mettrez à l’épreuve vos nouvelles compétences et développerez vos réflexes pour affronter les défis qui vous attendent.</p>
+
+<p>À l’issue de cette formation unique, vous repartirez avec des connaissances indispensables pour surmonter les obstacles et protéger votre entreprise. Vous maîtriserez les concepts clés pour élaborer un plan solide et efficace.</p>
+
+<h2 id="inclus">Inclus</h2>
+
+<ul>
+  <li>Cahier du participant</li>
+  <li>Dîner et pauses café</li>
+  <li>1 billet Hackfest (le CTF n’est PAS inclus — sauf le CTF beginner)</li>
+  <li>Rabais pour POLAR (polarcon.ca) — contactez-nous pour votre rabais !</li>
+</ul>
+
+<h2 id="non-inclus">Non inclus</h2>
+
+<ul>
+  <li>Billet CTF</li>
+</ul>
+
+<h2 id="programme">Programme</h2>
+
+<h3 id="matin-08h3012h30--théorie--fondements">Matin (08h30–12h30) — Théorie &amp; fondements</h3>
+
+<h4 id="i-introduction">I. Introduction</h4>
+<ul>
+  <li>Objectifs et plan de la formation</li>
+  <li>Présentation de l’instructeur et des participants</li>
+  <li>Importance de la gestion de crise</li>
+</ul>
+
+<h4 id="ii-concepts-de-base">II. Concepts de base</h4>
+<ul>
+  <li>Définition de la gestion de crise</li>
+  <li>Étapes de la gestion de crise</li>
+  <li>Types de crises</li>
+  <li>Identification des risques</li>
+</ul>
+
+<h4 id="iii-planification-et-préparation">III. Planification et préparation</h4>
+<ul>
+  <li>Élaboration d’un plan de gestion de crise</li>
+  <li>Constitution d’une équipe de gestion de crise</li>
+  <li>Définition des rôles et des responsabilités</li>
+  <li>Communication interne et externe</li>
+</ul>
+
+<h4 id="iv-coordination-des-efforts">IV. Coordination des efforts</h4>
+<ul>
+  <li>Vision commune et objectifs de la gestion de crise</li>
+  <li>Coordination des actions de l’équipe de gestion de crise</li>
+  <li>Prise de décision et révision du plan</li>
+  <li>Gestion de l’information</li>
+</ul>
+
+<h4 id="v-formation-et-entraînement">V. Formation et entraînement</h4>
+<ul>
+  <li>Importance de la formation et de l’entraînement</li>
+  <li>Types d’entraînement</li>
+</ul>
+
+<h4 id="vi-conclusion">VI. Conclusion</h4>
+<ul>
+  <li>Récapitulation des concepts clés</li>
+  <li>Évaluation de la formation</li>
+</ul>
+
+<p><em>Note : ce sommaire est appelé à évoluer et pourrait intégrer un volet intelligence artificielle.</em></p>
+
+<h3 id="après-midi-13h3016h30--simulation">Après-midi (13h30–16h30) — Simulation</h3>
+
+<p>Simulation de crise sur la base d’un scénario de cyberattaque avec impact direct sur le fonctionnement immédiat de l’entreprise.</p>
+
+<h2 id="public-cible">Public cible</h2>
+
+<p>Gestionnaires et toutes personnes qui souhaitent en savoir plus sur comment gérer une crise.</p>
+
+<h2 id="prérequis--logistique">Prérequis &amp; logistique</h2>
+
+<ul>
+  <li>Pièce d’identité valide obligatoire (le nom doit correspondre à l’inscription)</li>
+  <li>Cahier de notes et crayon requis</li>
+  <li>Aucun enregistrement permis en classe</li>
+  <li>Ce cours est protégé par le droit d’auteur</li>
+  <li>Nombre minimum d’inscriptions requis</li>
+</ul>
+
+<h2 id="formateurs">Formateurs</h2>
+
+<h3 id="alexandre-fournier">Alexandre Fournier</h3>
+
+<p>Formateur, conférencier et conseiller expert en gestion de crise et continuité des affaires, certifié ISO 22301 Lead Implementer. Avec plus de 30 ans d’expérience, Alexandre Fournier a mené des projets de grande envergure pour la mise en place de plans de gestion de crise, de continuité des affaires et de reprise informatique dans les secteurs privé (bancaire, assurance), public et parapublic. Il a formé et accompagné différents acteurs de la gestion de crise. Il a animé et coordonné plusieurs simulations de gestion de crise cyber, de continuité des affaires et de reprise informatique. Fondateur du magazine Crise&amp;Résilience.</p>
+
+<h3 id="karine-maréchal-richard">Karine Maréchal Richard</h3>
+
+<p>Formatrice, conférencière et conseillère experte en gestion de crise et continuité des affaires, certifiée ISO 22301 Lead Implementer. Avec plus de 15 ans d’expérience, Karine Maréchal Richard a mené différents projets de grande envergure dans le domaine de la mise en place de plans de continuité des affaires et de gestion de crise pour les secteurs privé (bancaire, assurance), public et parapublic. Elle partage son expérience auprès des ressources clés de la continuité et de la gestion de crise afin de développer leurs compétences. Elle a animé et coordonné plusieurs exercices dans ces domaines. Elle guide les hauts dirigeants pour développer et implanter une culture de continuité des affaires et de gestion de crise dans leurs organisations. Elle développe son expertise sur la continuité et la gestion de crise cyber.</p>
+
+<hr />
+
+<p>Pas de remboursements.</p>
+</div>
+
+        
+        <p class="trainings-modal-deadline">Inscription jusqu'au 2026-10-15</p>
+        
+        <p class="trainings-modal-refund">Pas de remboursements</p>
+
+      </div><!-- /.trainings-modal-body -->
+    </div><!-- /.trainings-modal -->
+    
+    <div class="trainings-modal"
+         id="modal-premier-repondant-ir"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-premier-repondant-ir"
+         hidden>
+
+      <!-- Modal header: training name + register + close button (sticky) -->
+      <div class="trainings-modal-header">
+        <div class="trainings-modal-header-left">
+          <h2 class="trainings-modal-title" id="modal-title-premier-repondant-ir">Devenir premier répondant en réponse aux cyberincidents</h2>
+          <a href="https://www.eventbrite.ca/e/billets-devenir-premier-repondant-en-reponse-aux-cyberincidents-2026-1988636336816?aff=oddtdtcreator"
+             class="trainings-modal-register-sticky"
+             target="_blank"
+             rel="noopener noreferrer">
+            S'inscrire
+          </a>
+        </div>
+        <button class="trainings-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: meta, tags, register (top), full desc, register (bottom) -->
+      <div class="trainings-modal-body">
+
+        
+
+        <!-- Meta row: level, duration, instruction language -->
+        <div class="trainings-modal-meta">
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Niveau</span>
+            <span class="trainings-modal-meta-value">Intermédiaire</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Durée</span>
+            <span class="trainings-modal-meta-value">3 jours (21 heures)</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Langue</span>
+            <span class="trainings-modal-meta-value">Français</span>
+          </div>
+        </div>
+
+        <!-- Pricing block (top) — early bird + regular -->
+        
+        <div class="trainings-modal-pricing">
+          
+          <div class="trainings-modal-price-tier">
+            <span class="trainings-modal-price-label">Régulier</span>
+            <span class="trainings-modal-price-value">1500 $</span>
+          </div>
+          
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Lieu</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec</span>
+          </div>
+          
+        </div>
+        
+
+        <!-- Full description — markdown: headings, lists, hr, code -->
+        <div class="trainings-modal-desc"><p>Devenez Premier Répondant en Réponse aux Cyberincidents !</p>
+
+<p>Détecter une menace ne suffit pas ; c’est votre rapidité à poser les bons gestes au bon moment qui protègeront votre organisation. Cette formation intensive de 3 jours (21 heures) en présentiel vous plonge au cœur de l’action pour vous doter d’une véritable expertise opérationnelle en réponse aux incidents (IR).</p>
+
+<h2 id="ce-que-vous-allez-maîtriser">Ce que vous allez maîtriser</h2>
+
+<ul>
+  <li>Le cycle de vie complet de l’incident : de la détection au retour à la normale, en appliquant des cadres d’intervention reconnus (NIST/SANS).</li>
+  <li>La neutralisation des menaces critiques : rançongiciels, attaques DDoS, hameçonnage ciblé, fuites de données (Dark Web) et menaces internes, harponnage, ingénierie sociale, infection par des maliciels et bien d’autres encore.</li>
+  <li>Les réflexes légaux et techniques : préserver les preuves numériques de façon défendable et coordonner efficacement les gestionnaires de crise et les fournisseurs.</li>
+  <li>L’action immédiate grâce aux playbooks : appliquer des méthodologies d’endiguement et d’éradication éprouvées sur des centaines de cas réels.</li>
+</ul>
+
+<h2 id="une-approche-axée-sur-le-terrain">Une approche axée sur le terrain</h2>
+
+<p>Au-delà de la théorie, préparez-vous à des ateliers pratiques immersifs. Vous serez amené à effectuer des copies miroirs, à analyser dynamiquement des maliciels, à enquêter sur des compromissions de courriels (BEC) et à décortiquer des études de cas de rançongiciels réels.</p>
+
+<h2 id="informations-générales">Informations générales</h2>
+
+<ul>
+  <li><strong>Durée totale —</strong> Environ 21 heures, réparties sur 3 jours</li>
+  <li><strong>Format —</strong> Formation présentielle
+    <ul>
+      <li>Alternance de présentations théoriques</li>
+      <li>Démonstrations techniques</li>
+      <li>Retours d’expérience terrain</li>
+      <li>Ateliers pratiques encadrés</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="public-cible">Public cible</h2>
+
+<p>Conçue pour les analystes SOC/CERT, les équipes TI/Sécurité et les responsables cybersécurité qui veulent être opérationnels immédiatement.</p>
+
+<h2 id="prérequis">Prérequis</h2>
+
+<ul>
+  <li>Connaissances de base en systèmes d’information et réseautique</li>
+  <li>Notions générales en cybersécurité</li>
+  <li>Aucune expertise avancée en enquête numérique requise</li>
+</ul>
+
+<h2 id="objectif-pédagogique-global">Objectif pédagogique global</h2>
+
+<p>À l’issue de la formation, les participants seront capables d’intervenir efficacement lors d’un cyberincident, en appliquant un cadre reconnu de réponse aux incidents, des méthodes défendables et des méthodologies adaptées aux situations réelles rencontrées en organisation.</p>
+
+<h2 id="méthodes-pédagogiques">Méthodes pédagogiques</h2>
+
+<ul>
+  <li>Présentations structurées</li>
+  <li>Démonstrations techniques en direct</li>
+  <li>Études de cas inspirées d’incidents réels</li>
+  <li>Ateliers pratiques encadrés pas à pas</li>
+  <li>Discussions ouvertes et retours d’expérience terrain</li>
+</ul>
+
+<h2 id="syllabus-du-cours">Syllabus du cours</h2>
+
+<h3 id="jour-1--fondamentaux-de-la-réponse-aux-incidents">Jour 1 – Fondamentaux de la réponse aux incidents</h3>
+
+<h4 id="introduction-30-minutes">Introduction (30 minutes)</h4>
+<ul>
+  <li>Présentation du cours, des objectifs et du déroulement</li>
+  <li>Présentation des formateurs et des participants</li>
+  <li>Alignement sur le vocabulaire et les attentes</li>
+</ul>
+
+<h4 id="module-1--fondamentaux-de-la-réponse-aux-incidents-4h">Module 1 – Fondamentaux de la réponse aux incidents (4h)</h4>
+<ul>
+  <li>Différence entre événement de sécurité et incident</li>
+  <li>Rôles SOC / CERT / DFIR</li>
+  <li>Acteurs clés : breach coach, assureurs, firmes externes</li>
+  <li>Réponse interne vs firme externe (avantages / inconvénients)</li>
+  <li>Cycle de réponse aux incidents (NIST, SANS)</li>
+  <li>Incident vs enquête numérique</li>
+  <li>Préservation et acquisition de preuves numériques</li>
+  <li>Chaîne de possession de la preuve et erreurs fréquentes</li>
+  <li>Prise de notes défendable à des fins légales</li>
+  <li>Présentation des playbooks de réponse aux incidents</li>
+  <li><strong>Atelier —</strong> réalisation d’une copie miroir avec prise de notes manuelle</li>
+</ul>
+
+<h4 id="module-2--attaques-ddos--dos-1h">Module 2 – Attaques DDoS / DoS (1h)</h4>
+<ul>
+  <li>Définition et principes des attaques DoS et DDoS</li>
+  <li>Vecteurs d’attaque courants et typologies</li>
+  <li>Stratégies d’endiguement, d’investigation et de mitigation</li>
+  <li>Coordination avec les fournisseurs et les ISP</li>
+  <li>Utilisation de NetFlow et des données réseau</li>
+  <li>Application d’un playbook DDoS</li>
+</ul>
+
+<h4 id="module-3--harponnage-et-ingénierie-sociale-1h30">Module 3 – Harponnage et ingénierie sociale (1h30)</h4>
+<ul>
+  <li>Définition et mécanismes psychologiques utilisés</li>
+  <li>Vecteurs : courriel, vishing, smishing</li>
+  <li>Impacts organisationnels</li>
+  <li>Endiguement et investigation</li>
+  <li>Mesures de mitigation et d’éradication</li>
+  <li>Utilisation d’un playbook dédié</li>
+</ul>
+
+<h3 id="jour-2--menaces-techniques-majeures">Jour 2 – Menaces techniques majeures</h3>
+
+<h4 id="module-4--hameçonnage-1h">Module 4 – Hameçonnage (1h)</h4>
+<ul>
+  <li>Analyse d’un courriel de phishing</li>
+  <li>Vecteurs et scénarios usuels</li>
+  <li>Endiguement, investigation et mitigation</li>
+  <li>Playbook phishing</li>
+  <li><strong>Atelier —</strong> analyse complète d’un courriel de phishing</li>
+</ul>
+
+<h4 id="module-5--atteinte-à-la-réputation-1h">Module 5 – Atteinte à la réputation (1h)</h4>
+<ul>
+  <li>Usurpation de marque</li>
+  <li>Hameçonnage ciblant les clients</li>
+  <li>Défacement de site web</li>
+  <li>Gestion de l’endiguement et de la communication</li>
+  <li>Playbook associé</li>
+</ul>
+
+<h4 id="module-6--maliciels-2h">Module 6 – Maliciels (2h)</h4>
+<ul>
+  <li>Vecteurs d’infection courants</li>
+  <li>Analyse dynamique vs rétro-ingénierie</li>
+  <li>Artefacts OS : registre, services, autoruns</li>
+  <li>Analyse des journaux système</li>
+  <li>Utilisation des IOC</li>
+  <li>Stratégies d’endiguement et d’éradication</li>
+  <li>Playbook pour postes, serveurs, téléphones et réseau</li>
+  <li><strong>Atelier —</strong> analyse dynamique d’un maliciel</li>
+</ul>
+
+<h4 id="module-7--rançongiciels-3h">Module 7 – Rançongiciels (3h+)</h4>
+<ul>
+  <li>Vecteurs d’entrée</li>
+  <li>Mouvements latéraux</li>
+  <li>Processus de chiffrement</li>
+  <li>Exfiltration de données</li>
+  <li>Gestion de crise et communication</li>
+  <li>Négociation et prise de décision stratégique</li>
+  <li>Restauration vs déchiffrement</li>
+  <li>Playbook rançongiciel</li>
+  <li><strong>Atelier —</strong> étude de cas réel de ransomware (simplifié)</li>
+</ul>
+
+<h3 id="jour-3--incidents-complexes-et-organisationnels">Jour 3 – Incidents complexes et organisationnels</h3>
+
+<h4 id="module-8--fuite-dinformation-3h">Module 8 – Fuite d’information (3h)</h4>
+<ul>
+  <li>Fuites volontaires et involontaires</li>
+  <li>Menace interne vs acteur externe</li>
+  <li>Vecteurs : courriels, USB, photos, canaux covert</li>
+  <li>Impact réputationnel et opérationnel</li>
+  <li>Playbook fuite de données</li>
+  <li><strong>Atelier —</strong> introduction et exploration du Dark Web</li>
+</ul>
+
+<h4 id="module-9--compromission-dun-tiers-1h">Module 9 – Compromission d’un tiers (1h)</h4>
+<ul>
+  <li>Enjeux de dépendance et de responsabilité</li>
+  <li>Coordination et communication inter-organisation</li>
+  <li>Introduction au protocole SIFMA</li>
+  <li>Endiguement et investigation</li>
+  <li>Playbook fournisseur</li>
+</ul>
+
+<h4 id="module-10--menace-interne-1h">Module 10 – Menace interne (1h)</h4>
+<ul>
+  <li>Contraintes légales et RH</li>
+  <li>Préservation de la preuve</li>
+  <li>Méthodes d’investigation défendables</li>
+  <li>Référence aux procédures type Anton Piller</li>
+  <li>Playbook menace interne</li>
+</ul>
+
+<h4 id="module-11--compromission-3h">Module 11 – Compromission (3h)</h4>
+<ul>
+  <li>Compromission d’identité</li>
+  <li>Compromission de comptes courriel (BEC)</li>
+  <li>Compromission de services ou d’applications</li>
+  <li>Vecteurs usuels</li>
+  <li>Endiguement, investigation et mitigation</li>
+  <li>Playbook compromission</li>
+  <li><strong>Atelier —</strong> investigation d’une compromission de boîte courriel</li>
+</ul>
+
+<hr />
+
+<p><strong>Dates —</strong> 27 au 29 octobre</p>
+
+<p><strong>Lieu —</strong> Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec.</p>
+
+<h2 id="inclus">Inclus</h2>
+
+<ul>
+  <li>1 billet Hackfest (conférences, villages, Beginner CTF, etc.)</li>
+  <li>Nourriture (dîner et café)</li>
+</ul>
+
+<h2 id="non-inclus">Non inclus</h2>
+
+<ul>
+  <li>Billet CTF</li>
+</ul>
+
+<hr />
+
+<p>Pas de remboursements.</p>
+</div>
+
+        
+        <p class="trainings-modal-deadline">Inscription jusqu'au 2026-10-15</p>
+        
+        <p class="trainings-modal-refund">Pas de remboursements</p>
+
+      </div><!-- /.trainings-modal-body -->
+    </div><!-- /.trainings-modal -->
+    
+    <div class="trainings-modal"
+         id="modal-osint-bootcamp"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-osint-bootcamp"
+         hidden>
+
+      <!-- Modal header: training name + register + close button (sticky) -->
+      <div class="trainings-modal-header">
+        <div class="trainings-modal-header-left">
+          <h2 class="trainings-modal-title" id="modal-title-osint-bootcamp">OSINT/Social Engineering Bootcamp</h2>
+          <a href="https://www.eventbrite.com/e/billets-osintsocial-engineering-bootcamp-2026-1984351825728?utm_source=website&utm_medium=referral&utm_campaign=website"
+             class="trainings-modal-register-sticky"
+             target="_blank"
+             rel="noopener noreferrer">
+            S'inscrire
+          </a>
+        </div>
+        <button class="trainings-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: meta, tags, register (top), full desc, register (bottom) -->
+      <div class="trainings-modal-body">
+
+        
+
+        <!-- Meta row: level, duration, instruction language -->
+        <div class="trainings-modal-meta">
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Niveau</span>
+            <span class="trainings-modal-meta-value">Avancé</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Durée</span>
+            <span class="trainings-modal-meta-value">2 jours</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Langue</span>
+            <span class="trainings-modal-meta-value">Anglais</span>
+          </div>
+        </div>
+
+        <!-- Pricing block (top) — early bird + regular -->
+        
+        <div class="trainings-modal-pricing">
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--early">
+            <span class="trainings-modal-price-label">Tarif hâtif</span>
+            <span class="trainings-modal-price-value">1 400 $</span>
+            <span class="trainings-modal-price-until">jusqu'au 30 avril 2026</span>
+          </div>
+          
+          <div class="trainings-modal-price-tier">
+            <span class="trainings-modal-price-label">Régulier</span>
+            <span class="trainings-modal-price-value">1 500 $</span>
+          </div>
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Dates</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">28–29 octobre 2026</span>
+          </div>
+          
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Lieu</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec</span>
+          </div>
+          
+        </div>
+        
+
+        <!-- Full description — markdown: headings, lists, hr, code -->
+        <div class="trainings-modal-desc"><p>Come learn the pro tips you need to digitally eviscerate your target by means of social engineering techniques and OSINT.</p>
+
+<p>Ce bootcamp intensif de deux jours, mené par Shane MacDougall, double gagnant du black badge DEF CON, enseigne aux professionnels toutes les compétences nécessaires pour profiler, cibler et attaquer des individus ou des institutions avec une efficacité redoutable. Donné en anglais — niveau avancé requis.</p>
+
+<hr />
+
+<p><strong>Dates —</strong> 28–29 octobre 2026.</p>
+
+<p><strong>Lieu —</strong> Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec.</p>
+
+<h2 id="inclus">Inclus</h2>
+
+<ul>
+  <li>1 billet Hackfest (conférences, villages, Beginner CTF, etc.)</li>
+  <li>Nourriture (dîner et café les deux jours)</li>
+  <li><strong>90 minutes de consultation téléphonique gratuite</strong> avec le formateur (valide 2 ans après l’événement)</li>
+</ul>
+
+<h2 id="non-inclus">Non inclus</h2>
+
+<ul>
+  <li>Billet CTF</li>
+</ul>
+
+<h2 id="programme">Programme</h2>
+
+<h3 id="jour-1--osint">Jour 1 — OSINT</h3>
+
+<h4 id="matin">Matin</h4>
+<ul>
+  <li>Introduction to the OSINT toolkit</li>
+  <li>Profiling Basics</li>
+  <li>Advanced Profiling</li>
+  <li>Selecting Your Target</li>
+  <li>Putting our tools to use</li>
+</ul>
+
+<h4 id="après-midi">Après-midi</h4>
+<ul>
+  <li>Review</li>
+  <li>Individual Exercise: Capture The Flag</li>
+  <li>Debrief</li>
+  <li>Group Exercise: Team Capture The Flag</li>
+  <li>Debrief</li>
+  <li>Homework</li>
+</ul>
+
+<h3 id="jour-2--social-engineering">Jour 2 — Social Engineering</h3>
+
+<h4 id="matin-1">Matin</h4>
+<ul>
+  <li>Social Engineering Basics</li>
+  <li>Body language — micro and macro expressions</li>
+  <li>Building a bullet-proof pretext</li>
+  <li>Bypassing physical security systems</li>
+  <li>Exercise</li>
+</ul>
+
+<h4 id="après-midi-1">Après-midi</h4>
+<ul>
+  <li>Field Trip: People Watching exercise</li>
+  <li>Public speaking exercise</li>
+  <li>Group exercise: Fortune 500</li>
+  <li>Debrief / Lessons Learned</li>
+</ul>
+
+<h2 id="prérequis">Prérequis</h2>
+
+<p><strong>Matériel :</strong> portable avec minimum 16 Go de RAM, VirtualBox pré-installé, 500 Mo d’espace disque libre.</p>
+
+<p><strong>Compétences :</strong> maîtrise de base de Linux recommandée mais non obligatoire.</p>
+
+<h2 id="formateur">Formateur</h2>
+
+<p><strong>Shane MacDougall</strong> — impliqué dans le monde de la sécurité informatique des deux côtés — black hat et white hat — depuis 1989. Il a travaillé comme testeur d’intrusion, sneaker et spécialiste en sécurité informatique corporative. Il a été engagé pour infiltrer des banques nationales et régionales, des sous-traitants de la défense et des agences gouvernementales, et a formé le personnel de nombreuses agences à trois lettres à travers le monde. Il a donné des conférences à divers événements internationaux. Double lauréat du black badge DEF CON pour le SECTF, il a été le premier participant à obtenir un score parfait. Il passe maintenant son temps à effectuer des mandats occasionnels en sécurité informatique et à diriger le SECTF du Hackfest. Il est également paramédic à San Diego, Californie.</p>
+
+<hr />
+
+<p>Pas de remboursements.</p>
+</div>
+
+        
+        <p class="trainings-modal-deadline">Inscription jusqu'au 2026-10-14</p>
+        
+        <p class="trainings-modal-refund">Pas de remboursements</p>
+
+      </div><!-- /.trainings-modal-body -->
+    </div><!-- /.trainings-modal -->
+    
+    <div class="trainings-modal"
+         id="modal-azure-swat-phenix"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-azure-swat-phenix"
+         hidden>
+
+      <!-- Modal header: training name + register + close button (sticky) -->
+      <div class="trainings-modal-header">
+        <div class="trainings-modal-header-left">
+          <h2 class="trainings-modal-title" id="modal-title-azure-swat-phenix">Formation Cloud Pragmatique & Security Ops</h2>
+          <a href="https://www.eventbrite.ca/e/billets-formation-cloud-pragmatique-security-ops-2026-1985637156186?aff=oddtdtcreator&utm_source=website&utm_medium=referral&utm_campaign=website"
+             class="trainings-modal-register-sticky"
+             target="_blank"
+             rel="noopener noreferrer">
+            S'inscrire
+          </a>
+        </div>
+        <button class="trainings-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: meta, tags, register (top), full desc, register (bottom) -->
+      <div class="trainings-modal-body">
+
+        
+
+        <!-- Meta row: level, duration, instruction language -->
+        <div class="trainings-modal-meta">
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Niveau</span>
+            <span class="trainings-modal-meta-value">Avancé</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Durée</span>
+            <span class="trainings-modal-meta-value">2 jours</span>
+          </div>
+          
+          <div class="trainings-modal-meta-item">
+            <span class="trainings-modal-meta-label">Langue</span>
+            <span class="trainings-modal-meta-value">Français</span>
+          </div>
+        </div>
+
+        <!-- Pricing block (top) — early bird + regular -->
+        
+        <div class="trainings-modal-pricing">
+          
+          <div class="trainings-modal-price-tier">
+            <span class="trainings-modal-price-label">Régulier</span>
+            <span class="trainings-modal-price-value">1 600 $</span>
+          </div>
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Dates</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">27–28 octobre 2026</span>
+          </div>
+          
+          
+          <div class="trainings-modal-price-tier trainings-modal-price-tier--info">
+            <span class="trainings-modal-price-label">Lieu</span>
+            <span class="trainings-modal-price-value trainings-modal-price-value--sm">Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec</span>
+          </div>
+          
+        </div>
+        
+
+        <!-- Full description — markdown: headings, lists, hr, code -->
+        <div class="trainings-modal-desc"><p>Cette formation n’est pas une formation. C’est un <strong>bootcamp opérationnel</strong> : 5 ans d’expérience condensés en 2 jours.</p>
+
+<p><strong>Formation par @PhenixCorp</strong></p>
+
+<p><strong>Lieu —</strong> Hôtel Palace Royal, 775 boul. Honoré-Mercier, Québec.</p>
+
+<h2 id="inclus">Inclus</h2>
+
+<ul>
+  <li>1 billet Hackfest (conférences, villages, Beginner CTF, etc.)</li>
+  <li>Nourriture (dîner et café)</li>
+</ul>
+
+<h2 id="non-inclus">Non inclus</h2>
+
+<ul>
+  <li>Billet CTF</li>
+</ul>
+
+<h2 id="méthodologie-real-world-swat">Méthodologie REAL-WORLD SWAT</h2>
+
+<p><strong>Principes opérationnels —</strong> Réalisme des contraintes entreprise (budget, legacy, politique). Exécution immédiate (tout est testé en live). Architecture orientée production (pas de POC). Livraison continue d’artifacts exploitables dès le jour 1.</p>
+
+<p><strong>Principes techniques (non négociables) —</strong> KISS, DRY, YAGNI, SRP, IDP (Infrastructure as Code dès la première minute).</p>
+
+<p>Fortement orienté <strong>écosystème Microsoft</strong> et principalement <strong>Azure Cloud</strong>.</p>
+
+<p><strong>Durée :</strong> 2 jours (16–18 h) · <strong>Format :</strong> 09h00–18h00 (extensible) · <strong>Approche :</strong> REAL-WORLD &amp; SWAT.</p>
+
+<p><strong>Philosophie :</strong> Ce qui marche en prod, ce qui protège vraiment, ce qui économise de l’argent.</p>
+
+<hr />
+
+<h2 id="syllabus-du-cours">Syllabus du cours</h2>
+
+<h3 id="jour-1--cloud-sans-bullshit-09h0018h00">Jour 1 — Cloud sans bullshit (09h00–18h00)</h3>
+
+<h4 id="09h0009h30--reality-check--contexte-business">09h00–09h30 · Reality check &amp; contexte business</h4>
+<p>Mythes vs priorités, TCO réel Azure, patterns d’échec de migration, assessment rapide de workloads. <strong>Livrable :</strong> matrice décision Cloud / on-prem.</p>
+
+<h4 id="09h3011h00--architecture-azure-terrain">09h30–11h00 · Architecture Azure terrain</h4>
+<p>Management groups, subscriptions, resource groups, gouvernance. Les erreurs qui coûtent cher. <strong>Lab :</strong> structure multi-env, naming, budget alerts, tags obligatoires.</p>
+
+<h4 id="11h1512h30--services-core-le-2080">11h15–12h30 · Services core (le 20/80)</h4>
+<p>Compute (VMs B/D, Spot, App Service, AKS, Functions), stockage (Blob, Files, Disks), réseau (hub-spoke, private endpoints, App Gateway + WAF). <strong>Démo :</strong> app 3-tiers avec coût mensuel réaliste.</p>
+
+<h4 id="13h3015h00--finops-sans-tabou">13h30–15h00 · FinOps sans tabou</h4>
+<p>Reserved Instances, Hybrid Benefit, Dev/Test, Spot, auto-shutdown, négociation Microsoft. <strong>Workshop :</strong> analyse de facture, script PowerShell, dashboard CFO.</p>
+
+<h4 id="15h1517h00--identité--zero-trust">15h15–17h00 · Identité &amp; Zero Trust</h4>
+<p>Entra ID (MFA, PIM, groupes dynamiques, B2B), RBAC pragmatique, Defender (Secure Score, JIT, AAC). <strong>Lab :</strong> Zero Trust en 30 minutes.</p>
+
+<h4 id="17h0018h00--infrastructure-as-code">17h00–18h00 · Infrastructure as Code</h4>
+<p>Bicep comme base réutilisable ; comparaison Bicep / ARM / Terraform dans le contexte Azure. <strong>Livrable :</strong> starter kit (structure Dev/Test/Prod, templates, scripts, documentation).</p>
+
+<hr />
+
+<h3 id="jour-2--security-operations--mode-swat-09h0018h30">Jour 2 — Security operations &amp; mode SWAT (09h00–18h30)</h3>
+
+<h4 id="09h0009h30--briefing-swat--retour-j1">09h00–09h30 · Briefing SWAT &amp; retour J1</h4>
+<p>Questions, passage en mode SecOps, stack sécurité Microsoft, promesse : détection et réponse opérationnelles.</p>
+
+<h4 id="09h3011h00--defender-suite">09h30–11h00 · Defender suite</h4>
+<p>Defender for Cloud (CSPM, CWPP), JIT/JEA, contrôles adaptatifs. <strong>Lab :</strong> protection complète en 45 min.</p>
+
+<h4 id="11h1512h30--azure-policy">11h15–12h30 · Azure Policy</h4>
+<p>Les 10 policies qui sauvent des carrières, initiatives (CIS, ISO, PCI), exemptions pragmatiques. <strong>Lab :</strong> gouvernance sans friction.</p>
+
+<h4 id="13h3015h00--sentinel--kql">13h30–15h00 · Sentinel &amp; KQL</h4>
+<p>Configuration ingestion optimisée, requêtes KQL (brute force, élévation de privilèges, exfiltration), workbooks production. <strong>Lab :</strong> sources, règles, playbook, attaque simulée.</p>
+
+<h4 id="15h1516h30--monitoring--diagnostics">15h15–16h30 · Monitoring &amp; diagnostics</h4>
+<p>Log Analytics, Resource Graph, playbooks d’automatisation. <strong>Lab :</strong> diagnostic settings, alertes, dashboard, Teams/Slack.</p>
+
+<h4 id="16h3017h30--incident-response--war-room">16h30–17h30 · Incident response &amp; war room</h4>
+<p>Simulation minute par minute (Sentinel → KQL → containment → recovery). <strong>Kit de crise</strong> et script type « panic button ».</p>
+
+<h4 id="17h3018h30--synthèse--battle-cards">17h30–18h30 · Synthèse &amp; battle cards</h4>
+<p>Runbook, 20 requêtes KQL, 10 policies, workbooks, scripts PowerShell, cost calculator pour le CFO.</p>
+
+<hr />
+
+<h2 id="prérequis-honnêtes">Prérequis honnêtes</h2>
+
+<p><strong>Techniques :</strong> TCP/IP et DNS, administration Windows/Linux, lecture de scripts PowerShell, bases sécurité, notions de cloud public.</p>
+
+<p><strong>Mindset :</strong> pragmatisme, curiosité, courage, résilience.</p>
+
+<p><strong>Matériel :</strong> portable avec droits admin local, compte Azure (essai ou MSDN — assistance possible), compte GitHub pour les labs (accès au dépôt de formation).</p>
+
+<h2 id="succès--roi">Succès &amp; ROI</h2>
+
+<p><strong>Fin de formation :</strong> infra Dev/Test déployée, détections Sentinel, policies, dashboard, kit de crise validé.</p>
+
+<p><strong>30 jours :</strong> Secure Score, optimisation des coûts, conformité.</p>
+
+<p><strong>90 jours :</strong> migration critique, MTTD/MTTR, ROI management.</p>
+
+<p><strong>Investissement :</strong> 2 jours intensifs + pratique post-formation + volonté de changer les pratiques.</p>
+
+<p><strong>Note finale :</strong> vous repartez avec une infra qui tourne, une sécurité qui protège, et la capacité d’intervenir comme une équipe SWAT sur un incident Azure.</p>
+
+<hr />
+
+<h2 id="formateur">Formateur</h2>
+
+<p><strong>@PhenixCorp (Franck)</strong> — participe au Hackfest depuis 2012. Passionné depuis le virus Brain (1986), il travaille le hacking, les malwares et le développement avec une curiosité constante. Spécialisé <strong>Full Cloud Security</strong> (Azure, M365) en rainbow team, il reste à l’aise avec les autres clouds publics. Connu pour la track PhenixCorp, DarkPhenix, ReverseMe, CrackMe, RussianDoll, Phenix2Kill ; <strong>team lead</strong> des designers CTF depuis 2018 et membre du comité depuis 2017. Objectif : démocratiser le CTF en entreprise comme outil pédagogique permanent.</p>
+</div>
+
+        
+        <p class="trainings-modal-deadline">Inscription jusqu'au 2026-10-11</p>
+        
+        <p class="trainings-modal-refund">Pas de remboursements</p>
+
+      </div><!-- /.trainings-modal-body -->
+    </div><!-- /.trainings-modal -->
+    
+
+    
+  </main>
+
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>À propos du Hackfest</h4>
+        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Hackfest Logo" class="footer-logo">
+        <p>Le Hackfest est le plus grand événement bilingue de cybersécurité et de hacking au Canada, se tenant à Québec. Nos villages incluent le lock picking, l'ingénierie sociale, CTF, Hack ta carrière, SCADA/ICS, RFID, électronique, radio amateur et plus encore.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Visitez-nous</h4>
+        <ul>
+          
+          <li><a href="polar">POLAR</a></li>
+          
+          <li><a href="https://securite.fm">Podcast La French Connection</a></li>
+          
+          <li><a href="ihack">iHack</a></li>
+          
+          <li><a href="quebecsec">QuébecSec</a></li>
+          
+          <li><a href="formations">Formations</a></li>
+          
+          <li><a href="services">Services</a></li>
+          
+          <li><a href="index.html">Page d'Accueil</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        
+        
+        
+        
+        <ul class="footer-venues">
+          
+          <li>
+            <span class="footer-venue-label">Hackfest:</span>
+            <span class="footer-venue-name">Centre des congrès de Québec</span>
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          <li>
+            <span class="footer-venue-label">POLAR:</span>
+            <span class="footer-venue-name">Le Capitole de Québec — Salle Le Confessionnal</span>
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          
+          <li>
+            <span class="footer-venue-label">QuébecSec:</span>
+            
+            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console — 830 Rue Saint-Joseph Est, 5e étage</a>
+            
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          <li><a class="footer-venue-link" href="sejour">Hôtels partenaires →</a></li>
+          
+          <li><a href="https://hackfest.ca/cdn-cgi/l/email-protection"><span class="__cf_email__" data-cfemail="">[email&#160;protected]</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Joignez l'infolettre</h4>
+        <p>Restez informé de nos événements mensuels, annuels et de nos annonces spéciales.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Email" required>
+          <button type="submit" class="btn btn-primary btn-sm">SUBSCRIBE</button>
+        </form>
+        
+        <div class="footer-policies">
+          <h4>Sécurité et politiques</h4>
+          <ul>
+            
+            <li><a href="responsible-disclosure">Divulgation responsable</a></li>
+            
+            <li><a href="code-ethique">Code d'éthique</a></li>
+            
+            <li><a href="politique-confidentialite">Politique de confidentialité</a></li>
+            
+            <li><a href="code-de-conduite">Code de conduite</a></li>
+            
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer-social">
+      <!-- Discord -->
+      <a href="https://discord.hackfest.ca" aria-label="Discord" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028 14.09 14.09 0 001.226-1.994.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg></a>
+      <!-- YouTube -->
+      <a href="https://www.youtube.com/user/hackfestca" aria-label="YouTube" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/hackfest" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+      <!-- X (Twitter) -->
+      <a href="https://twitter.com/hackfest_ca" aria-label="X (Twitter)" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+      <!-- Mastodon -->
+      <a href="https://infosec.exchange/@hackfest" aria-label="Mastodon" target="_blank" rel="noopener me"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 00.023-.043v-1.809a.052.052 0 00-.02-.041.053.053 0 00-.046-.01 20.282 20.282 0 01-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 01-.319-1.433.053.053 0 01.066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.668 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg></a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/company/hackfest/" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+      <!-- Flickr -->
+      <a href="https://flickr.com/photos/hackfest2k9/" aria-label="Flickr" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M5.334 6.666C2.3884 6.666 0 9.055 0 12c0 2.9456 2.3884 5.334 5.334 5.334 2.9456 0 5.332-2.3884 5.332-5.334 0-2.945-2.3864-5.334-5.332-5.334zm13.332 0c-2.9456 0-5.332 2.389-5.332 5.334 0 2.9456 2.3864 5.334 5.332 5.334C21.6116 17.334 24 14.9456 24 12c0-2.945-2.3884-5.334-5.334-5.334z"/></svg></a>
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/hackfestca/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+      <!-- GitHub -->
+      <a href="https://github.com/hackfestca" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Newsletter modal: Brevo signup form (opened when footer form is submitted) -->
+<div class="newsletter-modal-backdrop" id="newsletterModalBackdrop" hidden aria-hidden="true"></div>
+<div class="newsletter-modal"
+     id="newsletterModal"
+     hidden
+     aria-modal="true"
+     aria-labelledby="newsletter-modal-title"
+     role="dialog">
+  <div class="newsletter-modal-header">
+    <h2 class="newsletter-modal-title" id="newsletter-modal-title">Joignez l'infolettre</h2>
+    <button type="button" class="newsletter-modal-close" aria-label="Fermer">✕</button>
+  </div>
+  <div class="newsletter-modal-body">
+    <iframe id="newsletter-form-iframe"
+            width="540"
+            height="400"
+            data-base-url="https://31f3b719.sibforms.com/serve/MUIFAB_K2srFwrjfmBKCg7EgCrmpQbDjMcRF9-7IRYB4VK05TTpYsVq8bQW78j1sfRkwLl7CgvDC7UgUMQoLQxEB4E1k-rOJrIrTacmI7Ms9MmbOzu7wb8ioRCs2u153ydJDMdUwBaNrEOXbZDXS7mex_dn2CZ-LgJJJjeeDzff0rq4rfklIao0aa-m53XYhetXsr86bI5eP06JF"
+            frameborder="0"
+            scrolling="auto"
+            allowfullscreen
+            title="Joignez l'infolettre"
+            class="newsletter-modal-iframe"></iframe>
+  </div>
+</div>
+<script data-cfasync="false" src="https://hackfest.ca/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://hackfest.ca/assets/js/newsletter-modal.js"></script>
+
+
+  <script src="https://hackfest.ca/assets/js/main.js"></script>
+  <script src="https://hackfest.ca/assets/js/trainings.js"></script>
+</body>
+</html>

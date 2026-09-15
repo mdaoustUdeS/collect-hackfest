@@ -1,0 +1,1376 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+
+
+
+
+<!-- Primary meta -->
+<title>Villages — Hackfest 2026</title>
+<meta name="description" content="Explorez les 9 villages thématiques du Hackfest — lockpicking, radio amateur, SCADA, IA, et bien plus.">
+<link rel="canonical" href="villages">
+
+<!-- Open Graph -->
+<meta property="og:type"        content="website">
+<meta property="og:site_name"   content="Hackfest 2026">
+<meta property="og:title"       content="Villages — Hackfest 2026">
+<meta property="og:description" content="Explorez les 9 villages thématiques du Hackfest — lockpicking, radio amateur, SCADA, IA, et bien plus.">
+<meta property="og:url"         content="https://hackfest.ca/villages/">
+<meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta property="og:image:alt"   content="Hackfest 2026">
+<meta property="og:locale"      content="fr_CA">
+
+<!-- Twitter Card -->
+<meta name="twitter:card"        content="summary">
+<meta name="twitter:site"        content="@hackfest_ca">
+<meta name="twitter:title"       content="Villages — Hackfest 2026">
+<meta name="twitter:description" content="Explorez les 9 villages thématiques du Hackfest — lockpicking, radio amateur, SCADA, IA, et bien plus.">
+<meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- Hreflang (bilingual) -->
+
+
+<link rel="alternate" hreflang="fr"        href="villages">
+<link rel="alternate" hreflang="en"        href="https://hackfest.ca/en/villages/">
+<link rel="alternate" hreflang="x-default" href="villages">
+
+
+  <!-- Favicon and touch icon (192x192) -->
+<link rel="icon" type="image/webp" sizes="192x192" href="https://hackfest.ca/assets/images/touch-icon-192x192.webp">
+<link rel="apple-touch-icon" sizes="192x192" href="https://hackfest.ca/assets/images/touch-icon-192x192.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Orbitron:wght@400;500;600;700&family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/main.css">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/villages.css">
+  <script defer src="https://analytics.hackfest.ca/script.js" data-website-id="0ce77795-100e-4f53-92c3-5ea0922c0b15"></script>
+</head>
+<body class="villages-page">
+  <header class="site-header">
+  <div class="header-inner">
+    <div class="header-left">
+      <a href="index.html" class="logo">
+        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Hackfest Logo">
+      </a>
+      
+      
+      
+      
+      
+      
+      <span class="header-subbrand-sep" aria-hidden="true">/</span>
+      <a href="index.html"
+         class="header-subbrand-link">
+        <img src="https://hackfest.ca/assets/images/hackfest/sublogo-2026.webp"
+             alt="Hackfest 2026"
+             class="header-subbrand-img">
+      </a>
+      
+    </div>
+    <nav class="main-nav" id="mainNav">
+      <ul class="nav-list">
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Communauté</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item has-dropdown">
+              
+                <button class="nav-btn">Hackfest</button>
+              
+              
+              <ul class="dropdown sub-dropdown">
+                
+                <li><a href="ctfs">CTFs</a></li>
+                
+                <li><a href="villages">Villages</a></li>
+                
+                <li><a href="formations">Formations</a></li>
+                
+                <li><a href="spectacle">Spectacle</a></li>
+                
+                <li><a href="after-dark">After Dark</a></li>
+                
+                <li><a href="hackfest-schedule">Programme Hackfest</a></li>
+                
+                <li><a href="partenaires-hackfest">Partenaires</a></li>
+                
+              </ul>
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="polar">Polar</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="quebecsec">QuébecSec</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="ihack">iHack</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://securite.fm">French Connection</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="services">Services</a>
+          
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="sejour">Séjour</a>
+          
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="horaire">Horaire</a>
+          
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Partenaires</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="partenaires-hackfest">Hackfest</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="polar#sponsors">POLAR</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="infolettre-partenaires">Infolettre partenaires</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://sponsorship.hackfest.ca">Devenir partenaire</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Contact</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="a-propos">À propos</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="comite/index.html">Le comité</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="contact/index.html">Nous contacter</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="historique">Historique</a>
+          
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Archive</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="conferences">Présentations (Vidéos)</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+      </ul>
+
+      <!-- Mobile-only footer: CTAs and language switcher moved from header-right -->
+      <div class="mobile-nav-cta">
+        <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="btn btn-primary">S'inscrire</a>
+        <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor">Commanditer l'événement</a>
+        <a href="https://hackfest.ca/en/villages/" class="mobile-nav-lang">
+          <svg class="globe-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          EN
+        </a>
+      </div>
+    </nav>
+    <div class="header-right">
+      <a href="https://hackfest.ca/en/villages/" class="lang-switch"><svg class="globe-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> EN</a>
+      <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="btn btn-primary btn-sm">S'inscrire</a>
+      <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor btn-sm">Commanditer l'événement</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+  <main>
+
+    <!-- ===================================================================
+         HERO SECTION
+         Mirrors the presentations/history hero: deep dark bg, pulsing radial
+         glow, scanline grid, animated gradient title.
+         =================================================================== -->
+    <section class="villages-hero"
+      style="background-image: linear-gradient(to bottom, rgba(3,0,20,0.55) 0%, rgba(3,0,20,0.78) 60%, rgba(3,0,20,0.92) 100%), url('https://hackfest.ca/assets/images/villages/villages.webp');"
+    >
+      <div class="villages-hero-content">
+        <h1>Villages</h1>
+        <p class="villages-hero-subtitle">9 espaces thématiques, 1 événement</p>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         INTRO BLOCK
+         Short centred paragraph introducing the villages concept.
+         =================================================================== -->
+    
+    <section class="villages-intro">
+      <div class="villages-intro-inner">
+        <h2>9 villages, 1 événement</h2>
+        <p>Les villages du Hackfest sont GRATUITS et des espaces interactifs animés par des experts passionnés. Chaque village offre une expérience unique : démonstrations, ateliers pratiques, conférences et défis. Venez explorer, apprendre et échanger avec la communauté.
+</p>
+        
+        
+      </div>
+    </section>
+    
+
+    <!-- ===================================================================
+         VILLAGE CARDS GRID
+         One card per village. Cards are <button> elements with data-village
+         attribute used by villages.js to identify which modal to open.
+         =================================================================== -->
+    <section class="villages-grid-section">
+      <div class="villages-grid">
+        
+
+        
+        <button class="village-card" data-village="lockpicking"
+                aria-haspopup="dialog" aria-controls="modal-lockpicking">
+        
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          <div class="village-card-bg"
+            style="background-image:url('https://hackfest.ca/assets/images/villages/lockpicks.webp')"
+          ></div>
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="village-card-overlay"></div>
+
+          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
+          <div class="village-card-content">
+            
+            
+            <div class="village-card-tags">
+              
+              <span class="village-tag">hands-on</span>
+              
+              <span class="village-tag">débutant</span>
+              
+            </div>
+            
+            <h2 class="village-card-name">Lockpicking</h2>
+            <p class="village-card-desc">Atelier de crochetage de serrures et CTF ouvert à tous les niveaux. Venez tester vos aptitudes manuelles.</p>
+            <span class="village-card-cta">En savoir plus →</span>
+          </div>
+
+        
+        </button>
+        
+
+        
+
+        
+        <button class="village-card" data-village="social-engineering"
+                aria-haspopup="dialog" aria-controls="modal-social-engineering">
+        
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          <div class="village-card-bg"
+            style="background-image:url('https://hackfest.ca/assets/images/villages/se.webp')"
+          ></div>
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="village-card-overlay"></div>
+
+          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
+          <div class="village-card-content">
+            
+            
+            <div class="village-card-tags">
+              
+              <span class="village-tag">compétition</span>
+              
+              <span class="village-tag">vishing</span>
+              
+              <span class="village-tag">OSINT</span>
+              
+            </div>
+            
+            <h2 class="village-card-name">Social Engineering Village (CTF & Présentations)</h2>
+            <p class="village-card-desc">Présentations & concours de social engineering en direct : vishing, prétexting et OSINT face à de vraies cibles.</p>
+            <span class="village-card-cta">En savoir plus →</span>
+          </div>
+
+        
+        </button>
+        
+
+        
+
+        
+        <a class="village-card" href="https://hackfest.ca/villages/generations/">
+        
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          <div class="village-card-bg"
+            style="background-image:url('https://hackfest.ca/assets/images/villages/generation.webp')"
+          ></div>
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="village-card-overlay"></div>
+
+          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
+          <div class="village-card-content">
+            
+            
+            <div class="village-card-tags">
+              
+              <span class="village-tag">jeunesse</span>
+              
+              <span class="village-tag">éducation</span>
+              
+              <span class="village-tag">initiation</span>
+              
+            </div>
+            
+            <h2 class="village-card-name">Hackfest Générations</h2>
+            <p class="village-card-desc">Initiation à la cybersécurité pour les jeunes de 7 à 17 ans. Activités adaptées, encadrées par des mentors.</p>
+            <span class="village-card-cta">En savoir plus →</span>
+          </div>
+
+        
+        </a>
+        
+
+        
+
+        
+        <button class="village-card" data-village="ham-radio"
+                aria-haspopup="dialog" aria-controls="modal-ham-radio">
+        
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          <div class="village-card-bg"
+            style="background-image:url('https://hackfest.ca/assets/images/villages/hamradio.webp')"
+          ></div>
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="village-card-overlay"></div>
+
+          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
+          <div class="village-card-content">
+            
+            
+            <div class="village-card-tags">
+              
+              <span class="village-tag">RF</span>
+              
+              <span class="village-tag">radio</span>
+              
+              <span class="village-tag">communications</span>
+              
+            </div>
+            
+            <h2 class="village-card-name">Radio Amateur</h2>
+            <p class="village-card-desc">Démonstrations de radio amateur, communications RF et SDR. Un monde de fréquences à explorer.</p>
+            <span class="village-card-cta">En savoir plus →</span>
+          </div>
+
+        
+        </button>
+        
+
+        
+
+        
+        <button class="village-card" data-village="noc"
+                aria-haspopup="dialog" aria-controls="modal-noc">
+        
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          <div class="village-card-bg"
+            style="background-image:url('https://hackfest.ca/assets/images/villages/noc.webp')"
+          ></div>
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="village-card-overlay"></div>
+
+          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
+          <div class="village-card-content">
+            
+            
+            <div class="village-card-tags">
+              
+              <span class="village-tag">réseau</span>
+              
+              <span class="village-tag">défense</span>
+              
+              <span class="village-tag">SOC</span>
+              
+            </div>
+            
+            <h2 class="village-card-name">Palo Alto NOC</h2>
+            <p class="village-card-desc">Centre d'opérations réseau en direct. Surveillance, analyse et réponse aux incidents en temps réel.</p>
+            <span class="village-card-cta">En savoir plus →</span>
+          </div>
+
+        
+        </button>
+        
+
+        
+
+        
+        <button class="village-card" data-village="hack-ta-carriere"
+                aria-haspopup="dialog" aria-controls="modal-hack-ta-carriere">
+        
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          <div class="village-card-bg"
+            style="background-image:url('https://hackfest.ca/assets/images/villages/job.webp')"
+          ></div>
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="village-card-overlay"></div>
+
+          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
+          <div class="village-card-content">
+            
+            
+            <div class="village-card-tags">
+              
+              <span class="village-tag">carrière</span>
+              
+              <span class="village-tag">emploi</span>
+              
+              <span class="village-tag">networking</span>
+              
+            </div>
+            
+            <h2 class="village-card-name">Hack ta Carrière</h2>
+            <p class="village-card-desc">Rencontrez des employeurs, découvrez les métiers de la cybersécurité et faites évoluer votre carrière.</p>
+            <span class="village-card-cta">En savoir plus →</span>
+          </div>
+
+        
+        </button>
+        
+
+        
+
+        
+        <a class="village-card" href="https://hackfest.ca/villages/scada/">
+        
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          <div class="village-card-bg"
+            style="background-image:url('https://hackfest.ca/assets/images/villages/scada.webp')"
+          ></div>
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="village-card-overlay"></div>
+
+          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
+          <div class="village-card-content">
+            
+            
+            <div class="village-card-tags">
+              
+              <span class="village-tag">ICS</span>
+              
+              <span class="village-tag">OT</span>
+              
+              <span class="village-tag">infrastructures critiques</span>
+              
+            </div>
+            
+            <h2 class="village-card-name">SCADA / OT</h2>
+            <p class="village-card-desc">Présenté par Phoenix Contact. Cybersécurité industrielle (ICS/OT), démonstrations d'équipements réels et un CTF King of the Hill.</p>
+            <span class="village-card-cta">En savoir plus →</span>
+          </div>
+
+        
+        </a>
+        
+
+        
+
+        
+        <button class="village-card" data-village="startups"
+                aria-haspopup="dialog" aria-controls="modal-startups">
+        
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          <div class="village-card-bg"
+            style="background-image:url('https://hackfest.ca/assets/images/villages/startup.webp')"
+          ></div>
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="village-card-overlay"></div>
+
+          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
+          <div class="village-card-content">
+            
+            
+            <div class="village-card-tags">
+              
+              <span class="village-tag">innovation</span>
+              
+              <span class="village-tag">startups</span>
+              
+              <span class="village-tag">produits</span>
+              
+            </div>
+            
+            <h2 class="village-card-name">Vitrine Startups & Éducation</h2>
+            <p class="village-card-desc">Découvrez les startups innovantes en cybersécurité. Présentations de produits et rencontres avec les fondateurs.</p>
+            <span class="village-card-cta">En savoir plus →</span>
+          </div>
+
+        
+        </button>
+        
+
+        
+
+        
+        <button class="village-card" data-village="ai"
+                aria-haspopup="dialog" aria-controls="modal-ai">
+        
+
+          <!-- Background: image if available, else CSS gradient fallback -->
+          <div class="village-card-bg"
+            style="background-image:url('https://hackfest.ca/assets/images/villages/ai.webp')"
+          ></div>
+
+          <!-- Gradient overlay darkening the bottom half -->
+          <div class="village-card-overlay"></div>
+
+          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
+          <div class="village-card-content">
+            
+            
+            <div class="village-card-tags">
+              
+              <span class="village-tag">IA</span>
+              
+              <span class="village-tag">LLM</span>
+              
+              <span class="village-tag">sécurité IA</span>
+              
+            </div>
+            
+            <h2 class="village-card-name">IA — Intelligence Artificielle</h2>
+            <p class="village-card-desc">Exploration de l'IA appliquée à la cybersécurité : attaques, défenses et enjeux éthiques.</p>
+            <span class="village-card-cta">En savoir plus →</span>
+          </div>
+
+        
+        </button>
+        
+
+        
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         MODAL INFRASTRUCTURE
+         One hidden modal panel per village, rendered server-side.
+         The backdrop is shared by all modals.
+         =================================================================== -->
+
+    <!-- Shared backdrop — click to close -->
+    <div class="villages-modal-backdrop" id="villagesModalBackdrop" hidden></div>
+
+    
+    
+    <div class="villages-modal"
+         id="modal-lockpicking"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-lockpicking"
+         hidden>
+
+      <!-- Modal header: village name + close button -->
+      <div class="villages-modal-header">
+        <h2 class="villages-modal-title" id="modal-title-lockpicking">Lockpicking</h2>
+        <button class="villages-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: tags, full desc, sponsor, schedule, logistics -->
+      <div class="villages-modal-body">
+
+        <!-- Tags row -->
+        
+        <div class="village-card-tags villages-modal-tags">
+          
+          <span class="village-tag">hands-on</span>
+          
+          <span class="village-tag">débutant</span>
+          
+        </div>
+        
+
+        <!-- Full description -->
+        <div class="villages-modal-desc"><p>Venez tester vos aptitudes en crochetage de serrures dans un cadre ludique et pédagogique. Des instructeurs expérimentés vous guideront, que vous soyez complètement débutant ou déjà initié. Toutes les serrures et outils sont fournis sur place. Un village idéal pour comprendre les vulnérabilités physiques souvent négligées dans les stratégies de sécurité.</p>
+</div>
+
+        <!-- Sponsor block
+             Renders when sponsor is a hash with at least one of: name, logo.
+             Sponsor must be a YAML object — a plain string value is ignored.
+             Examples in YAML:
+               sponsor:
+                 name: "Acme Corp"               # text only (no link, no image)
+                 logo: "sponsors/acme.png"        # image only (no name, no URL)
+                 url:  "https://acme.com"         # makes the name a clickable link
+        -->
+        
+
+        <!-- Schedule block (only when schedule array is not empty) -->
+        
+        <div class="villages-modal-schedule">
+          <h3 class="villages-modal-section-title">Horaire</h3>
+          <ol class="villages-modal-schedule-list">
+            
+            <li class="villages-modal-schedule-item">Plus d'informations bientôt disponibles.</li>
+            
+          </ol>
+        </div>
+        
+
+        <!-- Logistics block (only when logistics string is not empty) -->
+        
+        <div class="villages-modal-logistics">
+          <h3 class="villages-modal-section-title">Logistique</h3>
+          <p>Plus d'informations bientôt disponibles.</p>
+        </div>
+        
+
+      </div><!-- /.villages-modal-body -->
+    </div><!-- /.villages-modal -->
+    
+    
+    
+    <div class="villages-modal"
+         id="modal-social-engineering"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-social-engineering"
+         hidden>
+
+      <!-- Modal header: village name + close button -->
+      <div class="villages-modal-header">
+        <h2 class="villages-modal-title" id="modal-title-social-engineering">Social Engineering Village (CTF & Présentations)</h2>
+        <button class="villages-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: tags, full desc, sponsor, schedule, logistics -->
+      <div class="villages-modal-body">
+
+        <!-- Tags row -->
+        
+        <div class="village-card-tags villages-modal-tags">
+          
+          <span class="village-tag">compétition</span>
+          
+          <span class="village-tag">vishing</span>
+          
+          <span class="village-tag">OSINT</span>
+          
+        </div>
+        
+
+        <!-- Full description -->
+        <div class="villages-modal-desc"><p>Le village de Social Engineering présente un concours en direct où les participants tentent de soutirer des informations sensibles à de vraies entreprises par téléphone (vishing) à l’aide de l’OSINT (Open Source Intelligence). Les rounds se déroulent devant le public dans une cabine insonorisée. Les participants sont jugés sur leur préparation, leur technique et leurs résultats. Un des événements les plus captivants du Hackfest.</p>
+</div>
+
+        <!-- Sponsor block
+             Renders when sponsor is a hash with at least one of: name, logo.
+             Sponsor must be a YAML object — a plain string value is ignored.
+             Examples in YAML:
+               sponsor:
+                 name: "Acme Corp"               # text only (no link, no image)
+                 logo: "sponsors/acme.png"        # image only (no name, no URL)
+                 url:  "https://acme.com"         # makes the name a clickable link
+        -->
+        
+
+        <!-- Schedule block (only when schedule array is not empty) -->
+        
+        <div class="villages-modal-schedule">
+          <h3 class="villages-modal-section-title">Horaire</h3>
+          <ol class="villages-modal-schedule-list">
+            
+            <li class="villages-modal-schedule-item">Plus d'informations bientôt disponibles.</li>
+            
+          </ol>
+        </div>
+        
+
+        <!-- Logistics block (only when logistics string is not empty) -->
+        
+        <div class="villages-modal-logistics">
+          <h3 class="villages-modal-section-title">Logistique</h3>
+          <p>Plus d'informations bientôt disponibles.</p>
+        </div>
+        
+
+      </div><!-- /.villages-modal-body -->
+    </div><!-- /.villages-modal -->
+    
+    
+    
+    
+    
+    <div class="villages-modal"
+         id="modal-ham-radio"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-ham-radio"
+         hidden>
+
+      <!-- Modal header: village name + close button -->
+      <div class="villages-modal-header">
+        <h2 class="villages-modal-title" id="modal-title-ham-radio">Radio Amateur</h2>
+        <button class="villages-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: tags, full desc, sponsor, schedule, logistics -->
+      <div class="villages-modal-body">
+
+        <!-- Tags row -->
+        
+        <div class="village-card-tags villages-modal-tags">
+          
+          <span class="village-tag">RF</span>
+          
+          <span class="village-tag">radio</span>
+          
+          <span class="village-tag">communications</span>
+          
+        </div>
+        
+
+        <!-- Full description -->
+        <div class="villages-modal-desc"><p>Le village Radio Amateur vous ouvre les portes du monde fascinant des communications radio. Découvrez la radio logicielle (SDR), les protocoles RF, la réception de satellites et bien plus. Des opérateurs licenciés sont sur place pour démontrer les possibilités offertes par la radio amateur et répondre à vos questions sur cet aspect souvent méconnu de la sécurité des communications.</p>
+</div>
+
+        <!-- Sponsor block
+             Renders when sponsor is a hash with at least one of: name, logo.
+             Sponsor must be a YAML object — a plain string value is ignored.
+             Examples in YAML:
+               sponsor:
+                 name: "Acme Corp"               # text only (no link, no image)
+                 logo: "sponsors/acme.png"        # image only (no name, no URL)
+                 url:  "https://acme.com"         # makes the name a clickable link
+        -->
+        
+
+        <!-- Schedule block (only when schedule array is not empty) -->
+        
+        <div class="villages-modal-schedule">
+          <h3 class="villages-modal-section-title">Horaire</h3>
+          <ol class="villages-modal-schedule-list">
+            
+            <li class="villages-modal-schedule-item">Plus d'informations bientôt disponibles.</li>
+            
+          </ol>
+        </div>
+        
+
+        <!-- Logistics block (only when logistics string is not empty) -->
+        
+        <div class="villages-modal-logistics">
+          <h3 class="villages-modal-section-title">Logistique</h3>
+          <p>Plus d'informations bientôt disponibles.</p>
+        </div>
+        
+
+      </div><!-- /.villages-modal-body -->
+    </div><!-- /.villages-modal -->
+    
+    
+    
+    <div class="villages-modal"
+         id="modal-noc"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-noc"
+         hidden>
+
+      <!-- Modal header: village name + close button -->
+      <div class="villages-modal-header">
+        <h2 class="villages-modal-title" id="modal-title-noc">Palo Alto NOC</h2>
+        <button class="villages-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: tags, full desc, sponsor, schedule, logistics -->
+      <div class="villages-modal-body">
+
+        <!-- Tags row -->
+        
+        <div class="village-card-tags villages-modal-tags">
+          
+          <span class="village-tag">réseau</span>
+          
+          <span class="village-tag">défense</span>
+          
+          <span class="village-tag">SOC</span>
+          
+        </div>
+        
+
+        <!-- Full description -->
+        <div class="villages-modal-desc"><p>Le NOC (Network Operations Center) du Hackfest, opéré par Palo Alto Networks, surveille en temps réel l’ensemble de l’infrastructure réseau de l’événement. Venez observer les équipes de sécurité à l’œuvre : gestion des incidents, analyse du trafic, détection d’intrusions et réponse aux attaques. Une expérience rare qui vous plonge au cœur des opérations de sécurité défensive.</p>
+</div>
+
+        <!-- Sponsor block
+             Renders when sponsor is a hash with at least one of: name, logo.
+             Sponsor must be a YAML object — a plain string value is ignored.
+             Examples in YAML:
+               sponsor:
+                 name: "Acme Corp"               # text only (no link, no image)
+                 logo: "sponsors/acme.png"        # image only (no name, no URL)
+                 url:  "https://acme.com"         # makes the name a clickable link
+        -->
+        
+        <div class="villages-modal-sponsor">
+          <h3 class="villages-modal-section-title">Partenaire du village</h3>
+          <div class="villages-modal-sponsor-inner">
+
+            
+            <img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp"
+                 alt="https://www.paloaltonetworks.com"
+                 class="villages-modal-sponsor-logo">
+            
+
+            
+              
+              <a href="https://www.paloaltonetworks.com"
+                 class="villages-modal-sponsor-name"
+                 target="_blank"
+                 rel="noopener noreferrer">https://www.paloaltonetworks.com</a>
+              
+            
+
+          </div>
+        </div>
+        
+
+        <!-- Schedule block (only when schedule array is not empty) -->
+        
+        <div class="villages-modal-schedule">
+          <h3 class="villages-modal-section-title">Horaire</h3>
+          <ol class="villages-modal-schedule-list">
+            
+            <li class="villages-modal-schedule-item">Plus d'informations bientôt disponibles.</li>
+            
+          </ol>
+        </div>
+        
+
+        <!-- Logistics block (only when logistics string is not empty) -->
+        
+        <div class="villages-modal-logistics">
+          <h3 class="villages-modal-section-title">Logistique</h3>
+          <p>Plus d'informations bientôt disponibles.</p>
+        </div>
+        
+
+      </div><!-- /.villages-modal-body -->
+    </div><!-- /.villages-modal -->
+    
+    
+    
+    <div class="villages-modal"
+         id="modal-hack-ta-carriere"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-hack-ta-carriere"
+         hidden>
+
+      <!-- Modal header: village name + close button -->
+      <div class="villages-modal-header">
+        <h2 class="villages-modal-title" id="modal-title-hack-ta-carriere">Hack ta Carrière</h2>
+        <button class="villages-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: tags, full desc, sponsor, schedule, logistics -->
+      <div class="villages-modal-body">
+
+        <!-- Tags row -->
+        
+        <div class="village-card-tags villages-modal-tags">
+          
+          <span class="village-tag">carrière</span>
+          
+          <span class="village-tag">emploi</span>
+          
+          <span class="village-tag">networking</span>
+          
+        </div>
+        
+
+        <!-- Full description -->
+        <div class="villages-modal-desc"><p>Hack ta Carrière est le village dédié au développement professionnel dans le domaine de la cybersécurité. Rencontrez des recruteurs et des professionnels de l’industrie, participez à des tables rondes sur les parcours de carrière, et découvrez les opportunités qui s’offrent à vous. Que vous soyez étudiant ou professionnel en reconversion, ce village est votre tremplin vers une carrière en cybersécurité.</p>
+</div>
+
+        <!-- Sponsor block
+             Renders when sponsor is a hash with at least one of: name, logo.
+             Sponsor must be a YAML object — a plain string value is ignored.
+             Examples in YAML:
+               sponsor:
+                 name: "Acme Corp"               # text only (no link, no image)
+                 logo: "sponsors/acme.png"        # image only (no name, no URL)
+                 url:  "https://acme.com"         # makes the name a clickable link
+        -->
+        
+        <div class="villages-modal-sponsor">
+          <h3 class="villages-modal-section-title">Partenaire du village</h3>
+          <div class="villages-modal-sponsor-inner">
+
+            
+            <img src="https://hackfest.ca/assets/images/sponsors/talenty.webp"
+                 alt="https://www.talenty.ca"
+                 class="villages-modal-sponsor-logo">
+            
+
+            
+              
+              <a href="https://www.talenty.ca"
+                 class="villages-modal-sponsor-name"
+                 target="_blank"
+                 rel="noopener noreferrer">https://www.talenty.ca</a>
+              
+            
+
+          </div>
+        </div>
+        
+
+        <!-- Schedule block (only when schedule array is not empty) -->
+        
+        <div class="villages-modal-schedule">
+          <h3 class="villages-modal-section-title">Horaire</h3>
+          <ol class="villages-modal-schedule-list">
+            
+            <li class="villages-modal-schedule-item">Plus d'informations bientôt disponibles.</li>
+            
+          </ol>
+        </div>
+        
+
+        <!-- Logistics block (only when logistics string is not empty) -->
+        
+        <div class="villages-modal-logistics">
+          <h3 class="villages-modal-section-title">Logistique</h3>
+          <p>Plus d'informations bientôt disponibles.</p>
+        </div>
+        
+
+      </div><!-- /.villages-modal-body -->
+    </div><!-- /.villages-modal -->
+    
+    
+    
+    
+    
+    <div class="villages-modal"
+         id="modal-startups"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-startups"
+         hidden>
+
+      <!-- Modal header: village name + close button -->
+      <div class="villages-modal-header">
+        <h2 class="villages-modal-title" id="modal-title-startups">Vitrine Startups & Éducation</h2>
+        <button class="villages-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: tags, full desc, sponsor, schedule, logistics -->
+      <div class="villages-modal-body">
+
+        <!-- Tags row -->
+        
+        <div class="village-card-tags villages-modal-tags">
+          
+          <span class="village-tag">innovation</span>
+          
+          <span class="village-tag">startups</span>
+          
+          <span class="village-tag">produits</span>
+          
+        </div>
+        
+
+        <!-- Full description -->
+        <div class="villages-modal-desc"><p>La Vitrine Startups est l’espace réservé aux jeunes entreprises innovantes dans le domaine de la cybersécurité et aux écoles avec programmes d’éducation en cybersécurité. Venez découvrir les solutions de demain, rencontrer les fondateurs et en apprendre davantage sur les nouvelles tendances du secteur. Un excellent endroit pour repérer les technologies émergentes et nouer des liens avec l’écosystème entrepreneurial québécois en cybersécurité.</p>
+</div>
+
+        <!-- Sponsor block
+             Renders when sponsor is a hash with at least one of: name, logo.
+             Sponsor must be a YAML object — a plain string value is ignored.
+             Examples in YAML:
+               sponsor:
+                 name: "Acme Corp"               # text only (no link, no image)
+                 logo: "sponsors/acme.png"        # image only (no name, no URL)
+                 url:  "https://acme.com"         # makes the name a clickable link
+        -->
+        
+
+        <!-- Schedule block (only when schedule array is not empty) -->
+        
+        <div class="villages-modal-schedule">
+          <h3 class="villages-modal-section-title">Horaire</h3>
+          <ol class="villages-modal-schedule-list">
+            
+            <li class="villages-modal-schedule-item">Plus d'informations bientôt disponibles.</li>
+            
+          </ol>
+        </div>
+        
+
+        <!-- Logistics block (only when logistics string is not empty) -->
+        
+        <div class="villages-modal-logistics">
+          <h3 class="villages-modal-section-title">Logistique</h3>
+          <p>Plus d'informations bientôt disponibles.</p>
+        </div>
+        
+
+      </div><!-- /.villages-modal-body -->
+    </div><!-- /.villages-modal -->
+    
+    
+    
+    <div class="villages-modal"
+         id="modal-ai"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title-ai"
+         hidden>
+
+      <!-- Modal header: village name + close button -->
+      <div class="villages-modal-header">
+        <h2 class="villages-modal-title" id="modal-title-ai">IA — Intelligence Artificielle</h2>
+        <button class="villages-modal-close"
+                aria-label="Fermer">✕</button>
+      </div>
+
+      <!-- Modal body: tags, full desc, sponsor, schedule, logistics -->
+      <div class="villages-modal-body">
+
+        <!-- Tags row -->
+        
+        <div class="village-card-tags villages-modal-tags">
+          
+          <span class="village-tag">IA</span>
+          
+          <span class="village-tag">LLM</span>
+          
+          <span class="village-tag">sécurité IA</span>
+          
+        </div>
+        
+
+        <!-- Full description -->
+        <div class="villages-modal-desc"><p>Le village IA explore l’intersection entre l’intelligence artificielle et la cybersécurité sous tous ses angles. Comment les attaquants utilisent-ils les LLM ? Comment défendre les systèmes IA contre les adversaires ? Quelles sont les implications éthiques de l’IA militarisée ? Des démonstrations pratiques, des présentations et des discussions ouvertes vous attendent dans cet espace à la pointe de l’actualité technologique.</p>
+</div>
+
+        <!-- Sponsor block
+             Renders when sponsor is a hash with at least one of: name, logo.
+             Sponsor must be a YAML object — a plain string value is ignored.
+             Examples in YAML:
+               sponsor:
+                 name: "Acme Corp"               # text only (no link, no image)
+                 logo: "sponsors/acme.png"        # image only (no name, no URL)
+                 url:  "https://acme.com"         # makes the name a clickable link
+        -->
+        
+
+        <!-- Schedule block (only when schedule array is not empty) -->
+        
+        <div class="villages-modal-schedule">
+          <h3 class="villages-modal-section-title">Horaire</h3>
+          <ol class="villages-modal-schedule-list">
+            
+            <li class="villages-modal-schedule-item">Plus d'informations bientôt disponibles.</li>
+            
+          </ol>
+        </div>
+        
+
+        <!-- Logistics block (only when logistics string is not empty) -->
+        
+        <div class="villages-modal-logistics">
+          <h3 class="villages-modal-section-title">Logistique</h3>
+          <p>Plus d'informations bientôt disponibles.</p>
+        </div>
+        
+
+      </div><!-- /.villages-modal-body -->
+    </div><!-- /.villages-modal -->
+    
+    
+
+    
+  </main>
+
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>À propos du Hackfest</h4>
+        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Hackfest Logo" class="footer-logo">
+        <p>Le Hackfest est le plus grand événement bilingue de cybersécurité et de hacking au Canada, se tenant à Québec. Nos villages incluent le lock picking, l'ingénierie sociale, CTF, Hack ta carrière, SCADA/ICS, RFID, électronique, radio amateur et plus encore.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Visitez-nous</h4>
+        <ul>
+          
+          <li><a href="polar">POLAR</a></li>
+          
+          <li><a href="https://securite.fm">Podcast La French Connection</a></li>
+          
+          <li><a href="ihack">iHack</a></li>
+          
+          <li><a href="quebecsec">QuébecSec</a></li>
+          
+          <li><a href="formations">Formations</a></li>
+          
+          <li><a href="services">Services</a></li>
+          
+          <li><a href="index.html">Page d'Accueil</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        
+        
+        
+        
+        <ul class="footer-venues">
+          
+          <li>
+            <span class="footer-venue-label">Hackfest:</span>
+            <span class="footer-venue-name">Centre des congrès de Québec</span>
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          <li>
+            <span class="footer-venue-label">POLAR:</span>
+            <span class="footer-venue-name">Le Capitole de Québec — Salle Le Confessionnal</span>
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          
+          <li>
+            <span class="footer-venue-label">QuébecSec:</span>
+            
+            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console — 830 Rue Saint-Joseph Est, 5e étage</a>
+            
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          <li><a class="footer-venue-link" href="sejour">Hôtels partenaires →</a></li>
+          
+          <li><a href="https://hackfest.ca/cdn-cgi/l/email-protection"><span class="__cf_email__" data-cfemail="">[email&#160;protected]</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Joignez l'infolettre</h4>
+        <p>Restez informé de nos événements mensuels, annuels et de nos annonces spéciales.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Email" required>
+          <button type="submit" class="btn btn-primary btn-sm">SUBSCRIBE</button>
+        </form>
+        
+        <div class="footer-policies">
+          <h4>Sécurité et politiques</h4>
+          <ul>
+            
+            <li><a href="responsible-disclosure">Divulgation responsable</a></li>
+            
+            <li><a href="code-ethique">Code d'éthique</a></li>
+            
+            <li><a href="politique-confidentialite">Politique de confidentialité</a></li>
+            
+            <li><a href="code-de-conduite">Code de conduite</a></li>
+            
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer-social">
+      <!-- Discord -->
+      <a href="https://discord.hackfest.ca" aria-label="Discord" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028 14.09 14.09 0 001.226-1.994.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg></a>
+      <!-- YouTube -->
+      <a href="https://www.youtube.com/user/hackfestca" aria-label="YouTube" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/hackfest" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+      <!-- X (Twitter) -->
+      <a href="https://twitter.com/hackfest_ca" aria-label="X (Twitter)" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+      <!-- Mastodon -->
+      <a href="https://infosec.exchange/@hackfest" aria-label="Mastodon" target="_blank" rel="noopener me"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 00.023-.043v-1.809a.052.052 0 00-.02-.041.053.053 0 00-.046-.01 20.282 20.282 0 01-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 01-.319-1.433.053.053 0 01.066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.668 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg></a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/company/hackfest/" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+      <!-- Flickr -->
+      <a href="https://flickr.com/photos/hackfest2k9/" aria-label="Flickr" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M5.334 6.666C2.3884 6.666 0 9.055 0 12c0 2.9456 2.3884 5.334 5.334 5.334 2.9456 0 5.332-2.3884 5.332-5.334 0-2.945-2.3864-5.334-5.332-5.334zm13.332 0c-2.9456 0-5.332 2.389-5.332 5.334 0 2.9456 2.3864 5.334 5.332 5.334C21.6116 17.334 24 14.9456 24 12c0-2.945-2.3884-5.334-5.334-5.334z"/></svg></a>
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/hackfestca/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+      <!-- GitHub -->
+      <a href="https://github.com/hackfestca" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Newsletter modal: Brevo signup form (opened when footer form is submitted) -->
+<div class="newsletter-modal-backdrop" id="newsletterModalBackdrop" hidden aria-hidden="true"></div>
+<div class="newsletter-modal"
+     id="newsletterModal"
+     hidden
+     aria-modal="true"
+     aria-labelledby="newsletter-modal-title"
+     role="dialog">
+  <div class="newsletter-modal-header">
+    <h2 class="newsletter-modal-title" id="newsletter-modal-title">Joignez l'infolettre</h2>
+    <button type="button" class="newsletter-modal-close" aria-label="Fermer">✕</button>
+  </div>
+  <div class="newsletter-modal-body">
+    <iframe id="newsletter-form-iframe"
+            width="540"
+            height="400"
+            data-base-url="https://31f3b719.sibforms.com/serve/MUIFAB_K2srFwrjfmBKCg7EgCrmpQbDjMcRF9-7IRYB4VK05TTpYsVq8bQW78j1sfRkwLl7CgvDC7UgUMQoLQxEB4E1k-rOJrIrTacmI7Ms9MmbOzu7wb8ioRCs2u153ydJDMdUwBaNrEOXbZDXS7mex_dn2CZ-LgJJJjeeDzff0rq4rfklIao0aa-m53XYhetXsr86bI5eP06JF"
+            frameborder="0"
+            scrolling="auto"
+            allowfullscreen
+            title="Joignez l'infolettre"
+            class="newsletter-modal-iframe"></iframe>
+  </div>
+</div>
+<script data-cfasync="false" src="https://hackfest.ca/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://hackfest.ca/assets/js/newsletter-modal.js"></script>
+
+
+  <script src="https://hackfest.ca/assets/js/main.js"></script>
+  <script src="https://hackfest.ca/assets/js/villages.js"></script>
+</body>
+</html>

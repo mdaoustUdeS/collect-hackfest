@@ -1,0 +1,727 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+
+
+
+
+<!-- Primary meta -->
+<title>Polar 2026 — Hackfest 2026</title>
+<meta name="description" content="Polar 2026 - Le rendez-vous annuel des décideurs en sécurité">
+<link rel="canonical" href="polar">
+
+<!-- Open Graph -->
+<meta property="og:type"        content="website">
+<meta property="og:site_name"   content="Hackfest 2026">
+<meta property="og:title"       content="Polar 2026 — Hackfest 2026">
+<meta property="og:description" content="Polar 2026 - Le rendez-vous annuel des décideurs en sécurité">
+<meta property="og:url"         content="https://hackfest.ca/polar/">
+<meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta property="og:image:alt"   content="Hackfest 2026">
+<meta property="og:locale"      content="fr_CA">
+
+<!-- Twitter Card -->
+<meta name="twitter:card"        content="summary">
+<meta name="twitter:site"        content="@hackfest_ca">
+<meta name="twitter:title"       content="Polar 2026 — Hackfest 2026">
+<meta name="twitter:description" content="Polar 2026 - Le rendez-vous annuel des décideurs en sécurité">
+<meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- Hreflang (bilingual) -->
+
+
+<link rel="alternate" hreflang="fr"        href="polar">
+<link rel="alternate" hreflang="en"        href="https://hackfest.ca/en/polar/">
+<link rel="alternate" hreflang="x-default" href="polar">
+
+
+  <!-- Favicon and touch icon (192x192) -->
+<link rel="icon" type="image/webp" sizes="192x192" href="https://hackfest.ca/assets/images/touch-icon-192x192.webp">
+<link rel="apple-touch-icon" sizes="192x192" href="https://hackfest.ca/assets/images/touch-icon-192x192.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Orbitron:wght@400;500;600;700&family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/main.css">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/polar.css">
+  <script defer src="https://analytics.hackfest.ca/script.js" data-website-id="0ce77795-100e-4f53-92c3-5ea0922c0b15"></script>
+</head>
+<body class="polar-page">
+  <header class="site-header">
+  <div class="header-inner">
+    <div class="header-left">
+      <a href="index.html" class="logo">
+        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Hackfest Logo">
+      </a>
+      
+      
+      
+      
+      
+      
+      <span class="header-subbrand-sep" aria-hidden="true">/</span>
+      <a href="polar"
+         class="header-subbrand-link">
+        <img src="https://hackfest.ca/assets/images/polar/logo_polar.webp"
+             alt="Polar"
+             class="header-subbrand-img">
+      </a>
+      
+    </div>
+    <nav class="main-nav" id="mainNav">
+      <ul class="nav-list">
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Communauté</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item has-dropdown">
+              
+                <button class="nav-btn">Hackfest</button>
+              
+              
+              <ul class="dropdown sub-dropdown">
+                
+                <li><a href="ctfs">CTFs</a></li>
+                
+                <li><a href="villages">Villages</a></li>
+                
+                <li><a href="formations">Formations</a></li>
+                
+                <li><a href="spectacle">Spectacle</a></li>
+                
+                <li><a href="after-dark">After Dark</a></li>
+                
+                <li><a href="hackfest-schedule">Programme Hackfest</a></li>
+                
+                <li><a href="partenaires-hackfest">Partenaires</a></li>
+                
+              </ul>
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="polar">Polar</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="quebecsec">QuébecSec</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="ihack">iHack</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://securite.fm">French Connection</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="services">Services</a>
+          
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="sejour">Séjour</a>
+          
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="horaire">Horaire</a>
+          
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Partenaires</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="partenaires-hackfest">Hackfest</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="polar#sponsors">POLAR</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="infolettre-partenaires">Infolettre partenaires</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://sponsorship.hackfest.ca">Devenir partenaire</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Contact</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="a-propos">À propos</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="comite/index.html">Le comité</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="contact/index.html">Nous contacter</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="historique">Historique</a>
+          
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Archive</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="conferences">Présentations (Vidéos)</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+      </ul>
+
+      <!-- Mobile-only footer: CTAs and language switcher moved from header-right -->
+      <div class="mobile-nav-cta">
+        <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="btn btn-primary">S'inscrire</a>
+        <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor">Commanditer l'événement</a>
+        <a href="https://hackfest.ca/en/polar/" class="mobile-nav-lang">
+          <svg class="globe-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          EN
+        </a>
+      </div>
+    </nav>
+    <div class="header-right">
+      <a href="https://hackfest.ca/en/polar/" class="lang-switch"><svg class="globe-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> EN</a>
+      <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="btn btn-primary btn-sm">S'inscrire</a>
+      <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor btn-sm">Commanditer l'événement</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <!-- Polar Hero: self-hosted video (720p for all viewports) -->
+    <section class="polar-hero">
+      <div class="polar-hero-video-wrap">
+        <video class="polar-hero-video" src="https://hackfest.ca/assets/videos/polar_hero_720.mp4" autoplay muted loop playsinline aria-hidden="true"></video>
+      </div>
+      <div class="polar-hero-overlay"></div>
+      <div class="polar-hero-content">
+        <div class="hero-left">
+          <h1>Polar 2026</h1>
+          <p class="hero-subtitle">Le rendez-vous annuel des décideurs en sécurité</p>
+          <p class="hero-tagline">Penser la sécurité avant qu'elle ne s'impose</p>
+        </div>
+        <div class="hero-right">
+          <h2 class="hero-dates">29 Octobre 2026</h2>
+          <div class="cta-buttons">
+            <a href="https://www.eventbrite.ca/e/polar-conference-canada-cybersecurity-manager-symposium-2026-registration-1976978315360?aff=oddtdtcreator" class="btn btn-primary btn-lg">S'inscrire</a>
+            <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor btn-lg">Commanditer l'événement</a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- POLAR Venue Strip -->
+    
+
+
+
+<aside class="venue-strip venue-strip--polar" aria-label="Lieu">
+  <div class="venue-strip-inner">
+    
+    <span class="venue-strip-icon" aria-hidden="true">📍</span>
+    <span class="venue-strip-label">Lieu:</span>
+    <span class="venue-strip-name">Le Capitole de Québec — Salle Le Confessionnal</span>
+    
+    <a class="venue-strip-map" href="https://maps.google.com/?q=Le+Capitole+de+Qu%C3%A9bec+972+Rue+Saint-Jean+Qu%C3%A9bec" target="_blank" rel="noopener">Voir sur la carte ↗</a>
+    
+    
+    <a class="venue-strip-cta" href="sejour">Hôtels et infos pratiques →</a>
+    
+  </div>
+</aside>
+
+
+
+    <!-- Polar sticky in-page nav -->
+    
+    <nav class="polar-sticky-nav" aria-label="Polar 2026">
+      <div class="polar-sticky-nav-inner">
+        <ul class="polar-sticky-nav-list">
+          
+          <li><a href="polar#about">À propos</a></li>
+          
+          <li><a href="polar#speakers">Conférenciers</a></li>
+          
+          <li><a href="polar#gallery">Galerie</a></li>
+          
+          <li><a href="polar#sponsors">Partenaires</a></li>
+          
+        </ul>
+        
+        <a class="polar-sticky-nav-cta btn btn-primary btn-sm" href="https://www.eventbrite.ca/e/polar-conference-canada-cybersecurity-manager-symposium-2026-registration-1976978315360?aff=oddtdtcreator">S'inscrire</a>
+        
+      </div>
+    </nav>
+    
+
+    <!-- Polar Video Section -->
+    
+    <section class="polar-video-section">
+      <div class="polar-video-inner">
+        <div class="polar-video-text">
+          <h2>Penser la sécurité avant qu'elle ne s'impose.</h2>
+          <p>Experts, décideurs et praticiens s'y rencontrent pour analyser les risques réels, partager des perspectives concrètes et transformer l'incertitude en décisions éclairées.</p>
+          
+          <a href="polar#about" class="btn btn-primary btn-lg">En savoir plus</a>
+          
+        </div>
+        <div class="polar-video-embed">
+          <iframe src="https://www.youtube.com/embed/b1tKeaE5dnw?controls=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Polar About -->
+    
+    <section class="polar-about" id="about">
+      <div class="polar-about-inner">
+        <div class="polar-about-image">
+          <img src="https://hackfest.ca/assets/images/polar/gallery/03.webp" alt="Le Polar, plus qu'une rencontre annuelle">
+        </div>
+        <div class="polar-about-text">
+          <h2>Le Polar, plus qu'une rencontre annuelle</h2>
+          
+          <ul class="polar-about-list">
+            
+            <li>1 journée de banquet avec conférences et ateliers</li>
+            
+            <li>2e édition d'un événement unique conçu pour les responsables de la cybersécurité</li>
+            
+            <li>Une occasion pour les dirigeants de présenter leurs défis et de partager leurs réussites et leurs difficultés</li>
+            
+            <li>Rencontrer des leaders et des responsables techniques de l'industrie</li>
+            
+          </ul>
+          
+          
+          
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Polar Speakers -->
+    
+    <section class="polar-speakers" id="speakers">
+      <div class="container">
+        <div class="polar-speakers-header">
+          <h2>Nos conférenciers</h2>
+          <p>À venir</p>
+        </div>
+        
+      </div>
+    </section>
+    
+
+    <!-- Polar Gallery -->
+    
+    <section class="polar-gallery" id="gallery">
+      <div class="polar-gallery-grid">
+        
+        <div class="polar-gallery-item">
+          <img src="https://hackfest.ca/assets/images/polar/gallery/10.webp" alt="Polar Gallery" loading="lazy">
+        </div>
+        
+        <div class="polar-gallery-item">
+          <img src="https://hackfest.ca/assets/images/polar/gallery/11.webp" alt="Polar Gallery" loading="lazy">
+        </div>
+        
+        <div class="polar-gallery-item">
+          <img src="https://hackfest.ca/assets/images/polar/gallery/12.webp" alt="Polar Gallery" loading="lazy">
+        </div>
+        
+        <div class="polar-gallery-item">
+          <img src="https://hackfest.ca/assets/images/polar/gallery/01.webp" alt="Polar Gallery" loading="lazy">
+        </div>
+        
+      </div>
+    </section>
+    
+
+    <!-- Polar Sponsors -->
+    <section class="polar-sponsors" id="sponsors">
+      <div class="container">
+        <div class="polar-sponsors-header">
+          <h2>Partenaires</h2>
+          <p>Merci à nos partenaires</p>
+        </div>
+        
+        
+        <div class="sponsor-row " id="kiosk">
+          <span class="sponsor-label">Kiosque</span>
+          
+          
+          
+          
+          <div class="sponsor-entries">
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://www.telus.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/telus.webp" alt="TELUS"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">Notre technologie de calibre mondial, notre engagement à accorder la priorité aux clients et notre détermination à favoriser les changements sociaux contribuent à créer un monde meilleur pour les générations à venir. Ensemble, créons un futur meilleur.</p>
+                <a href="https://www.telus.com/" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+          </div>
+          
+          
+        </div>
+        
+        
+        
+        <div class="sponsor-row " id="lanieres">
+          <span class="sponsor-label">Lanières</span>
+          
+          
+          
+          
+          <div class="sponsor-entries">
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://www.secur01.com" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/secur01.png" alt="Secur01"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">Notre mission est la même depuis le début : sensibiliser aux questions de cybersécurité, avertir nos clients des menaces et mettre en place des plans de continuité en cas de catastrophe imprévue. Nous prenons en charge tous les besoins de nos clients en matière de cybersécurité et de conformité informatique. Nous proposons également des services gérés afin que vous puissiez bénéficier de la tranquillité d’esprit d’un RSSI ou d’un responsable de la conformité/de la protection de la vie privée.</p>
+                <a href="https://www.secur01.com" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+          </div>
+          
+          
+        </div>
+        
+        
+        
+        <div class="sponsor-row " id="cafe">
+          <span class="sponsor-label">Café</span>
+          
+          
+          
+          
+          <div class="sponsor-entries">
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://www.secur01.com" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/secur01.png" alt="Secur01"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">Notre mission est la même depuis le début : sensibiliser aux questions de cybersécurité, avertir nos clients des menaces et mettre en place des plans de continuité en cas de catastrophe imprévue. Nous prenons en charge tous les besoins de nos clients en matière de cybersécurité et de conformité informatique. Nous proposons également des services gérés afin que vous puissiez bénéficier de la tranquillité d’esprit d’un RSSI ou d’un responsable de la conformité/de la protection de la vie privée.</p>
+                <a href="https://www.secur01.com" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+          </div>
+          
+          
+        </div>
+        
+        
+        
+        <div class="sponsor-row " id="cocktail">
+          <span class="sponsor-label">Cocktail</span>
+          
+          
+          
+          
+          <div class="sponsor-entries">
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://micrologic.ca/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/micrologic.png" alt="Micro Logic"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">Micro Logic est une entreprise québécoise qui occupe une place prépondérante dans l’univers de la transformation numérique figurant parmi les plus importants fournisseurs de solutions TI au Canada. Son produit phare, Projet Cirrus, est un cloud souverain de classe mondiale qui permet de se distinguer par la sécurité et la souveraineté des données, assujetti aux lois et à la règlementation du territoire canadien.</p>
+                <a href="https://micrologic.ca/" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+          </div>
+          
+          
+        </div>
+        
+        
+      </div>
+    </section>
+
+    
+  </main>
+
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>À propos du Hackfest</h4>
+        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Hackfest Logo" class="footer-logo">
+        <p>Le Hackfest est le plus grand événement bilingue de cybersécurité et de hacking au Canada, se tenant à Québec. Nos villages incluent le lock picking, l'ingénierie sociale, CTF, Hack ta carrière, SCADA/ICS, RFID, électronique, radio amateur et plus encore.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Visitez-nous</h4>
+        <ul>
+          
+          <li><a href="polar">POLAR</a></li>
+          
+          <li><a href="https://securite.fm">Podcast La French Connection</a></li>
+          
+          <li><a href="ihack">iHack</a></li>
+          
+          <li><a href="quebecsec">QuébecSec</a></li>
+          
+          <li><a href="formations">Formations</a></li>
+          
+          <li><a href="services">Services</a></li>
+          
+          <li><a href="index.html">Page d'Accueil</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        
+        
+        
+        
+        <ul class="footer-venues">
+          
+          <li>
+            <span class="footer-venue-label">Hackfest:</span>
+            <span class="footer-venue-name">Centre des congrès de Québec</span>
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          <li>
+            <span class="footer-venue-label">POLAR:</span>
+            <span class="footer-venue-name">Le Capitole de Québec — Salle Le Confessionnal</span>
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          
+          <li>
+            <span class="footer-venue-label">QuébecSec:</span>
+            
+            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console — 830 Rue Saint-Joseph Est, 5e étage</a>
+            
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          <li><a class="footer-venue-link" href="sejour">Hôtels partenaires →</a></li>
+          
+          <li><a href="https://hackfest.ca/cdn-cgi/l/email-protection"><span class="__cf_email__" data-cfemail="">[email&#160;protected]</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Joignez l'infolettre</h4>
+        <p>Restez informé de nos événements mensuels, annuels et de nos annonces spéciales.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Email" required>
+          <button type="submit" class="btn btn-primary btn-sm">SUBSCRIBE</button>
+        </form>
+        
+        <div class="footer-policies">
+          <h4>Sécurité et politiques</h4>
+          <ul>
+            
+            <li><a href="responsible-disclosure">Divulgation responsable</a></li>
+            
+            <li><a href="code-ethique">Code d'éthique</a></li>
+            
+            <li><a href="politique-confidentialite">Politique de confidentialité</a></li>
+            
+            <li><a href="code-de-conduite">Code de conduite</a></li>
+            
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer-social">
+      <!-- Discord -->
+      <a href="https://discord.hackfest.ca" aria-label="Discord" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028 14.09 14.09 0 001.226-1.994.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg></a>
+      <!-- YouTube -->
+      <a href="https://www.youtube.com/user/hackfestca" aria-label="YouTube" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/hackfest" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+      <!-- X (Twitter) -->
+      <a href="https://twitter.com/hackfest_ca" aria-label="X (Twitter)" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+      <!-- Mastodon -->
+      <a href="https://infosec.exchange/@hackfest" aria-label="Mastodon" target="_blank" rel="noopener me"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 00.023-.043v-1.809a.052.052 0 00-.02-.041.053.053 0 00-.046-.01 20.282 20.282 0 01-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 01-.319-1.433.053.053 0 01.066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.668 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg></a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/company/hackfest/" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+      <!-- Flickr -->
+      <a href="https://flickr.com/photos/hackfest2k9/" aria-label="Flickr" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M5.334 6.666C2.3884 6.666 0 9.055 0 12c0 2.9456 2.3884 5.334 5.334 5.334 2.9456 0 5.332-2.3884 5.332-5.334 0-2.945-2.3864-5.334-5.332-5.334zm13.332 0c-2.9456 0-5.332 2.389-5.332 5.334 0 2.9456 2.3864 5.334 5.332 5.334C21.6116 17.334 24 14.9456 24 12c0-2.945-2.3884-5.334-5.334-5.334z"/></svg></a>
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/hackfestca/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+      <!-- GitHub -->
+      <a href="https://github.com/hackfestca" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Newsletter modal: Brevo signup form (opened when footer form is submitted) -->
+<div class="newsletter-modal-backdrop" id="newsletterModalBackdrop" hidden aria-hidden="true"></div>
+<div class="newsletter-modal"
+     id="newsletterModal"
+     hidden
+     aria-modal="true"
+     aria-labelledby="newsletter-modal-title"
+     role="dialog">
+  <div class="newsletter-modal-header">
+    <h2 class="newsletter-modal-title" id="newsletter-modal-title">Joignez l'infolettre</h2>
+    <button type="button" class="newsletter-modal-close" aria-label="Fermer">✕</button>
+  </div>
+  <div class="newsletter-modal-body">
+    <iframe id="newsletter-form-iframe"
+            width="540"
+            height="400"
+            data-base-url="https://31f3b719.sibforms.com/serve/MUIFAB_K2srFwrjfmBKCg7EgCrmpQbDjMcRF9-7IRYB4VK05TTpYsVq8bQW78j1sfRkwLl7CgvDC7UgUMQoLQxEB4E1k-rOJrIrTacmI7Ms9MmbOzu7wb8ioRCs2u153ydJDMdUwBaNrEOXbZDXS7mex_dn2CZ-LgJJJjeeDzff0rq4rfklIao0aa-m53XYhetXsr86bI5eP06JF"
+            frameborder="0"
+            scrolling="auto"
+            allowfullscreen
+            title="Joignez l'infolettre"
+            class="newsletter-modal-iframe"></iframe>
+  </div>
+</div>
+<script data-cfasync="false" src="https://hackfest.ca/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://hackfest.ca/assets/js/newsletter-modal.js"></script>
+
+
+  <script src="https://hackfest.ca/assets/js/main.js"></script>
+</body>
+</html>

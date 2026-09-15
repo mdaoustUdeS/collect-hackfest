@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Block low-value paths from crawl budget
+Disallow: /assets/
+Disallow: /.well-known/
+
+# Sitemaps
+Sitemap: https://hackfest.ca/sitemap.xml
+Sitemap: https://yourdomain.com/sitemap-fr.xml
+Sitemap: https://yourdomain.com/sitemap-en.xml
+
+# AI crawlers - allow indexing, block training
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Googlebot
+Allow: /

@@ -1,0 +1,493 @@
+<!doctype html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="description" content="Hackfest CTF">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="HiBootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    
+    
+    <title>Hackfest CTF | À propos</title>
+
+    
+    <link rel="icon" href="https://hfctf.ca/images/faviconhf.png" type="image/png" sizes="16x16">
+
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/bootstrap.min.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/animate.min.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/owl.carousel.min.css"  type="text/css" media="all" />
+    <link rel="stylesheet" href="https://hfctf.ca/css/owl.theme.default.min.css"  type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/meanmenu.min.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/magnific-popup.min.css" type="text/css" media="all" />
+    
+    <link rel='stylesheet' href='https://hfctf.ca/css/boxicons.min.css' type="text/css" media="all" />
+    
+    <link rel='stylesheet' href='https://hfctf.ca/css/flaticon.css' type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/nice-select.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/style.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/responsive.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/override.css" type="text/css" media="all" />
+</head>
+<body>
+<div class="preloader bg-blue">
+    <div class="preloader-wrapper">
+        <div class="preloader-content">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+
+<div class="fixed-top">
+    <div class="topbar">
+        <div class="topbar-inner">
+            <div class="container-fluid">
+                <div
+                    class="row justify-content-center justify-content-lg-between"
+                >
+                    <div class="topbar-item topbar-right">
+                        <ul class="social-list social-list-gray-secondcolor">
+                            <li>
+                                <a href="https://discord.gg/WcT5Xrd"
+                                    ><span
+                                        class="iconify"
+                                        data-icon="la:discord"
+                                        data-width="25"
+                                        data-height="25"
+                                    ></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/hackfest"
+                                    ><i class="flaticon-facebook"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/hackfest_ca"
+                                    ><i class="flaticon-twitter"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.youtube.com/user/hackfestca"
+                                    ><i class="flaticon-youtube"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/hackfestca/"
+                                    ><i class="flaticon-instagram"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.flickr.com/photos/hackfest2k9/"
+                                    ><span
+                                        class="iconify"
+                                        data-icon="ri:flickr-line"
+                                        data-width="25"
+                                        data-height="25"
+                                    ></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="topbar-item topbar-left">
+                        <ul class="topbar-list topbar-list-white">
+                            <li>
+                                <a href="https://hackfestca.square.site/"
+                                    ><i class="flaticon-shopping-cart"></i>
+                                    Boutique</a
+                                >
+                            </li>
+                             
+                            <li>
+                                <a href="https://hfctf.ca/en/about/">English</a>
+                            </li>
+                             
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-area sticky-black navbar-area-2">
+        <div class="mobile-nav">
+            <a href="index.html" class="mobile-brand">
+                <img
+                    src="https://hfctf.ca/images/logo-white-tiny.png"
+                    alt="logo"
+                    class="logo main-brand"
+                />
+                <img
+                    src="https://hfctf.ca/images/logo-black-tiny.png"
+                    alt="logo"
+                    class="logo hover-brand"
+                />
+            </a>
+        </div>
+        <div class="main-nav">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img
+                            src="https://hfctf.ca/images/logo-white-tiny.png"
+                            alt="logo"
+                            class="logo main-brand"
+                        />
+                        <img
+                            src="https://hfctf.ca/images/logo-black-tiny.png"
+                            alt="logo"
+                            class="logo hover-brand"
+                        />
+                    </a>
+                    <div
+                        class="collapse navbar-collapse mean-menu"
+                        id="navbarSupportedContent"
+                        style="display: block; margin-left: -6%"
+                    >
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a href="ctfs" class="nav-link"
+                                    >CTFs</a
+                                >
+                            </li><li class="nav-item">
+                                <a href="rules" class="nav-link"
+                                    >Règlements</a
+                                >
+                            </li><li class="nav-item">
+                                <a href="team" class="nav-link"
+                                    >Équipe</a
+                                >
+                            </li><li class="nav-item">
+                                <a href="about" class="nav-link"
+                                    >À propos</a
+                                >
+                            </li>
+                            <span class="mobile-topbar-link">
+                                <li class="nav-item">
+                                    <a
+                                        href="https://hackfestca.square.site/"
+                                        class="nav-link"
+                                        >Boutique</a
+                                    >
+                                </li>
+                                 
+                                <li class="nav-item">
+                                    <a
+                                        href="https://hfctf.ca/en/about/"
+                                        class="nav-link"
+                                        >English</a
+                                    >
+                                </li>
+                            </span>
+                             
+                        </ul>
+                    </div>
+                    <div class="navbar-option">
+                        <div class="navbar-option-item">
+                            </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+
+<header class="header-page-bg overflow-hidden header-page-bg-hf">
+    <div class="bottom-frame"></div>
+    <div class="header-page-bg-inner">
+        <div class="header-page-line">
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+        </div>
+        <div class="container-fluid">
+            <div class="header-content header-content-white">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Accueil</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            À propos
+                        </li>
+                    </ol>
+                </nav>
+                <h1>À propos</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<div class="partner-section p-tb-100 bg-black">
+    <div class="container">
+        <div
+            class="section-title section-title-lg section-title-second section-title-second-dark"
+        >
+            <h2>Plus de 15 ans d&#39;histoire</h2>
+        </div>
+        
+        <section class="terms-section bg-black sec-pt-60 pb-100">
+            <div class="container">
+                
+                <div class="forum-details">
+                    <p><h3 id="1990s-dans-une-scène-de-hacking-lointaine-très-lointaine"><strong>1990s… Dans une scène de hacking lointaine, très lointaine&hellip;</strong></h3>
+<p>Les Bulletin Board Systems (BBS) et Usenet sont en vogue pour entrer en contact avec des communautés, avant même IRC, à la fin des années 80 et au début des années 90, un peu comme dans l&rsquo;esprit du film WarGames. Tout était en place pour assouvir la curiosité de jeunes qui ne cherchaient qu&rsquo;à découvrir et apprendre de nouvelles choses tout en échangeant, que ce soit face à face ou en ligne.</p>
+<p>Le fait que le tout ne soit pas facilement accessible rend attrayant le milieu qui est encore hors-la-loi, que ce soit avec l&rsquo;utilisation de ToneLoc, des e-zines, du warez, des recettes de bombes, de la bananadine ou encore des door games uniques ou MMOs. La technologie débute et aussi la sécurité de l&rsquo;information. Exploration de poubelles, boîtes rouges, sifflets venant de boîtes de céréales, meetings 2600, e-zines, DEF CON, les débuts du logiciel libre - bref, ce n&rsquo;est pas les opportunités qui manquent. Le tout se passe essentiellement en terminal et les seules interfaces étaient faites de dessins avec des caractères (ASCII art). Certains établissent leur réseau de contacts avec une scène locale, tandis que d&rsquo;autres se connectent plus loin, avec les cDc, Phrack, LoD, CCC, MoD ou autres groupes.</p>
+<p>Le Québec n&rsquo;y a pas échappé, d&rsquo;autant plus que plusieurs initiatives futures découlent de projets de cette époque. Partant de Northern Phun Co et Corruption Addicts via les Illegal Granted Access, Total Control, Pyrofreak, Underdark, Quebec Hacker Alliance et Rectum Crew, il y avait de tout pour faire un monde, que ce soit en matière de phreaking, hacking, cracking, virii, carding ou autres trucs plus ou moins illégaux dont les auteurs se protégeaient des conséquences potentielles derrière des disclaimers douteux. C&rsquo;est la période intense où le monde échange sur IRC, que ce soit sur EFNet, Undernet ou autres. Le WWW/Internet commence à être accessible au grand public et les modems câbles débutent. M. et Mme tout le monde découvrent un monde longtemps resté obscur avec des interfaces graphiques accessible par Windows. Le piratage est essentiellement mal vu et la sécurité de l&rsquo;information fait surtout partie du monde des administrateurs réseau.</p>
+<p>Avec cette accessibilité, d&rsquo;autres horizons s&rsquo;ouvrent, car les interurbains sont tranquillement chose du passé. Il est possible de communiquer avec la francophonie et d&rsquo;autres pays de façon plus accessible (lire économique). On découvre Madchat, kewl.org, CYBz, Coromputer, ZATAZ, WebHack et autres groupes. Le grand public est tranquillement au courant de l&rsquo;existence de cette contre-culture tel que démontré par la sortie des films Hackers et The Matrix.</p>
+<p>Petit à petit, les patenteux des BBS et des communautés IRC sortent de l&rsquo;école et s&rsquo;établissent sur le marché du travail pour tranquillement maturer, vieillir et manquer de temps pour chiller sur des chats. De l&rsquo;expérience est acquise durant cette décennie, tandis que d&rsquo;autres communautés ou événements prennent la place - MafiaBoy, iLoveYou, … Les temps changent, une génération ne reconnaît ou ne supporte pas la précédente tellement les choses évoluent rapidement, notamment les acteurs malicieux.</p>
+<p>Des événements et meetups se mettent en place pour échanger localement, à l&rsquo;image des meetups 2600 qui ont lieu à Montréal et Québec (sporadiquement), le forum mtl2600 et la première version du Hackfest, organisée par le CENTINEL (d&rsquo;où pensez-vous que le nom de notre mascotte sort?) de l&rsquo;Université Laval.</p>
+<h3 id="2000s"><strong>2000s</strong></h3>
+<p>Après 3 éditions du Hackfest organisées par l&rsquo;Université Laval, les rencontres qc2600 débutent avec plusieurs membres des groupes de hacking et piratage éthique de la scène de Québec. Ces rencontres qui étaient plutôt sur la ligne de la légalité se sont transformées en rencontres mensuelles à la Cage aux Sports ou à la Halte-Bouffe de Place Laurier avec des amis de sécurité ayant débuté un emploi en sécurité informatique de 2004 jusqu&rsquo;autour de l&rsquo;été 2009. L&rsquo;un de nos cofondateurs a l&rsquo;idée de refaire le Hackfest mais hors université. Ainsi par un certain matin de juin, une planification à eu lieu, une incorporation fut créée, et le Hackfest Reloaded naît. Celui-ci devait avoir lieu à l&rsquo;Université Laval mais le virus H1N1 nous vole notre local, et ainsi l&rsquo;événement fut transféré dans un hôtel. 4 mois plus tard, le 7 novembre 2009, plus de 175 personnes se sont présentées dans le sous-sol de l&rsquo;hôtel Universel où environ 8 conférences ont eu lieu suivi d&rsquo;un concours de crochetage et d&rsquo;un CTF Red vs Blue!</p>
+<h3 id="aujourdhui"><strong>AUJOURD&rsquo;HUI</strong></h3>
+<p>Le partage d&rsquo;informations, le réseautage, et échanger sur des projets ou défis en milieu d&rsquo;emploi sont des éléments critiques à l&rsquo;avancement de la communauté en sécurité de l&rsquo;information, notamment avec des acteurs malicieux qui ont fortement progressé ces dernières années en étant souvent associés avec le crime organisé ou des gouvernements. Il va sans parler des organisations qui sont désemparées face aux défis et qui commencent à peine à s&rsquo;organiser. C&rsquo;est ce que le Hackfest promeut depuis au moins 10 ans et a bien l&rsquo;intention de continuer!</p>
+<p>Sous l&rsquo;égide de Hackfest Communication, une organisation à but non lucrative, il y a présentement au niveau local le iHack (mini-Hackfest, <a href="https://ihack.computer">https://ihack.computer</a>), le QuébecSec (conférences et rencontres mensuelles locales, <a href="https://Quebecsec.ca">https://Quebecsec.ca</a>), le podcast francophone La French Connection (<a href="https://securite.fm">https://securite.fm</a>) et le party canadien du DEF CON (<a href="https://hack-n-moose.ca">https://hack-n-moose.ca</a>). De plus, l&rsquo;équipe du Hackfest se fait présente dans des écoles et divers événements, tel le feu CQSI ou SéQCure.</p>
+<p>De plus, un élément marquant et critique qui a permis à plusieurs de s&rsquo;épanouir et de se démarquer dans le milieu fut le Hackfest CTF, notamment avec de super esprits créatifs apportant des idées toutes aussi folles les unes des autres - réacteur nucléaire, WarGames, maquette avec un barrage, réalité Entreprise, bombe&hellip; Le Hackfest ne serait pas ce qu&rsquo;il est sans les équipes et collaborateurs du CTF qui se sont succédés au fil des années en levant sans arrêt la barre et ne reculant devant aucun défi, à l&rsquo;image de notre monde de plus en plus complexe. Le nombre d&rsquo;inscriptions et la logistique nécessaire nous surprennent d&rsquo;année en année, notamment la vitesse des inscriptions!</p>
+</p>
+                </div>
+                
+            </div>
+        </section>
+        
+        <div class="partner-carousel owl-carousel partner-carousel-opacity">
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2009.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2010.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2011.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2012.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2013.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2014.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2015.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2016.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2017.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2018.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2019.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2020.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2021.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2022.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2023.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2024.png"
+                /></a>
+            </div>
+            
+            <div class="item">
+                <a href="https://hackfest.ca/fr/about/the-logos/"
+                    ><img src="https://hfctf.ca/images/logos/hf2025.png"
+                /></a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+</div>
+        
+<footer>
+    <div class="footer-upper footer-light footer-light-second page-bg page-bg-5 pt-100 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="footer-content-item">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="https://hfctf.ca/images/logo-white-tiny.png" alt="logo"></a>
+                        </div>
+                        <div class="footer-details footer-details-light">
+                            <ul class="social-list social-list-white">
+                                <li>
+                                <a href="https://discord.gg/WcT5Xrd"><span class="iconify" data-icon="la:discord" data-width="25" data-height="25"></span>
+                                </a>
+                            </li>
+                                <li>
+                                    <a href="https://www.facebook.com/hackfest"><i class="flaticon-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/hackfest_ca"><i class="flaticon-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/user/hackfestca"><i class="flaticon-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/hackfestca/"><i class="flaticon-instagram"></i></a>
+                                </li>
+                                <ul class="social-list social-list-white">
+                                    <li>
+                                    <a href="https://www.flickr.com/photos/hackfest2k9/"><span class="iconify" data-icon="ri:flickr-line" data-width="25" data-height="25"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="footer-content-list footer-content-item desk-pad-left-70">
+                        <div class="footer-content-title">
+                            <h3>Contactez-nous</h3>
+                        </div>
+                        <div class="footer-details footer-address">
+                            <div class="footer-address-item">
+                                <div class="footer-address-icon">
+                                    <i class="flaticon-email"></i>
+                                </div>
+                                <div class="footer-address-text">
+                                    <h4>Information</h4>
+                                    <p><a href="mailto:info@hfctf.ca">info@hfctf.ca</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-lower bg-black2">
+        <div class="container">
+            <div class="footer-copyright-text footer-copyright-text-secondcolor">
+                    <p>Fait avec 🤍 par l'équipe du HFCTF</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+        <div class="scroll-top" id="scrolltop">
+            <div class="scroll-top-inner scroll-top-inner-secondcolor">
+               Défiler vers le haut <i class="bx bx-down-arrow-alt"></i>
+            </div>
+        </div>
+
+
+<script src="https://hfctf.ca/js/jquery-3.5.1.min.js"></script>
+<script src="https://hfctf.ca/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.magnific-popup.min.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.waypoints.min.js"></script>
+<script src="https://hfctf.ca/js/jquery.counterup.min.js"></script>
+
+<script src="https://hfctf.ca/js/owl.carousel.min.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.nice-select.min.js"></script>
+
+<script src="https://hfctf.ca/js/isotope.pkgd.min.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.ajaxchimp.min.js"></script>
+
+<script src="https://hfctf.ca/js/form-validator.min.js"></script>
+
+<script src="https://hfctf.ca/js/contact-form-script.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.meanmenu.min.js"></script>
+
+<script src="https://hfctf.ca/js/script.js"></script>
+
+<script src='https://use.edgefonts.net/butcherman.js'></script>
+<script src='https://use.edgefonts.net/creepster.js'></script>
+<script src='https://use.edgefonts.net/emilys-candy.js'></script>
+
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,3253 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+
+
+
+
+<!-- Primary meta -->
+<title>Historique — Hackfest 2026</title>
+<meta name="description" content="Découvrez l'histoire du Hackfest depuis 2009 - l'évolution de l'événement en cybersécurité au Québec">
+<link rel="canonical" href="historique">
+
+<!-- Open Graph -->
+<meta property="og:type"        content="website">
+<meta property="og:site_name"   content="Hackfest 2026">
+<meta property="og:title"       content="Historique — Hackfest 2026">
+<meta property="og:description" content="Découvrez l'histoire du Hackfest depuis 2009 - l'évolution de l'événement en cybersécurité au Québec">
+<meta property="og:url"         content="https://hackfest.ca/historique/">
+<meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta property="og:image:alt"   content="Hackfest 2026">
+<meta property="og:locale"      content="fr_CA">
+
+<!-- Twitter Card -->
+<meta name="twitter:card"        content="summary">
+<meta name="twitter:site"        content="@hackfest_ca">
+<meta name="twitter:title"       content="Historique — Hackfest 2026">
+<meta name="twitter:description" content="Découvrez l'histoire du Hackfest depuis 2009 - l'évolution de l'événement en cybersécurité au Québec">
+<meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- Hreflang (bilingual) -->
+
+
+<link rel="alternate" hreflang="fr"        href="historique">
+<link rel="alternate" hreflang="en"        href="https://hackfest.ca/en/history/">
+<link rel="alternate" hreflang="x-default" href="historique">
+
+
+  <!-- Favicon and touch icon (192x192) -->
+<link rel="icon" type="image/webp" sizes="192x192" href="https://hackfest.ca/assets/images/touch-icon-192x192.webp">
+<link rel="apple-touch-icon" sizes="192x192" href="https://hackfest.ca/assets/images/touch-icon-192x192.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Orbitron:wght@400;500;600;700&family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/main.css">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/history.css">
+  <script defer src="https://analytics.hackfest.ca/script.js" data-website-id="0ce77795-100e-4f53-92c3-5ea0922c0b15"></script>
+</head>
+<body class="history-page">
+  <header class="site-header">
+  <div class="header-inner">
+    <div class="header-left">
+      <a href="index.html" class="logo">
+        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Hackfest Logo">
+      </a>
+      
+      
+      
+      
+      
+      
+    </div>
+    <nav class="main-nav" id="mainNav">
+      <ul class="nav-list">
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Communauté</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item has-dropdown">
+              
+                <button class="nav-btn">Hackfest</button>
+              
+              
+              <ul class="dropdown sub-dropdown">
+                
+                <li><a href="ctfs">CTFs</a></li>
+                
+                <li><a href="villages">Villages</a></li>
+                
+                <li><a href="formations">Formations</a></li>
+                
+                <li><a href="spectacle">Spectacle</a></li>
+                
+                <li><a href="after-dark">After Dark</a></li>
+                
+                <li><a href="hackfest-schedule">Programme Hackfest</a></li>
+                
+                <li><a href="partenaires-hackfest">Partenaires</a></li>
+                
+              </ul>
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="polar">Polar</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="quebecsec">QuébecSec</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="ihack">iHack</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://securite.fm">French Connection</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="services">Services</a>
+          
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="sejour">Séjour</a>
+          
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="horaire">Horaire</a>
+          
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Partenaires</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="partenaires-hackfest">Hackfest</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="polar#sponsors">POLAR</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="infolettre-partenaires">Infolettre partenaires</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://sponsorship.hackfest.ca">Devenir partenaire</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Contact</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="a-propos">À propos</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="comite/index.html">Le comité</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="contact/index.html">Nous contacter</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="historique">Historique</a>
+          
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Archive</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="conferences">Présentations (Vidéos)</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+      </ul>
+
+      <!-- Mobile-only footer: CTAs and language switcher moved from header-right -->
+      <div class="mobile-nav-cta">
+        <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="btn btn-primary">S'inscrire</a>
+        <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor">Commanditer l'événement</a>
+        <a href="https://hackfest.ca/en/history/" class="mobile-nav-lang">
+          <svg class="globe-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          EN
+        </a>
+      </div>
+    </nav>
+    <div class="header-right">
+      <a href="https://hackfest.ca/en/history/" class="lang-switch"><svg class="globe-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> EN</a>
+      <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="btn btn-primary btn-sm">S'inscrire</a>
+      <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor btn-sm">Commanditer l'événement</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <!-- History Hero Section -->
+    <section class="history-hero">
+      <div class="history-hero-content">
+        <h1>Notre Histoire</h1>
+        <p>L'évolution du Hackfest depuis 2009</p>
+      </div>
+    </section>
+
+    <!-- History Timeline -->
+    
+
+<!-- History Timeline Section -->
+<section class="history-timeline" aria-label="L'histoire de chaque édition et les anecdotes">
+  <div class="history-timeline-inner">
+    <h2 class="history-timeline-title">L'histoire de chaque édition et les anecdotes</h2>
+
+    <div class="history-timeline-track">
+      
+      <article class="history-entry" data-year="2026" data-anecdotes="[]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2026</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2026/2026.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2026/2026.webp"
+              alt="Hackfest 2026 - LEVEL UP!"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">LEVEL UP!</h3>
+              <span class="history-subtitle">En développement</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>L'histoire est en train d'être écrite...</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>Vous verrez en octobre 2026!</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2026"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+
+      
+      <article class="history-entry" data-year="2025" data-anecdotes="[&quot;2025, Plus grand, plus fort, plus Hackfest: 2025 marque une étape importante pour POLAR qui déménage au Capitole de Québec, une salle intime et d&#39;une beauté remarquable. Banquet succulent, conférenciers du tonnerre, le tout dans un écrin à la hauteur de l&#39;événement.&quot;,&quot;Dans l&#39;esprit d&#39;innovation qui caractérise Hackfest, la plateforme Hackfest NOW voit le jour : un système en temps réel indiquant ce qui se passe où dans l&#39;événement, accessible sur le web, sur mobile et affiché sur des panneaux lumineux à travers le site.&quot;,&quot;Du côté du CTF, on monte encore d&#39;un cran avec un train à hacker, et le CTF Physique s&#39;offre une pièce maîtresse : une réplique d&#39;une bombe atomique de 12 pieds et plus de 200 livres trônant sur le plancher. On ne fait décidément jamais les choses à moitié. Le village SCADA/ICS accueille quant à lui une vraie voiture, un système d&#39;éolienne et un panneau industriel, de quoi ravir les amateurs de hacking physique.&quot;,&quot;Le village Générations revient cette année dans une première collaboration avec CyberCap, une belle façon d&#39;ouvrir les portes de la communauté à la prochaine génération.&quot;,&quot;Et pour couronner le tout, 2025 marque la toute première édition du Hackfest Afterdark le samedi soir : podcast, le jeu Hacker Charlatan, et un concours de social engineering nocturne ouvert à tous les 18 ans et plus, sans préparation, sans connaître la cible d&#39;avance. Extrême? Absolument. Un succès fou? Sans aucun doute.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2025</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2025/2025.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025.webp"
+              alt="Hackfest 2025 - In the SHELL"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2025">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-01.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-02.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-03.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+7</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">In the SHELL</h3>
+              <span class="history-subtitle">Encore plus !</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>De la Consolidation aux Services : Propulser la Cybersécurité avec le Hackfest...</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>De la Consolidation aux Services : Propulser la Cybersécurité avec le Hackfest
+
+Plus ça change, plus c’est la même bataille : lois, vulnérabilités, rançongiciels, promesses non livrées. Après avoir consolidé, nous allons plus loin : le Hackfest passe en mode services.
+
+Notre mission : former, éveiller, agir. Mais désormais, nous sortons encore plus des murs de l’événement. Nous retournons dans les écoles, irons dans les entreprises et les organisations pour bâtir une cybersécurité au quotidien.
+
+Notre podcast La French Connection prend aussi la route et passe en mode vidéo! Invitez-nous à vos conférences, événements ou soirées. Nous créons des moments uniques, en direct et en vidéo, avec vos équipes.
+
+Enfin, nous allons all-in sur les pratiques de sécurité suivantes :
+
+- Formations en ligne et en présentiel
+- Pentests ciblés
+- Ingénierie sociale : phishing, vishing, smishing
+
+Un adage dit que « l’action vaut mieux que l’intention ». Cette 17e édition du Hackfest n’est plus qu’un rendez-vous annuel : c’est un tremplin vers l’action continue.
+</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2025"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2025" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-01.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-02.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-03.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-04.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-05.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-06.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-07.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-08.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-09.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2025/2025-10.webp"
+              alt="Hackfest 2025 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2025, Plus grand, plus fort, plus Hackfest: 2025 marque une étape importante pour POLAR qui déménage au Capitole de Québec, une salle intime et d'une beauté remarquable. Banquet succulent, conférenciers du tonnerre, le tout dans un écrin à la hauteur de l'événement.</p>
+            
+            <p>Dans l'esprit d'innovation qui caractérise Hackfest, la plateforme Hackfest NOW voit le jour : un système en temps réel indiquant ce qui se passe où dans l'événement, accessible sur le web, sur mobile et affiché sur des panneaux lumineux à travers le site.</p>
+            
+            <p>Du côté du CTF, on monte encore d'un cran avec un train à hacker, et le CTF Physique s'offre une pièce maîtresse : une réplique d'une bombe atomique de 12 pieds et plus de 200 livres trônant sur le plancher. On ne fait décidément jamais les choses à moitié. Le village SCADA/ICS accueille quant à lui une vraie voiture, un système d'éolienne et un panneau industriel, de quoi ravir les amateurs de hacking physique.</p>
+            
+            <p>Le village Générations revient cette année dans une première collaboration avec CyberCap, une belle façon d'ouvrir les portes de la communauté à la prochaine génération.</p>
+            
+            <p>Et pour couronner le tout, 2025 marque la toute première édition du Hackfest Afterdark le samedi soir : podcast, le jeu Hacker Charlatan, et un concours de social engineering nocturne ouvert à tous les 18 ans et plus, sans préparation, sans connaître la cible d'avance. Extrême? Absolument. Un succès fou? Sans aucun doute.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72177720330064117" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2024" data-anecdotes="[&quot;2024, Frôle la perfection: 2024, c&#39;est le retour aux sources. Pas de drama, pas de chaos, juste du Hackfest dans ce qu&#39;il a de meilleur. POLAR gagne en maturité avec une superbe scène et des conférenciers d&#39;exception, et les spectacles musicaux font leur grand retour au Centre des congrès.&quot;,&quot;Du côté des activités, Hackfest continue de grandir et innove avec le premier CTF Physique de son histoire. Les participants doivent d&#39;abord se qualifier en ouvrant une porte le plus rapidement possible et en désamorçant une fausse bombe, couper le bon fil, pas le mauvais. Les qualifiés accèdent ensuite à un escape room de hacking grandeur nature : infiltrer une salle sans se faire détecter, pirater des caméras, reconstituer des mots de passe à partir de papiers déchiquetés et bien plus encore.&quot;,&quot;2024 voit aussi apparaître un village centré sur une maquette 3D grandeur nature d&#39;un vol de banque. Les participants doivent trouver comment dérober le tout en combinant plusieurs technologies et en contournant les systèmes de sécurité en place. Un défi aussi créatif qu&#39;immersif.&quot;,&quot;Le CTF accueille aussi une vraie track SCADA/ICS avec un prix pouvant atteindre 5000$ pour ceux qui réussissent à trouver tous les flags.&quot;,&quot;Les commentaires sont unanimes : 2024 est la meilleure année du Hackfest. Un beau problème à avoir.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2024</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2024/2024.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2024/2024.webp"
+              alt="Hackfest 2024 - 16 bit"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2024">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2024/2024-01.webp"
+              alt="Hackfest 2024 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2024/2024-02.webp"
+              alt="Hackfest 2024 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2024/2024-03.webp"
+              alt="Hackfest 2024 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+5</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">16 bit</h3>
+              <span class="history-subtitle">En préparation</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>De la Sensibilisation à l’Action : Consolider la Cybersécurité au Hackfest ...</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>De la Sensibilisation à l’Action : Consolider la Cybersécurité au Hackfest
+
+Plus ça change, plus c'est pareil, que ce soit du côté offensif, défensif, légal, des rançongiciels ou des investissements. La mission du Hackfest est simple : sensibiliser et former. Il y a un manque criant de ces deux éléments, surtout depuis l’arrivée de la Loi 96, sans oublier les coûts exorbitants qui ne reflètent pas toujours la qualité. Nous tentons de remédier à cela avec des formations avant-gardistes et locales. Cette année, nous avons un nouveau village SCADA/ICS et une formation en ingénierie sociale pour renforcer nos organisations et éveiller les consciences.
+
+Un adage dit que "les bottines doivent suivre les babines", et c'est particulièrement vrai en cybersécurité. Avec les nouvelles technologies, il est crucial de comprendre leur fonctionnement afin d’évaluer et de gérer les risques. Il en va de même pour les lois en cybersécurité : sans suivi et sans conséquences, il n'y a ni résilience, ni progrès. Il est essentiel d’agir avec rigueur pour avancer.
+
+Cela ne signifie pas que nous pouvons nous déresponsabiliser. Même si ces responsabilités évoluent, il est de notre devoir de rappeler l'importance de l’éducation et de la planification des imprévus, que ce soit en lien avec l'intelligence artificielle, les politiques de cybersécurité ou l’infonuagique.
+
+Bonne exploration et bienvenue à cette 16e édition du Hackfest! … 17 …
+</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2024"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2024" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2024/2024-01.webp"
+              alt="Hackfest 2024 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2024/2024-02.webp"
+              alt="Hackfest 2024 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2024/2024-03.webp"
+              alt="Hackfest 2024 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2024/2024-04.webp"
+              alt="Hackfest 2024 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2024/2024-05.webp"
+              alt="Hackfest 2024 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2024/2024-06.webp"
+              alt="Hackfest 2024 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2024/2024-07.webp"
+              alt="Hackfest 2024 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2024/2024-08.webp"
+              alt="Hackfest 2024 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2024, Frôle la perfection: 2024, c'est le retour aux sources. Pas de drama, pas de chaos, juste du Hackfest dans ce qu'il a de meilleur. POLAR gagne en maturité avec une superbe scène et des conférenciers d'exception, et les spectacles musicaux font leur grand retour au Centre des congrès.</p>
+            
+            <p>Du côté des activités, Hackfest continue de grandir et innove avec le premier CTF Physique de son histoire. Les participants doivent d'abord se qualifier en ouvrant une porte le plus rapidement possible et en désamorçant une fausse bombe, couper le bon fil, pas le mauvais. Les qualifiés accèdent ensuite à un escape room de hacking grandeur nature : infiltrer une salle sans se faire détecter, pirater des caméras, reconstituer des mots de passe à partir de papiers déchiquetés et bien plus encore.</p>
+            
+            <p>2024 voit aussi apparaître un village centré sur une maquette 3D grandeur nature d'un vol de banque. Les participants doivent trouver comment dérober le tout en combinant plusieurs technologies et en contournant les systèmes de sécurité en place. Un défi aussi créatif qu'immersif.</p>
+            
+            <p>Le CTF accueille aussi une vraie track SCADA/ICS avec un prix pouvant atteindre 5000$ pour ceux qui réussissent à trouver tous les flags.</p>
+            
+            <p>Les commentaires sont unanimes : 2024 est la meilleure année du Hackfest. Un beau problème à avoir.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72177720321401274" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2023" data-anecdotes="[&quot;Ce que l&#39;on peut dire, c&#39;est que pour les participants, ce fut une superbe édition. 2023 voit naître la vitrine des startups ainsi que la toute première édition de POLAR, un événement dédié aux gestionnaires en cybersécurité qui affiche complet à chaque année depuis son lancement.&quot;,&quot;Pour une histoire qui allège l&#39;ambiance, parlons du booth du Social Engineering Village. Ce booth construit sur mesure est composé de quatre vitres, un plancher, un toit et quatre poteaux pour tenir le tout. Cette année-là, les quatre poteaux ont mystérieusement disparu. Le booth a donc tenu tout seul, coincé bizarrement entre les craques du stage. Y faut ce qu&#39;il faut!&quot;,&quot;2023 fut techniquement une année de transition, malgré tous les défis traversés en coulisses. Le Hackfest avançait, coûte que coûte.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2023</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2023/2023.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2023/2023.webp"
+              alt="Hackfest 2023 - Back to the Future"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2023">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2023/2023-01.webp"
+              alt="Hackfest 2023 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2023/2023-02.webp"
+              alt="Hackfest 2023 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2023/2023-03.webp"
+              alt="Hackfest 2023 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+5</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">Back to the Future</h3>
+              <span class="history-subtitle">En préparation</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>Faire entrer la sécurité informatique dans le futur avec un thème de film Retour vers le futur...</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>Faire entrer la sécurité informatique dans le futur avec un thème de film Retour vers le futur. Nous aspirions tous à un retour aux conventions en personne, mais le monde a changé. Il est temps qu'une nouvelle vision nous inspire.
+
+Êtes-vous prêt à entrer dans le futur de la sécurité informatique ? Rejoignez-nous pour un voyage électrisant dans le monde de la cybersécurité alors que nous sommes fiers de présenter la toute dernière mouture du Hackfest, avec un thème qui résume l'esprit de notre époque.
+
+Le Hackfest a toujours remis en question le statu quo, et cette année, en ne dérogeant pas de nos habitudes, nous sommes ravis de vous présenter POLAR, un événement permettant aux startups et aux managers de plonger dans la réalité de la cybersécurité et de permettre un certain réseautage.
+
+Notre engagement envers la communauté de la cybersécurité se poursuit avec un Discord de plus de 4 000 membres, des initiatives communautaires tels QuebecSec et un podcast dynamique. D’ailleurs, nous attendons toujours que nos propres membres résolvent l’énigme qui entoure ce dernier…
+
+Nous sommes également fiers de soutenir l'initiative CQEC (Circuit Québécois des événements en cybersécurité), fédérant localement des événements de cybersécurité pour renforcer la sécurité numérique du Québec et du Canada. Rejoignez-nous au Hackfest 2023 et faites partie de l'avenir de la cybersécurité !
+</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2023"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2023" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2023/2023-01.webp"
+              alt="Hackfest 2023 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2023/2023-02.webp"
+              alt="Hackfest 2023 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2023/2023-03.webp"
+              alt="Hackfest 2023 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2023/2023-04.webp"
+              alt="Hackfest 2023 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2023/2023-05.webp"
+              alt="Hackfest 2023 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2023/2023-06.webp"
+              alt="Hackfest 2023 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2023/2023-07.webp"
+              alt="Hackfest 2023 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2023/2023-08.webp"
+              alt="Hackfest 2023 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>Ce que l'on peut dire, c'est que pour les participants, ce fut une superbe édition. 2023 voit naître la vitrine des startups ainsi que la toute première édition de POLAR, un événement dédié aux gestionnaires en cybersécurité qui affiche complet à chaque année depuis son lancement.</p>
+            
+            <p>Pour une histoire qui allège l'ambiance, parlons du booth du Social Engineering Village. Ce booth construit sur mesure est composé de quatre vitres, un plancher, un toit et quatre poteaux pour tenir le tout. Cette année-là, les quatre poteaux ont mystérieusement disparu. Le booth a donc tenu tout seul, coincé bizarrement entre les craques du stage. Y faut ce qu'il faut!</p>
+            
+            <p>2023 fut techniquement une année de transition, malgré tous les défis traversés en coulisses. Le Hackfest avançait, coûte que coûte.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72177720313579269" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2022" data-anecdotes="[&quot;2022, Le retour en présentiel, version chaos: 2022, enfin le retour en présentiel! Mais la réalité aurait pu être très différente. L&#39;idée initiale était de rester en hôtel pour préserver cette ambiance intime chère au Hackfest, avec les chambres à proximité des conférences. Après plus de huit mois de négociation avec un certain hôtel, des spreadsheets décrivant l&#39;événement à l&#39;heure près, par salle, par jour, qui fait quoi où, l&#39;équipe reçoit un contrat moins de deux mois avant l&#39;événement où 80% du contenu ne correspond pas à ce qui avait été convenu. Après une journée de débat au sein du comité, la décision est prise : on abandonne et on trouve autre chose, six semaines avant l&#39;événement.&quot;,&quot;S&#39;ensuit une visite du Centre des congrès et du Centre Vidéotron. Oui, le Hackfest a failli atterrir au Centre Vidéotron, c&#39;était même le choix numéro un, jusqu&#39;à la réception de la proposition financière.&quot;,&quot;Le Centre des congrès fut finalement une belle surprise : une gestion simple et efficace, une équipe formidable, et 80% moins d&#39;efforts pour la mise en place. On n&#39;aurait pas cru que ça se passerait aussi bien.&quot;,&quot;Dans les bons coups savoureux de l&#39;édition, le gouvernement du Québec devient partenaire et M. Éric Caire assure le mot d&#39;ouverture. Et pour l&#39;occasion, de l&#39;argent d&#39;un autre pays fut distribué au gouvernement et à certains joueurs de l&#39;industrie, en blague sarcastique bien sentie pour illustrer que notre argent n&#39;avait plus grande valeur. Les photos parlent d&#39;elles-mêmes.&quot;,&quot;Et malgré tout ce chaos en coulisses, l&#39;édition fut un succès retentissant et le nombre de participants repart à la hausse.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2022</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2022/2022.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2022/2022.webp"
+              alt="Hackfest 2022 - Ressurection"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2022">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2022/2022-01.webp"
+              alt="Hackfest 2022 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2022/2022-02.webp"
+              alt="Hackfest 2022 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2022/2022-03.webp"
+              alt="Hackfest 2022 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+4</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">Ressurection</h3>
+              <span class="history-subtitle">Le retour à la réalité, de retour en présentiel!</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>Nous sommes de retour en présentiel avec une édition bien mise en place dans ce qui sera le nouveau Plaza.... le centre des congrès de Québec.</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>De la pandémie au virtuel à la résurrection …
+
+Cette édition 2022 fut beaucoup plus complexe à réaliser après 2 éditions virtuelles. Bien que les deux dernières éditions ont regroupé plus de 1200 personnes chacunes, nous avons clairement constaté un intérêt déclinant, en plus du nôtre, dans les événements virtuels. Ajoutez à cela le fait que plusieurs hôtels manquent de personnel, les incertitudes et des dates difficiles à accorder avec nos besoins techniques, cela nous a mené à un changement de date afin de vous offrir un événement de qualité… Ce fût une décision très difficile de faire un événement de dernière minute, mais nous croyons que c’était mieux qu’un mauvais événement ou de remettre le tout. Après tout, c’est le temps que la communauté puisse se revoir en vrai, discuter des vrais enjeux et ce, pas seulement via discord! :)
+
+Bref, cette édition se veut axée autour de la résurrection des éditions en présentiel et de la résilience, rien de mieux qu’un événement de dernière minute! En même temps, pourquoi ne pas faire changement et essayer de nouvelles choses, tant qu’à ?
+
+Nous notons aussi un intérêt plus local, le tout axé autour de la communauté et de l'apprentissage.  Le tout au goût du jour avec les multiples événements et changements dans le domaine de la sécurité de l'information au Québec.  Notamment la loi 25, les multiples fuites de données et la guerre de la désinformation autour de la COVID ou la guerre en Ukraine.
+
+D'ailleurs, en essayant du nouveau, nous avons étrangement réservé l'édition 2023 avant celle de 2022!
+</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2022"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2022" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2022/2022-01.webp"
+              alt="Hackfest 2022 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2022/2022-02.webp"
+              alt="Hackfest 2022 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2022/2022-03.webp"
+              alt="Hackfest 2022 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2022/2022-04.webp"
+              alt="Hackfest 2022 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2022/2022-05.webp"
+              alt="Hackfest 2022 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2022/2022-06.webp"
+              alt="Hackfest 2022 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2022/2022-07.webp"
+              alt="Hackfest 2022 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2022, Le retour en présentiel, version chaos: 2022, enfin le retour en présentiel! Mais la réalité aurait pu être très différente. L'idée initiale était de rester en hôtel pour préserver cette ambiance intime chère au Hackfest, avec les chambres à proximité des conférences. Après plus de huit mois de négociation avec un certain hôtel, des spreadsheets décrivant l'événement à l'heure près, par salle, par jour, qui fait quoi où, l'équipe reçoit un contrat moins de deux mois avant l'événement où 80% du contenu ne correspond pas à ce qui avait été convenu. Après une journée de débat au sein du comité, la décision est prise : on abandonne et on trouve autre chose, six semaines avant l'événement.</p>
+            
+            <p>S'ensuit une visite du Centre des congrès et du Centre Vidéotron. Oui, le Hackfest a failli atterrir au Centre Vidéotron, c'était même le choix numéro un, jusqu'à la réception de la proposition financière.</p>
+            
+            <p>Le Centre des congrès fut finalement une belle surprise : une gestion simple et efficace, une équipe formidable, et 80% moins d'efforts pour la mise en place. On n'aurait pas cru que ça se passerait aussi bien.</p>
+            
+            <p>Dans les bons coups savoureux de l'édition, le gouvernement du Québec devient partenaire et M. Éric Caire assure le mot d'ouverture. Et pour l'occasion, de l'argent d'un autre pays fut distribué au gouvernement et à certains joueurs de l'industrie, en blague sarcastique bien sentie pour illustrer que notre argent n'avait plus grande valeur. Les photos parlent d'elles-mêmes.</p>
+            
+            <p>Et malgré tout ce chaos en coulisses, l'édition fut un succès retentissant et le nombre de participants repart à la hausse.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72177720303684919" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2021" data-anecdotes="[&quot;2021, La fatigue du virtuel: 2021, toujours en ligne. L&#39;édition est mieux organisée que jamais, le système est plus rodé, la gestion plus fluide, mais le hype n&#39;y est plus. Tout le monde est épuisé du virtuel, entre les emplois sur Zoom, les couvre-feux et l&#39;isolement qui s&#39;éternise. La participation chute, et c&#39;est tout à fait compréhensible.&quot;,&quot;L&#39;histoire de cette année est aussi courte que l&#39;intérêt général pour les événements en ligne à cette période. Les talks et workshops étaient excellents, mais c&#39;est ça qui est ça.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2021</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2021/2021.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2021/2021.webp"
+              alt="Hackfest 2021 - The N1ghtmar3s Edition"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2021">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2021/2021-01.webp"
+              alt="Hackfest 2021 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2021/2021-02.webp"
+              alt="Hackfest 2021 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2021/2021-03.webp"
+              alt="Hackfest 2021 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+1</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">The N1ghtmar3s Edition</h3>
+              <span class="history-subtitle">Le cauchemar continue...mais essaie de sortir de la terre!</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>Encore une édition en ligne...</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>Voir les anecdotes en cliquant sur les photos.</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2021"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2021" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2021/2021-01.webp"
+              alt="Hackfest 2021 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2021/2021-02.webp"
+              alt="Hackfest 2021 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2021/2021-03.webp"
+              alt="Hackfest 2021 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2021/2021-04.webp"
+              alt="Hackfest 2021 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2021, La fatigue du virtuel: 2021, toujours en ligne. L'édition est mieux organisée que jamais, le système est plus rodé, la gestion plus fluide, mais le hype n'y est plus. Tout le monde est épuisé du virtuel, entre les emplois sur Zoom, les couvre-feux et l'isolement qui s'éternise. La participation chute, et c'est tout à fait compréhensible.</p>
+            
+            <p>L'histoire de cette année est aussi courte que l'intérêt général pour les événements en ligne à cette période. Les talks et workshops étaient excellents, mais c'est ça qui est ça.</p>
+            
+            
+            <p class="history-flickr-link"><a href="historique#" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2020" data-anecdotes="[&quot;2020, La pandémie s&#39;invite au Hackfest: Oh oh. La pandémie chamboule tout, et Hackfest bascule en ligne pour la première fois de son histoire. Dans un autre timeline, l&#39;édition 2020 se serait tenue à l&#39;Hôtel Le Concorde de Québec, tout était négocié : des mois d&#39;organisation, des contrats signés, des visites sur place. Tout fut annulé, ce qui s&#39;avéra finalement pour le mieux, ou presque. On y reviendra en 2023.&quot;,&quot;Malgré tout, cette première édition en ligne fut un succès retentissant. La communauté, isolée depuis des mois, se retrouve avec un enthousiasme débordant, et la communauté Discord du Hackfest connaît une explosion de membres. Venez nous y rejoindre : discord.hackfest.ca&quot;,&quot;Et même en ligne, on ne fait pas les choses à moitié. Des villages sont au rendez-vous en format workshop : AWS Village, Hardware Hacking Village, ICS Village, IoT Village, et le Village Merveilleux de la Sécurité Mentale. La formule virtuelle n&#39;aura pas eu raison de l&#39;esprit Hackfest.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2020</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2020/2020.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2020/2020.webp"
+              alt="Hackfest 2020 - 12 Challenges of Hackfest"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2020">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2020/2020-01.webp"
+              alt="Hackfest 2020 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2020/2020-02.webp"
+              alt="Hackfest 2020 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">12 Challenges of Hackfest</h3>
+              <span class="history-subtitle">L'édition covid</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>L'édition 2020 fut une édition en ligne due à la pandémie de COVID-19.</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>Voir les anecdotes en cliquant sur les photos.</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2020"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2020" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2020/2020-01.webp"
+              alt="Hackfest 2020 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2020/2020-02.webp"
+              alt="Hackfest 2020 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2020, La pandémie s'invite au Hackfest: Oh oh. La pandémie chamboule tout, et Hackfest bascule en ligne pour la première fois de son histoire. Dans un autre timeline, l'édition 2020 se serait tenue à l'Hôtel Le Concorde de Québec, tout était négocié : des mois d'organisation, des contrats signés, des visites sur place. Tout fut annulé, ce qui s'avéra finalement pour le mieux, ou presque. On y reviendra en 2023.</p>
+            
+            <p>Malgré tout, cette première édition en ligne fut un succès retentissant. La communauté, isolée depuis des mois, se retrouve avec un enthousiasme débordant, et la communauté Discord du Hackfest connaît une explosion de membres. Venez nous y rejoindre : discord.hackfest.ca</p>
+            
+            <p>Et même en ligne, on ne fait pas les choses à moitié. Des villages sont au rendez-vous en format workshop : AWS Village, Hardware Hacking Village, ICS Village, IoT Village, et le Village Merveilleux de la Sécurité Mentale. La formule virtuelle n'aura pas eu raison de l'esprit Hackfest.</p>
+            
+            
+            <p class="history-flickr-link"><a href="historique#" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2019" data-anecdotes="[&quot;2019, L&#39;apogée avant la tempête: 2019 voit naître une initiative qui allait avoir un impact bien au-delà des murs du Hackfest. Steve Waterhouse et Patrick Mathieu scannent les infrastructures du gouvernement pour en exposer la désuétude, et celle-ci était grande. Cette initiative, aujourd&#39;hui connue sous le nom de hack-canada.ca, marque le début d&#39;efforts concrets qui mèneront à la création du CERT/AQ, puis au MCN, avec à la clé des améliorations significatives de la sécurité gouvernementale, un programme de bug bounty et bien plus encore.&quot;,&quot;Le CTF innove lui aussi avec l&#39;introduction d&#39;un badge électronique, un ajout qui connaît un succès immédiat auprès des participants.&quot;,&quot;2019 restera également comme l&#39;édition record d&#39;avant-pandémie, avec 1600 participants réunis au Plaza. Un chiffre qui ne sera retrouvé qu&#39;en 2024 et dépassé en 2025, mais ça, c&#39;est une autre histoire.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2019</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2019/2019.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2019/2019.webp"
+              alt="Hackfest 2019 - Upside Down"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2019">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2019/2019-01.webp"
+              alt="Hackfest 2019 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2019/2019-02.webp"
+              alt="Hackfest 2019 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2019/2019-03.webp"
+              alt="Hackfest 2019 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+4</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">Upside Down</h3>
+              <span class="history-subtitle">La fin du plaza</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>Fuite après fuite de données, 2019 passa et les québécois parmis tant d'autres réalisent petit à petit certains enjeux de protection des renseignements personnels...</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>Fuite après fuite de données,
+2019 passa et les québécois parmis tant d'autres réalisent petit à petit certains enjeux de protection des renseignements personnels, de sécurité informatique et d'identité grâce à Équifax, Desjardins, Capital One, Revenu Québec, Postes Canada...  Tout semble arriver en même temps, mais la problématique est loin d'être nouvelle et elle est maintenant mieux diffusée.  Merci PIPEDA1.  Il est moins facile de dissimuler tout incident sous le tapis pour éviter des conséquences.
+
+Avec de grands pouvoirs (d’accès), viennent de grandes responsabilités!
+
+Trop souvent, dans le monde des affaires, de nombreuses suppositions sont faites à l’interne sur des mesures en vigueur relatives à la sécurité informationnelle, ce qui a pour résultat de vérifier à peine, voire pas du tout, leur existence. Des exemples pourraient être de ne pas vérifier qui peut consulter les données sensibles ou même de s'assurer qu'une formation adéquate soit donnée. Les entreprises ont tendance à concentrer leurs efforts de formation sur des éléments techniques, laissant un vide pour la formation de leurs employés contre les attaques telles que le phishing ou l'ingénierie sociale. Malheureusement, ces points sont parmi les plus simples pour cibler une entreprise.
+
+La sécurité de l'information est la responsabilité de tous, et ce peu importe votre rôle et votre employeur.
+
+Bien que nous sachions qu'encourager une culture de sécurité forte et cohérente au sein d'une entreprise constitue un moyen efficace de commencer à apporter des améliorations, nombreux sont ceux qui trouvent cette idée irréalisable ou pensent que cela nuit à leur capacité d'être agile. Plutôt que de prendre la responsabilité d’encourager les améliorations, de pointer du doigt ou de dire «ceci ne fait pas parti de mes tâches», les départements compartimentés en silos ont été réduits au silence ainsi que l’espoir d’un changement pour améliorer l’ensemble de l’organisation.
+
+Heureusement, beaucoup commencent à comprendre que ce n’est pas simplement une phase que nous traversons. Nous allons continuer à voir de plus en plus d’entreprises faire la manchette pour ne pas sécuriser correctement les données de leurs clients ou de leurs employés. Mais par où doit-on commencer? Comment pouvons-nous avoir un impact le plus positif possible sur nos efforts de sécurité? Bien que la réponse ne soit pas facile, cela se résume en grande partie à l’éducation. L'éducation de nos employés et sur la façon de sécuriser correctement nos infrastructures.
+
+La sécurité de l'information est la responsabilité de tous, et ce peu importe votre rôle et votre employeur.
+
+Les bons coups
+Nous avons constaté de grands progrès dans la formation des employés et la gestion des incidents au cours de la dernière année. Parmi les améliorations apportées, mentionnons la planification par le gouvernement provincial du Québec d’un centre de cyberdéfense centralisé et la transparence de Desjardins en réponse à leur incident. Ces changements sont une chose dont nous pouvons tous être fiers et nous pouvons continuer d’apprendre de ceux-ci. Ensemble, nous pouvons contribuer à influencer ces changements positifs en poursuivant la conversation et en contribuant à de nouvelles améliorations en sécurité informatique. Soyons fiers de nos bons coups, parlons-en et partageons nos connaissances entre nous tous et nos organisations!
+
+1PIPEDA : Personal Information Protection and Electronic Documents Act, voir https://bit.ly/2cDg5a1
+</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2019"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2019" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2019/2019-01.webp"
+              alt="Hackfest 2019 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2019/2019-02.webp"
+              alt="Hackfest 2019 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2019/2019-03.webp"
+              alt="Hackfest 2019 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2019/2019-04.webp"
+              alt="Hackfest 2019 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2019/2019-05.webp"
+              alt="Hackfest 2019 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2019/2019-06.webp"
+              alt="Hackfest 2019 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2019/2019-07.webp"
+              alt="Hackfest 2019 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2019, L'apogée avant la tempête: 2019 voit naître une initiative qui allait avoir un impact bien au-delà des murs du Hackfest. Steve Waterhouse et Patrick Mathieu scannent les infrastructures du gouvernement pour en exposer la désuétude, et celle-ci était grande. Cette initiative, aujourd'hui connue sous le nom de hack-canada.ca, marque le début d'efforts concrets qui mèneront à la création du CERT/AQ, puis au MCN, avec à la clé des améliorations significatives de la sécurité gouvernementale, un programme de bug bounty et bien plus encore.</p>
+            
+            <p>Le CTF innove lui aussi avec l'introduction d'un badge électronique, un ajout qui connaît un succès immédiat auprès des participants.</p>
+            
+            <p>2019 restera également comme l'édition record d'avant-pandémie, avec 1600 participants réunis au Plaza. Un chiffre qui ne sera retrouvé qu'en 2024 et dépassé en 2025, mais ça, c'est une autre histoire.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72157711841868707" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2018" data-anecdotes="[&quot;2018, DECADE, 10 ans de Hackfest: 2018, c&#39;est l&#39;édition des 10 ans, et on ne fait pas les choses à moitié. L&#39;événement grandit comme jamais avec une multitude de villages : Internet des Objets, Social Engineering Contest, Soudure, RFID, Hardware Hacking, Hackfest RSA NoC, et même la Réalité Virtuelle. Du côté des CTF, on ne chôme pas non plus avec le Hackfest CTF, Missing CTF, OWASP CTF, Security Innovation CTF et le légendaire BrainFuck. Une programmation XXL pour une édition anniversaire.&quot;,&quot;Cette année, la ministre Karina Gould monte sur scène et lance un appel aux hackers pour l&#39;aider. Une nouvelle accueillie avec enthousiasme par la communauté... qui n&#39;aboutira malheureusement à rien. Vive la politique.&quot;,&quot;2018 marque aussi le début des t-shirts édition spéciale du Hackfest, avec un artiste qui illustre la Sentinel en train de détruire le Château Frontenac. Une pièce de collection pour les fidèles de l&#39;événement.&quot;,&quot;Et puis il y a Johnny Xmas. À chaque Hackfest, notre cher collègue s&#39;installe au bar pour une partie de quarters contre le barman. Il est à ce jour le seul à avoir enchaîné autant de victoires, allant jusqu&#39;à ramener un trophée chez lui. Pour les détails savoureux, allez lui en parler directement!&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2018</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2018/2018.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2018/2018.webp"
+              alt="Hackfest 2018 - Decade"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2018">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2018/2018-01.webp"
+              alt="Hackfest 2018 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2018/2018-02.webp"
+              alt="Hackfest 2018 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2018/2018-03.webp"
+              alt="Hackfest 2018 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+2</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">Decade</h3>
+              <span class="history-subtitle">10e anniversaire</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>Le Hackfest célèbre sa 10e édition avec le thème 'Decade'. Un moment historique pour la communauté québécoise en cybersécurité.</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>25 YEARS AGO… In a far far away hacking scene...
+
+Les Bulletin Board Systems (BBS) et Usenet sont en vogue pour entrer en contact avec des communautés, avant même IRC, à la fin des années 80 et au début des 90.  Un peu comme dans l’esprit du film WarGames.  Tout était en place pour assouvir la curiosité de jeunes qui ne cherchaient qu’à découvrir et apprendre de nouvelles choses tout en échangeant, que ce soit face à face ou en ligne.
+
+Le fait que le tout ne soit pas tant accessible rend attrayant le milieu qui est encore hors-la-loi, que ce soit avec l’utilisation de ToneLoc, des e-zines, du warez, des recettes de bombes, de la bananadine ou encore des jeux uniques de portes ou MMO.  La technologie débute et ainsi la sécurité de l’information.  Exploration de poubelles, boîtes rouges, sifflets venant de boîtes de céréales, meetings 2600, e-zines, DEF CON, les débuts du logiciel libre - bref, ce n’est pas les opportunités qui manquent.  Le tout se passe essentiellement en terminal et les seules interfaces étaient faites de dessins avec des caractères (ASCII art).  Certains établissent leur réseau de contacts avec une scène locale, tandis que d’autres se connectent plus loin, avec les cDc, Phrack, LoD, CCC, MoD ou autres groupes.
+
+Le Québec n’y a pas échappé, d’autant plus que plusieurs initiatives futures découlent de projets de cette époque.  Partant de Northern Phun Co et Corruption Addicts via les Illegal Granted Access, Total Control, Pyrofreak, Underdark, Quebec Hacker Alliance et Rectum Crew, il y avait de tout pour faire un monde, que ce soit en matière de phreaking, hacking, cracking, virii, carding ou autres trucs ± illégaux dont les auteurs se protègent des conséquences potentielles derrière des disclaimers douteux.  C’est la période intense où le monde échange sur IRC, que ce soit sur EFNet, Undernet ou autres.  Le WWW/Internet commence à être accessible au grand public et les modem câbles débutent.  M. et Mme tout le monde découvrent le monde longtemps obscur avec des interfaces graphiques accessible par Windows.  Le piratage est essentiellement mal vu et la sécurité de l’information fait surtout partie du monde des administrateurs réseau.
+
+Avec cette accessibilité, d’autres horizons s’ouvrent, car les interurbains sont tranquillement chose du passé, il est possible de communiquer avec la francophonie et d’autres pays de façon plus accessible (lire économique).  On découvre Madchat, kewl.org, CYBz, Coromputer, ZATAZ, WebHack et autres groupes.  Le grand public est tranquillement au courant de l’existence de cette contre-culture tel que démontré par la sortie des films Hackers et The Matrix.
+
+Petit à petit, les patenteux des BBS et des communautés IRC sortent de l’école et s’établissent sur le marché du travail pour tranquillement pas vite maturer et vieillir, manquer de temps pour chiller sur des chats.  De l’expérience est acquise durant cette décennie, tandis que d’autres communautés ou événements prennent la place - MafiaBoy, iLoveYou, … Les temps changent, une génération ne reconnaît ou ne supporte pas la précédente tellement les choses évoluent rapidement, notamment les acteurs malicieux.
+
+Des événements et meetups se mettent en place pour échanger localement, à l’image des meetups 2600 qui ont lieu à Montréal et Québec (sporadiquement), le forum mtl2600 et la première version du Hackfest, organisée par le CENTINEL (d’où pensez-vous que le nom de notre mascotte sort?) de l’Université Laval.
+
+10 YEARS AGO
+Après 3 éditions du Hackfest organisées par l'Université Laval, les rencontres qc2600 débutent avec plusieurs membres des groupes de hacking et piratage éthique de la scène de Québec, ceux-ci étant plutôt sur la ligne grosse de la légalité, se sont transformés en rencontres mensuelles à la Cage aux Sports ou à la Halte-Bouffe de Place Laurier avec des amis de sécurité ayant débuté un emploi en sécurité informatique de 2004 jusqu'autour de l’été 2009 où l’un de nos co-fondateurs a l'idée de refaire le Hackfest mais hors-université. Ainsi par un certain matin de juin, une planification à eu lieu, une incorporation fut créée, et le Hackfest Reloaded naît. Celui-ci devait avoir lieu à l'université Laval mais le virus H1N1 nous vole notre local ainsi l'événement fut transféré dans un hôtel et 4 mois plus tard, le 7 novembre 2009 plus de 175 personnes se sont présentées dans le sous-sol de l'hôtel Universel où environ 8 conférences ont eu lieu suivi d'un concours de lockpicking et d’un CTF Red vs Blue!
+
+AUJOURD’HUI
+Le partage d’informations, le réseautage, et échanger sur des projets ou défis en milieu d’emploi sont des éléments critiques à l’avancement de la communauté en sécurité de l’information, notamment avec des acteurs malicieux qui ont fortement progressé ces dernières années en étant souvent associés avec le crime organisé ou des gouvernements.  Il va sans parler des organisations qui sont désemparées face aux défis et qui commencent à peine à s’organiser.  C’est ce que le Hackfest promouvoit depuis 10 ans et a bien l’intention de continuer!
+
+Sous l’égide de Hackfest Communication, une organisation à but non lucrative, il y a présentement au niveau local, le iHack (mini-Hackfest, https://ihack.computer), le QuébecSec (conférences et rencontres mensuelles locales, https://Quebecsec.ca) et le podcast francophone La French Connection (https://securite.fm) et le party canadien du DEF CON (https://hack-n-moose.ca).  De plus, l’équipe du Hackfest se fait présente dans des écoles et divers événements, tel le feu CQSI et maintenant SéQCure.
+
+De plus, un élément marquant et critique qui a permis à plusieurs de s’épanouir et de se démarquer dans le milieu fut le Hackfest CTF, notamment avec de super esprits créatifs apportant des idées toutes aussi folles les unes des autres - réacteur nucléaire, WarGames, maquette avec un barrage, réalité Entreprise, bombe…  Le Hackfest ne serait pas ce qu’il est sans les équipes et collaborateurs du CTF qui se sont succédés au fil des années en levant sans arrêt la barre et ne reculant devant aucun défi, à l’image de notre monde de plus en plus complexe.  Le nombre d’inscriptions et la logistique nécessaire nous surprend d’année en année, notamment la vitesse des inscriptions!
+
+À côté de ce CTF, il y a l’implémentation et le développement des autres initiatives - lockpicking, Social Engineering contest, les villages et autres activités connexes ayant lieu pendant notre événement.
+
+Nous espérons que vous apprécierez notre 10e édition qui se veut à caractère un peu rétro!  De plus, n’hésitez pas à venir nous joindre en tout temps sur Slack pour échanger au https://bit.ly/HFSlack ou à nous contacter au <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="">[email&#160;protected]</a> si vous désirez vous impliquer, on cherche toujours des bénévoles!  Nous ne serions rien sans le temps investi par nos bénévoles et collaborateurs.
+
+MILLE MERCIS!
+Vous désirez en savoir plus sur l’historique du Hackfest?  Venez nous voir à notre conférence samedi!
+</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2018"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2018" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2018/2018-01.webp"
+              alt="Hackfest 2018 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2018/2018-02.webp"
+              alt="Hackfest 2018 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2018/2018-03.webp"
+              alt="Hackfest 2018 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2018/2018-04.webp"
+              alt="Hackfest 2018 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2018/2018-05.webp"
+              alt="Hackfest 2018 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2018, DECADE, 10 ans de Hackfest: 2018, c'est l'édition des 10 ans, et on ne fait pas les choses à moitié. L'événement grandit comme jamais avec une multitude de villages : Internet des Objets, Social Engineering Contest, Soudure, RFID, Hardware Hacking, Hackfest RSA NoC, et même la Réalité Virtuelle. Du côté des CTF, on ne chôme pas non plus avec le Hackfest CTF, Missing CTF, OWASP CTF, Security Innovation CTF et le légendaire BrainFuck. Une programmation XXL pour une édition anniversaire.</p>
+            
+            <p>Cette année, la ministre Karina Gould monte sur scène et lance un appel aux hackers pour l'aider. Une nouvelle accueillie avec enthousiasme par la communauté... qui n'aboutira malheureusement à rien. Vive la politique.</p>
+            
+            <p>2018 marque aussi le début des t-shirts édition spéciale du Hackfest, avec un artiste qui illustre la Sentinel en train de détruire le Château Frontenac. Une pièce de collection pour les fidèles de l'événement.</p>
+            
+            <p>Et puis il y a Johnny Xmas. À chaque Hackfest, notre cher collègue s'installe au bar pour une partie de quarters contre le barman. Il est à ce jour le seul à avoir enchaîné autant de victoires, allant jusqu'à ramener un trophée chez lui. Pour les détails savoureux, allez lui en parler directement!</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72157703389196994" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2017" data-anecdotes="[&quot;2017, Une année fondatrice: 2017 marque une première historique : Hackfest devient le premier et toujours l&#39;unique concours de social engineering au Canada. Inspiré du format Def Con mais amélioré, les participants prennent place dans une boîte en plexiglass, devant la foule, et passent de vrais appels téléphoniques à de vraies entreprises. Le tout animé par le seul et unique Shane, le seul à avoir remporté deux fois le concours au Def Con. Un moment à la fois fascinant et intense.&quot;,&quot;C&#39;est aussi l&#39;année de la naissance des villages au Hackfest, avec en premier lieu un village RFID, une formule qui allait prendre de l&#39;expansion dans les éditions suivantes.&quot;,&quot;2017 marque également le premier party Hackfest avec un vrai spectacle musical : DualCore se joint à nous pour une soirée mémorable. Les spectacles reprendront en 2024 au Centre des congrès, mais c&#39;est ici que tout a commencé.&quot;,&quot;Cette année débute également une belle tradition : offrir un shooter de Chic Choc à chaque nouveau conférencier, une façon bien québécoise d&#39;accueillir ceux qui montent sur notre scène pour la première fois.&quot;,&quot;Sur une note plus triste, l&#39;édition 2017 fut dédiée à notre cher collègue du Hackfest et de La French Connection, Steven &#39;loneferret&#39; McElrea. Une pensée pour lui qui a marqué notre communauté.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2017</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2017/2017.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2017/2017.webp"
+              alt="Hackfest 2017 - Nine Lives"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2017">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2017/2017-01.webp"
+              alt="Hackfest 2017 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2017/2017-02.webp"
+              alt="Hackfest 2017 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2017/2017-03.webp"
+              alt="Hackfest 2017 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+2</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">Nine Lives</h3>
+              <span class="history-subtitle">Les neuf vies</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>L'édition 'Nine Lives' explore le thème de la résilience en cybersécurité, inspirée par les neuf vies légendaires du chat.</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>Le Hackfest est là avant tout pour la communauté. Il s’agit de VOTRE conférence et celle-ci existe grâce à vous! Vous êtes ici en tant que partenaires, collègues et amis pour partager des idées, apprendre et passer de merveilleux moments.
+
+Au Hackfest vous trouverez des professionnels, des amateurs, des étudiants - tous passionnés par la sécurité. Vous trouverez peut-être votre prochain employeur, votre prochain employé ou votre prochain projet de sécurité! En tout cas, aujourd’hui, tout le monde est accessible, personne n’est une vedette.
+
+Dans la communauté du Hackfest, certains sont là, certains sont partis et d’autres restent, mais tous peuvent y contribuer à leur façon.
+
+Tous ensemble, nous nous souhaitons autant de vies que possible et une incroyable 9e édition du Hackfest (9 Lives)!
+</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2017"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2017" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2017/2017-01.webp"
+              alt="Hackfest 2017 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2017/2017-02.webp"
+              alt="Hackfest 2017 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2017/2017-03.webp"
+              alt="Hackfest 2017 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2017/2017-04.webp"
+              alt="Hackfest 2017 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2017/2017-05.webp"
+              alt="Hackfest 2017 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2017, Une année fondatrice: 2017 marque une première historique : Hackfest devient le premier et toujours l'unique concours de social engineering au Canada. Inspiré du format Def Con mais amélioré, les participants prennent place dans une boîte en plexiglass, devant la foule, et passent de vrais appels téléphoniques à de vraies entreprises. Le tout animé par le seul et unique Shane, le seul à avoir remporté deux fois le concours au Def Con. Un moment à la fois fascinant et intense.</p>
+            
+            <p>C'est aussi l'année de la naissance des villages au Hackfest, avec en premier lieu un village RFID, une formule qui allait prendre de l'expansion dans les éditions suivantes.</p>
+            
+            <p>2017 marque également le premier party Hackfest avec un vrai spectacle musical : DualCore se joint à nous pour une soirée mémorable. Les spectacles reprendront en 2024 au Centre des congrès, mais c'est ici que tout a commencé.</p>
+            
+            <p>Cette année débute également une belle tradition : offrir un shooter de Chic Choc à chaque nouveau conférencier, une façon bien québécoise d'accueillir ceux qui montent sur notre scène pour la première fois.</p>
+            
+            <p>Sur une note plus triste, l'édition 2017 fut dédiée à notre cher collègue du Hackfest et de La French Connection, Steven 'loneferret' McElrea. Une pensée pour lui qui a marqué notre communauté.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72157687065848882" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2016" data-anecdotes="[&quot;2016...Explosif, au sens propre: 2016 nous offre une troisième maquette, et cette fois on joue dans les grandes ligues : une fausse bombe avec un liquide, de l&#39;alcool, qui se mélange et explose comme dans un film Die Hard. Mais la conception de cette maquette faillit tourner au vinaigre. Des échanges par SMS durant la planification, le mot &#39;bombe&#39; sorti de son contexte, et voilà que quelqu&#39;un, ayant oublié à qui il parlait, appelle la police. Tout s&#39;est heureusement bien terminé.&quot;,&quot;Cette année marque aussi une première pour les gagnants du CTF : un trophée Sentinel imprimé en 3D, une tradition qui allait marquer les esprits.&quot;,&quot;Du côté de la zone partenaires, un coffre-fort à crocheter avait été prévu, convenu à environ deux pieds sur deux pour un maximum de 20 livres. Ce qui arriva fut tout autre : un mastodonte de plus de 200 livres qui nécessita l&#39;aide de quatre personnes pour être mis en place. Il faillit ne jamais trouver sa place, et le spectacle du déménagement valait à lui seul le déplacement.&quot;,&quot;Sur une note beaucoup plus sombre, un conférencier aurait frappé sa conjointe avant de prendre la fuite dans les corridors de l&#39;hôtel vers 3h du matin, à la fin du Hackfest, pour échapper à la police. Il aurait été arrêté et son passeport saisi pour quelques jours. On ne sait pas ce qu&#39;il est devenu, mais une chose est certaine : il est banni de l&#39;événement.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2016</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2016/2016.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2016/2016.webp"
+              alt="Hackfest 2016 - Infinity"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2016">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2016/2016-01.webp"
+              alt="Hackfest 2016 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2016/2016-02.webp"
+              alt="Hackfest 2016 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2016/2016-03.webp"
+              alt="Hackfest 2016 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">Infinity</h3>
+              <span class="history-subtitle">L'infini</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>Le thème 'Infinity' symbolise l'évolution sans fin du domaine de la cybersécurité et les possibilités infinies qui s'offrent à la communauté.</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>Vous êtes le HACKFEST. De par votre présence aujourd'hui vous faites partie de la communauté. Une communauté riche, vibrante où l’élitisme, le doute et la désinformation n’ont pas leur place. Grâce à vous, nous sommes la plus importante organisation sans but lucratif au Canada qui rassemble les experts, des professionnels privés et gouvernementaux, ainsi que des hackers passionnés de sécurité informatique.
+
+Vous êtes le HACKFEST. Vous êtes comme nous tous. Vous avez envie d’apprendre et d’explorer une infinité de possibilités!
+
+Ensemble, la connaissance n’a pas de limite alors, bon HACKFEST 8e édition (Infinity)!
+</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2016"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2016" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2016/2016-01.webp"
+              alt="Hackfest 2016 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2016/2016-02.webp"
+              alt="Hackfest 2016 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2016/2016-03.webp"
+              alt="Hackfest 2016 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2016...Explosif, au sens propre: 2016 nous offre une troisième maquette, et cette fois on joue dans les grandes ligues : une fausse bombe avec un liquide, de l'alcool, qui se mélange et explose comme dans un film Die Hard. Mais la conception de cette maquette faillit tourner au vinaigre. Des échanges par SMS durant la planification, le mot 'bombe' sorti de son contexte, et voilà que quelqu'un, ayant oublié à qui il parlait, appelle la police. Tout s'est heureusement bien terminé.</p>
+            
+            <p>Cette année marque aussi une première pour les gagnants du CTF : un trophée Sentinel imprimé en 3D, une tradition qui allait marquer les esprits.</p>
+            
+            <p>Du côté de la zone partenaires, un coffre-fort à crocheter avait été prévu, convenu à environ deux pieds sur deux pour un maximum de 20 livres. Ce qui arriva fut tout autre : un mastodonte de plus de 200 livres qui nécessita l'aide de quatre personnes pour être mis en place. Il faillit ne jamais trouver sa place, et le spectacle du déménagement valait à lui seul le déplacement.</p>
+            
+            <p>Sur une note beaucoup plus sombre, un conférencier aurait frappé sa conjointe avant de prendre la fuite dans les corridors de l'hôtel vers 3h du matin, à la fin du Hackfest, pour échapper à la police. Il aurait été arrêté et son passeport saisi pour quelques jours. On ne sait pas ce qu'il est devenu, mais une chose est certaine : il est banni de l'événement.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72157672819260213" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2015" data-anecdotes="[&quot;2015 : Toujours en avance: 2015 confirme une fois de plus que Hackfest aime tracer la voie. En collaboration avec OWASP Montréal et plusieurs personnalités bien connues de la communauté québécoise, Hackfest crée le premier événement de hacking en format eSport. Une cinquantaine de joueurs participent à une phase de qualification, dont quatre à six équipes s&#39;affrontent lors de la finale, retransmise en direct sur Google Meet et commentée par une équipe dédiée. L&#39;activité connaît un succès retentissant et sera reconduite plusieurs années de suite.&quot;,&quot;Cette année voit aussi naître la deuxième grande maquette du Hackfest, et on monte d&#39;un cran : cette fois-ci, c&#39;est un pipeline de gaz contrôlé par de l&#39;équipement électronique industriel qui est mis à la disposition des participants pour être piraté. Une nouvelle démonstration du savoir-faire unique de Hackfest dans l&#39;art de rendre le hacking concret et spectaculaire.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2015</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2015/2015.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2015/2015.webp"
+              alt="Hackfest 2015 - Lucky Edition"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2015">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2015/2015-01.webp"
+              alt="Hackfest 2015 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2015/2015-02.webp"
+              alt="Hackfest 2015 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2015/2015-03.webp"
+              alt="Hackfest 2015 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+4</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">Lucky Edition</h3>
+              <span class="history-subtitle">Le chiffre chanceux 7</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>La 7e édition du Hackfest joue sur le thème de la chance avec 'Lucky 7', tout en démontrant que la sécurité ne peut pas être laissée au hasard.</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>NOUS sommes le HACKFEST. Nous sommes la plus importante organisation à l’Est du Canada qui rassemble la communauté des experts, des professionnels privés et gouvernementaux, ainsi que  des hackers passionnés de sécurité informatique. Nous sommes persuadés qu’une démarche éthique, basée sur  l’expertise et la collaboration, peut apporter beaucoup à la société face aux enjeux de sécurité actuels.
+
+VOUS êtes le HACKFEST. De par votre présence aujourd'hui vous faites partie de la communauté. Une communauté riche, vibrante où l’élitisme, le doute et la désinformation n’ont pas leur place. Vous êtes comme nous tous. Vous avez envie d’apprendre, de comprendre, d’aller au-delà des apparences.
+
+Vous êtes chanceux! Bon HACKFEST 2015!
+</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2015"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2015" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2015/2015-01.webp"
+              alt="Hackfest 2015 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2015/2015-02.webp"
+              alt="Hackfest 2015 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2015/2015-03.webp"
+              alt="Hackfest 2015 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2015/2015-04.webp"
+              alt="Hackfest 2015 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2015/2015-05.webp"
+              alt="Hackfest 2015 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2015/2015-06.webp"
+              alt="Hackfest 2015 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2015/2015-07.webp"
+              alt="Hackfest 2015 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2015 : Toujours en avance: 2015 confirme une fois de plus que Hackfest aime tracer la voie. En collaboration avec OWASP Montréal et plusieurs personnalités bien connues de la communauté québécoise, Hackfest crée le premier événement de hacking en format eSport. Une cinquantaine de joueurs participent à une phase de qualification, dont quatre à six équipes s'affrontent lors de la finale, retransmise en direct sur Google Meet et commentée par une équipe dédiée. L'activité connaît un succès retentissant et sera reconduite plusieurs années de suite.</p>
+            
+            <p>Cette année voit aussi naître la deuxième grande maquette du Hackfest, et on monte d'un cran : cette fois-ci, c'est un pipeline de gaz contrôlé par de l'équipement électronique industriel qui est mis à la disposition des participants pour être piraté. Une nouvelle démonstration du savoir-faire unique de Hackfest dans l'art de rendre le hacking concret et spectaculaire.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72157661095594520" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2014" data-anecdotes="[&quot;2014 : Une année de premières: 2014 nous amène Theo de Raadt comme conférencier, une présentation qui demeure à ce jour l&#39;une de nos vidéos YouTube les plus visionnées. On accueille également une ex-agente de la CIA ayant géré les déguisements au sein de l&#39;organisation, une présence qui n&#39;est pas passée inaperçue dans la salle.&quot;,&quot;On a aussi eu le premier défi de lockpicking au nerf gun, et une version plutôt particulière du concours : deux participants menottés ensemble à un chariot d&#39;hôtel. Le départ fut mémorable, les deux concurrents se cognant la tête en se penchant simultanément pour commencer à se libérer. Un must-see : https://www.youtube.com/watch?v=hmMuGNfrZ3s&quot;,&quot;Et pour couronner le tout, Renderman reçoit Murdoch le singe sur scène, Hackfest étant le premier événement à honorer cette demande aussi particulière que mémorable de la part du conférencier.&quot;,&quot;Cette année-là fut aussi marquée par un incident dont on se serait bien passé. Un certain consultant, aujourd&#39;hui derrière les barreaux, avait volé une bouteille de vin et fracturé un réfrigérateur dans la cuisine du Plaza. Pour couronner le tout, il avait menti à notre staff en affirmant que la bouteille lui appartenait. On sait mieux maintenant.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2014</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2014/2014.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2014/2014.webp"
+              alt="Hackfest 2014 - The Return"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2014">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2014/2014-01.webp"
+              alt="Hackfest 2014 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2014/2014-02.webp"
+              alt="Hackfest 2014 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2014/2014-03.webp"
+              alt="Hackfest 2014 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+2</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">The Return</h3>
+              <span class="history-subtitle">Le retour d'une édition plus explosive.</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>Le Hackfest fait son 'Return' avec une édition renouvelée, confirmant sa place comme événement incontournable en cybersécurité au Québec.</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>QUÉBEC, le 12 nov. 2014 – 600 participants, 24 conférenciers et 26 équipes inscrites aux jeux de piratage se sont réunis à Québec les 7 et 8 novembre derniers.
+
+Les sujets traités dans les conférences étaient situés au cœur des enjeux de cybersécurité rencontrés au Canada et dans le monde par les citoyens, entreprises et gouvernements (piratage des numéros de cartes de crédits, drones, attaques informatiques sophistiquées, chiffrement des données, protection de la vie privée, etc.). Cette année, plus de 10% des participants provenaient de l’extérieur de la province du Québec avec une forte tendance à la croissance.
+
+En plus de sa mission de sensibilisation d’origine, le HACKFEST se positionne comme un rendez-vous incontournable pour mobiliser et susciter la relève en sécurité des technologies informatiques. La présence de nombreux jeunes (33% d’étudiants), d’experts (33% de professionnels) et d’employés du gouvernement (33%) font de l’évènement un véritable bassin de ressources spécialisées qui sont en forte demande sur le marché.
+
+Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plus de 150 participants (26 équipes) qui se sont affrontés pour résoudre 90 défis de sécurité informatique. En plus des épreuves, les participants ont apprécié le nouveau concept « Hackfest Party » du samedi soir. La soirée a été à la fois une expérience sociale et technique avec plusieurs mini-jeux, concours de lockpicking (crochetage de serrures) et démonstrations techniques (imprimante 3D, hacking matériel).
+</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2014"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2014" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2014/2014-01.webp"
+              alt="Hackfest 2014 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2014/2014-02.webp"
+              alt="Hackfest 2014 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2014/2014-03.webp"
+              alt="Hackfest 2014 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2014/2014-04.webp"
+              alt="Hackfest 2014 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2014/2014-05.webp"
+              alt="Hackfest 2014 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2014 : Une année de premières: 2014 nous amène Theo de Raadt comme conférencier, une présentation qui demeure à ce jour l'une de nos vidéos YouTube les plus visionnées. On accueille également une ex-agente de la CIA ayant géré les déguisements au sein de l'organisation, une présence qui n'est pas passée inaperçue dans la salle.</p>
+            
+            <p>On a aussi eu le premier défi de lockpicking au nerf gun, et une version plutôt particulière du concours : deux participants menottés ensemble à un chariot d'hôtel. Le départ fut mémorable, les deux concurrents se cognant la tête en se penchant simultanément pour commencer à se libérer. Un must-see : https://www.youtube.com/watch?v=hmMuGNfrZ3s</p>
+            
+            <p>Et pour couronner le tout, Renderman reçoit Murdoch le singe sur scène, Hackfest étant le premier événement à honorer cette demande aussi particulière que mémorable de la part du conférencier.</p>
+            
+            <p>Cette année-là fut aussi marquée par un incident dont on se serait bien passé. Un certain consultant, aujourd'hui derrière les barreaux, avait volé une bouteille de vin et fracturé un réfrigérateur dans la cuisine du Plaza. Pour couronner le tout, il avait menti à notre staff en affirmant que la bouteille lui appartenait. On sait mieux maintenant.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/sets/72157649594667715" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2013" data-anecdotes="[&quot;2013 : L&#39;année de la maquette: 2013 restera dans les mémoires comme l&#39;année de la première version de la fameuse maquette. Hackfest figure parmi les premiers événements au monde à mettre en place une véritable maquette connectée et piratable. Et puisqu&#39;on est au Québec, on fait les choses à notre façon : un barrage hydroélectrique débordant sur un village, et un lance-missile USB pour couronner le tout. Chut, il ne faut pas le dire trop fort, mais plusieurs grandes organisations, dont le SANS, ont mis en place un concept très similaire un ou deux ans plus tard. On peut être fiers.&quot;,&quot;Du côté du drama, 2013 ne déçoit pas. Un conférencier se présente dans un état tel qu&#39;il livre une présentation particulièrement piètre. Les rumeurs veulent d&#39;ailleurs que ce ne fut pas sa dernière performance de ce calibre dans d&#39;autres conférences les années suivantes.&quot;,&quot;L&#39;édition nous offre aussi quelques scènes mémorables : des photos de participants endormis seuls dans la salle de conférence, et une personne qui passe carrément la nuit sous une table de partenaire. Oups.&quot;,&quot;Cette année, magikh0e nous présente également son talk sur le hardware hacking, &#39;Warranty Voiding Techniques&#39;. Au milieu de la présentation, un ami fait irruption sur scène pour lui apporter un &#39;lab coat&#39;... qui s&#39;avère être un peignoir de chambre d&#39;hôtel. Un moment mémorable que vous pouvez revivre ici : https://youtu.be/zYR3pPPvlEk?si=T6uPGYRqMKtofxj3&quot;,&quot;Mais 2013, c&#39;est aussi la naissance des premiers workshops nocturnes. Le légendaire atelier Whiskey et Qubes OS animé par Danny, et le workshop hardware avec Dimitri, deux rendez-vous qui poseront les bases d&#39;une tradition bien ancrée dans l&#39;ADN du Hackfest.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2013</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2013/2013.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2013/2013.webp"
+              alt="Hackfest 2013 - Strikes Back"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2013">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2013/2013-01.webp"
+              alt="Hackfest 2013 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2013/2013-02.webp"
+              alt="Hackfest 2013 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2013/2013-03.webp"
+              alt="Hackfest 2013 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+5</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">Strikes Back</h3>
+              <span class="history-subtitle">L'empire Contre-attaque</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>Avec 'Strikes Back', le Hackfest revient en force, inspiré par l'univers de la science-fiction et les thèmes de résistance et de contre-attaque.</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>Avec 'Strikes Back', le Hackfest revient en force, inspiré par l'univers de la science-fiction et les thèmes de résistance et de contre-attaque. Une édition qui a mis l'accent sur les techniques défensives et la réponse aux incidents.</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2013"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2013" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2013/2013-01.webp"
+              alt="Hackfest 2013 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2013/2013-02.webp"
+              alt="Hackfest 2013 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2013/2013-03.webp"
+              alt="Hackfest 2013 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2013/2013-04.webp"
+              alt="Hackfest 2013 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2013/2013-05.webp"
+              alt="Hackfest 2013 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2013/2013-06.webp"
+              alt="Hackfest 2013 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2013/2013-07.webp"
+              alt="Hackfest 2013 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2013/2013-08.webp"
+              alt="Hackfest 2013 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2013 : L'année de la maquette: 2013 restera dans les mémoires comme l'année de la première version de la fameuse maquette. Hackfest figure parmi les premiers événements au monde à mettre en place une véritable maquette connectée et piratable. Et puisqu'on est au Québec, on fait les choses à notre façon : un barrage hydroélectrique débordant sur un village, et un lance-missile USB pour couronner le tout. Chut, il ne faut pas le dire trop fort, mais plusieurs grandes organisations, dont le SANS, ont mis en place un concept très similaire un ou deux ans plus tard. On peut être fiers.</p>
+            
+            <p>Du côté du drama, 2013 ne déçoit pas. Un conférencier se présente dans un état tel qu'il livre une présentation particulièrement piètre. Les rumeurs veulent d'ailleurs que ce ne fut pas sa dernière performance de ce calibre dans d'autres conférences les années suivantes.</p>
+            
+            <p>L'édition nous offre aussi quelques scènes mémorables : des photos de participants endormis seuls dans la salle de conférence, et une personne qui passe carrément la nuit sous une table de partenaire. Oups.</p>
+            
+            <p>Cette année, magikh0e nous présente également son talk sur le hardware hacking, 'Warranty Voiding Techniques'. Au milieu de la présentation, un ami fait irruption sur scène pour lui apporter un 'lab coat'... qui s'avère être un peignoir de chambre d'hôtel. Un moment mémorable que vous pouvez revivre ici : https://youtu.be/zYR3pPPvlEk?si=T6uPGYRqMKtofxj3</p>
+            
+            <p>Mais 2013, c'est aussi la naissance des premiers workshops nocturnes. Le légendaire atelier Whiskey et Qubes OS animé par Danny, et le workshop hardware avec Dimitri, deux rendez-vous qui poseront les bases d'une tradition bien ancrée dans l'ADN du Hackfest.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72157638030455224" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2012" data-anecdotes="[&quot;2012 : L&#39;ère Plaza commence: En 2012, Hackfest franchit une nouvelle étape et déménage à l&#39;Hôtel Plaza, un lieu qui l&#39;accompagnera pendant de nombreuses années et qui permettra à l&#39;événement de grandir de 450 participants jusqu&#39;à 1600 en 2019. Un choix visionnaire pour un événement qui ne cesse de prendre de l&#39;ampleur.&quot;,&quot;L&#39;édition accueille deux pointures de la scène internationale : Dave Kennedy, aujourd&#39;hui CEO de plusieurs entreprises de sécurité aux États-Unis et reconnu notamment pour le Social Engineering Toolkit, ainsi que Jim Manico, figure de proue d&#39;OWASP. Fait amusant, Jim avait trouvé son endroit favori dans l&#39;hôtel : l&#39;espace piscine, dont la chaleur et l&#39;humidité lui rappelaient Hawaii.&quot;,&quot;2012 voit aussi la naissance du iHack, l&#39;événement de mi-année lancé au Cégep Sainte-Foy, qui deviendra avec le temps un événement multivilles à travers le Québec et l&#39;Ontario. Dans leur élan, l&#39;équipe décide d&#39;en organiser deux ou trois la même année, portant le total à quatre ou cinq CTF à produire en une seule année. Autant dire que la sagesse n&#39;était pas au rendez-vous. Le format multi-iHack fut heureusement abandonné après un an ou deux.&quot;,&quot;Du côté du CTF, le format Réalité Entreprise passe à la vitesse supérieure. Fini les deux équipes, place à une simulation à l&#39;échelle mondiale : environ huit pays s&#39;affrontent, avec des infrastructures locales, des banques, un marché noir et bien plus encore. La guerre des nations était déclarée.&quot;,&quot;Cette année marque aussi une première d&#39;une autre nature : les caméras des médias font leur apparition sur place, et Hackfest se retrouve dans les nouvelles. L&#39;événement quitte définitivement l&#39;underground pour entrer dans la sphère publique. Et comme si 2012 ne suffisait pas à marquer les esprits, la famille Hackfest s&#39;agrandit aussi en dehors des salles de conférence, avec l&#39;arrivée d&#39;un premier enfant pour un membre du comité. Une belle année, décidément.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2012</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2012/2012.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2012/2012.webp"
+              alt="Hackfest 2012 - Revolution"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2012">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2012/2012-01.webp"
+              alt="Hackfest 2012 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2012/2012-02.webp"
+              alt="Hackfest 2012 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2012/2012-03.webp"
+              alt="Hackfest 2012 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+4</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">Revolution</h3>
+              <span class="history-subtitle">Welcome to the real world</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>L'édition 'Matrix' plonge les participants dans l'univers cyberpunk rendu célèbre par le film culte. Réalité vs simulation, red pill ou blue pill?</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>L'édition 'Matrix' plonge les participants dans l'univers cyberpunk rendu célèbre par le film culte. Réalité vs simulation, red pill ou blue pill? Cette édition a exploré les frontières entre le monde réel et le cyberespace, avec des présentations sur la réalité augmentée et la sécurité des systèmes virtuels.</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2012"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2012" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2012/2012-01.webp"
+              alt="Hackfest 2012 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2012/2012-02.webp"
+              alt="Hackfest 2012 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2012/2012-03.webp"
+              alt="Hackfest 2012 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2012/2012-04.webp"
+              alt="Hackfest 2012 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2012/2012-05.webp"
+              alt="Hackfest 2012 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2012/2012-06.webp"
+              alt="Hackfest 2012 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2012/2012-07.webp"
+              alt="Hackfest 2012 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2012 : L'ère Plaza commence: En 2012, Hackfest franchit une nouvelle étape et déménage à l'Hôtel Plaza, un lieu qui l'accompagnera pendant de nombreuses années et qui permettra à l'événement de grandir de 450 participants jusqu'à 1600 en 2019. Un choix visionnaire pour un événement qui ne cesse de prendre de l'ampleur.</p>
+            
+            <p>L'édition accueille deux pointures de la scène internationale : Dave Kennedy, aujourd'hui CEO de plusieurs entreprises de sécurité aux États-Unis et reconnu notamment pour le Social Engineering Toolkit, ainsi que Jim Manico, figure de proue d'OWASP. Fait amusant, Jim avait trouvé son endroit favori dans l'hôtel : l'espace piscine, dont la chaleur et l'humidité lui rappelaient Hawaii.</p>
+            
+            <p>2012 voit aussi la naissance du iHack, l'événement de mi-année lancé au Cégep Sainte-Foy, qui deviendra avec le temps un événement multivilles à travers le Québec et l'Ontario. Dans leur élan, l'équipe décide d'en organiser deux ou trois la même année, portant le total à quatre ou cinq CTF à produire en une seule année. Autant dire que la sagesse n'était pas au rendez-vous. Le format multi-iHack fut heureusement abandonné après un an ou deux.</p>
+            
+            <p>Du côté du CTF, le format Réalité Entreprise passe à la vitesse supérieure. Fini les deux équipes, place à une simulation à l'échelle mondiale : environ huit pays s'affrontent, avec des infrastructures locales, des banques, un marché noir et bien plus encore. La guerre des nations était déclarée.</p>
+            
+            <p>Cette année marque aussi une première d'une autre nature : les caméras des médias font leur apparition sur place, et Hackfest se retrouve dans les nouvelles. L'événement quitte définitivement l'underground pour entrer dans la sphère publique. Et comme si 2012 ne suffisait pas à marquer les esprits, la famille Hackfest s'agrandit aussi en dehors des salles de conférence, avec l'arrivée d'un premier enfant pour un membre du comité. Une belle année, décidément.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72157631899202863/" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2011" data-anecdotes="[&quot;2011 : La légende prend forme: L&#39;édition atteint maintenant les 300 participants à pleine capacité, et c&#39;est aussi l&#39;année qui voit naître une tradition légendaire : le jeu BrainFuck, l&#39;énigme emblématique du Hackfest qui deviendra au fil des ans un incontournable de l&#39;événement.&quot;,&quot;Le HackerSpace, l&#39;ancêtre du QuébecSec: 2011 marque un an depuis la création du HackerSpace. Les fameux rendez-vous de la Cage aux Sports ont évolué en meeting officiel à l&#39;Université Laval, une belle consécration pour une communauté qui n&#39;a cessé de grandir depuis les débuts informels des années 90.&quot;,&quot;Cette année marque également le début d&#39;un format CTF inédit : &#39;Réalité Entreprise&#39;. Le concept est simple mais redoutable : deux équipes de 20 personnes s&#39;affrontent, chacune devant simultanément attaquer l&#39;infrastructure adverse et défendre la sienne. Chaque participant a un rôle bien défini, président sans accès réseau, sysadmin, et ainsi de suite. Mais le vrai coup de génie ? Un espion infiltré dans chaque équipe, qui doit rester discret sans se faire démasquer. La guerre fut féroce, et le format laissa des souvenirs impérissables.&quot;,&quot;Mais 2011, c&#39;est aussi une nouvelle anecdote qui entre dans les annales. Un conférencier décide d&#39;agrémenter sa présentation d&#39;un jeu participatif : à chaque erreur ou détail manquant, la foule peut crier pour qu&#39;il boive. Petit problème, l&#39;alcool hors de l&#39;hôtel n&#39;est pas permis. Il se retrouve donc à boire... à partir d&#39;une bouteille d&#39;eau. Pour ceux qui ne saisiraient pas encore, l&#39;eau c&#39;est transparent. Mais l&#39;eau n&#39;est pas la seule chose qui soit transparente.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2011</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2011/2011.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2011/2011.webp"
+              alt="Hackfest 2011 - Optimized"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2011">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2011/2011-01.webp"
+              alt="Hackfest 2011 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2011/2011-02.webp"
+              alt="Hackfest 2011 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2011/2011-03.webp"
+              alt="Hackfest 2011 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+3</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">Optimized</h3>
+              <span class="history-subtitle">'Cause the roof got a leak</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>Hommage au film culte 'Hackers' de 1995, cette édition célèbre la culture hacker des années 90 avec son esthétique néon et sa bande sonore électronique.</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>Hommage au film culte 'Hackers' de 1995, cette édition célèbre la culture hacker des années 90 avec son esthétique néon et sa bande sonore électronique. 'Hack the Planet!' est devenu le cri de ralliement de cette édition mémorable qui a rendu hommage aux pionniers de la scène. Voir le video here: https://youtu.be/9UJK74YY-ZI?si=6O6WSMzK6a6Z2pB</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2011"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2011" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2011/2011-01.webp"
+              alt="Hackfest 2011 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2011/2011-02.webp"
+              alt="Hackfest 2011 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2011/2011-03.webp"
+              alt="Hackfest 2011 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2011/2011-04.webp"
+              alt="Hackfest 2011 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2011/2011-05.webp"
+              alt="Hackfest 2011 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2011/2011-06.webp"
+              alt="Hackfest 2011 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2011 : La légende prend forme: L'édition atteint maintenant les 300 participants à pleine capacité, et c'est aussi l'année qui voit naître une tradition légendaire : le jeu BrainFuck, l'énigme emblématique du Hackfest qui deviendra au fil des ans un incontournable de l'événement.</p>
+            
+            <p>Le HackerSpace, l'ancêtre du QuébecSec: 2011 marque un an depuis la création du HackerSpace. Les fameux rendez-vous de la Cage aux Sports ont évolué en meeting officiel à l'Université Laval, une belle consécration pour une communauté qui n'a cessé de grandir depuis les débuts informels des années 90.</p>
+            
+            <p>Cette année marque également le début d'un format CTF inédit : 'Réalité Entreprise'. Le concept est simple mais redoutable : deux équipes de 20 personnes s'affrontent, chacune devant simultanément attaquer l'infrastructure adverse et défendre la sienne. Chaque participant a un rôle bien défini, président sans accès réseau, sysadmin, et ainsi de suite. Mais le vrai coup de génie ? Un espion infiltré dans chaque équipe, qui doit rester discret sans se faire démasquer. La guerre fut féroce, et le format laissa des souvenirs impérissables.</p>
+            
+            <p>Mais 2011, c'est aussi une nouvelle anecdote qui entre dans les annales. Un conférencier décide d'agrémenter sa présentation d'un jeu participatif : à chaque erreur ou détail manquant, la foule peut crier pour qu'il boive. Petit problème, l'alcool hors de l'hôtel n'est pas permis. Il se retrouve donc à boire... à partir d'une bouteille d'eau. Pour ceux qui ne saisiraient pas encore, l'eau c'est transparent. Mais l'eau n'est pas la seule chose qui soit transparente.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72157628047544688/" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2010" data-anecdotes="[&quot;2010 : Un nouveau chapitre à l&#39;Hôtel Classique: L&#39;édition 2010 marque aussi le passage à un format de deux jours complets, avec deux CTF, un par soir, animés par des DJ pour tenir les participants éveillés toute la nuit. Oui, on était peut-être un peu fous à l&#39;époque — planifier deux CTF on-site avec des serveurs on-prem en simultané, c&#39;était tout un défi. Mais c&#39;est exactement ce genre de folie organisée qui forge l&#39;ADN de Hackfest.&quot;,&quot;L&#39;édition 2010 marque aussi le passage à un format de deux jours complets, avec deux CTF, un par soir, animés par des DJ pour tenir les participants éveillés toute la nuit. Oui, on était peut-être un peu fous à l&#39;époque. Planifier deux CTF on-site avec des serveurs on-prem en simultané, c&#39;était tout un défi. Mais c&#39;est exactement ce genre de folie organisée qui forge l&#39;ADN de Hackfest.&quot;,&quot;Cette année-là, on fait aussi la connaissance d&#39;un certain conférencier qu&#39;on a dû aller réveiller dans sa chambre 10 minutes avant son talk. Malgré tout, il réussit à monter sur scène et à livrer sa présentation, même si son allure trahissait sans équivoque les excès de la veille. Une anecdote fondatrice, parmi tant d&#39;autres, qui illustre bien l&#39;ambiance unique de ces premières éditions.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2010</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2010/2010.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2010/2010.webp"
+              alt="Hackfest 2010 - Harder Better, Longer, Stronger"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2010">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2010/2010-01.webp"
+              alt="Hackfest 2010 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2010/2010-02.webp"
+              alt="Hackfest 2010 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2010/2010-03.webp"
+              alt="Hackfest 2010 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+1</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">Harder Better, Longer, Stronger</h3>
+              <span class="history-subtitle">Toujours plus fort, toujours meilleur</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>Inspirée par Daft Punk, l'édition 'Harder Better Faster Stronger' symbolise l'évolution constante nécessaire en cybersécurité.</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>Inspirée par Daft Punk, l'édition 'Harder Better Faster Stronger' symbolise l'évolution constante nécessaire en cybersécurité. Toujours plus fort, toujours meilleur - cette philosophie résume parfaitement l'approche du Hackfest pour améliorer continuellement l'événement et les compétences de sa communauté.</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2010"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2010" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2010/2010-01.webp"
+              alt="Hackfest 2010 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2010/2010-02.webp"
+              alt="Hackfest 2010 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2010/2010-03.webp"
+              alt="Hackfest 2010 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2010/2010-04.webp"
+              alt="Hackfest 2010 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>2010 : Un nouveau chapitre à l'Hôtel Classique: L'édition 2010 marque aussi le passage à un format de deux jours complets, avec deux CTF, un par soir, animés par des DJ pour tenir les participants éveillés toute la nuit. Oui, on était peut-être un peu fous à l'époque — planifier deux CTF on-site avec des serveurs on-prem en simultané, c'était tout un défi. Mais c'est exactement ce genre de folie organisée qui forge l'ADN de Hackfest.</p>
+            
+            <p>L'édition 2010 marque aussi le passage à un format de deux jours complets, avec deux CTF, un par soir, animés par des DJ pour tenir les participants éveillés toute la nuit. Oui, on était peut-être un peu fous à l'époque. Planifier deux CTF on-site avec des serveurs on-prem en simultané, c'était tout un défi. Mais c'est exactement ce genre de folie organisée qui forge l'ADN de Hackfest.</p>
+            
+            <p>Cette année-là, on fait aussi la connaissance d'un certain conférencier qu'on a dû aller réveiller dans sa chambre 10 minutes avant son talk. Malgré tout, il réussit à monter sur scène et à livrer sa présentation, même si son allure trahissait sans équivoque les excès de la veille. Une anecdote fondatrice, parmi tant d'autres, qui illustre bien l'ambiance unique de ces premières éditions.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72157625189784357" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+      <article class="history-entry" data-year="2009" data-anecdotes="[&quot;Aux origines: Bien avant que Hackfest n&#39;existe, une communauté de passionnés de sécurité informatique se retrouvait déjà. À la fin des années 90, c&#39;est autour d&#39;e-zines et de sessions de wardriving que les premiers liens se tissent. Au début des années 2000, ces rencontres prennent de l&#39;ampleur : le groupe QC2600 se réunit au 2600 Laurier, puis à la Cage aux Sports, jetant les bases de ce qui deviendra éventuellement un HackerSpace.&quot;,&quot;La naissance de Hackfest: C&#39;est à l&#39;Université Laval, porté par le groupe étudiant C.E.N.T.I.N.E.L, que Hackfest voit le jour. Par un beau matin d&#39;août, la deuxième version de l&#39;événement est créée : Hackfest 2009, aussi connue sous le nom R3LOADED Edition, est née. Dans la foulée, l&#39;entité est formalisée sous forme d&#39;OBNL (organisme à but non lucratif).&quot;,&quot;La première épreuve: La pandémie de H1N1 frappe de plein fouet l&#39;organisation : Hackfest perd sa salle à l&#39;Université Laval. Qu&#39;à cela ne tienne — l&#39;événement déménage dans le sous-sol de l&#39;Hôtel Universel, prouvant dès ses débuts que la communauté Hackfest ne se laisse pas arrêter facilement.&quot;]">
+        <!-- Left Side: Year + Logo -->
+        <div class="history-entry-left">
+          <span class="history-year">2009</span>
+          <div class="history-logo" data-logo-src="/assets/images/history/2009/2009.webp" role="button" tabindex="0" title="Click to view full size">
+            <img
+              src="https://hackfest.ca/assets/images/history/2009/2009.webp"
+              alt="Hackfest 2009 - Reloaded"
+              loading="lazy"
+            >
+          </div>
+
+          <!-- Gallery Thumbnails (if gallery exists and has items) -->
+          
+          <div class="history-gallery-preview" data-year="2009">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2009/2009-01.webp"
+              alt="Hackfest 2009 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2009/2009-02.webp"
+              alt="Hackfest 2009 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2009/2009-03.webp"
+              alt="Hackfest 2009 photo"
+              class="gallery-thumb"
+              loading="lazy"
+            >
+            
+            
+            <span class="gallery-count">+1</span>
+            
+          </div>
+          
+
+          <!-- Anecdotes under logo (for years with anecdotes but no gallery) -->
+          
+        </div>
+
+        <!-- Center: Timeline Connector -->
+        <div class="history-entry-center">
+          <div class="history-dot" aria-hidden="true"></div>
+        </div>
+
+        <!-- Right Side: Text Content Card -->
+        <div class="history-entry-right">
+          <div class="history-card">
+            <header class="history-card-header">
+              <h3 class="history-title">Reloaded</h3>
+              <span class="history-subtitle">Le début d'une nouvelle génération de Hackfest</span>
+            </header>
+
+            <!-- Excerpt (shown by default) -->
+            <div class="history-excerpt">
+              <p>La première édition du Hackfest voit le jour à Québec avec le thème 'Reloaded'. Le début d'une grande aventure pour la communauté de cybersécurité québécoise.</p>
+            </div>
+
+            <!-- Full Text (shown when expanded) -->
+            <div class="history-full-text" aria-hidden="true">
+              <p>La première édition du Hackfest voit le jour à Québec avec le thème 'Reloaded'. Ce nom fait référence au fait que c'est une version numéro 2 de l'événement. La première version a été organisée par les étudiants de l'Université Laval dans le groupe C.E.N.T.I.N.E.L (d'où le nom de notre mascotte)et a eu lieu en 2001, 2003 et 2005 Fondé par des passionnés, cet événement allait devenir le plus grand rassemblement de hackers éthiques au Québec, inspirant des générations de professionnels de la sécurité.</p>
+            </div>
+
+            <!-- Toggle Button -->
+            <button
+              class="history-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="history-full-2009"
+            >
+              <span class="history-toggle-more">Lire la suite</span>
+              <span class="history-toggle-less">Réduire</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Expandable Gallery (full width, below entry) -->
+      
+      <div class="history-gallery-expanded" data-year="2009" hidden>
+        <div class="history-gallery-with-anecdotes">
+          <div class="gallery-grid">
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2009/2009-01.webp"
+              alt="Hackfest 2009 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2009/2009-02.webp"
+              alt="Hackfest 2009 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2009/2009-03.webp"
+              alt="Hackfest 2009 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+            <img
+              src="https://hackfest.ca/assets/images/history/2009/2009-04.webp"
+              alt="Hackfest 2009 photo"
+              class="gallery-item"
+              loading="lazy"
+            >
+            
+          </div>
+          
+          <div class="history-gallery-anecdotes">
+            
+            <p>Aux origines: Bien avant que Hackfest n'existe, une communauté de passionnés de sécurité informatique se retrouvait déjà. À la fin des années 90, c'est autour d'e-zines et de sessions de wardriving que les premiers liens se tissent. Au début des années 2000, ces rencontres prennent de l'ampleur : le groupe QC2600 se réunit au 2600 Laurier, puis à la Cage aux Sports, jetant les bases de ce qui deviendra éventuellement un HackerSpace.</p>
+            
+            <p>La naissance de Hackfest: C'est à l'Université Laval, porté par le groupe étudiant C.E.N.T.I.N.E.L, que Hackfest voit le jour. Par un beau matin d'août, la deuxième version de l'événement est créée : Hackfest 2009, aussi connue sous le nom R3LOADED Edition, est née. Dans la foulée, l'entité est formalisée sous forme d'OBNL (organisme à but non lucratif).</p>
+            
+            <p>La première épreuve: La pandémie de H1N1 frappe de plein fouet l'organisation : Hackfest perd sa salle à l'Université Laval. Qu'à cela ne tienne — l'événement déménage dans le sous-sol de l'Hôtel Universel, prouvant dès ses débuts que la communauté Hackfest ne se laisse pas arrêter facilement.</p>
+            
+            
+            <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72157625205288550" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
+            
+          </div>
+          
+        </div>
+        <button class="gallery-close" type="button" aria-label="Close gallery">×</button>
+      </div>
+      
+
+      
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox Modal for Gallery Photos -->
+<div class="history-lightbox" id="history-lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="Close lightbox">×</button>
+  <button class="lightbox-prev" type="button" aria-label="Previous photo">‹</button>
+  <button class="lightbox-next" type="button" aria-label="Next photo">›</button>
+  <div class="lightbox-content">
+    <img src="historique" alt="" class="lightbox-image" title="Click to open full size">
+  </div>
+</div>
+
+
+    
+  </main>
+
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>À propos du Hackfest</h4>
+        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Hackfest Logo" class="footer-logo">
+        <p>Le Hackfest est le plus grand événement bilingue de cybersécurité et de hacking au Canada, se tenant à Québec. Nos villages incluent le lock picking, l'ingénierie sociale, CTF, Hack ta carrière, SCADA/ICS, RFID, électronique, radio amateur et plus encore.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Visitez-nous</h4>
+        <ul>
+          
+          <li><a href="polar">POLAR</a></li>
+          
+          <li><a href="https://securite.fm">Podcast La French Connection</a></li>
+          
+          <li><a href="ihack">iHack</a></li>
+          
+          <li><a href="quebecsec">QuébecSec</a></li>
+          
+          <li><a href="formations">Formations</a></li>
+          
+          <li><a href="services">Services</a></li>
+          
+          <li><a href="index.html">Page d'Accueil</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        
+        
+        
+        
+        <ul class="footer-venues">
+          
+          <li>
+            <span class="footer-venue-label">Hackfest:</span>
+            <span class="footer-venue-name">Centre des congrès de Québec</span>
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          <li>
+            <span class="footer-venue-label">POLAR:</span>
+            <span class="footer-venue-name">Le Capitole de Québec — Salle Le Confessionnal</span>
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          
+          <li>
+            <span class="footer-venue-label">QuébecSec:</span>
+            
+            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console — 830 Rue Saint-Joseph Est, 5e étage</a>
+            
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          <li><a class="footer-venue-link" href="sejour">Hôtels partenaires →</a></li>
+          
+          <li><a href="https://hackfest.ca/cdn-cgi/l/email-protection"><span class="__cf_email__" data-cfemail="">[email&#160;protected]</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Joignez l'infolettre</h4>
+        <p>Restez informé de nos événements mensuels, annuels et de nos annonces spéciales.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Email" required>
+          <button type="submit" class="btn btn-primary btn-sm">SUBSCRIBE</button>
+        </form>
+        
+        <div class="footer-policies">
+          <h4>Sécurité et politiques</h4>
+          <ul>
+            
+            <li><a href="responsible-disclosure">Divulgation responsable</a></li>
+            
+            <li><a href="code-ethique">Code d'éthique</a></li>
+            
+            <li><a href="politique-confidentialite">Politique de confidentialité</a></li>
+            
+            <li><a href="code-de-conduite">Code de conduite</a></li>
+            
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer-social">
+      <!-- Discord -->
+      <a href="https://discord.hackfest.ca" aria-label="Discord" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028 14.09 14.09 0 001.226-1.994.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg></a>
+      <!-- YouTube -->
+      <a href="https://www.youtube.com/user/hackfestca" aria-label="YouTube" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/hackfest" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+      <!-- X (Twitter) -->
+      <a href="https://twitter.com/hackfest_ca" aria-label="X (Twitter)" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+      <!-- Mastodon -->
+      <a href="https://infosec.exchange/@hackfest" aria-label="Mastodon" target="_blank" rel="noopener me"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 00.023-.043v-1.809a.052.052 0 00-.02-.041.053.053 0 00-.046-.01 20.282 20.282 0 01-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 01-.319-1.433.053.053 0 01.066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.668 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg></a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/company/hackfest/" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+      <!-- Flickr -->
+      <a href="https://flickr.com/photos/hackfest2k9/" aria-label="Flickr" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M5.334 6.666C2.3884 6.666 0 9.055 0 12c0 2.9456 2.3884 5.334 5.334 5.334 2.9456 0 5.332-2.3884 5.332-5.334 0-2.945-2.3864-5.334-5.332-5.334zm13.332 0c-2.9456 0-5.332 2.389-5.332 5.334 0 2.9456 2.3864 5.334 5.332 5.334C21.6116 17.334 24 14.9456 24 12c0-2.945-2.3884-5.334-5.334-5.334z"/></svg></a>
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/hackfestca/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+      <!-- GitHub -->
+      <a href="https://github.com/hackfestca" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Newsletter modal: Brevo signup form (opened when footer form is submitted) -->
+<div class="newsletter-modal-backdrop" id="newsletterModalBackdrop" hidden aria-hidden="true"></div>
+<div class="newsletter-modal"
+     id="newsletterModal"
+     hidden
+     aria-modal="true"
+     aria-labelledby="newsletter-modal-title"
+     role="dialog">
+  <div class="newsletter-modal-header">
+    <h2 class="newsletter-modal-title" id="newsletter-modal-title">Joignez l'infolettre</h2>
+    <button type="button" class="newsletter-modal-close" aria-label="Fermer">✕</button>
+  </div>
+  <div class="newsletter-modal-body">
+    <iframe id="newsletter-form-iframe"
+            width="540"
+            height="400"
+            data-base-url="https://31f3b719.sibforms.com/serve/MUIFAB_K2srFwrjfmBKCg7EgCrmpQbDjMcRF9-7IRYB4VK05TTpYsVq8bQW78j1sfRkwLl7CgvDC7UgUMQoLQxEB4E1k-rOJrIrTacmI7Ms9MmbOzu7wb8ioRCs2u153ydJDMdUwBaNrEOXbZDXS7mex_dn2CZ-LgJJJjeeDzff0rq4rfklIao0aa-m53XYhetXsr86bI5eP06JF"
+            frameborder="0"
+            scrolling="auto"
+            allowfullscreen
+            title="Joignez l'infolettre"
+            class="newsletter-modal-iframe"></iframe>
+  </div>
+</div>
+<script data-cfasync="false" src="https://hackfest.ca/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://hackfest.ca/assets/js/newsletter-modal.js"></script>
+
+
+  <script src="https://hackfest.ca/assets/js/main.js"></script>
+  <script src="https://hackfest.ca/assets/js/history.js"></script>
+</body>
+</html>

@@ -1,0 +1,1011 @@
+<!doctype html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="description" content="Hackfest CTF">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="HiBootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    
+    
+    <title>Hackfest CTF | Équipe</title>
+
+    
+    <link rel="icon" href="https://hfctf.ca/images/faviconhf.png" type="image/png" sizes="16x16">
+
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/bootstrap.min.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/animate.min.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/owl.carousel.min.css"  type="text/css" media="all" />
+    <link rel="stylesheet" href="https://hfctf.ca/css/owl.theme.default.min.css"  type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/meanmenu.min.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/magnific-popup.min.css" type="text/css" media="all" />
+    
+    <link rel='stylesheet' href='https://hfctf.ca/css/boxicons.min.css' type="text/css" media="all" />
+    
+    <link rel='stylesheet' href='https://hfctf.ca/css/flaticon.css' type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/nice-select.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/style.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/responsive.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="https://hfctf.ca/css/override.css" type="text/css" media="all" />
+</head>
+<body>
+<div class="preloader bg-blue">
+    <div class="preloader-wrapper">
+        <div class="preloader-content">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+
+<div class="fixed-top">
+    <div class="topbar">
+        <div class="topbar-inner">
+            <div class="container-fluid">
+                <div
+                    class="row justify-content-center justify-content-lg-between"
+                >
+                    <div class="topbar-item topbar-right">
+                        <ul class="social-list social-list-gray-secondcolor">
+                            <li>
+                                <a href="https://discord.gg/WcT5Xrd"
+                                    ><span
+                                        class="iconify"
+                                        data-icon="la:discord"
+                                        data-width="25"
+                                        data-height="25"
+                                    ></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/hackfest"
+                                    ><i class="flaticon-facebook"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/hackfest_ca"
+                                    ><i class="flaticon-twitter"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.youtube.com/user/hackfestca"
+                                    ><i class="flaticon-youtube"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/hackfestca/"
+                                    ><i class="flaticon-instagram"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.flickr.com/photos/hackfest2k9/"
+                                    ><span
+                                        class="iconify"
+                                        data-icon="ri:flickr-line"
+                                        data-width="25"
+                                        data-height="25"
+                                    ></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="topbar-item topbar-left">
+                        <ul class="topbar-list topbar-list-white">
+                            <li>
+                                <a href="https://hackfestca.square.site/"
+                                    ><i class="flaticon-shopping-cart"></i>
+                                    Boutique</a
+                                >
+                            </li>
+                             
+                            <li>
+                                <a href="https://hfctf.ca/en/team/">English</a>
+                            </li>
+                             
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-area sticky-black navbar-area-2">
+        <div class="mobile-nav">
+            <a href="index.html" class="mobile-brand">
+                <img
+                    src="https://hfctf.ca/images/logo-white-tiny.png"
+                    alt="logo"
+                    class="logo main-brand"
+                />
+                <img
+                    src="https://hfctf.ca/images/logo-black-tiny.png"
+                    alt="logo"
+                    class="logo hover-brand"
+                />
+            </a>
+        </div>
+        <div class="main-nav">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img
+                            src="https://hfctf.ca/images/logo-white-tiny.png"
+                            alt="logo"
+                            class="logo main-brand"
+                        />
+                        <img
+                            src="https://hfctf.ca/images/logo-black-tiny.png"
+                            alt="logo"
+                            class="logo hover-brand"
+                        />
+                    </a>
+                    <div
+                        class="collapse navbar-collapse mean-menu"
+                        id="navbarSupportedContent"
+                        style="display: block; margin-left: -6%"
+                    >
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a href="ctfs" class="nav-link"
+                                    >CTFs</a
+                                >
+                            </li><li class="nav-item">
+                                <a href="rules" class="nav-link"
+                                    >Règlements</a
+                                >
+                            </li><li class="nav-item">
+                                <a href="team" class="nav-link"
+                                    >Équipe</a
+                                >
+                            </li><li class="nav-item">
+                                <a href="about" class="nav-link"
+                                    >À propos</a
+                                >
+                            </li>
+                            <span class="mobile-topbar-link">
+                                <li class="nav-item">
+                                    <a
+                                        href="https://hackfestca.square.site/"
+                                        class="nav-link"
+                                        >Boutique</a
+                                    >
+                                </li>
+                                 
+                                <li class="nav-item">
+                                    <a
+                                        href="https://hfctf.ca/en/team/"
+                                        class="nav-link"
+                                        >English</a
+                                    >
+                                </li>
+                            </span>
+                             
+                        </ul>
+                    </div>
+                    <div class="navbar-option">
+                        <div class="navbar-option-item">
+                            </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+
+<header class="header-page-bg overflow-hidden header-page-bg-3">
+    <div class="bottom-frame"></div>
+    <div class="header-page-bg-inner">
+        <div class="header-page-line">
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+            <div class="header-page-line-item"></div>
+        </div>
+        <div class="container-fluid">
+            <div class="header-content header-content-white">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Accueil / </li>
+                        <li class="breadcrumb-item active" aria-current="page">Équipe</li>
+                    </ol>
+                </nav>
+                <h1>Équipe</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<section class="blog-details-section sec-pt-60 pb-70 bg-black">
+    <div class="container challenge-container">
+        <div class="row">
+                <div class="col-lg-4 pb-30">
+                    <div class="sidebar-item mb-30">
+                        <div class="sidebar-title">
+                            <a href="team"><h3>Notre équipe</h3></a>
+                        </div>
+                        <div class="recent-article">
+                            
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/phenix/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/phenix.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>PhenixCorp</h3>
+                                        
+                                        <sup style="color: yellow">Chef d&#39;orchestre</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @phenixcorp
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div style="height:20px"></div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/dax/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/dax.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>dax</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur &#43; Infrastructure</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @dax3095
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/maxwhite/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/maxwhite.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>MaxWhite</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur &#43; Infrastructure</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @maxwhite1337
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/brainmoustache/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/brainmoustache.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>Brainmoustache</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @brainmoustache
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/muemmelmoehre/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/muemmue.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>muemmelmoehre</h3>
+                                        
+                                        <sup style="color: yellow">Conceptrice</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @muemmelmoehre
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/s3z/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/placeholder-small.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>s3z</h3>
+                                        
+                                        <sup style="color: yellow">Conceptrice</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @_s3zz
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/salt/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/placeholder-small.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>salt</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @salt9594
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/theenarki/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/theenarki.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>TheEnarki</h3>
+                                        
+                                        <sup style="color: yellow">Réseau</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @theenarki
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/dystopie/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/placeholder-small.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>dystopie</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @dystopie
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/h3xit/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/h3xit.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>h3xit</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @h3xit
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/houssem0x1/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/houssem0x1.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>Houssem0x1</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @Houssem0x1
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/somecanadian/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/somecanadian.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>somecanadian</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @_somecanadian_
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/thekgbspy/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/placeholder-small.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>TheKGBspy</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @thekgbspy
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/hawa/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/placeholder-small.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>Hawa</h3>
+                                        
+                                        <sup style="color: yellow">Conceptrice</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @hawa_88
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/f1x1t/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/f1x1t.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>f1x1t</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @xerx2506
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/m3ow/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/m3ow.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>m3ow</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @m3ow.dev
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/mroqui/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/placeholder-small.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>mroqui</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @mroqui
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/dekciw/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/dekciw.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>dekciw</h3>
+                                        
+                                        <sup style="color: yellow">Concepteur &#43; Website</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @dekciw
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/thelkdo/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/theikdo.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>the lkdo</h3>
+                                        
+                                        <sup style="color: yellow">Designer</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @thelkdo
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                            <div class="recent-article-item">
+                                <a href="https://hfctf.ca/team/thesenate/">
+                                    <div class="recent-article-thumb">
+                                        <img src="https://hfctf.ca/images/team/thesenate.png" alt="blog">
+                                    </div>
+                                    <div class="recent-article-content">
+                                        <h3>The Senate</h3>
+                                        
+                                        <sup style="color: yellow">Designer</sup>
+                                        
+                                        <ul class="blog-entry-list">
+                                            <li>
+                                                <i class="flaticon-comment"></i>
+                                                Discord: @JustByeMyLove
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 pb-30 desk-pad-left-40">
+                    <article class="blog-article">
+                        
+                        <div class="forum-details">
+                            <img src="https://hfctf.ca/images/team/hfteam.jpg" alt="blog">
+                            <ul class="blog-entry-list">
+                                <li>
+                                    <i class="flaticon-comment"></i>
+                                    Discord: @Ninja
+                                </li>
+                            </ul>
+                            <h3>Nous vous souhaitons la bienvenue sur le site du HFCTF!</h3>
+                            <p><p>Un message de notre chef d&rsquo;équipe, PhenixCorp:</p>
+<p>La création de cet espace est dédié à rendre hommage à nos designers de challenges qui, année après année, vous donnent le meilleur d&rsquo;eux même afin de vous concocter tous ces défis. Ceci demande parfois beaucoup de sacrifices tout au long de l&rsquo;année et j&rsquo;espère, comme moi, que vous apprécierez le travail fourni. De plus, nos alumni sont mis en avant, car sans eux le HFCTF ne serait pas ce qu&rsquo;il est aujourd&rsquo;hui, merci à eux.</p>
+<p>Nous voulions un emplacement unique pour toutes nos informations sur les CTFs en cours d&rsquo;année et garder une trace de tous nos anciens que nous mettrons à jour au fur et à mesure. Ceci inclut notre fameux CTF Beginner.</p>
+<p>Comme vous le constatez, de nombreuses nouveautés s&rsquo;ajoutent chaque année et plus sont à venir, comme le fait de vous connecter sur nos scoreboards via votre compte Discord, une des grosses avancées de notre équipe.</p>
+<p>Merci de nous soutenir comme vous le faites chaque année et n&rsquo;oubliez pas que le Hackfest est autant un défi pour vous que pour notre équipe de bénévoles. Enfin, comme j&rsquo;aime le préciser depuis tellement d&rsquo;années:</p>
+</p>
+                            <blockquote class="blockquote mt-28">
+                                <span class="quote-icon"><i class="flaticon-quote-1"></i></span>
+                                <p>N&#39;apprenez pas à pirater, mais piratez pour apprendre!</p>
+                            </blockquote>
+                            <img src="https://hfctf.ca/images/artworks/logo-hfctf-white.png" alt="blog">
+                        </div>
+                        
+                    </article>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="about-section testimonial-section bg-off-white pb-70 bg-black">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-3 pb-30">
+                <div class="section-title section-title-left section-title-second-dark">
+                    <small>Nos alumni ou sensei</small>
+                    <h2>Nos anciens concepteurs de CTFs</h2>
+                    
+                </div>
+                <div class="testimonial-carousel-2-controller default-carousel-control default-carousel-control-secondary">
+                    <button class="carousel-arrow carousel-prev-arrow"><i class="flaticon-left-chevron"></i></button>
+                    <button class="carousel-arrow carousel-next-arrow"><i class="flaticon-right-chevron"></i></button>
+                    <p style="margin-top:10px;"><small style="color:white;">Parcourez la liste</small></p>
+                </div>
+            </div>
+            <div class="col-lg-9 pb-30">
+                <div class="testimonial-carousel-2 owl-carousel">
+                    
+                    <div class="item">
+                        <div class="testimonial-flat-card">
+                            <div class="testimonial-flat-thumb testimonial-flat-thumb-frame-2">
+                                <img src="https://hfctf.ca/images/team/placeholder-small.png" alt="testimonial">
+                            </div>
+                            <div class="testimonial-flat-content testimonial-content-white">
+                                <h3 class="testimonial-name">Martin Dubé</h3>
+                                <p class="testimonial-designation">Martin a participé au Hackfest de 2010 à 2017 et est fasciné par les nombreux domaines offerts par l&#39;informatique. Quelques-uns de ses défis: </p>
+                                <ul class="about-check-list about-check-list-second about-check-list-white">
+                                    
+                                    <li>Black Market (2011)</li>
+                                    
+                                    <li>Hackfest city model (2013)</li>
+                                    
+                                    <li>Hackfest Electronic Badge (2016)</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="testimonial-flat-card">
+                            <div class="testimonial-flat-thumb testimonial-flat-thumb-frame-2">
+                                <img src="https://hfctf.ca/images/team/placeholder-small.png" alt="testimonial">
+                            </div>
+                            <div class="testimonial-flat-content testimonial-content-white">
+                                <h3 class="testimonial-name">Sigs</h3>
+                                <p class="testimonial-designation">Connu pour les défis HFCTF bleeding edge Windows</p>
+                                <ul class="about-check-list about-check-list-second about-check-list-white">
+                                    
+                                    <li>Chercheur de vulnérabilités</li>
+                                    
+                                    <li>Ancien organisateur Hackfest</li>
+                                    
+                                    <li>Ancien concepteur de CTF</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="testimonial-flat-card">
+                            <div class="testimonial-flat-thumb testimonial-flat-thumb-frame-2">
+                                <img src="https://hfctf.ca/images/team/vn.png" alt="testimonial">
+                            </div>
+                            <div class="testimonial-flat-content testimonial-content-white">
+                                <h3 class="testimonial-name">vn</h3>
+                                <p class="testimonial-designation">Bénévole au Hackfest depuis...le compte a été perdu</p>
+                                <ul class="about-check-list about-check-list-second about-check-list-white">
+                                    
+                                    <li>Ancien sysadmin maintenant analyste en sécurité</li>
+                                    
+                                    <li>Ancien concepteur de CTF (forensic, OSINT/password cracking, basic reverse)</li>
+                                    
+                                    <li>Brainfuck master quand ça lui tente</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="testimonial-flat-card">
+                            <div class="testimonial-flat-thumb testimonial-flat-thumb-frame-2">
+                                <img src="https://hfctf.ca/images/team/stackfault.png" alt="testimonial">
+                            </div>
+                            <div class="testimonial-flat-content testimonial-content-white">
+                                <h3 class="testimonial-name">StackFault</h3>
+                                <p class="testimonial-designation">Je fais partie de ces vieux de la vieille qui ont commencé à pirater à l&#39;époque de l&#39;ANSI et du HPVAC, alors que la plupart des activités se faisaient par téléphone et par des interfaces textuelles</p>
+                                <ul class="about-check-list about-check-list-second about-check-list-white">
+                                    
+                                    <li>Plus de 25 ans d&#39;expérience</li>
+                                    
+                                    <li>Joueur et ancien concepteur de CTF</li>
+                                    
+                                    <li>Toujours en train d&#39;essayer de faire le lien entre &#34;ne peut pas être fait&#34; et &#34;que faire ensuite&#34;</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="testimonial-flat-card">
+                            <div class="testimonial-flat-thumb testimonial-flat-thumb-frame-2">
+                                <img src="https://hfctf.ca/images/team/viper.png" alt="testimonial">
+                            </div>
+                            <div class="testimonial-flat-content testimonial-content-white">
+                                <h3 class="testimonial-name">Viper</h3>
+                                <p class="testimonial-designation">Professionnel chevronné de la sécurité informatique avec de nombreuses années d&#39;expérience (la plupart dans le domaine de la sécurité offensive), spécialisé dans les tests de pénétration, le red teaming et l&#39;Active Directory. Collaborateur dévoué de la communauté et éducateur, il a dirigé des CTF, donné des cours de sécurité et est connu pour ses rapports clairs et exploitables et sa passion pour le partage des connaissances.</p>
+                                <ul class="about-check-list about-check-list-second about-check-list-white">
+                                    
+                                    <li>Fondateur du Beginner CTF</li>
+                                    
+                                    <li>Créateur de la formation Sécurité 103</li>
+                                    
+                                    <li>PentestCat - WSL/Windows (2017)</li>
+                                    
+                                    <li>Quaoar - Sedna - Orcus (2016)</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="testimonial-flat-card">
+                            <div class="testimonial-flat-thumb testimonial-flat-thumb-frame-2">
+                                <img src="https://hfctf.ca/images/team/nic.png" alt="testimonial">
+                            </div>
+                            <div class="testimonial-flat-content testimonial-content-white">
+                                <h3 class="testimonial-name">nwolc</h3>
+                                <p class="testimonial-designation">Bénévole au Hackfest depuis pas mal longtemps (je n&#39;avais pas de cheveux blancs la première fois que j&#39;ai été bénévole). J&#39;ai eu un commodore 64 à sa sortie (rappel aux cheveux blancs).</p>
+                                <ul class="about-check-list about-check-list-second about-check-list-white">
+                                    
+                                    <li>Professeur @ cégep de Sainte-Foy</li>
+                                    
+                                    <li>Formateur @ mon compte</li>
+                                    
+                                    <li>Formateur de sec101 et sec102</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="testimonial-flat-card">
+                            <div class="testimonial-flat-thumb testimonial-flat-thumb-frame-2">
+                                <img src="https://hfctf.ca/images/team/placeholder-small.png" alt="testimonial">
+                            </div>
+                            <div class="testimonial-flat-content testimonial-content-white">
+                                <h3 class="testimonial-name">FLR</h3>
+                                <p class="testimonial-designation">Le taux le plus élevé de défis non résolus.</p>
+                                <ul class="about-check-list about-check-list-second about-check-list-white">
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="partner-section p-tb-100 page-bg page-bg-1">
+    <div class="container position-relative">
+    </div>
+</div>
+
+</div>
+        
+<footer>
+    <div class="footer-upper footer-light footer-light-second page-bg page-bg-5 pt-100 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="footer-content-item">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="https://hfctf.ca/images/logo-white-tiny.png" alt="logo"></a>
+                        </div>
+                        <div class="footer-details footer-details-light">
+                            <ul class="social-list social-list-white">
+                                <li>
+                                <a href="https://discord.gg/WcT5Xrd"><span class="iconify" data-icon="la:discord" data-width="25" data-height="25"></span>
+                                </a>
+                            </li>
+                                <li>
+                                    <a href="https://www.facebook.com/hackfest"><i class="flaticon-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/hackfest_ca"><i class="flaticon-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/user/hackfestca"><i class="flaticon-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/hackfestca/"><i class="flaticon-instagram"></i></a>
+                                </li>
+                                <ul class="social-list social-list-white">
+                                    <li>
+                                    <a href="https://www.flickr.com/photos/hackfest2k9/"><span class="iconify" data-icon="ri:flickr-line" data-width="25" data-height="25"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="footer-content-list footer-content-item desk-pad-left-70">
+                        <div class="footer-content-title">
+                            <h3>Contactez-nous</h3>
+                        </div>
+                        <div class="footer-details footer-address">
+                            <div class="footer-address-item">
+                                <div class="footer-address-icon">
+                                    <i class="flaticon-email"></i>
+                                </div>
+                                <div class="footer-address-text">
+                                    <h4>Information</h4>
+                                    <p><a href="mailto:info@hfctf.ca">info@hfctf.ca</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-lower bg-black2">
+        <div class="container">
+            <div class="footer-copyright-text footer-copyright-text-secondcolor">
+                    <p>Fait avec 🤍 par l'équipe du HFCTF</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+        <div class="scroll-top" id="scrolltop">
+            <div class="scroll-top-inner scroll-top-inner-secondcolor">
+               Défiler vers le haut <i class="bx bx-down-arrow-alt"></i>
+            </div>
+        </div>
+
+
+<script src="https://hfctf.ca/js/jquery-3.5.1.min.js"></script>
+<script src="https://hfctf.ca/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.magnific-popup.min.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.waypoints.min.js"></script>
+<script src="https://hfctf.ca/js/jquery.counterup.min.js"></script>
+
+<script src="https://hfctf.ca/js/owl.carousel.min.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.nice-select.min.js"></script>
+
+<script src="https://hfctf.ca/js/isotope.pkgd.min.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.ajaxchimp.min.js"></script>
+
+<script src="https://hfctf.ca/js/form-validator.min.js"></script>
+
+<script src="https://hfctf.ca/js/contact-form-script.js"></script>
+
+<script src="https://hfctf.ca/js/jquery.meanmenu.min.js"></script>
+
+<script src="https://hfctf.ca/js/script.js"></script>
+
+<script src='https://use.edgefonts.net/butcherman.js'></script>
+<script src='https://use.edgefonts.net/creepster.js'></script>
+<script src='https://use.edgefonts.net/emilys-candy.js'></script>
+
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</body>
+</html>

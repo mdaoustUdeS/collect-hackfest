@@ -1,0 +1,1568 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+
+
+
+
+<!-- Primary meta -->
+<title>iHack 2026 — Hackfest 2026</title>
+<meta name="description" content="iHack 2026 — Conférences & CTF multi-villes en une seule journée. Québec · Montréal · Trois-Rivières. Chicoutimi.">
+<link rel="canonical" href="ihack">
+
+<!-- Open Graph -->
+<meta property="og:type"        content="website">
+<meta property="og:site_name"   content="Hackfest 2026">
+<meta property="og:title"       content="iHack 2026 — Hackfest 2026">
+<meta property="og:description" content="iHack 2026 — Conférences & CTF multi-villes en une seule journée. Québec · Montréal · Trois-Rivières. Chicoutimi.">
+<meta property="og:url"         content="https://hackfest.ca/ihack/">
+<meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta property="og:image:alt"   content="Hackfest 2026">
+<meta property="og:locale"      content="fr_CA">
+
+<!-- Twitter Card -->
+<meta name="twitter:card"        content="summary">
+<meta name="twitter:site"        content="@hackfest_ca">
+<meta name="twitter:title"       content="iHack 2026 — Hackfest 2026">
+<meta name="twitter:description" content="iHack 2026 — Conférences & CTF multi-villes en une seule journée. Québec · Montréal · Trois-Rivières. Chicoutimi.">
+<meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- Hreflang (bilingual) -->
+
+
+<link rel="alternate" hreflang="fr"        href="ihack">
+<link rel="alternate" hreflang="en"        href="https://hackfest.ca/en/ihack/">
+<link rel="alternate" hreflang="x-default" href="ihack">
+
+
+  <!-- Favicon and touch icon (192x192) -->
+<link rel="icon" type="image/webp" sizes="192x192" href="https://hackfest.ca/assets/images/touch-icon-192x192.webp">
+<link rel="apple-touch-icon" sizes="192x192" href="https://hackfest.ca/assets/images/touch-icon-192x192.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Orbitron:wght@400;500;600;700&family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/main.css">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/ihack.css">
+  <script defer src="https://analytics.hackfest.ca/script.js" data-website-id="0ce77795-100e-4f53-92c3-5ea0922c0b15"></script>
+</head>
+<body class="ihack-page">
+  <header class="site-header">
+  <div class="header-inner">
+    <div class="header-left">
+      <a href="index.html" class="logo">
+        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Hackfest Logo">
+      </a>
+      
+      
+      
+      
+      
+      
+      <span class="header-subbrand-sep" aria-hidden="true">/</span>
+      <a href="ihack"
+         class="header-subbrand-link">
+        <img src="https://hackfest.ca/assets/images/ihack/ihacklogo.webp"
+             alt="iHack"
+             class="header-subbrand-img">
+      </a>
+      
+    </div>
+    <nav class="main-nav" id="mainNav">
+      <ul class="nav-list">
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Communauté</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item has-dropdown">
+              
+                <button class="nav-btn">Hackfest</button>
+              
+              
+              <ul class="dropdown sub-dropdown">
+                
+                <li><a href="ctfs">CTFs</a></li>
+                
+                <li><a href="villages">Villages</a></li>
+                
+                <li><a href="formations">Formations</a></li>
+                
+                <li><a href="spectacle">Spectacle</a></li>
+                
+                <li><a href="after-dark">After Dark</a></li>
+                
+                <li><a href="hackfest-schedule">Programme Hackfest</a></li>
+                
+                <li><a href="partenaires-hackfest">Partenaires</a></li>
+                
+              </ul>
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="polar">Polar</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="quebecsec">QuébecSec</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="ihack">iHack</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://securite.fm">French Connection</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="services">Services</a>
+          
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="sejour">Séjour</a>
+          
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="horaire">Horaire</a>
+          
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Partenaires</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="partenaires-hackfest">Hackfest</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="polar#sponsors">POLAR</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="infolettre-partenaires">Infolettre partenaires</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://sponsorship.hackfest.ca">Devenir partenaire</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Contact</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="a-propos">À propos</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="comite/index.html">Le comité</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="contact/index.html">Nous contacter</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li class="nav-item">
+          
+            <a href="historique">Historique</a>
+          
+          
+        </li>
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Archive</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="conferences">Présentations (Vidéos)</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+      </ul>
+
+      <!-- Mobile-only footer: CTAs and language switcher moved from header-right -->
+      <div class="mobile-nav-cta">
+        <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="btn btn-primary">S'inscrire</a>
+        <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor">Commanditer l'événement</a>
+        <a href="https://hackfest.ca/en/ihack/" class="mobile-nav-lang">
+          <svg class="globe-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          EN
+        </a>
+      </div>
+    </nav>
+    <div class="header-right">
+      <a href="https://hackfest.ca/en/ihack/" class="lang-switch"><svg class="globe-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> EN</a>
+      <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="btn btn-primary btn-sm">S'inscrire</a>
+      <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor btn-sm">Commanditer l'événement</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+  <main>
+
+    <!-- =========================================================
+         1. IHACK HERO
+         ========================================================= -->
+    <section class="ihack-hero">
+      <div class="ihack-hero-bg" aria-hidden="true">
+        <img src="https://hackfest.ca/assets/images/ihack/hero.webp" alt="">
+      </div>
+      <div class="ihack-hero-overlay"></div>
+      <!-- Brand pinned to center of hero (logo + main sponsor) -->
+      <div class="ihack-hero-brand">
+        <img
+          src="https://hackfest.ca/assets/images/ihack/ihacklogo.webp"
+          alt="iHack"
+          class="ihack-hero-logo"
+        >
+
+        
+        
+
+        
+          
+          
+            <div class="ihack-hero-presented-by">
+              <span class="ihack-hero-presented-by-label">Présenté par</span>
+              
+                <a class="ihack-hero-presented-by-link" href="https://www.itcloud.ca/" target="_blank" rel="noopener">
+                  <img
+                    src="https://hackfest.ca/assets/images/ihack/partenaires/itcloud-fr.webp"
+                    alt="ITCloud"
+                    class="ihack-hero-presented-by-logo"
+                    loading="lazy"
+                    decoding="async"
+                  >
+                </a>
+              
+            </div>
+          
+        
+      </div>
+      <!-- Bottom content: standard two-column like all other heroes -->
+      <div class="ihack-hero-content">
+        <div class="hero-left">
+          <p class="hero-subtitle">Conférences & CTF en une seule journée</p>
+          
+          <p class="hero-tagline">Québec · Montréal · Trois-Rivières · Chicoutimi</p>
+          
+        </div>
+        <div class="hero-right">
+          <h2 class="hero-dates">30 mai 2026</h2>
+          <div class="ihack-hero-register-buttons">
+            
+            
+            <a href="https://www.eventbrite.ca/e/ihack-2026-quebec-tickets-1985144918891?aff=website" class="btn btn-primary ihack-hero-register-btn" target="_blank" rel="noopener">
+              Québec
+            </a>
+            
+            
+            
+            <a href="https://www.eventbrite.ca/e/ihack-2026-montreal-tickets-1985144923906?aff=website" class="btn btn-primary ihack-hero-register-btn" target="_blank" rel="noopener">
+              Montréal
+            </a>
+            
+            
+            
+            <a href="https://www.eventbrite.ca/e/ihack-2026-chicoutimi-tickets-1985144934939?aff=hfwebsite" class="btn btn-primary ihack-hero-register-btn" target="_blank" rel="noopener">
+              Chicoutimi
+            </a>
+            
+            
+            
+            <a href="https://www.eventbrite.ca/e/ihack-2026-trois-rivieres-tickets-1985144958008?aff=website" class="btn btn-primary ihack-hero-register-btn" target="_blank" rel="noopener">
+              Trois-Rivières
+            </a>
+            
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         2. IHACK ABOUT
+         ========================================================= -->
+    <section class="ihack-about" id="about">
+      <div class="container">
+        <h2>C'est quoi iHack?</h2>
+        <p class="ihack-about-desc">iHack est un événement annuel (presque) gratuit organisé par la communauté Hackfest. Une journée de conférences en cybersécurité simultanée dans plusieurs villes, suivie d'un CTF le soir.</p>
+        
+        <div class="ihack-highlights">
+          
+          <div class="ihack-highlight-card">
+            <span class="ihack-highlight-value">Québec · Montréal · Trois-Rivières · Chicoutimi</span>
+            <span class="ihack-highlight-label">Multi-villes</span>
+          </div>
+          
+          <div class="ihack-highlight-card">
+            <span class="ihack-highlight-value">Gratuit (ou presque)</span>
+            <span class="ihack-highlight-label">Entrée</span>
+          </div>
+          
+          <div class="ihack-highlight-card">
+            <span class="ihack-highlight-value">Journée complète</span>
+            <span class="ihack-highlight-label">Conférences</span>
+          </div>
+          
+          <div class="ihack-highlight-card">
+            <span class="ihack-highlight-value">Le soir à 18h30</span>
+            <span class="ihack-highlight-label">CTF</span>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. IHACK CITY NAV
+         ========================================================= -->
+    <nav class="ihack-city-nav" aria-label="Choisissez votre ville">
+      <div class="ihack-city-nav-inner">
+        <span class="ihack-city-nav-label">Choisissez votre ville</span>
+        <div class="ihack-city-nav-cards">
+          
+          <a
+            href="ihack#city-quebec"
+            class="ihack-city-nav-card"
+            data-city="quebec"
+          >
+            <span class="ihack-city-nav-card-name">Québec</span>
+          </a>
+          
+          <a
+            href="ihack#city-montreal"
+            class="ihack-city-nav-card"
+            data-city="montreal"
+          >
+            <span class="ihack-city-nav-card-name">Montréal</span>
+          </a>
+          
+          <a
+            href="ihack#city-chicoutimi"
+            class="ihack-city-nav-card"
+            data-city="chicoutimi"
+          >
+            <span class="ihack-city-nav-card-name">Chicoutimi</span>
+          </a>
+          
+          <a
+            href="ihack#city-3riv"
+            class="ihack-city-nav-card"
+            data-city="3riv"
+          >
+            <span class="ihack-city-nav-card-name">Trois-Rivières</span>
+          </a>
+          
+          <a href="ihack#sponsors" class="ihack-city-nav-card ihack-city-nav-card--sponsors">
+            <span class="ihack-city-nav-card-name">Partenaires</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- =========================================================
+         4. IHACK CITIES SECTION (tabs + panels)
+         ========================================================= -->
+    <section class="ihack-cities-section" id="cities">
+      <div class="container">
+
+        <!-- City panels -->
+        
+        <div
+          class="ihack-city-panel"
+          id="city-quebec"
+          role="tabpanel"
+          aria-labelledby="tab-quebec"
+        >
+          <!-- Venue -->
+          <div class="ihack-venue">
+            <div class="ihack-venue-info">
+              <h3 class="ihack-city-heading">Québec</h3>
+              
+              <p class="ihack-venue-name">
+                
+                <a href="https://maps.app.goo.gl/MhozVf4fxSWJib6g9" target="_blank" rel="noopener">Cégep de Sainte-Foy, Formation Continue, 5ième étage</a>
+                
+              </p>
+              
+              
+              <p class="ihack-venue-address">2410, chemin Sainte-Foy (Édifice P), Québec (Québec)  G1V 1T3</p>
+              
+            </div>
+            <div class="ihack-venue-register">
+              
+              <a href="https://www.eventbrite.ca/e/ihack-2026-quebec-tickets-1985144918891?aff=website" class="btn btn-primary ihack-city-register-btn" target="_blank" rel="noopener">
+                S'inscrire
+              </a>
+              
+            </div>
+          </div>
+
+          <div class="ihack-city-body">
+            <!-- Schedule -->
+            
+            <div class="ihack-schedule-wrap">
+              <h4 class="ihack-section-sub">Horaire</h4>
+              <table class="ihack-schedule">
+                <tbody>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">12h00</td>
+                    <td class="ihack-schedule-event">Ouverture des portes</td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">13h00</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-quebec-2" class="ihack-schedule-talk-link">Patrick Mathieu & Franck Desert – Programmation AI - Trucs et astuces</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">14h00</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-quebec-3" class="ihack-schedule-talk-link">Samuel Dussault – curl | sh et autres mauvaises idées : anatomie d’une supply chain compromise</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">15h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-quebec-4" class="ihack-schedule-talk-link">Patrick Mathieu – Tabletop Exercise et comment se préparer à un incident de sécurité</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">16h00</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-quebec-5" class="ihack-schedule-talk-link">Patrick Roy – FIDO2 : le chien n'est pas si bien dressé</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">16h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-quebec-6" class="ihack-schedule-talk-link">Podcast La French Connection – Podcast La French Connection</a></td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">17h30</td>
+                    <td class="ihack-schedule-event">Souper (pizzas)</td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">18h30</td>
+                    <td class="ihack-schedule-event">Début du CTF</td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">02h00</td>
+                    <td class="ihack-schedule-event">Fin du CTF</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+            
+          </div>
+
+          <!-- Presentations -->
+          
+          
+
+          
+          <div class="ihack-presentations" id="presentations-quebec">
+            <h4 class="ihack-section-sub">
+              Présentations
+            </h4>
+            <div class="ihack-presentations-grid">
+              
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-quebec-2">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Programmation AI - Trucs et astuces</h5>
+                  <span class="ihack-presentation-time">13h00</span>
+                </div>
+                <p class="ihack-presentation-speaker">Patrick Mathieu & Franck Desert</p>
+                
+                <p class="ihack-presentation-desc">Cette présentation sera une introduction à la programmation AI, en utilisant Python, Cursor et Claude Code. Nous verrons comment utiliser ces outils pour créer des applications AI simples et efficaces et les approches de programmations.
+
+Nous explorerons également les concepts fondamentaux de l'IA, comme l'apprentissage automatique, la récursion, et les modèles de langage. Cette présentation est faite pour les débutants et les passionnés d'IA.
+</p>
+                
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-quebec-3">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">curl | sh et autres mauvaises idées : anatomie d’une supply chain compromise</h5>
+                  <span class="ihack-presentation-time">14h00</span>
+                </div>
+                <p class="ihack-presentation-speaker">Samuel Dussault</p>
+                
+                <p class="ihack-presentation-desc">En 2026, les attaques contre la chaîne d’approvisionnement (ou supply chain attacks) se multiplient à une vitesse telle qu'il devient presque impossible de s'en protéger complètement. Installation de dépendance, lancement de script, exécution d’une GitHub Action, build d’un container ou intégration d’un agent à son IDE: toute action en apparence anodine peut maintenant devenir un vecteur d’attaque capable de transformer un agent de build en zombie, ou d’exfiltrer tous les secrets d’une machine de dev.
+</p>
+                
+                
+                <div class="ihack-presentation-bio">
+                  <span class="ihack-presentation-bio-label">Bio</span>
+                  <p>Dans ce talk orienté démos, Samuel Dussault, expert en sécurité applicative, passera de la théorie à la pratique en reproduisant plusieurs scénarios d’attaque inspirés de cas réels. L’objectif : montrer comment ces attaques fonctionnent réellement, pourquoi elles passent souvent sous le radar, et quelles pratiques simples permettent de réduire le blast radius quand une dépendance, un outil ou un pipeline tombe aux mains d'un l'attaquant.
+
+Spécialiste en sécurité applicative, cloud et IA, Samuel Dussault gravite autour de la tech depuis près de 15 ans. Ancien développeur, pentester et leader AppSec, il a travaillé autant sur le terrain que sur la mise en place de programmes de sécurité. Il aime rendre les sujets complexes accessibles, concrets et utiles pour les équipes techniques.
+</p>
+                </div>
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-quebec-4">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Tabletop Exercise et comment se préparer à un incident de sécurité</h5>
+                  <span class="ihack-presentation-time">15h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Patrick Mathieu</p>
+                
+                <p class="ihack-presentation-desc">Chaque semaine, des PME québécoises vivent des incidents de cybersécurité. Le problème, ce n’est pas le manque d’outils ou de bonne volonté. C’est le manque de pratique.
+
+Le jour où ça arrive, les équipes hésitent, les décisions tardent et les angles morts apparaissent. Pas par manque de compétence, mais parce qu’ils n’ont jamais testé leur capacité de réponse aux incidents ensemble.
+
+Dans cette conférence, Patrick Mathieu consultant en sécurité avec plus de 20 ans d’expérience, vous plonge dans un scénario réaliste de crise et vous montre concrètement les avantages à ce préparer.
+
+On parle de Tabletop Exercise (TTX), de préparation à un incident, et surtout de ce qui fonctionne vraiment sur le terrain. Pas de jargon, pas de peur inutile, mais des exemples concrets et des pistes claires pour renforcer votre posture.
+
+Vous allez repartir avec une meilleure compréhension de vos risques potentiels, et des actions simples pour être prêt quand ça compte.
+</p>
+                
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-quebec-5">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">FIDO2 : le chien n'est pas si bien dressé</h5>
+                  <span class="ihack-presentation-time">16h00</span>
+                </div>
+                <p class="ihack-presentation-speaker">Patrick Roy</p>
+                
+                <p class="ihack-presentation-desc">Vous avez déployé Entra ID et des clés FIDO2. Vous croyez avoir tué le mot de passe. Détrompez-vous.
+
+En 45 minutes, Patrick Roy démonte cinq pièges silencieux de l'authentification sans mot de passe en entreprise et défend deux opinions tranchées : (1) votre vraie posture sans mot de passe se mesure à la solidité de votre soutien technique un vendredi à 17 h, et (2) les fondations cryptographiques de FIDO2 ont une date de péremption.
+
+Pour analystes sécurité et décideurs techniques.
+
+Suite directe de « Mort aux mots de passe! » (iHack 2024).
+</p>
+                
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-quebec-6">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Podcast La French Connection</h5>
+                  <span class="ihack-presentation-time">16h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Podcast La French Connection</p>
+                
+                <p class="ihack-presentation-desc">Le podcast La French Connection sera en format live, avec une conversation entre les participants et les conférenciers sur les thèmes abordés des les iHack.        
+</p>
+                
+                
+              </div>
+              
+              
+              
+              
+              
+              
+              
+              
+            </div>
+          </div>
+          
+
+        </div>
+        
+        <div
+          class="ihack-city-panel"
+          id="city-montreal"
+          role="tabpanel"
+          aria-labelledby="tab-montreal"
+        >
+          <!-- Venue -->
+          <div class="ihack-venue">
+            <div class="ihack-venue-info">
+              <h3 class="ihack-city-heading">Montréal</h3>
+              
+              <p class="ihack-venue-name">
+                
+                <a href="https://maps.app.goo.gl/8zaU9r58nB9N9tzF7" target="_blank" rel="noopener">Secur01</a>
+                
+              </p>
+              
+              
+              <p class="ihack-venue-address">7875 Boulevard Louis H. La Fontaine, Montréal, QC H1K 4E4</p>
+              
+            </div>
+            <div class="ihack-venue-register">
+              
+              <a href="https://www.eventbrite.ca/e/ihack-2026-montreal-tickets-1985144923906?aff=website" class="btn btn-primary ihack-city-register-btn" target="_blank" rel="noopener">
+                S'inscrire
+              </a>
+              
+            </div>
+          </div>
+
+          <div class="ihack-city-body">
+            <!-- Schedule -->
+            
+            <div class="ihack-schedule-wrap">
+              <h4 class="ihack-section-sub">Horaire</h4>
+              <table class="ihack-schedule">
+                <tbody>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">11h30</td>
+                    <td class="ihack-schedule-event">Ouverture des portes</td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">12h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-montreal-2" class="ihack-schedule-talk-link">Frédérik Bernard – Chroniques d'un Québec compromis 2 : Regardez-vous dans le miroir</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">13h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-montreal-3" class="ihack-schedule-talk-link">Vianney Gall – Atelier Software Define Radio 101</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">15h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-montreal-4" class="ihack-schedule-talk-link">Jonathan Marcil – Modélisation de menaces et LLM</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">16h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-montreal-5" class="ihack-schedule-talk-link">Podcast La French Connection – Podcast La French Connection</a></td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">17h30</td>
+                    <td class="ihack-schedule-event">Souper</td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">18h30</td>
+                    <td class="ihack-schedule-event">Début du CTF</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+            
+          </div>
+
+          <!-- Presentations -->
+          
+          
+
+          
+          <div class="ihack-presentations" id="presentations-montreal">
+            <h4 class="ihack-section-sub">
+              Présentations
+            </h4>
+            <div class="ihack-presentations-grid">
+              
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-montreal-2">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Chroniques d'un Québec compromis 2 : Regardez-vous dans le miroir</h5>
+                  <span class="ihack-presentation-time">12h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Frédérik Bernard</p>
+                
+                <p class="ihack-presentation-desc">Il dit toujours la même chose à ses équipes : « Relax. On ne sauve pas des vies. On sauve des entreprises. »
+
+Depuis janvier 2025, les équipes de Secur01 ont répondu à de nouveaux incidents.  
+Des cas plus lourds. Plus humains. Plus difficiles à raconter.
+
+Derrière chaque brèche, il y a une organisation.  
+Derrière chaque organisation, il y a des décisions.  
+Et derrière chaque décision, il y a un humain qui a choisi de regarder ailleurs.
+
+Cette année, les Chroniques ne parlent pas des attaquants.  
+Elles parlent de nous.  
+Des MSP. Des dirigeants. Des équipes TI.  
+De ceux à qui on a confié la sécurité.  
+De ce qu'ils en ont fait.
+
+C’est une conférence sur ce qu’on évite de se dire.  
+Sur les erreurs qu’on répète parce qu’on n’a jamais eu le courage de se regarder honnêtement dans le miroir.  
+« On ne sauve pas des vies. »
+
+Jusqu’au jour où on réalise que cette phrase a une limite.
+</p>
+                
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-montreal-3">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Atelier Software Define Radio 101</h5>
+                  <span class="ihack-presentation-time">13h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Vianney Gall</p>
+                
+                <p class="ihack-presentation-desc">Cet atelier propose une introduction à haut niveau à la radio logicielle (SDR). Les participants découvriront le fonctionnement général des systèmes SDR, les principaux outils et logiciels disponibles, ainsi que les critères importants à considérer pour choisir un appareil.
+
+L’atelier s’adresse aux débutants et met l’accent sur la compréhension pratique plutôt que sur la théorie approfondie. À la fin de la session, les participants auront les bases nécessaires pour débuter avec le SDR et faire un choix éclairé lors de l’achat d’un équipement.
+
+Un nombre limité de dispositifs SDR sera fourni pour les exercices pratiques, mais les participants sont encouragés à apporter leur propre matériel s’ils en possèdent.
+</p>
+                
+                
+                <div class="ihack-presentation-bio">
+                  <span class="ihack-presentation-bio-label">Bio</span>
+                  <p>Vianney Gall est analyste en cybersécurité spécialisé en tests d’intrusion, titulaire d’une formation en ingénierie informatique. Ses domaines d’intérêt incluent la sécurité industrielle, les technologies radio, les systèmes embarqués à travers l'expérimentation pratique. Il rend accessible la pratique du radio définit par logiciel à travers des CTF et courtes formations pratiques.
+</p>
+                </div>
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-montreal-4">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Modélisation de menaces et LLM</h5>
+                  <span class="ihack-presentation-time">15h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Jonathan Marcil</p>
+                
+                <p class="ihack-presentation-desc">Une présentation en 2026 sans IA est incomplète, me direz-vous? Eh bien, celle-ci comprend une double dose de LLM! D’un côté, nous allons introduire les concepts et effectuer la modélisation des menaces d’un agent de type assistant personnel; de l’autre, nous allons utiliser un LLM pour créer ce modèle. Au-delà des menaces, nous allons aussi aborder quelques éléments de défense.
+</p>
+                
+                
+                <div class="ihack-presentation-bio">
+                  <span class="ihack-presentation-bio-label">Bio</span>
+                  <p>Jonathan est un conseiller en sécurité applicative qui a publié sur le sujet de la modélisation des menaces et qui s'implique dans NorthSec et OWASP Montréal. Il est passionné par la sécurité applicative et apprécie l'analyse d'architecture, la revue de code, la sécurité infonuagique et la démystification des outils de sécurité. Jonathan détient un baccalauréat en génie logiciel de l'ÉTS Montréal et cumule 20 ans d'expérience en technologies de l'information et en sécurité.  
+</p>
+                </div>
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-montreal-5">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Podcast La French Connection</h5>
+                  <span class="ihack-presentation-time">16h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Podcast La French Connection</p>
+                
+                <p class="ihack-presentation-desc">Le podcast La French Connection sera en format live, avec une conversation entre les participants et les conférenciers sur les thèmes abordés des les iHack.
+</p>
+                
+                
+              </div>
+              
+              
+              
+              
+              
+              
+            </div>
+          </div>
+          
+
+        </div>
+        
+        <div
+          class="ihack-city-panel"
+          id="city-chicoutimi"
+          role="tabpanel"
+          aria-labelledby="tab-chicoutimi"
+        >
+          <!-- Venue -->
+          <div class="ihack-venue">
+            <div class="ihack-venue-info">
+              <h3 class="ihack-city-heading">Chicoutimi</h3>
+              
+              <p class="ihack-venue-name">
+                
+                <a href="https://maps.app.goo.gl/Nf9GZP6Yxqj2pWDv8" target="_blank" rel="noopener">Université du Québec à Chicoutimi - Local P0 - 7500</a>
+                
+              </p>
+              
+              
+              <p class="ihack-venue-address">555 Bd de l'Université, Chicoutimi, QC G7H 2B1</p>
+              
+            </div>
+            <div class="ihack-venue-register">
+              
+              <a href="https://www.eventbrite.ca/e/ihack-2026-chicoutimi-tickets-1985144934939?aff=hfwebsite" class="btn btn-primary ihack-city-register-btn" target="_blank" rel="noopener">
+                S'inscrire
+              </a>
+              
+            </div>
+          </div>
+
+          <div class="ihack-city-body">
+            <!-- Schedule -->
+            
+            <div class="ihack-schedule-wrap">
+              <h4 class="ihack-section-sub">Horaire</h4>
+              <table class="ihack-schedule">
+                <tbody>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">11h30</td>
+                    <td class="ihack-schedule-event">Ouverture des portes</td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">12h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-chicoutimi-2" class="ihack-schedule-talk-link">Enzo Hoummady – Prompt Injection 101 : Comment faire faire n'importe quoi à des LLM</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">13h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-chicoutimi-3" class="ihack-schedule-talk-link">Maxime Guimond – Quand l'OSINT rencontre l'OpSec : les angles morts de nos signaux numériques</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">14h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-chicoutimi-4" class="ihack-schedule-talk-link">Nathan Duhamel – Whorkshop Reverse engineering</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">16h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-chicoutimi-5" class="ihack-schedule-talk-link">Podcast La French Connection – Podcast La French Connection</a></td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">17h30</td>
+                    <td class="ihack-schedule-event">Réseautage et souper</td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">18h30</td>
+                    <td class="ihack-schedule-event">Début du CTF</td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">02h00</td>
+                    <td class="ihack-schedule-event">Remise des prix</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+            
+          </div>
+
+          <!-- Presentations -->
+          
+          
+
+          
+          <div class="ihack-presentations" id="presentations-chicoutimi">
+            <h4 class="ihack-section-sub">
+              Présentations
+            </h4>
+            <div class="ihack-presentations-grid">
+              
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-chicoutimi-2">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Prompt Injection 101 : Comment faire faire n'importe quoi à des LLM</h5>
+                  <span class="ihack-presentation-time">12h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Enzo Hoummady</p>
+                
+                <p class="ihack-presentation-desc">Pour cette première heure, on va regarder ensemble la différence entre le prompt injection et le jailbreak. On va parler des différentes méthodes pour réussir à faire sauter les sécurités des LLM, et je vous partagerai aussi quelques anecdotes sur des cas réels en production qui ont causé pas mal de soucis.
+
+Ensuite, sur la dernière demi-heure, on va passer à la pratique ! On va aller jouer sur divers sites web qui permettent de s'exercer. Ça vous donnera l'occasion de tester vos propres exemples d'injections dans un cadre totalement autorisé. D'ailleurs, petite précision pratique : vous n'avez pas forcément besoin d'un ordinateur pour participer, les exercices peuvent très bien se faire directement depuis votre téléphone !
+</p>
+                
+                
+                <div class="ihack-presentation-bio">
+                  <span class="ihack-presentation-bio-label">Bio</span>
+                  <p>Enzo Hoummady fait un doctorat à l'Université du Québec à Chicoutimi. Il est également détenteur d'un diplôme d'ingénieur en cybersécurité de l'Institut National des Sciences Appliquées Centre Val de Loire en France. Sa recherche se concentre désormais sur la sécurité des IA et plus précisément la sécurité du deep learning.
+</p>
+                </div>
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-chicoutimi-3">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Quand l'OSINT rencontre l'OpSec : les angles morts de nos signaux numériques</h5>
+                  <span class="ihack-presentation-time">13h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Maxime Guimond</p>
+                
+                <p class="ihack-presentation-desc">Le silence numérique n'existe presque plus.
+Chaque environnement, chaque appareil et chaque comportement peuvent générer des signaux. Isolés, ils semblent souvent insignifiants. Corrélés, ils peuvent devenir du renseignement.
+
+Cette présentation explore les angles morts de la sécurité opérationnelle (OpSec) moderne et la manière dont les sources d'informations ouvertes (OSINT) transforme des fragments dispersés en contexte exploitable. Une réflexion concrète sur la surface d'exposition que nous alimentons parfois sans nous en rendre compte, et sur les moyens de reprendre le contrôle dans un monde où tout devient un signal.
+</p>
+                
+                
+                <div class="ihack-presentation-bio">
+                  <span class="ihack-presentation-bio-label">Bio</span>
+                  <p>Maxime est analyste en cybersécurité et ancien militaire. Il s'intéresse à la sensibilisation, à la sécurité de l'information ainsi qu'au développement de contenus de formation liés aux enjeux numériques. Son parcours l'amène à aborder ces questions avec une perspective concrète et réaliste, et avec la volonté de les rendre accessibles.
+</p>
+                </div>
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-chicoutimi-4">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Whorkshop Reverse engineering</h5>
+                  <span class="ihack-presentation-time">14h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Nathan Duhamel</p>
+                
+                <p class="ihack-presentation-desc">Nathan reviendra sur les challenges de reverse qui vous ont fait vous poser tant de questions lors du CTF UQ`Hack. Sous la forme d'un workshop, nous essaierons de comprendre ensemble comment vous auriez pu capturer ces flag.
+</p>
+                
+                
+                <div class="ihack-presentation-bio">
+                  <span class="ihack-presentation-bio-label">Bio</span>
+                  <p>Étudiant en maîtrise de cybersécurité à l'UQAC, Nathan cumule plus de 8 ans d'expérience en programmation. Spécialisé en rétro-ingénierie de jeux vidéo, il est le créateur de plusieurs outils de référence dans le domaine, largement adoptés par la communauté internationale. Retrouvez ses projets sur escartem.moe.
+</p>
+                </div>
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-chicoutimi-5">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Podcast La French Connection</h5>
+                  <span class="ihack-presentation-time">16h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Podcast La French Connection</p>
+                
+                <p class="ihack-presentation-desc">Le podcast La French Connection sera en format live, avec une conversation entre les participants et les conférenciers sur les thèmes abordés des les iHack.
+</p>
+                
+                
+              </div>
+              
+              
+              
+              
+              
+              
+              
+              
+            </div>
+          </div>
+          
+
+        </div>
+        
+        <div
+          class="ihack-city-panel"
+          id="city-3riv"
+          role="tabpanel"
+          aria-labelledby="tab-3riv"
+        >
+          <!-- Venue -->
+          <div class="ihack-venue">
+            <div class="ihack-venue-info">
+              <h3 class="ihack-city-heading">Trois-Rivières</h3>
+              
+              <p class="ihack-venue-name">
+                
+                <a href="https://maps.app.goo.gl/tkjcKU4NqFCoryUWA" target="_blank" rel="noopener">Cégep de Trois-Rivières - Pavillon des Sciences- CTF Cafétéria SC-1006 / Présentations auditorium SA-3035</a>
+                
+              </p>
+              
+              
+              <p class="ihack-venue-address">3500, rue De Courval, C.P. 97, Trois-Rivières, (Québec), G9A 5E6</p>
+              
+            </div>
+            <div class="ihack-venue-register">
+              
+              <a href="https://www.eventbrite.ca/e/ihack-2026-trois-rivieres-tickets-1985144958008?aff=website" class="btn btn-primary ihack-city-register-btn" target="_blank" rel="noopener">
+                S'inscrire
+              </a>
+              
+            </div>
+          </div>
+
+          <div class="ihack-city-body">
+            <!-- Schedule -->
+            
+            <div class="ihack-schedule-wrap">
+              <h4 class="ihack-section-sub">Horaire</h4>
+              <table class="ihack-schedule">
+                <tbody>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">12h30</td>
+                    <td class="ihack-schedule-event">Ouverture des portes</td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">13h00</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-3riv-2" class="ihack-schedule-talk-link">David Bergeron (Davecrypt) – Comprendre l'invisible</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">14h00</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-3riv-3" class="ihack-schedule-talk-link">Christian Lambert (WhyN0t) – Intégrer la sécurité avant le premier commit ? WhyN0t ! Introduction au DevSecOps dans le monde réel.</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">14h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-3riv-4" class="ihack-schedule-talk-link">Robert Descôteaux – Votre messagerie est une cible : Attaques et Défenses en entreprise</a></td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">15h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-3riv-5" class="ihack-schedule-talk-link">Christian Lambert, Robert Descôteaux – Événements cybersécurité dont vous devez connaitre ... et assister</a></td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">16h00</td>
+                    <td class="ihack-schedule-event">à Venir</td>
+                  </tr>
+                  
+                  <tr class="ihack-schedule-talk-row">
+                    <td class="ihack-schedule-time">16h30</td>
+                    <td class="ihack-schedule-event"><a href="ihack#talk-3riv-7" class="ihack-schedule-talk-link">Podcast La French Connection – Podcast La French Connection</a></td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">17h30</td>
+                    <td class="ihack-schedule-event">Réseautage et souper</td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="ihack-schedule-time">18h30</td>
+                    <td class="ihack-schedule-event">Début du CTF</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+            
+          </div>
+
+          <!-- Presentations -->
+          
+          
+
+          
+          <div class="ihack-presentations" id="presentations-3riv">
+            <h4 class="ihack-section-sub">
+              Présentations
+            </h4>
+            <div class="ihack-presentations-grid">
+              
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-3riv-2">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Comprendre l'invisible</h5>
+                  <span class="ihack-presentation-time">13h00</span>
+                </div>
+                <p class="ihack-presentation-speaker">David Bergeron (Davecrypt)</p>
+                
+                <p class="ihack-presentation-desc">Comprendre la base est la première étape avant de se spécialiser sur un 
+sujet et de démarrer une analyse approfondie. Plongez au cœur de la 
+communication “invisible” et découvrez comment les ondes, les radios 
+amateurs et la technologie SDR révèlent des aspects de la sécurité 
+numérique , de transmission d’informations et même de sécurité civile. 
+Cette présentation offre un aperçu des technologies clés permettant de 
+comprendre et d’analyser ces signaux, en combinant les fondamentaux 
+de la communication radiofréquence avec les applications modernes. 
+En associant ces différents domaines, vous aurez une vision globale 
+des technologies de communication ainsi que leur impact, une base 
+solide pour explorer des sujets plus spécialisés.
+</p>
+                
+                
+                <div class="ihack-presentation-bio">
+                  <span class="ihack-presentation-bio-label">Bio</span>
+                  <p>Passionné par la télécommunication et l’infrastructure depuis plus de 20 ans – 
+que ce soit de la téléphonie IP jusqu’au cloud en passant par tout ce qui est réseau, 
+David adore apprendre et partager ses connaissances. L’an dernier, il a eu l’occasion 
+de participer au village radio amateur du Hackfest, où il a également profité de 
+l’occasion pour rehausser avec fierté sa certification radio amateur de base pour la supérieur.
+</p>
+                </div>
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-3riv-3">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Intégrer la sécurité avant le premier commit ? WhyN0t ! Introduction au DevSecOps dans le monde réel.</h5>
+                  <span class="ihack-presentation-time">14h00</span>
+                </div>
+                <p class="ihack-presentation-speaker">Christian Lambert (WhyN0t)</p>
+                
+                <p class="ihack-presentation-desc">La sécurité est encore trop souvent perçue comme le goulot d'étranglement des déploiements. Pourtant, face à la vitesse de livraison actuelle, repousser les validations à la toute fin du cycle n'est plus une option viable.
+
+Loin des buzzwords, cette présentation vous propose de démystifier le DevSecOps avec une approche terre-à-terre. Au-delà du simple pipeline CI/CD, où et comment peut-on vraiment injecter de la sécurité ? 
+En m'appuyant sur mon expérience terrain en TI, nous explorerons les pièges classiques à éviter pour enfin unir les équipes de développement, d'opérations et de sécurité.
+
+Attention : l'objectif ici n'est pas de vous fournir une liste d'outils magiques. Nous allons plutôt aborder les défis, parfois culturels, nécessaires pour transformer la sécurité en un facilitateur,
+capable de mitiger les risques et de bloquer les vulnérabilités bien avant qu'elles n'atteignent la production.
+</p>
+                
+                
+                <div class="ihack-presentation-bio">
+                  <span class="ihack-presentation-bio-label">Bio</span>
+                  <p>Tombé dans la marmite de l'informatique à l'époque du TRS-80, 
+Christian « WhyN0t » Lambert a fait un détour par les 
+Forces Armées Canadiennes avant de replonger dans les tranchées 
+des TI à la fin des années 90. Après des études à uLaval, il a 
+survécu à l'évolution de notre industrie en explorant toutes 
+les facettes du métier : Sysadmin, DevOps, DevSecOps, Pentester 
+à l’occasion, et maintenant Security Architect. 
+Son combat actuel ? Militer pour une sécurité holistique, pragmatique et intégrée.
+</p>
+                </div>
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-3riv-4">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Votre messagerie est une cible : Attaques et Défenses en entreprise</h5>
+                  <span class="ihack-presentation-time">14h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Robert Descôteaux</p>
+                
+                <p class="ihack-presentation-desc">À l’heure où la majorité des cyberattaques débutent par un simple courriel, la messagerie d’entreprise reste l’une des surfaces d’attaque les plus critiques et souvent les plus sous-estimées. Phishing ciblé, fraude au président (BEC) ou contournement du MFA : les techniques évoluent rapidement, portées notamment par l’automatisation et l’intelligence artificielle.
+
+Cette présentation propose une plongée dans les attaques modernes visant les services de messagerie, en mettant en lumière les méthodes utilisées sur le terrain. À travers des scénarios réalistes, nous analyserons comment les attaquants exploitent à la fois les failles techniques, les configurations faibles et les comportements humains.
+
+Au-delà du constat, cette session abordera les stratégies de défense efficaces, en combinant contrôles techniques (SPF, DKIM, DMARC), protection des identités, capacités de détection et rôle clé des utilisateurs. 
+
+Durée : 1 heure
+</p>
+                
+                
+                <div class="ihack-presentation-bio">
+                  <span class="ihack-presentation-bio-label">Bio</span>
+                  <p>Hacker de vieille génération, j’ai rapidement compris qu’il y avait encore plus de défi et de satisfaction à protéger les infrastructures qu’à les compromettre.
+
+Passionné de sécurité de l’information, je m’intéresse à tout ce qui touche à la sécurité physique, aux technologies de l’information, à la cybersécurité et à la protection des renseignements personnels.
+Libre d’esprit et profondément curieux, je me définis comme un facilitateur : j’aime remettre en question les approches traditionnelles pour rendre la sécurité plus accessible, plus concrète et mieux intégrée au quotidien, en particulier pour les PME.
+
+Mon objectif : vulgariser sans simplifier à l’excès, briser certaines conventions et faciliter l’implantation de solutions de sécurité adaptées à la réalité de chacun."
+</p>
+                </div>
+                
+              </div>
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-3riv-5">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Événements cybersécurité dont vous devez connaitre ... et assister</h5>
+                  <span class="ihack-presentation-time">15h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Christian Lambert, Robert Descôteaux</p>
+                
+                <p class="ihack-presentation-desc">Vous souhaitez développer votre réseau, accélérer votre apprentissage ou simplement découvrir les événements clés de la communauté en cybersécurité ? Cette présentation est faite pour vous.
+
+En 15 minutes, nous vous proposons un tour d’horizon de 10 événements incontournables. Du Hackfest à nSec, en passant par GoSec, BSides ou encore Defcon et BlackHat, nous partagerons avec vous les particularités de chacun, leur ""vibe"", et pourquoi ils méritent votre attention.
+
+À travers une présentation dynamique à deux voix, ponctuée d’humour et d’anecdotes, vous découvrirez les différences entre les événements communautaires, techniques et corporatifs, ainsi que des conseils concrets pour tirer le maximum de votre participation.
+
+Que vous soyez débutant ou professionnel expérimenté, vous repartirez avec une meilleure compréhension de l’écosystème événementiel en cybersécurité… et peut-être l’envie d’ajouter quelques dates à votre calendrier.
+
+Durée : 15 minutes
+</p>
+                
+                
+              </div>
+              
+              
+              
+              
+              
+              <div class="ihack-presentation-card" id="talk-3riv-7">
+                <div class="ihack-presentation-header">
+                  <h5 class="ihack-presentation-title">Podcast La French Connection</h5>
+                  <span class="ihack-presentation-time">16h30</span>
+                </div>
+                <p class="ihack-presentation-speaker">Podcast La French Connection</p>
+                
+                <p class="ihack-presentation-desc">Le podcast La French Connection sera en format live, avec une conversation entre les participants et les conférenciers sur les thèmes abordés des les iHack.   
+</p>
+                
+                
+              </div>
+              
+              
+              
+              
+              
+              
+            </div>
+          </div>
+          
+
+        </div>
+        
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. IHACK CTF
+         ========================================================= -->
+    
+    <section class="ihack-ctf" id="ctf">
+      <div class="container">
+        <h2>CTF iHack</h2>
+        <p class="ihack-ctf-desc">Chaque soir, un CTF simultané dans toutes les villes. Débutants bienvenus.</p>
+
+        
+        <div class="ihack-ctf-prizes">
+          <h3>Prix</h3>
+          
+          <div class="ihack-ctf-prize">
+            <span class="ihack-ctf-prize-label">Prix de présence</span>
+            <span class="ihack-ctf-prize-value">Entrée gratuite Hackfest 2026 + swag</span>
+          </div>
+          
+          <div class="ihack-ctf-prize">
+            <span class="ihack-ctf-prize-label">Gagnant du CTF</span>
+            <span class="ihack-ctf-prize-value">1 formation (securite, 101-101c-102-103)</span>
+          </div>
+          
+        </div>
+        
+
+        
+        <div class="ihack-ctf-requirements">
+          <h3>Ce qu'il faut apporter</h3>
+          <ul>
+            
+            <li>Ordinateur portable</li>
+            
+            <li>Câbles d'alimentation</li>
+            
+            <li>Câble Ethernet (recommandé)</li>
+            
+          </ul>
+        </div>
+        
+
+        
+        <p class="ihack-ctf-note">Inscription sur le scoreboard à 18h30</p>
+        
+      </div>
+    </section>
+    
+
+    <!-- =========================================================
+         6. IHACK SPONSORS
+         ========================================================= -->
+    <section class="ihack-sponsors" id="sponsors">
+      <div class="container">
+        <h2>Partenaires</h2>
+        
+        
+        <div class="sponsor-row sponsor-row-main" id="main">
+          <span class="sponsor-label">Présenté par</span>
+          
+          
+          <div class="sponsor-logos sponsor-logos-single">
+            
+            <div class="sponsor-item">
+              
+              <a href="https://www.itcloud.ca/" class="sponsor-item-link">
+                <img src="https://hackfest.ca/assets/images/ihack/partenaires/itcloud-fr.webp" alt="ITCloud">
+              </a>
+              
+              <p class="ihack-sponsor-desc">ITCloud est un distributeur canadien de services cloud à valeur ajoutée qui accompagne les fournisseurs de services gérés (MSP) et les fournisseurs de solutions informatiques en leur offrant un accès à des solutions cloud, de cybersécurité et de productivité. En centralisant les services de continuité d’activité, de sécurité et de cloud, ITCloud aide ses partenaires à simplifier la distribution et la gestion de leurs solutions, tout en leur fournissant un soutien technique, des formations et un accompagnement.
+<br><br>
+<strong>Services :</strong><br>
+- Distribution et licences cloud<br>
+- Solutions de cybersécurité<br>
+- Sauvegarde et continuité d’activité<br>
+- Solutions de productivité et Microsoft<br>
+- Soutien technique, formations et accompagnement des partenaires<br>
+</p>
+              
+              
+            </div>
+            
+          </div>
+          
+        </div>
+        
+        
+      </div>
+    </section>
+
+    
+  </main>
+
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>À propos du Hackfest</h4>
+        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Hackfest Logo" class="footer-logo">
+        <p>Le Hackfest est le plus grand événement bilingue de cybersécurité et de hacking au Canada, se tenant à Québec. Nos villages incluent le lock picking, l'ingénierie sociale, CTF, Hack ta carrière, SCADA/ICS, RFID, électronique, radio amateur et plus encore.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Visitez-nous</h4>
+        <ul>
+          
+          <li><a href="polar">POLAR</a></li>
+          
+          <li><a href="https://securite.fm">Podcast La French Connection</a></li>
+          
+          <li><a href="ihack">iHack</a></li>
+          
+          <li><a href="quebecsec">QuébecSec</a></li>
+          
+          <li><a href="formations">Formations</a></li>
+          
+          <li><a href="services">Services</a></li>
+          
+          <li><a href="index.html">Page d'Accueil</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        
+        
+        
+        
+        <ul class="footer-venues">
+          
+          <li>
+            <span class="footer-venue-label">Hackfest:</span>
+            <span class="footer-venue-name">Centre des congrès de Québec</span>
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          <li>
+            <span class="footer-venue-label">POLAR:</span>
+            <span class="footer-venue-name">Le Capitole de Québec — Salle Le Confessionnal</span>
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          
+          <li>
+            <span class="footer-venue-label">QuébecSec:</span>
+            
+            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console — 830 Rue Saint-Joseph Est, 5e étage</a>
+            
+            <span class="footer-venue-city">— Québec, QC</span>
+          </li>
+          
+          
+          <li><a class="footer-venue-link" href="sejour">Hôtels partenaires →</a></li>
+          
+          <li><a href="https://hackfest.ca/cdn-cgi/l/email-protection"><span class="__cf_email__" data-cfemail="">[email&#160;protected]</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Joignez l'infolettre</h4>
+        <p>Restez informé de nos événements mensuels, annuels et de nos annonces spéciales.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Email" required>
+          <button type="submit" class="btn btn-primary btn-sm">SUBSCRIBE</button>
+        </form>
+        
+        <div class="footer-policies">
+          <h4>Sécurité et politiques</h4>
+          <ul>
+            
+            <li><a href="responsible-disclosure">Divulgation responsable</a></li>
+            
+            <li><a href="code-ethique">Code d'éthique</a></li>
+            
+            <li><a href="politique-confidentialite">Politique de confidentialité</a></li>
+            
+            <li><a href="code-de-conduite">Code de conduite</a></li>
+            
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer-social">
+      <!-- Discord -->
+      <a href="https://discord.hackfest.ca" aria-label="Discord" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028 14.09 14.09 0 001.226-1.994.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg></a>
+      <!-- YouTube -->
+      <a href="https://www.youtube.com/user/hackfestca" aria-label="YouTube" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/hackfest" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+      <!-- X (Twitter) -->
+      <a href="https://twitter.com/hackfest_ca" aria-label="X (Twitter)" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+      <!-- Mastodon -->
+      <a href="https://infosec.exchange/@hackfest" aria-label="Mastodon" target="_blank" rel="noopener me"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 00.023-.043v-1.809a.052.052 0 00-.02-.041.053.053 0 00-.046-.01 20.282 20.282 0 01-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 01-.319-1.433.053.053 0 01.066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.668 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg></a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/company/hackfest/" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+      <!-- Flickr -->
+      <a href="https://flickr.com/photos/hackfest2k9/" aria-label="Flickr" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M5.334 6.666C2.3884 6.666 0 9.055 0 12c0 2.9456 2.3884 5.334 5.334 5.334 2.9456 0 5.332-2.3884 5.332-5.334 0-2.945-2.3864-5.334-5.332-5.334zm13.332 0c-2.9456 0-5.332 2.389-5.332 5.334 0 2.9456 2.3864 5.334 5.332 5.334C21.6116 17.334 24 14.9456 24 12c0-2.945-2.3884-5.334-5.334-5.334z"/></svg></a>
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/hackfestca/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+      <!-- GitHub -->
+      <a href="https://github.com/hackfestca" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Newsletter modal: Brevo signup form (opened when footer form is submitted) -->
+<div class="newsletter-modal-backdrop" id="newsletterModalBackdrop" hidden aria-hidden="true"></div>
+<div class="newsletter-modal"
+     id="newsletterModal"
+     hidden
+     aria-modal="true"
+     aria-labelledby="newsletter-modal-title"
+     role="dialog">
+  <div class="newsletter-modal-header">
+    <h2 class="newsletter-modal-title" id="newsletter-modal-title">Joignez l'infolettre</h2>
+    <button type="button" class="newsletter-modal-close" aria-label="Fermer">✕</button>
+  </div>
+  <div class="newsletter-modal-body">
+    <iframe id="newsletter-form-iframe"
+            width="540"
+            height="400"
+            data-base-url="https://31f3b719.sibforms.com/serve/MUIFAB_K2srFwrjfmBKCg7EgCrmpQbDjMcRF9-7IRYB4VK05TTpYsVq8bQW78j1sfRkwLl7CgvDC7UgUMQoLQxEB4E1k-rOJrIrTacmI7Ms9MmbOzu7wb8ioRCs2u153ydJDMdUwBaNrEOXbZDXS7mex_dn2CZ-LgJJJjeeDzff0rq4rfklIao0aa-m53XYhetXsr86bI5eP06JF"
+            frameborder="0"
+            scrolling="auto"
+            allowfullscreen
+            title="Joignez l'infolettre"
+            class="newsletter-modal-iframe"></iframe>
+  </div>
+</div>
+<script data-cfasync="false" src="https://hackfest.ca/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://hackfest.ca/assets/js/newsletter-modal.js"></script>
+
+
+  <script src="https://hackfest.ca/assets/js/main.js"></script>
+  <script src="https://hackfest.ca/assets/js/ihack.js"></script>
+</body>
+</html>
