@@ -339,7 +339,7 @@
          Each section: header + optional featured embed + playlist cards.
          ================================================================ -->
     
-    <section class="pres-section pres-section-dark" id="hackfest">
+    <section class="pres-section pres-section-alt" id="hackfest">
       <div class="container">
 
         <!-- Section header -->
@@ -461,7 +461,7 @@
       </div>
     </section>
     
-    <section class="pres-section pres-section-alt" id="polar">
+    <section class="pres-section pres-section-dark" id="polar">
       <div class="container">
 
         <!-- Section header -->
@@ -511,7 +511,7 @@
       </div>
     </section>
     
-    <section class="pres-section pres-section-dark" id="ihack">
+    <section class="pres-section pres-section-alt" id="ihack">
       <div class="container">
 
         <!-- Section header -->
@@ -573,7 +573,7 @@
       </div>
     </section>
     
-    <section class="pres-section pres-section-alt" id="quebecsec">
+    <section class="pres-section pres-section-dark" id="quebecsec">
       <div class="container">
 
         <!-- Section header -->
@@ -607,7 +607,7 @@
       </div>
     </section>
     
-    <section class="pres-section pres-section-dark" id="themes">
+    <section class="pres-section pres-section-alt" id="themes">
       <div class="container">
 
         <!-- Section header -->

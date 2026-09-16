@@ -315,8 +315,15 @@
         <div class="hero-right">
           <h2 class="hero-dates">29 Octobre 2026</h2>
           <div class="cta-buttons">
-            <a href="https://www.eventbrite.ca/e/polar-conference-canada-cybersecurity-manager-symposium-2026-registration-1976978315360?aff=oddtdtcreator" class="btn btn-primary btn-lg">S'inscrire</a>
+            <a href="https://www.eventbrite.ca/e/polar-conference-canada-cybersecurity-manager-symposium-2026-registration-1976978315360?aff=oddtdtcreator" class="btn btn-primary btn-lg">S'inscrire à POLAR</a>
             <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor btn-lg">Commanditer l'événement</a>
+          </div>
+          
+          <div class="hero-presented-by">
+            <span class="hero-presented-by__label">Présenté par</span>
+            <a href="https://www.paloaltonetworks.com/" class="hero-presented-by__logo" target="_blank" rel="noopener" aria-label="Palo Alto Networks">
+              <img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks" loading="lazy">
+            </a>
           </div>
           
         </div>
@@ -355,13 +362,15 @@
           
           <li><a href="polar#speakers">Conférenciers</a></li>
           
+          <li><a href="polar#schedule">Horaire</a></li>
+          
           <li><a href="polar#gallery">Galerie</a></li>
           
           <li><a href="polar#sponsors">Partenaires</a></li>
           
         </ul>
         
-        <a class="polar-sticky-nav-cta btn btn-primary btn-sm" href="https://www.eventbrite.ca/e/polar-conference-canada-cybersecurity-manager-symposium-2026-registration-1976978315360?aff=oddtdtcreator">S'inscrire</a>
+        <a class="polar-sticky-nav-cta btn btn-primary btn-sm" href="https://www.eventbrite.ca/e/polar-conference-canada-cybersecurity-manager-symposium-2026-registration-1976978315360?aff=oddtdtcreator">S'inscrire à POLAR</a>
         
       </div>
     </nav>
@@ -420,7 +429,73 @@
       <div class="container">
         <div class="polar-speakers-header">
           <h2>Nos conférenciers</h2>
-          <p>À venir</p>
+          <p>Premiers conférenciers annoncés, d'autres à venir</p>
+        </div>
+        
+        <div class="polar-speakers-grid">
+          
+          <div class="polar-speaker-card">
+            
+            <div class="polar-speaker-image" style="background-image: url('https://hackfest.ca/assets/images/speakers/dominic-villeneuve.webp')"></div>
+            
+            <div class="polar-speaker-info">
+              <h3>Dominic Villeneuve</h3>
+              <p class="polar-speaker-role">Directeur principal en cybersécurité, UV Assurance · Enseignant à l'UQTR · Formateur, conférencier et lockpicker</p>
+              
+              
+              <p class="polar-speaker-talk">
+                <span class="polar-speaker-talk__final">Zéro Budget, Zéro Excuse : la naissance d'un département cyber</span>
+              </p>
+              
+              
+              <div class="polar-speaker-abstract">
+                <p>Créer un département de cybersécurité sans budget, sans équipe et sans appui de la direction ? C’est possible, mais pas sans effort ni stratégie.</p>
+
+<p>Dans cette conférence, je partage le parcours réel de la création d’un département de cybersécurité né de rien : pas de budget, peu de maturité, des priorités ailleurs. Année après année, à force de travailler et de livrer des résultats concrets, de bâtir la crédibilité et de parler le bon langage stratégique, la cybersécurité est passée d’un irritant journalier à un pilier stratégique très bien financé.</p>
+
+              </div>
+              
+              
+              <div class="polar-speaker-bio">
+                <p>Dominic Villeneuve baigne dans le monde des TI depuis plus de 29 ans, avec une profonde passion pour la cybersécurité, la transmission du savoir et les trucs qui se déverrouillent… légalement.</p>
+
+<p>Directeur principal en cybersécurité chez UV Assurance, enseignant à l’UQTR, formateur, conférencier, YouTubeur, lockpicker et designer d’outils de lockpicking, Dominic adore comprendre comment les systèmes fonctionnent et, surtout, comment ils se contournent.</p>
+
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="polar-speaker-card">
+            
+            <div class="polar-speaker-image" style="background-image: url('https://hackfest.ca/assets/images/speakers/jeff-man.webp')"></div>
+            
+            <div class="polar-speaker-info">
+              <h3>Jeff Man</h3>
+              <p class="polar-speaker-role">Cryptanalyste certifié NSA · Architecte de la première « red team » de la NSA · Secure Ideas</p>
+              
+              
+              <p class="polar-speaker-talk">
+                <s class="polar-speaker-talk__strike">Getting Back to the Basics</s><s class="polar-speaker-talk__strike">The Fundamentals of CyberSecurity</s><s class="polar-speaker-talk__strike">Rethinking Security</s><span class="polar-speaker-talk__final">What Are We Doing Here?</span>
+              </p>
+              
+              
+              
+              <div class="polar-speaker-bio">
+                <p>Pionnier de la sécurité de l’information, hacker de la vieille école, animateur de balado, enseignant et mentor. Jeff partage plus de 42 ans d’expérience dans tous les aspects de la sécurité informatique, réseau et de l’information. Cryptanalyste certifié de la NSA, il a conçu le premier cryptosystème logiciel de l’agence, inventé une roue de chiffrement (la Whiz Wheel) utilisée plus d’une décennie par les Forces spéciales américaines, et été l’architecte de la toute première « red team » de la NSA. Il dirige aujourd’hui la pratique d’évaluation et de conseil PCI chez Secure Ideas.</p>
+
+              </div>
+              
+            </div>
+          </div>
+          
+          
+          
+          <div class="polar-speaker-card polar-speaker-card--placeholder" aria-hidden="true">
+            <span class="polar-speaker-placeholder-mark">+</span>
+            <span class="polar-speaker-placeholder-text">D'autres conférenciers à venir</span>
+          </div>
+          
         </div>
         
       </div>
@@ -429,6 +504,328 @@
 
     <!-- Polar Gallery -->
     
+    <!-- ===================================================================
+         SCHEDULE
+         Day programme from p.schedule.slots. Each slot carries a `kind`
+         (open / talk / sponsor / pause / meal / social / end) used to colour
+         the marker and badge. Only confirmed sessions are in the data.
+         =================================================================== -->
+    
+    <section class="polar-schedule" id="schedule">
+      <div class="polar-schedule-inner">
+        <div class="polar-schedule-header">
+          <h2>Horaire</h2>
+          <p>Le programme de la journée</p>
+        </div>
+
+        <div class="polar-schedule-scroll">
+          <table class="polar-schedule-table">
+            <thead>
+              <tr>
+                <th scope="col">Heure</th>
+                <th scope="col">Activité</th>
+                <th scope="col">Durée</th>
+                <th scope="col">Langue</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+              <tr class="polar-slot polar-slot--open">
+                <td class="polar-slot-time">8h00</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Ouverture des portes</span>
+                    
+                    
+                    <span class="polar-slot-sponsors">
+                      
+                      <img class="polar-slot-sponsor-logo"
+                           src="https://hackfest.ca/assets/images/sponsors/astate.webp"
+                           alt="ASTATE" title="ASTATE" loading="lazy">
+                      
+                      <img class="polar-slot-sponsor-logo"
+                           src="https://hackfest.ca/assets/images/sponsors/elitesec.webp"
+                           alt="EliteSec" title="EliteSec" loading="lazy">
+                      
+                      <img class="polar-slot-sponsor-logo"
+                           src="https://hackfest.ca/assets/images/sponsors/telus.webp"
+                           alt="TELUS" title="TELUS" loading="lazy">
+                      
+                    </span>
+                    
+                  </span>
+                  
+                  <span class="polar-slot-desc">Viennoiseries et réseautage.</span>
+                </td>
+                <td class="polar-slot-duration" data-label="Durée"></td>
+                <td class="polar-slot-lang" data-label="Langue"></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--sponsor">
+                <td class="polar-slot-time">8h55</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Mot d'ouverture</span>
+                    
+                    
+                    <span class="polar-slot-sponsors">
+                      
+                      <img class="polar-slot-sponsor-logo"
+                           src="https://hackfest.ca/assets/images/sponsors/paloalto.webp"
+                           alt="Palo Alto Networks" title="Palo Alto Networks" loading="lazy">
+                      
+                    </span>
+                    
+                  </span>
+                  
+                  
+                </td>
+                <td class="polar-slot-duration" data-label="Durée">5 min</td>
+                <td class="polar-slot-lang" data-label="Langue"></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--talk">
+                <td class="polar-slot-time">9h00</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Zéro Budget, Zéro Excuse : la naissance d'un département cyber</span>
+                    
+                  </span>
+                  <span class="polar-slot-speaker">Dominic Villeneuve</span>
+                  
+                </td>
+                <td class="polar-slot-duration" data-label="Durée">50 min</td>
+                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--talk">
+                <td class="polar-slot-time">10h00</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">What Are We Doing Here?</span>
+                    
+                  </span>
+                  <span class="polar-slot-speaker">Jeff Man</span>
+                  
+                </td>
+                <td class="polar-slot-duration" data-label="Durée">50 min</td>
+                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--en">EN</span></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--pause">
+                <td class="polar-slot-time">10h50</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Pause réseautage</span>
+                    
+                  </span>
+                  
+                  
+                </td>
+                <td class="polar-slot-duration" data-label="Durée">20 min</td>
+                <td class="polar-slot-lang" data-label="Langue"></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--talk">
+                <td class="polar-slot-time">11h10</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Acquisition d'entreprise : comment amener les TI à la table des négociations ?</span>
+                    
+                  </span>
+                  
+                  <span class="polar-slot-desc">Panel. Panélistes à dévoiler.</span>
+                </td>
+                <td class="polar-slot-duration" data-label="Durée">50 min</td>
+                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--sponsor">
+                <td class="polar-slot-time">12h00</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Conférence à dévoiler</span>
+                    
+                  </span>
+                  
+                  <span class="polar-slot-desc">Conférence partenaire du dîner.</span>
+                </td>
+                <td class="polar-slot-duration" data-label="Durée">15 min</td>
+                <td class="polar-slot-lang" data-label="Langue"></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--meal">
+                <td class="polar-slot-time">12h15</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Dîner</span>
+                    
+                  </span>
+                  
+                  <span class="polar-slot-desc">Repas trois services.</span>
+                </td>
+                <td class="polar-slot-duration" data-label="Durée"></td>
+                <td class="polar-slot-lang" data-label="Langue"></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--sponsor">
+                <td class="polar-slot-time">13h30</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Conférence à dévoiler</span>
+                    
+                    
+                    <span class="polar-slot-sponsors">
+                      
+                      <img class="polar-slot-sponsor-logo"
+                           src="https://hackfest.ca/assets/images/sponsors/paloalto.webp"
+                           alt="Palo Alto Networks" title="Palo Alto Networks" loading="lazy">
+                      
+                    </span>
+                    
+                  </span>
+                  
+                  
+                </td>
+                <td class="polar-slot-duration" data-label="Durée">50 min</td>
+                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--en">EN</span></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--pause">
+                <td class="polar-slot-time">14h20</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Pause réseautage</span>
+                    
+                  </span>
+                  
+                  
+                </td>
+                <td class="polar-slot-duration" data-label="Durée">20 min</td>
+                <td class="polar-slot-lang" data-label="Langue"></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--talk">
+                <td class="polar-slot-time">14h40</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Conférence à dévoiler</span>
+                    
+                  </span>
+                  <span class="polar-slot-speaker">Simon-David William</span>
+                  
+                </td>
+                <td class="polar-slot-duration" data-label="Durée">50 min</td>
+                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--pause">
+                <td class="polar-slot-time">15h30</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Pause café et sucrée</span>
+                    
+                  </span>
+                  
+                  
+                </td>
+                <td class="polar-slot-duration" data-label="Durée">20 min</td>
+                <td class="polar-slot-lang" data-label="Langue"></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--sponsor">
+                <td class="polar-slot-time">15h50</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Conférence à dévoiler</span>
+                    
+                    
+                    <span class="polar-slot-sponsors">
+                      
+                      <img class="polar-slot-sponsor-logo"
+                           src="https://hackfest.ca/assets/images/sponsors/micrologic.png"
+                           alt="Micro Logic" title="Micro Logic" loading="lazy">
+                      
+                    </span>
+                    
+                  </span>
+                  <span class="polar-slot-speaker">Pierre Rousseau, vice-président des ventes, Centre de données</span>
+                  
+                </td>
+                <td class="polar-slot-duration" data-label="Durée">20 min</td>
+                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--social">
+                <td class="polar-slot-time">16h10</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Cocktail</span>
+                    
+                    
+                    <span class="polar-slot-sponsors">
+                      
+                      <img class="polar-slot-sponsor-logo"
+                           src="https://hackfest.ca/assets/images/sponsors/micrologic.png"
+                           alt="Micro Logic" title="Micro Logic" loading="lazy">
+                      
+                    </span>
+                    
+                  </span>
+                  
+                  
+                </td>
+                <td class="polar-slot-duration" data-label="Durée"></td>
+                <td class="polar-slot-lang" data-label="Langue"></td>
+              </tr>
+              
+              <tr class="polar-slot polar-slot--end">
+                <td class="polar-slot-time">18h00</td>
+                <td class="polar-slot-body">
+                  <span class="polar-slot-headline">
+                    <span class="polar-slot-title">Fin de POLAR</span>
+                    
+                  </span>
+                  
+                  <span class="polar-slot-desc">Rendez-vous au cocktail d'ouverture du Hackfest, au Centre des congrès de Québec.</span>
+                </td>
+                <td class="polar-slot-duration" data-label="Durée"></td>
+                <td class="polar-slot-lang" data-label="Langue"></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+
+        
+        <ul class="polar-schedule-legend">
+          
+          <li class="polar-legend-item polar-legend-item--talk">Conférence</li>
+          
+          <li class="polar-legend-item polar-legend-item--sponsor">Partenaire</li>
+          
+          <li class="polar-legend-item polar-legend-item--pause">Pause</li>
+          
+          <li class="polar-legend-item polar-legend-item--social">Accueil et réseautage</li>
+          
+        </ul>
+        
+
+        
+        <ul class="polar-schedule-standing">
+          
+          <li>Bar disponible dans la salle à partir de l'après-midi.</li>
+          
+        </ul>
+        
+
+        
+        <p class="polar-schedule-note">Horaire préliminaire. Seules les activités confirmées sont affichées, d'autres s'ajouteront.</p>
+        
+      </div>
+    </section>
+    
+
     <section class="polar-gallery" id="gallery">
       <div class="polar-gallery-grid">
         
@@ -461,8 +858,48 @@
         </div>
         
         
+        <div class="sponsor-row sponsor-row-main" id="main">
+          <span class="sponsor-label">Partenaire principal</span>
+          
+          
+          
+          
+          
+          <div class="sponsor-logos sponsor-logos-single">
+            
+            <div class="sponsor-item">
+              
+              <a href="https://www.paloaltonetworks.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks"></a>
+              
+            </div>
+            
+          </div>
+          
+          
+            
+              
+              
+          
+          <div class="sponsor-descriptions">
+            
+              
+            <div class="sponsor-desc-block">
+              <p class="sponsor-item-text">Palo Alto Networks est un leader mondial de la cybersécurité. Partenaire principal de POLAR 2026, l'entreprise présente également une conférence au programme de la journée.</p>
+              <a href="https://www.paloaltonetworks.com/" class="sponsor-item-url">Visiter le site</a>
+            </div>
+              
+            
+          </div>
+          
+          
+          
+        </div>
+        
+        
+        
         <div class="sponsor-row " id="kiosk">
           <span class="sponsor-label">Kiosque</span>
+          
           
           
           
@@ -483,6 +920,34 @@
               
             </div>
             
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://astate.one" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/astate.webp" alt="ASTATE"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">ASTATE, c'est l'équipe qui ne dort pas pendant que vous dormez. On traque les failles, on surveille vos systèmes 24/7, on fait parler vos logs et on vous guide dans les méandres de la conformité (PCI, SWIFT, ISO…). Red Team, Blue Team, Purple mindset, on joue tous les rôles, mais toujours à fond.</p>
+                <a href="https://astate.one" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://elitesec.io" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/elitesec.webp" alt="EliteSec"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">EliteSec est une entreprise canadienne de cybersécurité qui offre des services spécialisés pour aider les organisations à renforcer leurs défenses : tests d'intrusion, conseil en cybersécurité et exercices de simulation ludifiés. EliteSec est accréditée ISO 27001:2022 et CREST, et est établie à Waterloo, en Ontario.</p>
+                <a href="https://elitesec.io" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
           </div>
           
           
@@ -492,6 +957,7 @@
         
         <div class="sponsor-row " id="lanieres">
           <span class="sponsor-label">Lanières</span>
+          
           
           
           
@@ -525,6 +991,7 @@
           
           
           
+          
           <div class="sponsor-entries">
             
             <div class="sponsor-entry">
@@ -554,6 +1021,7 @@
           
           
           
+          
           <div class="sponsor-entries">
             
             <div class="sponsor-entry">
@@ -574,6 +1042,12 @@
           
           
         </div>
+        
+        
+        
+        
+        
+        
         
         
       </div>

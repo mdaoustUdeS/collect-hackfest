@@ -311,19 +311,25 @@
 
 <section class="hero hero-slider" data-interval="5000">
   
-  <div class="hero-slider-slide active" data-index="0" data-type="video">
+  <div class="hero-slider-slide active" data-index="0" data-type="keynote">
+    
+    <div class="hero-slider-image hero-slider-image--keynote" style="background-image: url('https://hackfest.ca/assets/images/speakers/jeff-man-bg.webp')"></div>
+    
+  </div>
+  
+  <div class="hero-slider-slide" data-index="1" data-type="video">
     
     <video class="hero-slider-video" src="https://hackfest.ca/assets/videos/hf_hero_720.mp4" autoplay muted loop playsinline aria-hidden="true"></video>
     
   </div>
   
-  <div class="hero-slider-slide" data-index="1" data-type="image">
+  <div class="hero-slider-slide" data-index="2" data-type="image">
     
     <div class="hero-slider-image" style="background-image: url('https://hackfest.ca/assets/images/polar/panel.webp')"></div>
     
   </div>
   
-  <div class="hero-slider-slide" data-index="2" data-type="image">
+  <div class="hero-slider-slide" data-index="3" data-type="image">
     
     <div class="hero-slider-image" style="background-image: url('https://hackfest.ca/assets/images/sponsors/sponsors1.webp')"></div>
     
@@ -338,10 +344,65 @@
     
     <button class="hero-slider-dot" data-index="2" aria-label="Slide 3"></button>
     
+    <button class="hero-slider-dot" data-index="3" aria-label="Slide 4"></button>
+    
   </div>
   <div class="hero-slider-content">
     
-    <div class="hero-slide-content active" data-index="0">
+    <div class="hero-slide-content hero-slide-content--keynote active" data-index="0">
+      
+      
+      <figure class="hero-keynote-portrait">
+        <img src="https://hackfest.ca/assets/images/speakers/jeff-man.webp" alt="Jeff Man sur scène, micro à la main" width="780" height="1040" loading="eager">
+      </figure>
+      <div class="hero-keynote-main">
+      <div class="hero-keynote-body">
+        <p class="hero-keynote-eyebrow">Conférencier d'honneur 2026</p>
+        <h1 class="hero-keynote-name">Jeff Man</h1>
+        <p class="hero-keynote-role">Cryptanalyste certifié NSA · Architecte de la première « red team » de la NSA · Secure Ideas</p>
+        <p class="hero-keynote-bio">Pionnier de la sécurité de l'information, hacker de la vieille école, animateur de balado, enseignant et mentor. Jeff partage plus de 42 ans d'expérience dans tous les aspects de la sécurité informatique, réseau et de l'information. Cryptanalyste certifié de la NSA, il a conçu le premier cryptosystème logiciel de l'agence, inventé une roue de chiffrement (la Whiz Wheel) utilisée plus d'une décennie par les Forces spéciales américaines, et été l'architecte de la toute première « red team » de la NSA. Il dirige aujourd'hui la pratique d'évaluation et de conseil PCI chez Secure Ideas.</p>
+      </div>
+      <div class="hero-keynote-aside">
+        
+        <ul class="hero-keynote-talks">
+          
+          <li class="hero-keynote-talk">
+            <span class="hero-keynote-talk__label">Keynote Hackfest</span>
+            <p class="hero-keynote-talk__title">
+              
+              <span class="hero-keynote-talk__final">Reflections of a[n almost] Nefarious Hacker</span>
+              <span class="hero-keynote-talk__alt"><span class="hero-keynote-talk__alt-prefix">ou, plus simplement</span> « I Was the First Edward Snowden »</span>
+            </p>
+          </li>
+          
+          <li class="hero-keynote-talk">
+            <span class="hero-keynote-talk__label">Conférence Polar</span>
+            <p class="hero-keynote-talk__title">
+              
+              <s class="hero-keynote-talk__strike">Getting Back to the Basics</s> <s class="hero-keynote-talk__strike">The Fundamentals of CyberSecurity</s> <s class="hero-keynote-talk__strike">Rethinking Security</s> <span class="hero-keynote-talk__final">What Are We Doing Here?</span>
+              
+            </p>
+          </li>
+          
+        </ul>
+        
+
+        <p class="hero-keynote-meta">
+          <span class="hero-keynote-meta__dates">29 - 30 - 31 Octobre 2026</span>
+          <span class="hero-keynote-meta__venue"><span class="hero-location-icon" aria-hidden="true">📍</span>Centre des congrès de Québec</span>
+        </p>
+
+        <div class="cta-buttons">
+          <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="btn btn-primary btn-lg">S'inscrire</a>
+          <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor btn-lg">Commanditer l'événement</a>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+    
+    <div class="hero-slide-content" data-index="1">
+      
       <div class="hero-left">
         <h1>HACKFEST 2026</h1>
         <p class="hero-subtitle">L'événement en cybersécurité de l'année</p>
@@ -368,9 +429,11 @@
           <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor btn-lg">Commanditer l'événement</a>
         </div>
       </div>
+      
     </div>
     
-    <div class="hero-slide-content" data-index="1">
+    <div class="hero-slide-content" data-index="2">
+      
       <div class="hero-left">
         <h1>POLAR 2026</h1>
         <p class="hero-subtitle">Le rendez-vous des décideurs en sécurité</p>
@@ -390,9 +453,11 @@
           <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor btn-lg">Commanditer l'événement</a>
         </div>
       </div>
+      
     </div>
     
-    <div class="hero-slide-content" data-index="2">
+    <div class="hero-slide-content" data-index="3">
+      
       <div class="hero-left">
         <h1>PARTENAIRES</h1>
         <p class="hero-subtitle">Merci à nos commanditaires</p>
@@ -408,6 +473,7 @@
           <a href="https://sponsorship.hackfest.ca" class="btn btn-sponsor btn-lg">Commanditer l'événement</a>
         </div>
       </div>
+      
     </div>
     
   </div>
@@ -463,7 +529,7 @@
 
     <!-- CENTER: active item, populated by JS from data-items JSON -->
     <div class="news-ticker-stage" id="newsTickerStage"
-         data-items="[{&quot;date&quot;:&quot;2026-05-14&quot;,&quot;text&quot;:&quot;De **nouveaux partenaires** se joignent à l&#39;édition 2026 du **Hackfest** et de **POLAR**. Merci à eux ! Consultez les listes complètes.&quot;,&quot;links&quot;:[{&quot;label&quot;:&quot;Partenaires Hackfest&quot;,&quot;url&quot;:&quot;https://hackfest.ca/partenaires-hackfest&quot;},{&quot;label&quot;:&quot;Partenaires POLAR&quot;,&quot;url&quot;:&quot;https://hackfest.ca/polar#sponsors&quot;}]},{&quot;date&quot;:&quot;2026-05-02&quot;,&quot;text&quot;:&quot;Les inscriptions de **POLAR** et du **Hackfest CTF** sont ouvertes. / Le **Call For Papers** est ouvert pour le premier tour.&quot;,&quot;links&quot;:[{&quot;label&quot;:&quot;POLAR&quot;,&quot;url&quot;:&quot;https://hackfest.ca/polar&quot;},{&quot;label&quot;:&quot;CTF&quot;,&quot;url&quot;:&quot;https://hackfest.ca/ctfs&quot;},{&quot;label&quot;:&quot;CFP&quot;,&quot;url&quot;:&quot;https://cfp.hackfest.ca/hf2026/&quot;}]},{&quot;date&quot;:&quot;2026-04-13&quot;,&quot;text&quot;:&quot;Les inscriptions du iHack sont ouvertes pour Québec, Montréal, Trois-Rivières et Chicoutimi.&quot;,&quot;url&quot;:&quot;https://hackfest.ca/ihack&quot;},{&quot;date&quot;:&quot;2026-03-22&quot;,&quot;text&quot;:&quot;Nouvelle formation disponible : &#39;Formation Cloud Pragmatique &amp; Security Ops&#39;. Visitez la page des formations pour plus d&#39;informations.&quot;,&quot;url&quot;:&quot;https://hackfest.ca/formations&quot;},{&quot;date&quot;:&quot;2026-03-04&quot;,&quot;text&quot;:&quot;Un nouveau site web est en ligne ! Les formations sont disponibles maintenant et l&#39;horaire du Hackfest 2026 est en cours de développement. Visitez le site pour plus d&#39;informations.&quot;,&quot;url&quot;:&quot;https://hackfest.ca/formations&quot;}]">
+         data-items="[{&quot;date&quot;:&quot;2026-09-07&quot;,&quot;text&quot;:&quot;**Jeff Man** est le conférencier d&#39;honneur du **Hackfest 2026** : cryptanalyste certifié NSA, architecte de la première « red team » de la NSA et inventeur de la Whiz Wheel. Il montera aussi sur la scène de **POLAR**.&quot;,&quot;links&quot;:[{&quot;label&quot;:&quot;Keynote Hackfest&quot;,&quot;url&quot;:&quot;https://hackfest.ca/hackfest-schedule&quot;},{&quot;label&quot;:&quot;POLAR&quot;,&quot;url&quot;:&quot;https://hackfest.ca/polar&quot;}]},{&quot;date&quot;:&quot;2026-05-14&quot;,&quot;text&quot;:&quot;De **nouveaux partenaires** se joignent à l&#39;édition 2026 du **Hackfest** et de **POLAR**. Merci à eux ! Consultez les listes complètes.&quot;,&quot;links&quot;:[{&quot;label&quot;:&quot;Partenaires Hackfest&quot;,&quot;url&quot;:&quot;https://hackfest.ca/partenaires-hackfest&quot;},{&quot;label&quot;:&quot;Partenaires POLAR&quot;,&quot;url&quot;:&quot;https://hackfest.ca/polar#sponsors&quot;}]},{&quot;date&quot;:&quot;2026-05-02&quot;,&quot;text&quot;:&quot;Les inscriptions de **POLAR** et du **Hackfest CTF** sont ouvertes. / Le **Call For Papers** est ouvert pour le premier tour.&quot;,&quot;links&quot;:[{&quot;label&quot;:&quot;POLAR&quot;,&quot;url&quot;:&quot;https://hackfest.ca/polar&quot;},{&quot;label&quot;:&quot;CTF&quot;,&quot;url&quot;:&quot;https://hackfest.ca/ctfs&quot;},{&quot;label&quot;:&quot;CFP&quot;,&quot;url&quot;:&quot;https://cfp.hackfest.ca/hf2026/&quot;}]},{&quot;date&quot;:&quot;2026-04-13&quot;,&quot;text&quot;:&quot;Les inscriptions du iHack sont ouvertes pour Québec, Montréal, Trois-Rivières et Chicoutimi.&quot;,&quot;url&quot;:&quot;https://hackfest.ca/ihack&quot;},{&quot;date&quot;:&quot;2026-03-22&quot;,&quot;text&quot;:&quot;Nouvelle formation disponible : &#39;Formation Cloud Pragmatique &amp; Security Ops&#39;. Visitez la page des formations pour plus d&#39;informations.&quot;,&quot;url&quot;:&quot;https://hackfest.ca/formations&quot;},{&quot;date&quot;:&quot;2026-03-04&quot;,&quot;text&quot;:&quot;Un nouveau site web est en ligne ! Les formations sont disponibles maintenant et l&#39;horaire du Hackfest 2026 est en cours de développement. Visitez le site pour plus d&#39;informations.&quot;,&quot;url&quot;:&quot;https://hackfest.ca/formations&quot;}]">
       <div class="news-ticker-item">
         <span class="news-ticker-date"></span>
         <span class="news-ticker-text"></span>
@@ -476,7 +542,7 @@
          aria-label="Navigation nouvelles">
       <button class="news-ticker-btn" id="newsTickerPrev"
               aria-label="Nouvelle précédente">&#x2039;</button>
-      <span class="news-ticker-counter" id="newsTickerCounter">1 / 5</span>
+      <span class="news-ticker-counter" id="newsTickerCounter">1 / 6</span>
       <button class="news-ticker-btn" id="newsTickerNext"
               aria-label="Nouvelle suivante">&#x203a;</button>
     </div>
@@ -512,13 +578,13 @@
       </div>
     </a>
     
-    <a href="https://cfp.hackfest.ca/hf2026/" class="feature-card" style="animation-delay: 0.2s">
-      <div class="feature-image" style="background-image: url('https://hackfest.ca/assets/images/hackfest/cfpmicro.webp')"></div>
+    <a href="hackfest-schedule" class="feature-card" style="animation-delay: 0.2s">
+      <div class="feature-image" style="background-image: url('https://hackfest.ca/assets/images/hackfest/hf.webp')"></div>
       <div class="feature-overlay"></div>
       <div class="feature-content">
-        <h3>Call For Papers</h3>
-        <span class="feature-date">Ronde 1: 1er mai au 30 juin / Ronde 2: 1er juillet au 24 août</span>
-        <p>Soumettez votre présentation au Hackfest dès le 1er mai 2026.</p>
+        <h3>Programme du Hackfest</h3>
+        <span class="feature-date">29 – 31 oct. 2026</span>
+        <p>Conférences et ateliers au programme</p>
       </div>
     </a>
     
@@ -542,13 +608,13 @@
       </div>
     </a>
     
-    <a href="spectacle" class="feature-card" style="animation-delay: 0.5s">
-      <div class="feature-image" style="background-image: url('https://hackfest.ca/assets/images/show/mbr1.webp')"></div>
+    <a href="partenaires-hackfest" class="feature-card" style="animation-delay: 0.5s">
+      <div class="feature-image" style="background-image: url('https://hackfest.ca/assets/images/sponsors/sponsors1.webp')"></div>
       <div class="feature-overlay"></div>
       <div class="feature-content">
-        <h3>Spectacle</h3>
-        <span class="feature-date">30 oct. 2026</span>
-        <p>Une nuit de musique live — 30 octobre 2026</p>
+        <h3>Nos partenaires</h3>
+        
+        <p>Les organisations qui rendent le Hackfest possible</p>
       </div>
     </a>
     
@@ -562,13 +628,13 @@
       </div>
     </a>
     
-    <a href="hackfest-schedule" class="feature-card" style="animation-delay: 0.7s">
-      <div class="feature-image" style="background-image: url('https://hackfest.ca/assets/images/hackfest/hf.webp')"></div>
+    <a href="spectacle" class="feature-card" style="animation-delay: 0.7s">
+      <div class="feature-image" style="background-image: url('https://hackfest.ca/assets/images/show/show.webp')"></div>
       <div class="feature-overlay"></div>
       <div class="feature-content">
-        <h3>Programme du Hackfest</h3>
-        <span class="feature-date">29 – 31 oct. 2026</span>
-        <p>Conférences et ateliers au programme</p>
+        <h3>Hackfest Show</h3>
+        <span class="feature-date">30 oct. 2026</span>
+        <p>Le spectacle du Hackfest, en soirée</p>
       </div>
     </a>
     
@@ -576,7 +642,7 @@
       <div class="feature-image" style="background-image: url('https://hackfest.ca/assets/images/hackfest/conferences.webp')"></div>
       <div class="feature-overlay"></div>
       <div class="feature-content">
-        <h3>Conférences & Présentations</h3>
+        <h3>Archives - Conférences & Présentations</h3>
         
         <p>Découvrez les tendances de l'industrie de nos archives</p>
       </div>
@@ -742,6 +808,7 @@
     
     
     
+    
     <div class="sponsor-row sponsor-row-official">
       <span class="sponsor-label">Partenaire principal</span>
       <div class="sponsor-logos sponsor-logos-single">
@@ -750,6 +817,7 @@
         
       </div>
     </div>
+    
     
     
     
@@ -774,8 +842,15 @@
         
         <a href="https://groupecosior.com/"><img src="https://hackfest.ca/assets/images/sponsors/groupe-cosior.png" alt="Groupe Cosior"></a>
         
+        <a href="https://www.paloaltonetworks.com/"><img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks"></a>
+        
+        <a href="https://devolutions.net/"><img src="https://hackfest.ca/assets/images/sponsors/devolutions.png" alt="Devolutions"></a>
+        
+        <a href="https://vendel.ca/"><img src="https://hackfest.ca/assets/images/sponsors/vendel.png" alt="Vendel"></a>
+        
       </div>
     </div>
+    
     
     
     
@@ -783,15 +858,16 @@
     
     
     <div class="sponsor-row">
-      <span class="sponsor-label">Dépanneur</span>
-      <div class="sponsor-logos sponsor-logos-multi">
+      <span class="sponsor-label">Kiosque PME</span>
+      <div class="sponsor-logos sponsor-logos-single">
         
-        <a href="https://gosecure.ai/"><img src="https://hackfest.ca/assets/images/sponsors/gosec.png" alt="GoSecure"></a>
-        
-        <a href="https://www.checkpoint.com/"><img src="https://hackfest.ca/assets/images/sponsors/checkpoint-logo.png" alt="Check Point"></a>
+        <a href="https://owasp.org/"><img src="https://hackfest.ca/assets/images/sponsors/owasp.png" alt="OWASP"></a>
         
       </div>
     </div>
+    
+    
+    
     
     
     
@@ -816,6 +892,7 @@
     
     
     
+    
     <div class="sponsor-row">
       <span class="sponsor-label">Poutine</span>
       <div class="sponsor-logos sponsor-logos-single">
@@ -824,6 +901,7 @@
         
       </div>
     </div>
+    
     
     
     

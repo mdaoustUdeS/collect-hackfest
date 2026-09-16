@@ -351,25 +351,7 @@
       <h2 class="quebecsec-section-title">Prochaines Rencontres</h2>
 
       
-        <div class="quebecsec-grid">
-          
-          <a href="https://hackfest.ca/quebecsec/2026-08-27-bouillie-pour-les-tchats/" class="qs-card">
-            <div class="qs-card__bg"
-              
-              style="background-image: url('https://hackfest.ca/assets/images/quebecsec/aout2026.webp')"
-              
-            ></div>
-            <div class="qs-card__overlay"></div>
-            <div class="qs-card__content">
-              <span class="qs-card__badge">Prochaines Rencontres</span>
-              <h3 class="qs-card__title">... de la bouillie pour les (t)chats?</h3>
-              <time class="qs-card__date" datetime="2026-08-27">
-                27 August 2026
-              </time>
-            </div>
-          </a>
-          
-        </div>
+        <p class="quebecsec-no-events">Aucune rencontre prochaine annoncée.</p>
       
     </div>
 
@@ -379,6 +361,21 @@
     <div class="quebecsec-grid-section">
       <h2 class="quebecsec-section-title">Anciennes Rencontres</h2>
       <div class="quebecsec-grid">
+        
+        <a href="https://hackfest.ca/quebecsec/2026-08-27-bouillie-pour-les-tchats/" class="qs-card">
+          <div class="qs-card__bg"
+            
+            style="background-image: url('https://hackfest.ca/assets/images/quebecsec/aout2026.webp')"
+            
+          ></div>
+          <div class="qs-card__overlay"></div>
+          <div class="qs-card__content">
+            <h3 class="qs-card__title">... de la bouillie pour les (t)chats?</h3>
+            <time class="qs-card__date" datetime="2026-08-27">
+              27 August 2026
+            </time>
+          </div>
+        </a>
         
         <a href="https://hackfest.ca/quebecsec/2026-07-23-devsecops/" class="qs-card">
           <div class="qs-card__bg"

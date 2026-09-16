@@ -29,14 +29,14 @@
 
 <!-- Primary meta -->
 <title>Horaire — Hackfest 2026</title>
-<meta name="description" content="Consultez l'horaire complet des événements Hackfest 2026 - formations, conférences, CTF et plus.">
+<meta name="description" content="Horaire du Hackfest 2026 et de POLAR : 29, 30 et 31 octobre à Québec. Conférences, villages, CTF, spectacles et activités de soirée.">
 <link rel="canonical" href="horaire">
 
 <!-- Open Graph -->
 <meta property="og:type"        content="website">
 <meta property="og:site_name"   content="Hackfest 2026">
 <meta property="og:title"       content="Horaire — Hackfest 2026">
-<meta property="og:description" content="Consultez l'horaire complet des événements Hackfest 2026 - formations, conférences, CTF et plus.">
+<meta property="og:description" content="Horaire du Hackfest 2026 et de POLAR : 29, 30 et 31 octobre à Québec. Conférences, villages, CTF, spectacles et activités de soirée.">
 <meta property="og:url"         content="https://hackfest.ca/horaire/">
 <meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
 <meta property="og:image:alt"   content="Hackfest 2026">
@@ -46,7 +46,7 @@
 <meta name="twitter:card"        content="summary">
 <meta name="twitter:site"        content="@hackfest_ca">
 <meta name="twitter:title"       content="Horaire — Hackfest 2026">
-<meta name="twitter:description" content="Consultez l'horaire complet des événements Hackfest 2026 - formations, conférences, CTF et plus.">
+<meta name="twitter:description" content="Horaire du Hackfest 2026 et de POLAR : 29, 30 et 31 octobre à Québec. Conférences, villages, CTF, spectacles et activités de soirée.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
 
 <!-- Hreflang (bilingual) -->
@@ -293,10 +293,18 @@
 
   <main>
     <!-- Schedule Hero Section -->
-    <section class="schedule-hero">
+    <section class="schedule-hero schedule-hero-has-image">
+      
+      
+      <div class="schedule-hero-media" aria-hidden="true">
+        <img class="schedule-hero-img"
+             src="https://hackfest.ca/assets/images/hackfest/conferences.webp"
+             alt="" decoding="async" fetchpriority="high">
+      </div>
+      
       <div class="schedule-hero-content">
         <h1>Horaire 2026</h1>
-        <p>Tous les événements de l'année</p>
+        <p>29, 30 et 31 octobre</p>
       </div>
     </section>
 
@@ -304,661 +312,741 @@
     
     <section class="schedule-intro">
       <div class="schedule-intro-inner">
-        <h2 class="schedule-intro-title">Calendrier des événements</h2>
-        <p class="schedule-intro-text">Retrouvez toutes les dates importantes de la saison Hackfest 2026. Des inscriptions aux formations jusqu'à l'événement principal en octobre.</p>
+        <h2 class="schedule-intro-title">Les trois jours</h2>
+        <p class="schedule-intro-text">POLAR ouvre la semaine le jeudi avec son symposium pour les gestionnaires, puis le Hackfest prend le relais pour deux journées complètes de conférences, de villages, de CTF et de soirées.</p>
         
+        
+        <div class="section-notice"><p>Horaire préliminaire. Les heures et les activités peuvent changer d'ici l'événement.</p></div>
         
       </div>
     </section>
     
 
-    <!-- Schedule Events by Month -->
-    <section class="schedule-events">
+    <!-- Day-by-day schedule (POLAR + Hackfest, October 2026) -->
+    <section class="schedule-days">
       <div class="schedule-events-inner">
         
+          <div class="schedule-day" id="thursday">
 
-        
-        
-        
+            <!-- Day header: weekday + full date -->
+            <h2 class="schedule-day-header">
+              <span class="schedule-day-line"></span>
+              <span class="schedule-day-name">
+                <span class="schedule-day-weekday">Jeudi</span>
+                <span class="schedule-day-date">29 octobre 2026</span>
+              </span>
+              <span class="schedule-day-line"></span>
+            </h2>
 
-        
-
-        
-        
-
-        
-        
-        
-
-        
-        
-          <div class="schedule-month schedule-month-recurring">
-            <h3 class="schedule-month-header">
-              <span class="schedule-month-line"></span>
-              <span class="schedule-month-name">Récurrent</span>
-              <span class="schedule-month-line"></span>
-            </h3>
-            <div class="schedule-month-events">
-              
-                <article class="schedule-event">
-                  <div class="schedule-event-image">
+            <!-- Tracks: one block per event or per evening programme -->
+            
+              <div class="schedule-track">
+                <div class="schedule-track-head">
+                  <h3 class="schedule-track-name">
                     
-                      <img src="https://hackfest.ca/assets/images/quebecsec/circle.webp" alt="QuébecSec">
+                      <a href="polar">POLAR</a>
                     
-                    <span class="schedule-badge schedule-badge-recurring">Récurrent</span>
-                  </div>
-                  <div class="schedule-event-content">
-                    <h4 class="schedule-event-title">QuébecSec</h4>
-                    <p class="schedule-event-date">
-                      
-                      
-                        Chaque 4e jeudi du mois
-                      
-                    </p>
-                    <p class="schedule-event-description">Meetup mensuel de la communauté. Chaque 4e jeudi du mois.</p>
-                    
-                      <a href="quebecsec" class="schedule-event-link">
-                        En savoir plus
-                        
-                          <span class="schedule-arrow">→</span>
-                        
-                      </a>
-                    
-                  </div>
-                </article>
-              
-            </div>
-          </div>
-        
+                  </h3>
+                  <span class="schedule-track-tag">Symposium</span>
+                </div>
 
-        
-        
-          <div class="schedule-month">
-            <h3 class="schedule-month-header">
-              <span class="schedule-month-line"></span>
-              <span class="schedule-month-name">Mars</span>
-              <span class="schedule-month-line"></span>
-            </h3>
-            <div class="schedule-month-events">
-              
-                
-                
-                  <article class="schedule-event">
-                    <div class="schedule-event-image">
-                      
-                        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Inscription Formations">
-                      
-                    </div>
-                    <div class="schedule-event-content">
-                      <h4 class="schedule-event-title">Inscription Formations</h4>
-                      <p class="schedule-event-date">
-                        
-                        
-                        
-                        
-                        
-                           4 mars 2026
-                        
-                      </p>
-                      <p class="schedule-event-description">Ouverture des inscriptions pour les formations.</p>
-                      
-                        <a href="formations" class="schedule-event-link">
-                          En savoir plus
+                <ol class="schedule-slots">
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">8h00 à 18h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
                           
-                            <span class="schedule-arrow">→</span>
+                            
+                              <a href="polar#schedule">Symposium pour les gestionnaires</a>
+                            
                           
-                        </a>
-                      
-                    </div>
-                  </article>
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-            </div>
-          </div>
-        
-          <div class="schedule-month">
-            <h3 class="schedule-month-header">
-              <span class="schedule-month-line"></span>
-              <span class="schedule-month-name">Mai</span>
-              <span class="schedule-month-line"></span>
-            </h3>
-            <div class="schedule-month-events">
-              
-                
-                
-              
-                
-                
-                  <article class="schedule-event">
-                    <div class="schedule-event-image">
-                      
-                        <img src="https://hackfest.ca/assets/images/ctfs/circle.webp" alt="Inscription CTF Hackfest">
-                      
-                    </div>
-                    <div class="schedule-event-content">
-                      <h4 class="schedule-event-title">Inscription CTF Hackfest</h4>
-                      <p class="schedule-event-date">
+                        </h4>
+                        
+                          <p class="schedule-slot-description">Une journée complète de conférences et d'ateliers pour les gestionnaires en sécurité de l'information.</p>
                         
                         
-                        
-                        
-                        
-                           1 mai 2026
-                        
-                      </p>
-                      <p class="schedule-event-description">Ouverture des inscriptions au CTF.</p>
-                      
-                        <a href="ctfs" class="schedule-event-link">
-                          En savoir plus
-                          
-                            <span class="schedule-arrow">→</span>
-                          
-                        </a>
-                      
-                    </div>
-                  </article>
-                
-              
-                
-                
-                  <article class="schedule-event">
-                    <div class="schedule-event-image">
-                      
-                        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="CFP Hackfest 1er tour ouvert">
-                      
-                    </div>
-                    <div class="schedule-event-content">
-                      <h4 class="schedule-event-title">CFP Hackfest 1er tour ouvert</h4>
-                      <p class="schedule-event-date">
-                        
-                        
-                        
-                        
-                        
-                           1 mai 2026
-                        
-                      </p>
-                      <p class="schedule-event-description">Ouverture des soumissions pour le premier tour de l'appel à conférenciers.</p>
-                      
-                        <a href="https://cfp.hackfest.ca/" class="schedule-event-link" target="_blank" rel="noopener">
-                          En savoir plus
-                          
-                            <span class="schedule-external-icon" title="Lien externe">↗</span>
-                          
-                        </a>
-                      
-                    </div>
-                  </article>
-                
-              
-                
-                
-                  <article class="schedule-event">
-                    <div class="schedule-event-image">
-                      
-                        <img src="https://hackfest.ca/assets/images/polar/circle.webp" alt="Inscription POLAR">
-                      
-                    </div>
-                    <div class="schedule-event-content">
-                      <h4 class="schedule-event-title">Inscription POLAR</h4>
-                      <p class="schedule-event-date">
-                        
-                        
-                        
-                        
-                        
-                           1 mai 2026
-                        
-                      </p>
-                      <p class="schedule-event-description">Ouverture des inscriptions pour la journée conférence POLAR.</p>
-                      
-                        <a href="polar" class="schedule-event-link">
-                          En savoir plus
-                          
-                            <span class="schedule-arrow">→</span>
-                          
-                        </a>
-                      
-                    </div>
-                  </article>
-                
-              
-                
-                
-                  <article class="schedule-event">
-                    <div class="schedule-event-image">
-                      
-                        <img src="https://hackfest.ca/assets/images/ihack/circle.webp" alt="L'événement iHack">
-                      
-                    </div>
-                    <div class="schedule-event-content">
-                      <h4 class="schedule-event-title">L'événement iHack</h4>
-                      <p class="schedule-event-date">
-                        
-                        
-                        
-                        
-                        
-                          30 mai 2026
-                        
-                      </p>
-                      <p class="schedule-event-description">Journée conférences multi-villes et CTF à distance le soir venu.</p>
-                      
-                        <a href="ihack" class="schedule-event-link">
-                          En savoir plus
-                          
-                            <span class="schedule-arrow">→</span>
-                          
-                        </a>
-                      
-                    </div>
-                  </article>
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-            </div>
-          </div>
-        
-          <div class="schedule-month">
-            <h3 class="schedule-month-header">
-              <span class="schedule-month-line"></span>
-              <span class="schedule-month-name">Juillet</span>
-              <span class="schedule-month-line"></span>
-            </h3>
-            <div class="schedule-month-events">
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-                  <article class="schedule-event">
-                    <div class="schedule-event-image">
-                      
-                        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="CFP 2e tour ouvert">
-                      
-                    </div>
-                    <div class="schedule-event-content">
-                      <h4 class="schedule-event-title">CFP 2e tour ouvert</h4>
-                      <p class="schedule-event-date">
-                        
-                        
-                        
-                        
-                        
-                           1 juillet 2026
-                        
-                      </p>
-                      <p class="schedule-event-description">Ouverture du deuxième tour de l'appel à conférenciers.</p>
-                      
-                        <a href="https://cfp.hackfest.ca/" class="schedule-event-link" target="_blank" rel="noopener">
-                          En savoir plus
-                          
-                            <span class="schedule-external-icon" title="Lien externe">↗</span>
-                          
-                        </a>
-                      
-                    </div>
-                  </article>
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-            </div>
-          </div>
-        
-          <div class="schedule-month">
-            <h3 class="schedule-month-header">
-              <span class="schedule-month-line"></span>
-              <span class="schedule-month-name">Août</span>
-              <span class="schedule-month-line"></span>
-            </h3>
-            <div class="schedule-month-events">
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-                  <article class="schedule-event">
-                    <div class="schedule-event-image">
-                      
-                        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Fermeture CFP">
-                      
-                    </div>
-                    <div class="schedule-event-content">
-                      <h4 class="schedule-event-title">Fermeture CFP</h4>
-                      <p class="schedule-event-date">
-                        
-                        
-                        
-                        
-                        
-                          31 août 2026
-                        
-                      </p>
-                      <p class="schedule-event-description">Date limite de soumission pour l'appel à conférenciers.</p>
-                      
-                        <a href="https://cfp.hackfest.ca/" class="schedule-event-link" target="_blank" rel="noopener">
-                          En savoir plus
-                          
-                            <span class="schedule-external-icon" title="Lien externe">↗</span>
-                          
-                        </a>
-                      
-                    </div>
-                  </article>
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-            </div>
-          </div>
-        
-          <div class="schedule-month">
-            <h3 class="schedule-month-header">
-              <span class="schedule-month-line"></span>
-              <span class="schedule-month-name">Septembre</span>
-              <span class="schedule-month-line"></span>
-            </h3>
-            <div class="schedule-month-events">
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-                  <article class="schedule-event">
-                    <div class="schedule-event-image">
-                      
-                        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="Décisions CFP envoyées">
-                      
-                    </div>
-                    <div class="schedule-event-content">
-                      <h4 class="schedule-event-title">Décisions CFP envoyées</h4>
-                      <p class="schedule-event-date">
-                        
-                        
-                        
-                        
-                        
-                           7 septembre 2026
-                        
-                      </p>
-                      <p class="schedule-event-description">Les conférenciers sont notifiés de leur acceptation ou refus.</p>
-                      
-                        <a href="https://cfp.hackfest.ca/" class="schedule-event-link" target="_blank" rel="noopener">
-                          En savoir plus
-                          
-                            <span class="schedule-external-icon" title="Lien externe">↗</span>
-                          
-                        </a>
-                      
-                    </div>
-                  </article>
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-            </div>
-          </div>
-        
-          <div class="schedule-month">
-            <h3 class="schedule-month-header">
-              <span class="schedule-month-line"></span>
-              <span class="schedule-month-name">Octobre</span>
-              <span class="schedule-month-line"></span>
-            </h3>
-            <div class="schedule-month-events">
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-              
-                
-                
-                  <article class="schedule-event">
-                    <div class="schedule-event-image">
-                      
-                        <img src="https://hackfest.ca/assets/images/polar/circle.webp" alt="L'événement POLAR 2026">
-                      
-                    </div>
-                    <div class="schedule-event-content">
-                      <h4 class="schedule-event-title">L'événement POLAR 2026</h4>
-                      <p class="schedule-event-date">
-                        
-                        
-                        
-                        
-                        
-                          29 octobre 2026
-                        
-                      </p>
-                      <p class="schedule-event-description">Banquet avec conférences et ateliers</p>
-                      
-                        <a href="polar" class="schedule-event-link">
-                          En savoir plus
-                          
-                            <span class="schedule-arrow">→</span>
-                          
-                        </a>
-                      
-                    </div>
-                  </article>
-                
-              
-                
-                
-                  <article class="schedule-event">
-                    <div class="schedule-event-image">
-                      
-                        <img src="https://hackfest.ca/assets/images/ctfs/circle.webp" alt="Début du Hackfest CTF">
-                      
-                    </div>
-                    <div class="schedule-event-content">
-                      <h4 class="schedule-event-title">Début du Hackfest CTF</h4>
-                      <p class="schedule-event-date">
-                        
-                        
-                        
-                        
-                        
-                          29 octobre 2026
-                        
-                      </p>
-                      <p class="schedule-event-description">À partir de 18:00, 24h de challenges en tous genres.</p>
-                      
-                        <a href="ctfs" class="schedule-event-link">
-                          En savoir plus
-                          
-                            <span class="schedule-arrow">→</span>
-                          
-                        </a>
-                      
-                    </div>
-                  </article>
-                
-              
-                
-                
-                  <article class="schedule-event">
-                    <div class="schedule-event-image">
-                      
-                        <img src="https://hackfest.ca/assets/images/global/logo.webp" alt="L'événement Hackfest 2026">
-                      
-                    </div>
-                    <div class="schedule-event-content">
-                      <h4 class="schedule-event-title">L'événement Hackfest 2026</h4>
-                      <p class="schedule-event-date">
-                        
-                        
-                        
-                        
-                        
-                          30 octobre 2026
-                        
-                      </p>
-                      <p class="schedule-event-description">3 jours de conférences, ateliers, CTFs et réseautage</p>
-                      
-                        <a href="hackfest-schedule" class="schedule-event-link">
-                          En savoir plus
-                          
-                            <span class="schedule-arrow">→</span>
-                          
-                        </a>
-                      
-                    </div>
-                  </article>
-                
-              
-            </div>
-          </div>
-        
+                      </div>
+                    </li>
+                  
+                </ol>
+              </div>
+            
+              <div class="schedule-track">
+                <div class="schedule-track-head">
+                  <h3 class="schedule-track-name">
+                    
+                      Hackfest
+                    
+                  </h3>
+                  <span class="schedule-track-tag">Pré-ouverture</span>
+                </div>
 
+                <ol class="schedule-slots">
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">16h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Ouverture des inscriptions
+                          
+                        </h4>
+                        
+                          <p class="schedule-slot-description">Récupérez votre badge et votre trousse de participant.</p>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">18h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Cocktail d'ouverture
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">18h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="ctfs#hfctf">Début du HFCTF</a>
+                            
+                          
+                        </h4>
+                        
+                          <p class="schedule-slot-description">Le CTF du Hackfest démarre et se poursuit toute la nuit.</p>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">19h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Hackfest 101
+                          
+                        </h4>
+                        
+                          <p class="schedule-slot-description">Présentation pour bien démarrer votre fin de semaine, surtout si c'est votre première visite.</p>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                </ol>
+              </div>
+            
+
+          </div>
+        
+          <div class="schedule-day" id="friday">
+
+            <!-- Day header: weekday + full date -->
+            <h2 class="schedule-day-header">
+              <span class="schedule-day-line"></span>
+              <span class="schedule-day-name">
+                <span class="schedule-day-weekday">Vendredi</span>
+                <span class="schedule-day-date">30 octobre 2026</span>
+              </span>
+              <span class="schedule-day-line"></span>
+            </h2>
+
+            <!-- Tracks: one block per event or per evening programme -->
+            
+              <div class="schedule-track">
+                <div class="schedule-track-head">
+                  <h3 class="schedule-track-name">
+                    
+                      Hackfest
+                    
+                  </h3>
+                  <span class="schedule-track-tag">Jour 1</span>
+                </div>
+
+                <ol class="schedule-slots">
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">8h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Ouverture des portes
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">8h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="partenaires-hackfest">Hall des partenaires</a>
+                            
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">8h50</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Discours d'ouverture + Keynote
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">10h00 à 21h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Présentations, conférences et ateliers
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">10h00+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="villages">Villages</a>
+                            
+                          
+                        </h4>
+                        
+                        
+                          
+                          <ul class="schedule-slot-items">
+                            
+                              
+                                <li><a href="villages#village-lockpicking">Lockpick</a></li>
+                              
+                            
+                              
+                                <li><a href="villages">Sécurité physique</a></li>
+                              
+                            
+                              
+                                <li><a href="https://hackfest.ca/villages/scada/">OT / SCADA</a></li>
+                              
+                            
+                              
+                                <li><a href="https://hackfest.ca/villages/generations/">Génération (7 à 17 ans)</a></li>
+                              
+                            
+                              
+                                <li><a href="villages#village-ham-radio">Radio amateur</a></li>
+                              
+                            
+                              
+                                <li><a href="villages#village-noc">Palo Alto NoC</a></li>
+                              
+                            
+                              
+                                <li><a href="villages#village-hack-ta-carriere">Hack ta carrière</a></li>
+                              
+                            
+                              
+                                <li><a href="villages#village-startups">Startups</a></li>
+                              
+                            
+                              
+                                <li><a href="villages">Podcasts</a></li>
+                              
+                            
+                              
+                                <li><a href="villages">et plus à venir</a></li>
+                              
+                            
+                          </ul>
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">10h00+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="ctfs#hfctf">CTF</a>
+                            
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">10h00+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Chasse au trésor, partie 1
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">10h00+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="ctfs#brainfuck">BrainFuck Challenge</a>
+                            
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">10h00+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="ctfs#social">Social Engineering CTF</a>
+                            
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                </ol>
+              </div>
+            
+              <div class="schedule-track schedule-track-night">
+                <div class="schedule-track-head">
+                  <h3 class="schedule-track-name">
+                    
+                      Hackfest @ Night
+                    
+                  </h3>
+                  <span class="schedule-track-tag">Soirée</span>
+                </div>
+
+                <ol class="schedule-slots">
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">Toute la soirée</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Nuit de jeux
+                          
+                        </h4>
+                        
+                          <p class="schedule-slot-description">Plus de jeux à venir.</p>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">19h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="https://securite.fm" target="_blank" rel="noopener">Podcast : La French Connection, épisode 300<span class="schedule-external-icon" title="Lien externe">↗</span></a>
+                            
+                          
+                        </h4>
+                        
+                          <p class="schedule-slot-description">Enregistrement LIVE devant public.</p>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">21h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="spectacle">Spectacle de musique</a>
+                            
+                          
+                        </h4>
+                        
+                          <p class="schedule-slot-description">Live Music Coding avec PEPPIN.</p>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">22h30+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Hacker Karaoké
+                          
+                        </h4>
+                        
+                          <p class="schedule-slot-description">Chantez.</p>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                </ol>
+              </div>
+            
+
+          </div>
+        
+          <div class="schedule-day" id="saturday">
+
+            <!-- Day header: weekday + full date -->
+            <h2 class="schedule-day-header">
+              <span class="schedule-day-line"></span>
+              <span class="schedule-day-name">
+                <span class="schedule-day-weekday">Samedi</span>
+                <span class="schedule-day-date">31 octobre 2026</span>
+              </span>
+              <span class="schedule-day-line"></span>
+            </h2>
+
+            <!-- Tracks: one block per event or per evening programme -->
+            
+              <div class="schedule-track">
+                <div class="schedule-track-head">
+                  <h3 class="schedule-track-name">
+                    
+                      Hackfest
+                    
+                  </h3>
+                  <span class="schedule-track-tag">Jour 2</span>
+                </div>
+
+                <ol class="schedule-slots">
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">8h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Ouverture des portes
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">8h50</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Discours d'ouverture + Keynote
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">9h30+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Présentations, conférences et ateliers
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">9h30+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="villages">Villages</a>
+                            
+                          
+                        </h4>
+                        
+                        
+                          
+                          <ul class="schedule-slot-items">
+                            
+                              
+                                <li><a href="villages#village-lockpicking">Lockpick</a></li>
+                              
+                            
+                              
+                                <li><a href="villages">Sécurité physique</a></li>
+                              
+                            
+                              
+                                <li><a href="https://hackfest.ca/villages/scada/">OT / SCADA</a></li>
+                              
+                            
+                              
+                                <li><a href="https://hackfest.ca/villages/generations/">Génération (7 à 17 ans)</a></li>
+                              
+                            
+                              
+                                <li><a href="villages#village-ham-radio">Radio amateur</a></li>
+                              
+                            
+                              
+                                <li><a href="villages#village-noc">Palo Alto NoC</a></li>
+                              
+                            
+                              
+                                <li><a href="villages#village-hack-ta-carriere">Hack ta carrière</a></li>
+                              
+                            
+                              
+                                <li><a href="villages#village-startups">Startups</a></li>
+                              
+                            
+                              
+                                <li><a href="villages">Podcasts</a></li>
+                              
+                            
+                              
+                                <li><a href="villages">et plus à venir</a></li>
+                              
+                            
+                          </ul>
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">9h30+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="partenaires-hackfest">Hall des partenaires</a>
+                            
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">9h30+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="ctfs#hfctf">CTF</a>
+                            
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">9h30+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Chasse au trésor, partie 2
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">9h30+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="ctfs#brainfuck">BrainFuck Challenge</a>
+                            
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">9h30+</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="ctfs#social">Finale du Social Engineering CTF</a>
+                            
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                </ol>
+              </div>
+            
+              <div class="schedule-track schedule-track-night">
+                <div class="schedule-track-head">
+                  <h3 class="schedule-track-name">
+                    
+                      Hackfest Afterdark
+                    
+                  </h3>
+                  <span class="schedule-track-tag">Soirée</span>
+                </div>
+
+                <ol class="schedule-slots">
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">19h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Security Impress Karaoke
+                          
+                        </h4>
+                        
+                          <p class="schedule-slot-description">Whose slide is it anyway.</p>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">21h00</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            
+                              <a href="ctfs#social">Social Engineering CTF</a>
+                            
+                          
+                        </h4>
+                        
+                          <p class="schedule-slot-description">Adult Only Edition v2.</p>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                    <li class="schedule-slot">
+                      <div class="schedule-slot-time">22h30</div>
+                      <div class="schedule-slot-body">
+                        <h4 class="schedule-slot-title">
+                          
+                            Ghost talks
+                          
+                        </h4>
+                        
+                        
+                      </div>
+                    </li>
+                  
+                </ol>
+              </div>
+            
+
+          </div>
+        
       </div>
     </section>
+
+    <!-- Year-round recurring events (QuebecSec), loaded from timeline-{lang}.yml -->
+    
+    
+
+    
+    <section class="schedule-events">
+      <div class="schedule-events-inner">
+        <div class="schedule-month schedule-month-recurring">
+          <h3 class="schedule-month-header">
+            <span class="schedule-month-line"></span>
+            <span class="schedule-month-name">Toute l'année</span>
+            <span class="schedule-month-line"></span>
+          </h3>
+          <div class="schedule-month-events">
+            
+              <article class="schedule-event">
+                <div class="schedule-event-image">
+                  
+                    <img src="https://hackfest.ca/assets/images/quebecsec/circle.webp" alt="QuébecSec">
+                  
+                  <span class="schedule-badge schedule-badge-recurring">Récurrent</span>
+                </div>
+                <div class="schedule-event-content">
+                  <h4 class="schedule-event-title">QuébecSec</h4>
+                  <p class="schedule-event-date">
+                    
+                    
+                      Chaque 4e jeudi du mois
+                    
+                  </p>
+                  <p class="schedule-event-description">Meetup mensuel de la communauté. Chaque 4e jeudi du mois.</p>
+                  
+                    <a href="quebecsec" class="schedule-event-link">
+                      En savoir plus
+                      
+                        <span class="schedule-arrow">→</span>
+                      
+                    </a>
+                  
+                </div>
+              </article>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    
 
     
   </main>

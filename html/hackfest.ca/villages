@@ -341,7 +341,8 @@
         
 
         
-        <button class="village-card" data-village="lockpicking"
+        
+        <button class="village-card" id="village-lockpicking" data-village="lockpicking"
                 aria-haspopup="dialog" aria-controls="modal-lockpicking">
         
 
@@ -377,7 +378,8 @@
         
 
         
-        <button class="village-card" data-village="social-engineering"
+        
+        <button class="village-card" id="village-social-engineering" data-village="social-engineering"
                 aria-haspopup="dialog" aria-controls="modal-social-engineering">
         
 
@@ -415,7 +417,8 @@
         
 
         
-        <a class="village-card" href="https://hackfest.ca/villages/generations/">
+        
+        <a class="village-card" id="village-generations" href="https://hackfest.ca/villages/generations/">
         
 
           <!-- Background: image if available, else CSS gradient fallback -->
@@ -452,7 +455,8 @@
         
 
         
-        <button class="village-card" data-village="ham-radio"
+        
+        <button class="village-card" id="village-ham-radio" data-village="ham-radio"
                 aria-haspopup="dialog" aria-controls="modal-ham-radio">
         
 
@@ -490,7 +494,8 @@
         
 
         
-        <button class="village-card" data-village="noc"
+        
+        <button class="village-card" id="village-noc" data-village="noc"
                 aria-haspopup="dialog" aria-controls="modal-noc">
         
 
@@ -528,7 +533,8 @@
         
 
         
-        <button class="village-card" data-village="hack-ta-carriere"
+        
+        <button class="village-card" id="village-hack-ta-carriere" data-village="hack-ta-carriere"
                 aria-haspopup="dialog" aria-controls="modal-hack-ta-carriere">
         
 
@@ -566,7 +572,8 @@
         
 
         
-        <a class="village-card" href="https://hackfest.ca/villages/scada/">
+        
+        <a class="village-card" id="village-scada" href="https://hackfest.ca/villages/scada/">
         
 
           <!-- Background: image if available, else CSS gradient fallback -->
@@ -603,7 +610,8 @@
         
 
         
-        <button class="village-card" data-village="startups"
+        
+        <button class="village-card" id="village-startups" data-village="startups"
                 aria-haspopup="dialog" aria-controls="modal-startups">
         
 
@@ -641,7 +649,8 @@
         
 
         
-        <button class="village-card" data-village="ai"
+        
+        <button class="village-card" id="village-ai" data-village="ai"
                 aria-haspopup="dialog" aria-controls="modal-ai">
         
 

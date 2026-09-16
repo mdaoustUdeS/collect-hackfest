@@ -319,6 +319,7 @@
           
           
           
+          
           <div class="sponsor-logos sponsor-logos-single">
             
             <div class="sponsor-item">
@@ -353,6 +354,7 @@
         
         <div class="sponsor-row " id="kiosk">
           <span class="sponsor-label">Kiosque</span>
+          
           
           
           
@@ -471,6 +473,48 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
               
             </div>
             
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://www.paloaltonetworks.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">Palo Alto Networks est un leader mondial de la cybersécurité. L'entreprise opère le centre d'opérations réseau (NoC) du Hackfest et tient un kiosque dans la salle du CTF.</p>
+                <a href="https://www.paloaltonetworks.com/" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://devolutions.net/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/devolutions.png" alt="Devolutions"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">Devolutions aide les entreprises de partout à travers le monde à contrôler le chaos relié aux technologies de l'information en offrant des solutions sécurisées de gestion de mots de passe, de connexions à distance et d'accès privilégiés. Depuis 2010, Devolutions est un chef de file en tant que partenaire de sécurité, avec plus de 350 000 utilisateurs répartis dans 130 pays, et compte parmi sa clientèle des entreprises de renommée mondiale telles que SpaceX, Shell, Loto-Québec, Walt Disney, NASDAQ, Dell, Sony, Microsoft, Pfizer, Airbnb et la NASA.</p>
+                <a href="https://devolutions.net/" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://vendel.ca/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/vendel.png" alt="Vendel"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text"></p>
+                <a href="https://vendel.ca/" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
           </div>
           
           
@@ -478,8 +522,9 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
         
         
         
-        <div class="sponsor-row " id="depanneur">
-          <span class="sponsor-label">Dépanneur</span>
+        <div class="sponsor-row " id="kiosk_pme">
+          <span class="sponsor-label">Kiosque PME</span>
+          
           
           
           
@@ -489,27 +534,13 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
             <div class="sponsor-entry">
               <div class="sponsor-item">
                 
-                <a href="https://gosecure.ai/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/gosec.png" alt="GoSecure"></a>
+                <a href="https://owasp.org/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/owasp.png" alt="OWASP"></a>
                 
               </div>
               
               <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">GoSecure est un leader et un innovateur reconnu en matière de cybersécurité, pionnier de l’intégration de la détection des menaces au niveau des terminaux, du réseau et des courriels en un seul service de détection et réponse gérées et étendues (MXDR). Depuis plus de 20 ans, GoSecure aide ses clients à mieux comprendre leurs failles en matière de sécurité et à améliorer leurs risques organisationnels ainsi que leur maturité en matière de sécurité grâce aux solutions MXDR et aux services professionnels fournis par l’une des équipes les plus fiables et les plus compétentes de l’industrie.</p>
-                <a href="https://gosecure.ai/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.checkpoint.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/checkpoint-logo.png" alt="Check Point"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Check Point Software Technologies est un leader mondial en matière de solutions de cybersécurité, qui se consacre à la protection des entreprises et des gouvernements dans le monde entier.</p>
-                <a href="https://www.checkpoint.com/" class="sponsor-item-url">Visiter le site</a>
+                <p class="sponsor-item-text">L'Open Web Application Security Project (OWASP) est une fondation à but non lucratif qui œuvre à l'amélioration de la sécurité des logiciels. Grâce à des projets de logiciels libres dirigés par la communauté, à des centaines de chapitres locaux dans le monde entier, à des dizaines de milliers de membres et à des conférences d'éducation et de formation de premier plan, la fondation OWASP est la source des développeurs et des technologues pour sécuriser le web.</p>
+                <a href="https://owasp.org/" class="sponsor-item-url">Visiter le site</a>
               </div>
               
             </div>
@@ -521,8 +552,11 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
         
         
         
+        
+        
         <div class="sponsor-row " id="lanieres">
           <span class="sponsor-label">Lanières</span>
+          
           
           
           
@@ -560,6 +594,7 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
           
           
           
+          
           <div class="sponsor-entries">
             
             <div class="sponsor-entry">
@@ -593,6 +628,7 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
         
         <div class="sponsor-row " id="ctf">
           <span class="sponsor-label">CTF</span>
+          
           
           
           
