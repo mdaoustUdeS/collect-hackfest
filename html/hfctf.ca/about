@@ -460,29 +460,29 @@
         </div>
 
 
-<script src="https://hfctf.ca/js/jquery-3.5.1.min.js"></script>
-<script src="https://hfctf.ca/js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 
-<script src="https://hfctf.ca/js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
 
-<script src="https://hfctf.ca/js/jquery.waypoints.min.js"></script>
-<script src="https://hfctf.ca/js/jquery.counterup.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
 
-<script src="https://hfctf.ca/js/owl.carousel.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 
-<script src="https://hfctf.ca/js/jquery.nice-select.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
 
-<script src="https://hfctf.ca/js/isotope.pkgd.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
 
-<script src="https://hfctf.ca/js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
 
-<script src="https://hfctf.ca/js/form-validator.min.js"></script>
+<script src="js/form-validator.min.js"></script>
 
-<script src="https://hfctf.ca/js/contact-form-script.js"></script>
+<script src="js/contact-form-script.js"></script>
 
-<script src="https://hfctf.ca/js/jquery.meanmenu.min.js"></script>
+<script src="js/jquery.meanmenu.min.js"></script>
 
-<script src="https://hfctf.ca/js/script.js"></script>
+<script src="js/script.js"></script>
 
 <script src='https://use.edgefonts.net/butcherman.js'></script>
 <script src='https://use.edgefonts.net/creepster.js'></script>

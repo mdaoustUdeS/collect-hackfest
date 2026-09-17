@@ -603,9 +603,9 @@
             class="newsletter-modal-iframe"></iframe>
   </div>
 </div>
-<script data-cfasync="false" src="https://hackfest.ca/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://hackfest.ca/assets/js/newsletter-modal.js"></script>
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/newsletter-modal.js"></script>
 
 
-  <script src="https://hackfest.ca/assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
