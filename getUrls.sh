@@ -1,7 +1,7 @@
 #! /bin/bash
 
 host="hackfest.ca"
-reject="*.mp4,*.webp,*.js,*.css,*.png,*.svg"
+reject="*.mp4,*.webp,*.css,*.png,*.svg"
 outputDirectory=html
 
 url="https://hackfest.ca/"
