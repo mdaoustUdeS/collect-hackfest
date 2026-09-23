@@ -437,12 +437,41 @@
           
           
           <div class="polar-speaker-card polar-speaker-card--clickable"
+               id="polar-speaker-steve-waterhouse">
+            
+            <div class="polar-speaker-image" style="background-image: url('https://hackfest.ca/assets/images/speakers/steve-waterhouse.webp')"></div>
+            
+            <div class="polar-speaker-info">
+              <h3>Steve Waterhouse</h3>
+              
+              
+              
+              <p class="polar-speaker-role">Animateur de la journée</p>
+              
+              
+              
+              <button type="button" class="polar-speaker-open"
+                      data-speaker="steve-waterhouse"
+                      aria-haspopup="dialog"
+                      aria-controls="polar-speaker-modal-steve-waterhouse">
+                Voir la bio
+              </button>
+              
+            </div>
+          </div>
+          
+          
+          
+          <div class="polar-speaker-card polar-speaker-card--clickable"
                id="polar-speaker-dominic-villeneuve">
             
             <div class="polar-speaker-image" style="background-image: url('https://hackfest.ca/assets/images/speakers/dominic-villeneuve.webp')"></div>
             
             <div class="polar-speaker-info">
               <h3>Dominic Villeneuve</h3>
+              
+              
+              
               
               
               <p class="polar-speaker-talk">
@@ -471,6 +500,9 @@
               <h3>Jeff Man</h3>
               
               
+              
+              
+              
               <p class="polar-speaker-talk">
                 <s class="polar-speaker-talk__strike">Getting Back to the Basics</s><s class="polar-speaker-talk__strike">The Fundamentals of CyberSecurity</s><s class="polar-speaker-talk__strike">Rethinking Security</s><span class="polar-speaker-talk__final">What Are We Doing Here?</span>
               </p>
@@ -497,6 +529,9 @@
               <h3>Mark Pilon</h3>
               
               
+              
+              
+              
               <p class="polar-speaker-talk">
                 <span class="polar-speaker-talk__final">AI Security needs Cloud security</span>
               </p>
@@ -508,6 +543,184 @@
                       aria-controls="polar-speaker-modal-mark-pilon">
                 Voir la conférence et la bio
               </button>
+              
+            </div>
+          </div>
+          
+          
+          
+          <div class="polar-speaker-card polar-speaker-card--clickable"
+               id="polar-speaker-karim-benhamouche">
+            
+            <div class="polar-speaker-image" style="background-image: url('https://hackfest.ca/assets/images/speakers/karim-benhamouche.webp')"></div>
+            
+            <div class="polar-speaker-info">
+              <h3>Karim Benhamouche</h3>
+              
+              
+              
+              
+              
+              <p class="polar-speaker-talk">
+                <span class="polar-speaker-talk__final">Sécuriser l'écosystème de l'IA agentique : de la chaîne d'approvisionnement aux points de terminaison</span>
+              </p>
+              
+              
+              <button type="button" class="polar-speaker-open"
+                      data-speaker="karim-benhamouche"
+                      aria-haspopup="dialog"
+                      aria-controls="polar-speaker-modal-karim-benhamouche">
+                Voir la conférence et la bio
+              </button>
+              
+            </div>
+          </div>
+          
+          
+          
+          <div class="polar-speaker-card polar-speaker-card--no-photo polar-speaker-card--clickable"
+               id="polar-speaker-samuel-bonneau">
+            
+            
+            
+            
+            
+            <div class="polar-speaker-image polar-speaker-image--monogram" aria-hidden="true">SB</div>
+            
+            <div class="polar-speaker-info">
+              <h3>Samuel Bonneau</h3>
+              
+              
+              
+              
+              
+              <p class="polar-speaker-talk">
+                <span class="polar-speaker-talk__final">Panel : Acquisition d'entreprise : comment amener les TI à la table des négociations ?</span>
+              </p>
+              
+              
+              <button type="button" class="polar-speaker-open"
+                      data-speaker="samuel-bonneau"
+                      aria-haspopup="dialog"
+                      aria-controls="polar-speaker-modal-samuel-bonneau">
+                Voir la conférence et la bio
+              </button>
+              
+            </div>
+          </div>
+          
+          
+          
+          <div class="polar-speaker-card polar-speaker-card--no-photo polar-speaker-card--clickable"
+               id="polar-speaker-eric-hebert">
+            
+            
+            
+            
+            
+            <div class="polar-speaker-image polar-speaker-image--monogram" aria-hidden="true">ÉH</div>
+            
+            <div class="polar-speaker-info">
+              <h3>Éric Hébert</h3>
+              
+              
+              
+              
+              
+              <p class="polar-speaker-talk">
+                <span class="polar-speaker-talk__final">Panel : Acquisition d'entreprise : comment amener les TI à la table des négociations ?</span>
+              </p>
+              
+              
+              <button type="button" class="polar-speaker-open"
+                      data-speaker="eric-hebert"
+                      aria-haspopup="dialog"
+                      aria-controls="polar-speaker-modal-eric-hebert">
+                Voir la conférence et la bio
+              </button>
+              
+            </div>
+          </div>
+          
+          
+          
+          <div class="polar-speaker-card polar-speaker-card--clickable"
+               id="polar-speaker-regis-desmeules">
+            
+            <div class="polar-speaker-image" style="background-image: url('https://hackfest.ca/assets/images/speakers/regis-desmeules.webp')"></div>
+            
+            <div class="polar-speaker-info">
+              <h3>Régis Desmeules</h3>
+              
+              
+              
+              
+              
+              <p class="polar-speaker-talk">
+                <span class="polar-speaker-talk__final">Panel : Acquisition d'entreprise : comment amener les TI à la table des négociations ?</span>
+              </p>
+              
+              
+              <button type="button" class="polar-speaker-open"
+                      data-speaker="regis-desmeules"
+                      aria-haspopup="dialog"
+                      aria-controls="polar-speaker-modal-regis-desmeules">
+                Voir la conférence et la bio
+              </button>
+              
+            </div>
+          </div>
+          
+          
+          
+          <div class="polar-speaker-card polar-speaker-card--no-photo"
+               id="polar-speaker-simon-david-williams">
+            
+            
+            
+            
+            
+            <div class="polar-speaker-image polar-speaker-image--monogram" aria-hidden="true">SW</div>
+            
+            <div class="polar-speaker-info">
+              <h3>Simon-David Williams</h3>
+              
+              
+              
+              
+              
+              <p class="polar-speaker-talk">
+                <span class="polar-speaker-talk__final">Conférence à dévoiler</span>
+              </p>
+              
+              
+            </div>
+          </div>
+          
+          
+          
+          <div class="polar-speaker-card polar-speaker-card--no-photo"
+               id="polar-speaker-pierre-rousseau">
+            
+            
+            
+            
+            
+            <div class="polar-speaker-image polar-speaker-image--monogram" aria-hidden="true">PR</div>
+            
+            <div class="polar-speaker-info">
+              <h3>Pierre Rousseau</h3>
+              
+              
+              
+              <p class="polar-speaker-role">Vice-président des ventes, Centre de données, Micro Logic</p>
+              
+              
+              
+              <p class="polar-speaker-talk">
+                <span class="polar-speaker-talk__final">Conférence à dévoiler</span>
+              </p>
+              
               
             </div>
           </div>
@@ -528,6 +741,38 @@
              ================================================================= -->
         <div class="polar-speaker-backdrop" id="polarSpeakerBackdrop" hidden></div>
 
+        
+        
+        
+        <div class="polar-speaker-modal"
+             id="polar-speaker-modal-steve-waterhouse"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="polar-speaker-modal-title-steve-waterhouse"
+             hidden>
+          <div class="polar-speaker-modal-header">
+            <div>
+              <h3 class="polar-speaker-modal-title" id="polar-speaker-modal-title-steve-waterhouse">Steve Waterhouse</h3>
+              <p class="polar-speaker-modal-role">Animateur de la journée</p>
+            </div>
+            <button type="button" class="polar-speaker-modal-close"
+                    aria-label="Fermer">&#10005;</button>
+          </div>
+
+          <div class="polar-speaker-modal-body">
+            
+            
+            
+            <div class="polar-speaker-bio"><p>C’est au cours de sa carrière militaire avec le Royal 22e Régiment que le Capt(ret) Waterhouse a troqué le fusil au clavier pour devenir un cyber soldat.</p>
+
+<p>Formateur actif et instructeur certifié pour Websense, Cisco, CompTIA, ISC2 (CISSP) et CWNP, il collabore fréquemment avec les médias canadiens (TVA, LCN, Cogeco Médias, Radio X, CTV, Radio-Canada, CBC, SiriusXM) pour démystifier la sécurité informatique.</p>
+
+<p>Capt(ret) Waterhouse détient plusieurs certifications dont CISSP, CCSI, CWNT et est Master Diver PADI.</p>
+</div>
+            
+          </div>
+        </div>
+        
         
         
         
@@ -640,6 +885,160 @@
         
         
         
+        
+        <div class="polar-speaker-modal"
+             id="polar-speaker-modal-karim-benhamouche"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="polar-speaker-modal-title-karim-benhamouche"
+             hidden>
+          <div class="polar-speaker-modal-header">
+            <div>
+              <h3 class="polar-speaker-modal-title" id="polar-speaker-modal-title-karim-benhamouche">Karim Benhamouche</h3>
+              <p class="polar-speaker-modal-role">Palo Alto Networks · Plus de 20 ans en TI et en sécurité d'entreprise · Spécialiste de la sécurisation des écosystèmes d'IA</p>
+            </div>
+            <button type="button" class="polar-speaker-modal-close"
+                    aria-label="Fermer">&#10005;</button>
+          </div>
+
+          <div class="polar-speaker-modal-body">
+            
+            <p class="polar-speaker-talk polar-speaker-modal-talk">
+              <span class="polar-speaker-talk__final">Sécuriser l'écosystème de l'IA agentique : de la chaîne d'approvisionnement aux points de terminaison</span>
+            </p>
+            
+            
+            <div class="polar-speaker-abstract"><p>L’intelligence artificielle a franchi un cap décisif : nous sommes passés des simples assistants conversationnels à des agents IA autonomes capables de raisonner, d’interagir entre eux et d’exécuter des actions complexes sur nos infrastructures. Si cette évolution offre une valeur d’affaires inestimable, elle introduit simultanément une surface d’attaque tentaculaire et inédite.</p>
+
+<p>Lors de cette présentation, nous explorerons la vision stratégique de Palo Alto Networks pour sécuriser de bout en bout l’adoption de l’IA en entreprise.</p>
+</div>
+            
+            
+            <div class="polar-speaker-bio"><p>Avec plus de 20 années d’expérience dans l’industrie des technologies de l’information et de la sécurité d’entreprise, Karim Benhamouche se spécialise dans la sécurisation des écosystèmes d’intelligence artificielle et l’accompagnement stratégique des grandes entreprises dans l’adoption sécuritaire de ces nouvelles technologies.</p>
+</div>
+            
+          </div>
+        </div>
+        
+        
+        
+        
+        <div class="polar-speaker-modal"
+             id="polar-speaker-modal-samuel-bonneau"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="polar-speaker-modal-title-samuel-bonneau"
+             hidden>
+          <div class="polar-speaker-modal-header">
+            <div>
+              <h3 class="polar-speaker-modal-title" id="polar-speaker-modal-title-samuel-bonneau">Samuel Bonneau</h3>
+              <p class="polar-speaker-modal-role">Leader, stratégie et services en cybersécurité IA, Vooban · Plus de 25 ans d'expérience en cybersécurité</p>
+            </div>
+            <button type="button" class="polar-speaker-modal-close"
+                    aria-label="Fermer">&#10005;</button>
+          </div>
+
+          <div class="polar-speaker-modal-body">
+            
+            <p class="polar-speaker-talk polar-speaker-modal-talk">
+              <span class="polar-speaker-talk__final">Panel : Acquisition d'entreprise : comment amener les TI à la table des négociations ?</span>
+            </p>
+            
+            
+            <div class="polar-speaker-abstract"><p>Panel. Les autres panélistes seront dévoilés sous peu.</p>
+</div>
+            
+            
+            <div class="polar-speaker-bio"><p>Samuel Bonneau est un expert en cybersécurité avec plus de 25 ans d’expérience, reconnu pour son approche innovante, son leadership et sa capacité à générer de la croissance stratégique. Il a joué un rôle clé dans la conception et la mise en œuvre de stratégies de cybersécurité auprès des plus grandes entreprises canadiennes.</p>
+
+<p>Aujourd’hui Leader, stratégie et services en cybersécurité IA chez Vooban, il allie cybersécurité et intelligence artificielle pour renforcer les stratégies de défense des entreprises, leur permettant de tirer parti des dernières avancées technologiques pour une protection robuste et durable.</p>
+</div>
+            
+          </div>
+        </div>
+        
+        
+        
+        
+        <div class="polar-speaker-modal"
+             id="polar-speaker-modal-eric-hebert"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="polar-speaker-modal-title-eric-hebert"
+             hidden>
+          <div class="polar-speaker-modal-header">
+            <div>
+              <h3 class="polar-speaker-modal-title" id="polar-speaker-modal-title-eric-hebert">Éric Hébert</h3>
+              <p class="polar-speaker-modal-role">Fondateur, Sandstorm Cyber · Ancien CISO de Québecor, du Fonds de solidarité FTQ et du Groupe Pages Jaunes · CISSP, CISM</p>
+            </div>
+            <button type="button" class="polar-speaker-modal-close"
+                    aria-label="Fermer">&#10005;</button>
+          </div>
+
+          <div class="polar-speaker-modal-body">
+            
+            <p class="polar-speaker-talk polar-speaker-modal-talk">
+              <span class="polar-speaker-talk__final">Panel : Acquisition d'entreprise : comment amener les TI à la table des négociations ?</span>
+            </p>
+            
+            
+            <div class="polar-speaker-abstract"><p>Panel. Les autres panélistes seront dévoilés sous peu.</p>
+</div>
+            
+            
+            <div class="polar-speaker-bio"><p>Éric Hébert œuvre en cybersécurité depuis 1994. Ancien CISO de Québecor, du Fonds de solidarité FTQ et du Groupe Pages Jaunes, il a dirigé d’importantes équipes et transformations en sécurité.</p>
+
+<p>Fondateur de Sandstorm Cyber, il conseille aujourd’hui des dirigeants en stratégie, gouvernance et gestion des risques. Conférencier, mentor, CISSP et CISM, il partage une vision pragmatique nourrie autant par ses réussites que par les décisions qu’il prendrait autrement aujourd’hui.</p>
+</div>
+            
+          </div>
+        </div>
+        
+        
+        
+        
+        <div class="polar-speaker-modal"
+             id="polar-speaker-modal-regis-desmeules"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="polar-speaker-modal-title-regis-desmeules"
+             hidden>
+          <div class="polar-speaker-modal-header">
+            <div>
+              <h3 class="polar-speaker-modal-title" id="polar-speaker-modal-title-regis-desmeules">Régis Desmeules</h3>
+              <p class="polar-speaker-modal-role">Entrepreneur en cybersécurité, investisseur et auteur · Investisseur chez Anges Québec · Associate Partner, AQC Capital</p>
+            </div>
+            <button type="button" class="polar-speaker-modal-close"
+                    aria-label="Fermer">&#10005;</button>
+          </div>
+
+          <div class="polar-speaker-modal-body">
+            
+            <p class="polar-speaker-talk polar-speaker-modal-talk">
+              <span class="polar-speaker-talk__final">Panel : Acquisition d'entreprise : comment amener les TI à la table des négociations ?</span>
+            </p>
+            
+            
+            <div class="polar-speaker-abstract"><p>Panel. Les autres panélistes seront dévoilés sous peu.</p>
+</div>
+            
+            
+            <div class="polar-speaker-bio"><p>Régis Desmeules est entrepreneur en technologie et en cybersécurité, investisseur et auteur depuis plus de 30 ans. En tant qu’entrepreneur en cybersécurité, il a fondé et dirigé deux firmes de services-conseils, et a vendu avec succès la deuxième à une grande entreprise.</p>
+
+<p>Côté investissement, il est investisseur chez Anges Québec, Associate Partner chez AQC Capital à Montréal et LP dans Framework Venture à Toronto. Il a investi dans de nombreuses entreprises innovantes au Québec, au Canada et à l’étranger, et accompagne des entrepreneurs de startups comme mentor depuis de nombreuses années.</p>
+
+<p>Il est l’auteur de <em>Cisco Self-Study: Implementing Cisco IPv6 Networks</em> (Cisco Press), de <a href="https://boutique.bouquinbec.ca/produit/reussir-son-premier-financement/"><em>Réussir son premier financement</em></a> (2021) et, paru à l’été 2026, de <a href="https://www.amazon.ca/ChatGPT-Cybersecurity-Advisor-Medium-Business/dp/2981951378"><em>ChatGPT as a Cybersecurity Advisor</em></a>.</p>
+</div>
+            
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
       </div>
     </section>
     
@@ -700,6 +1099,8 @@
                     
                   </span>
                   
+                  
+                  
                   <span class="polar-slot-desc">Viennoiseries et réseautage.</span>
                 </td>
                 <td class="polar-slot-duration" data-label="Durée"></td>
@@ -727,6 +1128,8 @@
                   </span>
                   
                   
+                  
+                  
                 </td>
                 <td class="polar-slot-duration" data-label="Durée">5 min</td>
                 <td class="polar-slot-lang" data-label="Langue"></td>
@@ -748,6 +1151,8 @@
                     
                   </span>
                   <span class="polar-slot-speaker">Dominic Villeneuve</span>
+                  
+                  
                   
                 </td>
                 <td class="polar-slot-duration" data-label="Durée">50 min</td>
@@ -771,6 +1176,8 @@
                   </span>
                   <span class="polar-slot-speaker">Jeff Man</span>
                   
+                  
+                  
                 </td>
                 <td class="polar-slot-duration" data-label="Durée">50 min</td>
                 <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--en">EN</span></td>
@@ -788,6 +1195,8 @@
                   </span>
                   
                   
+                  
+                  
                 </td>
                 <td class="polar-slot-duration" data-label="Durée">20 min</td>
                 <td class="polar-slot-lang" data-label="Langue"></td>
@@ -799,12 +1208,27 @@
                   <span class="polar-slot-headline">
                     
                     
-                    <span class="polar-slot-title">Acquisition d'entreprise : comment amener les TI à la table des négociations ?</span>
+                    <span class="polar-slot-title">Panel : Acquisition d'entreprise : comment amener les TI à la table des négociations ?</span>
                     
                     
                   </span>
                   
-                  <span class="polar-slot-desc">Panel. Panélistes à dévoiler.</span>
+                  
+                  
+                  <span class="polar-slot-speaker">
+                    <button type="button" class="polar-slot-panelist"
+                            data-speaker="samuel-bonneau"
+                            aria-haspopup="dialog"
+                            aria-controls="polar-speaker-modal-samuel-bonneau">Samuel Bonneau</button>, <button type="button" class="polar-slot-panelist"
+                            data-speaker="eric-hebert"
+                            aria-haspopup="dialog"
+                            aria-controls="polar-speaker-modal-eric-hebert">Éric Hébert</button>, <button type="button" class="polar-slot-panelist"
+                            data-speaker="regis-desmeules"
+                            aria-haspopup="dialog"
+                            aria-controls="polar-speaker-modal-regis-desmeules">Régis Desmeules</button>
+                  </span>
+                  
+                  <span class="polar-slot-desc">Panel. Premiers panélistes annoncés, d'autres à venir.</span>
                 </td>
                 <td class="polar-slot-duration" data-label="Durée">50 min</td>
                 <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span></td>
@@ -835,6 +1259,8 @@
                     
                   </span>
                   <span class="polar-slot-speaker">Mark Pilon, directeur régional des ventes, Est du Canada</span>
+                  
+                  
                   <span class="polar-slot-desc">Conférence partenaire du dîner.</span>
                 </td>
                 <td class="polar-slot-duration" data-label="Durée">15 min</td>
@@ -850,7 +1276,18 @@
                     <span class="polar-slot-title">Dîner</span>
                     
                     
+                    
+                    <span class="polar-slot-sponsors">
+                      
+                      <img class="polar-slot-sponsor-logo"
+                           src="https://hackfest.ca/assets/images/sponsors/wiz.png"
+                           alt="Wiz" title="Wiz" loading="lazy">
+                      
+                    </span>
+                    
                   </span>
+                  
+                  
                   
                   <span class="polar-slot-desc">Repas trois services.</span>
                 </td>
@@ -864,7 +1301,12 @@
                   <span class="polar-slot-headline">
                     
                     
-                    <span class="polar-slot-title">Conférence à dévoiler</span>
+                    <button type="button" class="polar-slot-open"
+                            data-speaker="karim-benhamouche"
+                            aria-haspopup="dialog"
+                            aria-controls="polar-speaker-modal-karim-benhamouche">
+                      <span class="polar-slot-title">Sécuriser l'écosystème de l'IA agentique : de la chaîne d'approvisionnement aux points de terminaison</span>
+                    </button>
                     
                     
                     
@@ -877,11 +1319,13 @@
                     </span>
                     
                   </span>
+                  <span class="polar-slot-speaker">Karim Benhamouche</span>
+                  
                   
                   
                 </td>
                 <td class="polar-slot-duration" data-label="Durée">50 min</td>
-                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--en">EN</span></td>
+                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span></td>
               </tr>
               
               <tr class="polar-slot polar-slot--pause">
@@ -894,6 +1338,8 @@
                     
                     
                   </span>
+                  
+                  
                   
                   
                 </td>
@@ -911,7 +1357,9 @@
                     
                     
                   </span>
-                  <span class="polar-slot-speaker">Simon-David William</span>
+                  <span class="polar-slot-speaker">Simon-David Williams</span>
+                  
+                  
                   
                 </td>
                 <td class="polar-slot-duration" data-label="Durée">50 min</td>
@@ -927,7 +1375,18 @@
                     <span class="polar-slot-title">Pause café et sucrée</span>
                     
                     
+                    
+                    <span class="polar-slot-sponsors">
+                      
+                      <img class="polar-slot-sponsor-logo"
+                           src="https://hackfest.ca/assets/images/sponsors/gosec.png"
+                           alt="GoSecure" title="GoSecure" loading="lazy">
+                      
+                    </span>
+                    
                   </span>
+                  
+                  
                   
                   
                 </td>
@@ -956,6 +1415,8 @@
                   </span>
                   <span class="polar-slot-speaker">Pierre Rousseau, vice-président des ventes, Centre de données</span>
                   
+                  
+                  
                 </td>
                 <td class="polar-slot-duration" data-label="Durée">20 min</td>
                 <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span></td>
@@ -982,6 +1443,8 @@
                   </span>
                   
                   
+                  
+                  
                 </td>
                 <td class="polar-slot-duration" data-label="Durée"></td>
                 <td class="polar-slot-lang" data-label="Langue"></td>
@@ -997,6 +1460,8 @@
                     
                     
                   </span>
+                  
+                  
                   
                   <span class="polar-slot-desc">Rendez-vous au cocktail d'ouverture du Hackfest, au Centre des congrès de Québec.</span>
                 </td>
@@ -1255,6 +1720,34 @@
         </div>
         
         
+        
+        <div class="sponsor-row " id="diner">
+          <span class="sponsor-label">Dîner</span>
+          
+          
+          
+          
+          
+          <div class="sponsor-entries">
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://wiz.io" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/wiz.png" alt="Wiz"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">Wiz transforme la sécurité de l'informatique en nuage pour ses clients, dont 40 % des entreprises du classement Fortune 100, en mettant en place un nouveau modèle d'exploitation. Notre CNAPP permet aux équipes de sécurité et de développement de construire rapidement et en toute sécurité en fournissant une visibilité sur leurs environnements en nuage.</p>
+                <a href="https://wiz.io" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+          </div>
+          
+          
+        </div>
         
         
         
