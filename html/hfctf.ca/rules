@@ -277,6 +277,22 @@
             </ul>
         </div>
         <div class="forum-details-block">
+            <h3>Règlements d&#39;inscription au CTF</h3>
+            <ul class="about-check-list about-check-list-second about-check-list-white">
+                
+                <li>Bien lire toutes les informations lors de votre inscription dans Eventbrite</li>
+                
+                <li>Une adresse courriel valide devra être fournie lors de l&rsquo;inscription</li>
+                
+                <li>Un compte sur le Discord du Hackfest est requis</li>
+                
+                <li>Les équipes peuvent être composées d&rsquo;un maximum de 6 personnes (nous mixerons les équipes non complètes)</li>
+                
+                <li>Rester à l&rsquo;affût sous la catégorie <code>HFCTF 2026</code> sur notre Discord</li>
+                
+            </ul>
+        </div>
+        <div class="forum-details-block">
             <h3>Logistique pour l&#39;intelligence artificielle</h3>
             <ul class="about-check-list about-check-list-second about-check-list-white">
                 
@@ -313,16 +329,6 @@
                 <li>Il n’y a aucune restriction quant aux modèles pouvant être utilisés, tant que cela reste dans le cadre des règles ci-dessus.</li>
                 
                 <li>À tout moment, l&rsquo;équipe chargée de la conception des défis peut vous demander des explications concernant vos soumissions de flags ou l&rsquo;avancement de vos défis, que ce soit en personne ou via Discord. Les informations demandées ne peuvent pas être générées à l&rsquo;aide d&rsquo;outils d&rsquo;IA. Tant que les informations demandées n&rsquo;auront pas été fournies, les points associés pourront être temporairement retirés. Dans le cas rare où cela se produirait juste avant la fin du CTF, un délai supplémentaire sera accordé pour fournir les informations demandées. Si l&rsquo;explication est jugée insatisfaisante, les points seront définitivement retirés. Gardez à l’esprit que l’explication fournie n’est qu’un des indicateurs qui seront utilisés pour déterminer si la résolution est valide (par exemple : surveillance du réseau, analyse des journaux CTFd, temps de résolution, etc.). Méfiez-vous également de l’ingénierie sociale. Si des explications vous sont demandées via Discord, assurez-vous que l’utilisateur dispose du rôle @Ninja ou @Ninja-Padawan. Si des explications vous sont demandées en personne et que vous ne vous souvenez pas d&rsquo;avoir vu cette personne à la table des administrateurs, dites-lui que vous allez la rejoindre à la table des administrateurs dans quelques instants.</li>
-                
-            </ul>
-        </div>
-        <div class="forum-details-block">
-            <h3>Équipement requis</h3>
-            <ul class="about-check-list about-check-list-second about-check-list-white">
-                
-                <li>Un PC/laptop et périphériques jugés nécessaires</li>
-                
-                <li>Ce qu&rsquo;il faut pour vous connecter au réseau Wi-Fi du CTF (si votre ordinateur n&rsquo;a pas déjà une carte Wi-Fi intégrée)</li>
                 
             </ul>
         </div>
