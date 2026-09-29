@@ -423,7 +423,7 @@
                           
                         </h4>
                         
-                          <p class="schedule-slot-description">Le CTF du Hackfest démarre et se poursuit toute la nuit.</p>
+                          <p class="schedule-slot-description">24h de compétition, jusqu'au vendredi 30 octobre à 18h00.</p>
                         
                         
                       </div>
@@ -591,12 +591,12 @@
                     </li>
                   
                     <li class="schedule-slot">
-                      <div class="schedule-slot-time">10h00+</div>
+                      <div class="schedule-slot-time">10h00 à 18h00</div>
                       <div class="schedule-slot-body">
                         <h4 class="schedule-slot-title">
                           
                             
-                              <a href="ctfs#hfctf">CTF</a>
+                              <a href="ctfs#hfctf">HFCTF (fin à 18h00)</a>
                             
                           
                         </h4>
@@ -879,10 +879,12 @@
                         <h4 class="schedule-slot-title">
                           
                             
-                              <a href="ctfs#hfctf">CTF</a>
+                              <a href="ctfs">Autres CTF</a>
                             
                           
                         </h4>
+                        
+                          <p class="schedule-slot-description">Beginner CTF et autres CTF à annoncer.</p>
                         
                         
                       </div>
