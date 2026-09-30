@@ -66,6 +66,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Orbitron:wght@400;500;600;700&family=Fira+Code&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://hackfest.ca/assets/css/main.css">
   <link rel="stylesheet" href="https://hackfest.ca/assets/css/schedule.css">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/hackfest-schedule.css">
   <script defer src="https://analytics.hackfest.ca/script.js" data-website-id="0ce77795-100e-4f53-92c3-5ea0922c0b15"></script>
 </head>
 <body class="schedule-page">
@@ -298,7 +299,7 @@
       
       <div class="schedule-hero-media" aria-hidden="true">
         <img class="schedule-hero-img"
-             src="https://hackfest.ca/assets/images/hackfest/conferences.webp"
+             src="https://hackfest.ca/assets/images/hackfest/stats-bg.webp"
              alt="" decoding="async" fetchpriority="high">
       </div>
       
@@ -308,706 +309,955 @@
       </div>
     </section>
 
+    <!-- Sticky section menu: jumps to each part of the page, highlights the
+         section in view (assets/js/schedule-subnav.js) -->
+    
+    <nav class="schedule-subnav" aria-label="Sections de l'horaire">
+      <ul class="schedule-subnav-list">
+        
+          <li><a class="schedule-subnav-link" href="horaire#thursday">Jeudi · POLAR</a></li>
+        
+          <li><a class="schedule-subnav-link" href="horaire#friday">Vendredi</a></li>
+        
+          <li><a class="schedule-subnav-link" href="horaire#saturday">Samedi</a></li>
+        
+          <li><a class="schedule-subnav-link" href="horaire#talks">Horaire des conférences et ateliers</a></li>
+        
+          <li><a class="schedule-subnav-link" href="horaire#year-round">Toute l'année</a></li>
+        
+      </ul>
+    </nav>
+    
+
     <!-- Schedule Intro Section -->
     
     <section class="schedule-intro">
       <div class="schedule-intro-inner">
         <h2 class="schedule-intro-title">Les trois jours</h2>
-        <p class="schedule-intro-text">POLAR ouvre la semaine le jeudi avec son symposium pour les gestionnaires, puis le Hackfest prend le relais pour deux journées complètes de conférences, de villages, de CTF et de soirées.</p>
+        <p class="schedule-intro-text">POLAR ouvre la semaine le jeudi avec son symposium pour les gestionnaires. Le Hackfest prend ensuite le relais le vendredi et le samedi avec plus de 50 conférences et ateliers, des villages, des CTF et des soirées.</p>
+        
+        <a class="schedule-intro-cta" href="horaire#talks">Voir les conférences et ateliers ↓</a>
         
         
-        <div class="section-notice"><p>Horaire préliminaire. Les heures et les activités peuvent changer d'ici l'événement.</p></div>
+        
+        <div class="section-notice"><p>L'horaire des conférences provient directement de notre appel de conférences (pretalx) et se met à jour automatiquement. Des changements sont encore possibles d'ici l'événement.</p></div>
+        
+        
+        <!-- Hotel reminder: book the whole event, evenings run late -->
+        <div class="schedule-stay">
+          <p class="schedule-stay-title">Réservez votre hôtel et vos 3 jours</p>
+          <p class="schedule-stay-text">Le Hackfest dure 2,5 jours et les activités se poursuivent tard le soir. Ne manquez pas le plaisir : les spectacles, les jeux, les CTF et plus encore.</p>
+          <a class="schedule-stay-link" href="sejour">Hôtels et séjour à Québec</a>
+        </div>
         
       </div>
     </section>
     
 
-    <!-- Day-by-day schedule (POLAR + Hackfest, October 2026) -->
-    <section class="schedule-days">
-      <div class="schedule-events-inner">
+    <!-- Before the talks: Thursday (POLAR first, then Hackfest pre-opening) -->
+    
+<section class="schedule-days">
+  <div class="schedule-events-inner">
+    
+      <div class="schedule-day" id="thursday">
+
+        <!-- Day header: weekday + full date -->
+        <h2 class="schedule-day-header">
+          <span class="schedule-day-line"></span>
+          <span class="schedule-day-name">
+            <span class="schedule-day-weekday">Jeudi</span>
+            <span class="schedule-day-date">29 octobre 2026</span>
+          </span>
+          <span class="schedule-day-line"></span>
+        </h2>
+
         
-          <div class="schedule-day" id="thursday">
 
-            <!-- Day header: weekday + full date -->
-            <h2 class="schedule-day-header">
-              <span class="schedule-day-line"></span>
-              <span class="schedule-day-name">
-                <span class="schedule-day-weekday">Jeudi</span>
-                <span class="schedule-day-date">29 octobre 2026</span>
-              </span>
-              <span class="schedule-day-line"></span>
-            </h2>
+        <!-- Tracks: one block per event or per evening programme -->
+        
+          <div class="schedule-track">
+            <div class="schedule-track-head">
+              <h3 class="schedule-track-name">
+                
+                  <a href="polar">POLAR</a>
+                
+              </h3>
+              <span class="schedule-track-tag">Symposium</span>
+              
+                
+                
+                
+                
 
-            <!-- Tracks: one block per event or per evening programme -->
+<a class="schedule-track-presented" href="https://www.paloaltonetworks.com/" target="_blank" rel="noopener">
+  <span class="schedule-track-presented-label">Présenté par</span>
+  <span class="schedule-track-presented-logo">
+    <img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks" loading="lazy">
+  </span>
+</a>
+
+
+              
+            </div>
+
+            <ol class="schedule-slots">
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">8h00 à 18h00</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="polar#schedule">Symposium pour les gestionnaires</a>
+                        
+                      
+                    </h4>
+                    
+                    
+                      <a class="schedule-slot-cta" href="polar#schedule">Cliquez ici pour voir l'horaire, les conférences, les partenaires et plus</a>
+                    
+                    
+                  </div>
+                </li>
+              
+            </ol>
+
             
-              <div class="schedule-track">
-                <div class="schedule-track-head">
-                  <h3 class="schedule-track-name">
-                    
-                      <a href="polar">POLAR</a>
-                    
-                  </h3>
-                  <span class="schedule-track-tag">Symposium</span>
-                </div>
-
-                <ol class="schedule-slots">
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">8h00 à 18h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="polar#schedule">Symposium pour les gestionnaires</a>
-                            
-                          
-                        </h4>
-                        
-                          <p class="schedule-slot-description">Une journée complète de conférences et d'ateliers pour les gestionnaires en sécurité de l'information.</p>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                </ol>
-              </div>
-            
-              <div class="schedule-track">
-                <div class="schedule-track-head">
-                  <h3 class="schedule-track-name">
-                    
-                      Hackfest
-                    
-                  </h3>
-                  <span class="schedule-track-tag">Pré-ouverture</span>
-                </div>
-
-                <ol class="schedule-slots">
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">16h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Ouverture des inscriptions
-                          
-                        </h4>
-                        
-                          <p class="schedule-slot-description">Récupérez votre badge et votre trousse de participant.</p>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">18h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Cocktail d'ouverture
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">18h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="ctfs#hfctf">Début du HFCTF</a>
-                            
-                          
-                        </h4>
-                        
-                          <p class="schedule-slot-description">24h de compétition, jusqu'au vendredi 30 octobre à 18h00.</p>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">19h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Hackfest 101
-                          
-                        </h4>
-                        
-                          <p class="schedule-slot-description">Présentation pour bien démarrer votre fin de semaine, surtout si c'est votre première visite.</p>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                </ol>
-              </div>
-            
-
           </div>
         
-          <div class="schedule-day" id="friday">
+          <div class="schedule-track">
+            <div class="schedule-track-head">
+              <h3 class="schedule-track-name">
+                
+                  Hackfest
+                
+              </h3>
+              <span class="schedule-track-tag">Pré-ouverture</span>
+              
+                
+                
+                
+                
 
-            <!-- Day header: weekday + full date -->
-            <h2 class="schedule-day-header">
-              <span class="schedule-day-line"></span>
-              <span class="schedule-day-name">
-                <span class="schedule-day-weekday">Vendredi</span>
-                <span class="schedule-day-date">30 octobre 2026</span>
-              </span>
-              <span class="schedule-day-line"></span>
-            </h2>
+<a class="schedule-track-presented" href="https://vooban.com" target="_blank" rel="noopener">
+  <span class="schedule-track-presented-label">Présenté par</span>
+  <span class="schedule-track-presented-logo">
+    <img src="https://hackfest.ca/assets/images/sponsors/vooban.webp" alt="Vooban" loading="lazy">
+  </span>
+</a>
 
-            <!-- Tracks: one block per event or per evening programme -->
+
+              
+            </div>
+
+            <ol class="schedule-slots">
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">16h00 à 21h00</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        Ouverture des inscriptions
+                      
+                    </h4>
+                    
+                      <p class="schedule-slot-description">Récupérez votre badge et votre trousse de participant.</p>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">18h00 à 22h00</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        Cocktail d'ouverture
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">18h00</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="ctfs#hfctf">Début du HFCTF</a>
+                        
+                      
+                    </h4>
+                    
+                      <p class="schedule-slot-description">24h de compétition, jusqu'au vendredi 30 octobre à 18h00.</p>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">19h00</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        Hackfest 101
+                      
+                    </h4>
+                    
+                      <p class="schedule-slot-description">Présentation pour bien démarrer votre fin de semaine, surtout si c'est votre première visite.</p>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+            </ol>
+
             
-              <div class="schedule-track">
-                <div class="schedule-track-head">
-                  <h3 class="schedule-track-name">
-                    
-                      Hackfest
-                    
-                  </h3>
-                  <span class="schedule-track-tag">Jour 1</span>
-                </div>
-
-                <ol class="schedule-slots">
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">8h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Ouverture des portes
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">8h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="partenaires-hackfest">Hall des partenaires</a>
-                            
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">8h50</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Discours d'ouverture + Keynote
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">10h00 à 21h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Présentations, conférences et ateliers
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">10h00+</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="villages">Villages</a>
-                            
-                          
-                        </h4>
-                        
-                        
-                          
-                          <ul class="schedule-slot-items">
-                            
-                              
-                                <li><a href="villages#village-lockpicking">Lockpick</a></li>
-                              
-                            
-                              
-                                <li><a href="villages">Sécurité physique</a></li>
-                              
-                            
-                              
-                                <li><a href="https://hackfest.ca/villages/scada/">OT / SCADA</a></li>
-                              
-                            
-                              
-                                <li><a href="https://hackfest.ca/villages/generations/">Génération (7 à 17 ans)</a></li>
-                              
-                            
-                              
-                                <li><a href="villages#village-ham-radio">Radio amateur</a></li>
-                              
-                            
-                              
-                                <li><a href="villages#village-noc">Palo Alto NoC</a></li>
-                              
-                            
-                              
-                                <li><a href="villages#village-hack-ta-carriere">Hack ta carrière</a></li>
-                              
-                            
-                              
-                                <li><a href="villages#village-startups">Startups</a></li>
-                              
-                            
-                              
-                                <li><a href="villages">Podcasts</a></li>
-                              
-                            
-                              
-                                <li><a href="villages">et plus à venir</a></li>
-                              
-                            
-                          </ul>
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">10h00 à 18h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="ctfs#hfctf">HFCTF (fin à 18h00)</a>
-                            
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">10h00+</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Chasse au trésor, partie 1
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">10h00+</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="ctfs#brainfuck">BrainFuck Challenge</a>
-                            
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">10h00+</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="ctfs#social">Social Engineering CTF</a>
-                            
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                </ol>
-              </div>
+              
+              <a class="schedule-track-more" href="horaire#talks">Détails dans la grille des conférences ↓</a>
             
-              <div class="schedule-track schedule-track-night">
-                <div class="schedule-track-head">
-                  <h3 class="schedule-track-name">
-                    
-                      Hackfest @ Night
-                    
-                  </h3>
-                  <span class="schedule-track-tag">Soirée</span>
-                </div>
-
-                <ol class="schedule-slots">
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">Toute la soirée</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Nuit de jeux
-                          
-                        </h4>
-                        
-                          <p class="schedule-slot-description">Plus de jeux à venir.</p>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">19h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="https://securite.fm" target="_blank" rel="noopener">Podcast : La French Connection, épisode 300<span class="schedule-external-icon" title="Lien externe">↗</span></a>
-                            
-                          
-                        </h4>
-                        
-                          <p class="schedule-slot-description">Enregistrement LIVE devant public.</p>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">21h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="spectacle">Spectacle de musique</a>
-                            
-                          
-                        </h4>
-                        
-                          <p class="schedule-slot-description">Live Music Coding avec PEPPIN.</p>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">22h30+</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Hacker Karaoké
-                          
-                        </h4>
-                        
-                          <p class="schedule-slot-description">Chantez.</p>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                </ol>
-              </div>
-            
-
           </div>
         
-          <div class="schedule-day" id="saturday">
 
-            <!-- Day header: weekday + full date -->
-            <h2 class="schedule-day-header">
-              <span class="schedule-day-line"></span>
-              <span class="schedule-day-name">
-                <span class="schedule-day-weekday">Samedi</span>
-                <span class="schedule-day-date">31 octobre 2026</span>
-              </span>
-              <span class="schedule-day-line"></span>
-            </h2>
-
-            <!-- Tracks: one block per event or per evening programme -->
-            
-              <div class="schedule-track">
-                <div class="schedule-track-head">
-                  <h3 class="schedule-track-name">
-                    
-                      Hackfest
-                    
-                  </h3>
-                  <span class="schedule-track-tag">Jour 2</span>
-                </div>
-
-                <ol class="schedule-slots">
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">8h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Ouverture des portes
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">8h50</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Discours d'ouverture + Keynote
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">9h30+</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Présentations, conférences et ateliers
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">9h30+</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="villages">Villages</a>
-                            
-                          
-                        </h4>
-                        
-                        
-                          
-                          <ul class="schedule-slot-items">
-                            
-                              
-                                <li><a href="villages#village-lockpicking">Lockpick</a></li>
-                              
-                            
-                              
-                                <li><a href="villages">Sécurité physique</a></li>
-                              
-                            
-                              
-                                <li><a href="https://hackfest.ca/villages/scada/">OT / SCADA</a></li>
-                              
-                            
-                              
-                                <li><a href="https://hackfest.ca/villages/generations/">Génération (7 à 17 ans)</a></li>
-                              
-                            
-                              
-                                <li><a href="villages#village-ham-radio">Radio amateur</a></li>
-                              
-                            
-                              
-                                <li><a href="villages#village-noc">Palo Alto NoC</a></li>
-                              
-                            
-                              
-                                <li><a href="villages#village-hack-ta-carriere">Hack ta carrière</a></li>
-                              
-                            
-                              
-                                <li><a href="villages#village-startups">Startups</a></li>
-                              
-                            
-                              
-                                <li><a href="villages">Podcasts</a></li>
-                              
-                            
-                              
-                                <li><a href="villages">et plus à venir</a></li>
-                              
-                            
-                          </ul>
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">9h30+</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="partenaires-hackfest">Hall des partenaires</a>
-                            
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">9h30+</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="ctfs">Autres CTF</a>
-                            
-                          
-                        </h4>
-                        
-                          <p class="schedule-slot-description">Beginner CTF et autres CTF à annoncer.</p>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">9h30+</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Chasse au trésor, partie 2
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">9h30+</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="ctfs#brainfuck">BrainFuck Challenge</a>
-                            
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">9h30+</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="ctfs#social">Finale du Social Engineering CTF</a>
-                            
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                </ol>
-              </div>
-            
-              <div class="schedule-track schedule-track-night">
-                <div class="schedule-track-head">
-                  <h3 class="schedule-track-name">
-                    
-                      Hackfest Afterdark
-                    
-                  </h3>
-                  <span class="schedule-track-tag">Soirée</span>
-                </div>
-
-                <ol class="schedule-slots">
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">19h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Security Impress Karaoke
-                          
-                        </h4>
-                        
-                          <p class="schedule-slot-description">Whose slide is it anyway.</p>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">21h00</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            
-                              <a href="ctfs#social">Social Engineering CTF</a>
-                            
-                          
-                        </h4>
-                        
-                          <p class="schedule-slot-description">Adult Only Edition v2.</p>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                    <li class="schedule-slot">
-                      <div class="schedule-slot-time">22h30</div>
-                      <div class="schedule-slot-body">
-                        <h4 class="schedule-slot-title">
-                          
-                            Ghost talks
-                          
-                        </h4>
-                        
-                        
-                      </div>
-                    </li>
-                  
-                </ol>
-              </div>
-            
-
-          </div>
         
+
       </div>
+    
+  </div>
+</section>
+
+
+    <!-- Around the talks: villages, CTFs and evenings on Friday and Saturday -->
+    
+      
+<section class="schedule-days schedule-days--collapsible">
+  <div class="schedule-events-inner">
+    
+      <div class="schedule-day schedule-day--magenta" id="friday">
+
+        <!-- Day header: weekday + full date -->
+        <h2 class="schedule-day-header">
+          <span class="schedule-day-line"></span>
+          <span class="schedule-day-name">
+            <span class="schedule-day-weekday">Vendredi</span>
+            <span class="schedule-day-date">30 octobre 2026</span>
+          </span>
+          <span class="schedule-day-line"></span>
+        </h2>
+
+        
+        <details class="schedule-day-details" data-collapse-mobile open>
+          <summary class="schedule-day-summary">Portes, villages, HFCTF, chasse au trésor et soirée : jeux, podcast, musique, karaoké</summary>
+        
+
+        <!-- Tracks: one block per event or per evening programme -->
+        
+          <div class="schedule-track">
+            <div class="schedule-track-head">
+              <h3 class="schedule-track-name">
+                
+                  Hackfest
+                
+              </h3>
+              <span class="schedule-track-tag">Jour 1</span>
+              
+                
+                
+                
+                
+
+<a class="schedule-track-presented" href="https://vooban.com" target="_blank" rel="noopener">
+  <span class="schedule-track-presented-label">Présenté par</span>
+  <span class="schedule-track-presented-logo">
+    <img src="https://hackfest.ca/assets/images/sponsors/vooban.webp" alt="Vooban" loading="lazy">
+  </span>
+</a>
+
+
+              
+            </div>
+
+            <ol class="schedule-slots">
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">8h00</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        Ouverture des portes
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">8h00</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="partenaires-hackfest">Hall des partenaires</a>
+                        
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">9h00+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="horaire#talks">Keynote, conférences et ateliers</a>
+                        
+                      
+                    </h4>
+                    
+                      <p class="schedule-slot-description">Voir la grille des conférences ci-dessous.</p>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">10h00+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="villages">Villages</a>
+                        
+                      
+                    </h4>
+                    
+                    
+                    
+                      
+                      <ul class="schedule-slot-items">
+                        
+                          
+                            <li><a href="villages#village-lockpicking">Lockpick</a></li>
+                          
+                        
+                          
+                            <li><a href="villages">Sécurité physique</a></li>
+                          
+                        
+                          
+                            <li><a href="https://hackfest.ca/villages/scada/">OT / SCADA</a></li>
+                          
+                        
+                          
+                            <li><a href="https://hackfest.ca/villages/generations/">Génération (7 à 17 ans)</a></li>
+                          
+                        
+                          
+                            <li><a href="villages#village-ham-radio">Radio amateur</a></li>
+                          
+                        
+                          
+                            <li><a href="villages#village-noc">Palo Alto NoC</a></li>
+                          
+                        
+                          
+                            <li><a href="villages#village-hack-ta-carriere">Hack ta carrière</a></li>
+                          
+                        
+                          
+                            <li><a href="villages#village-startups">Startups</a></li>
+                          
+                        
+                          
+                            <li><a href="villages">Podcasts</a></li>
+                          
+                        
+                          
+                            <li><a href="villages">et plus à venir</a></li>
+                          
+                        
+                      </ul>
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">10h00 à 18h00</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="ctfs#hfctf">HFCTF (fin à 18h00)</a>
+                        
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">10h00+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        Chasse au trésor, partie 1
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">10h00+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="ctfs#brainfuck">BrainFuck Challenge</a>
+                        
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">10h00+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="ctfs#social">Social Engineering CTF</a>
+                        
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+            </ol>
+
+            
+          </div>
+        
+          <div class="schedule-track schedule-track-night">
+            <div class="schedule-track-head">
+              <h3 class="schedule-track-name">
+                
+                  Hackfest @ Night
+                
+              </h3>
+              <span class="schedule-track-tag">Soirée</span>
+              
+            </div>
+
+            <ol class="schedule-slots">
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">Toute la soirée</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        Nuit de jeux
+                      
+                    </h4>
+                    
+                      <p class="schedule-slot-description">Plus de jeux à venir.</p>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">19h30+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="horaire#talks">La French Connection et spectacle de PEPIN</a>
+                        
+                      
+                    </h4>
+                    
+                      <p class="schedule-slot-description">Enregistrement LIVE du podcast, puis Live Music Coding. Heures exactes dans la grille ci-dessous.</p>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">22h30+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        Hacker Karaoké
+                      
+                    </h4>
+                    
+                      <p class="schedule-slot-description">Chantez.</p>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+            </ol>
+
+            
+          </div>
+        
+
+        
+        </details>
+        
+
+      </div>
+    
+      <div class="schedule-day schedule-day--orange" id="saturday">
+
+        <!-- Day header: weekday + full date -->
+        <h2 class="schedule-day-header">
+          <span class="schedule-day-line"></span>
+          <span class="schedule-day-name">
+            <span class="schedule-day-weekday">Samedi</span>
+            <span class="schedule-day-date">31 octobre 2026</span>
+          </span>
+          <span class="schedule-day-line"></span>
+        </h2>
+
+        
+        <details class="schedule-day-details" data-collapse-mobile open>
+          <summary class="schedule-day-summary">Keynote, villages, CTF, chasse au trésor et Afterdark : karaoké, SE CTF, ghost talks</summary>
+        
+
+        <!-- Tracks: one block per event or per evening programme -->
+        
+          <div class="schedule-track">
+            <div class="schedule-track-head">
+              <h3 class="schedule-track-name">
+                
+                  Hackfest
+                
+              </h3>
+              <span class="schedule-track-tag">Jour 2</span>
+              
+                
+                
+                
+                
+
+<a class="schedule-track-presented" href="https://vooban.com" target="_blank" rel="noopener">
+  <span class="schedule-track-presented-label">Présenté par</span>
+  <span class="schedule-track-presented-logo">
+    <img src="https://hackfest.ca/assets/images/sponsors/vooban.webp" alt="Vooban" loading="lazy">
+  </span>
+</a>
+
+
+              
+            </div>
+
+            <ol class="schedule-slots">
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">8h00</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        Ouverture des portes
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">8h50</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        Discours d'ouverture + Keynote
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">9h30+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="horaire#talks">Conférences et ateliers</a>
+                        
+                      
+                    </h4>
+                    
+                      <p class="schedule-slot-description">Voir la grille des conférences ci-dessous.</p>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">9h30+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="villages">Villages</a>
+                        
+                      
+                    </h4>
+                    
+                    
+                    
+                      
+                      <ul class="schedule-slot-items">
+                        
+                          
+                            <li><a href="villages#village-lockpicking">Lockpick</a></li>
+                          
+                        
+                          
+                            <li><a href="villages">Sécurité physique</a></li>
+                          
+                        
+                          
+                            <li><a href="https://hackfest.ca/villages/scada/">OT / SCADA</a></li>
+                          
+                        
+                          
+                            <li><a href="https://hackfest.ca/villages/generations/">Génération (7 à 17 ans)</a></li>
+                          
+                        
+                          
+                            <li><a href="villages#village-ham-radio">Radio amateur</a></li>
+                          
+                        
+                          
+                            <li><a href="villages#village-noc">Palo Alto NoC</a></li>
+                          
+                        
+                          
+                            <li><a href="villages#village-hack-ta-carriere">Hack ta carrière</a></li>
+                          
+                        
+                          
+                            <li><a href="villages#village-startups">Startups</a></li>
+                          
+                        
+                          
+                            <li><a href="villages">Podcasts</a></li>
+                          
+                        
+                          
+                            <li><a href="villages">et plus à venir</a></li>
+                          
+                        
+                      </ul>
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">9h30+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="partenaires-hackfest">Hall des partenaires</a>
+                        
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">9h30+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="ctfs">Autres CTF</a>
+                        
+                      
+                    </h4>
+                    
+                      <p class="schedule-slot-description">Beginner CTF et autres CTF à annoncer.</p>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">9h30+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        Chasse au trésor, partie 2
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">9h30+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="ctfs#brainfuck">BrainFuck Challenge</a>
+                        
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">9h30+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="ctfs#social">Finale du Social Engineering CTF</a>
+                        
+                      
+                    </h4>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+            </ol>
+
+            
+          </div>
+        
+          <div class="schedule-track schedule-track-night">
+            <div class="schedule-track-head">
+              <h3 class="schedule-track-name">
+                
+                  Hackfest Afterdark
+                
+              </h3>
+              <span class="schedule-track-tag">Soirée</span>
+              
+            </div>
+
+            <ol class="schedule-slots">
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">19h00+</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="horaire#talks">Security Impress Karaoke et Ghost talks</a>
+                        
+                      
+                    </h4>
+                    
+                      <p class="schedule-slot-description">Whose slide is it anyway. Heures exactes dans la grille ci-dessous.</p>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+                <li class="schedule-slot">
+                  <div class="schedule-slot-time">21h00</div>
+                  <div class="schedule-slot-body">
+                    
+                    
+                    <h4 class="schedule-slot-title">
+                      
+                        
+                          <a href="ctfs#social">Social Engineering CTF</a>
+                        
+                      
+                    </h4>
+                    
+                      <p class="schedule-slot-description">Adult Only Edition v2.</p>
+                    
+                    
+                    
+                  </div>
+                </li>
+              
+            </ol>
+
+            
+          </div>
+        
+
+        
+        </details>
+        
+
+      </div>
+    
+  </div>
+</section>
+
+    
+
+    <!-- Talks and workshops, fetched live from pretalx by hackfest-schedule.js -->
+    
+    <section class="schedule-timetable hf-schedule-scope" id="talks">
+      <div class="schedule-timetable-inner">
+        <h2 class="schedule-day-header">
+          <span class="schedule-day-line"></span>
+          <span class="schedule-day-name">
+            <span class="schedule-day-weekday">Conférences et ateliers</span>
+            <span class="schedule-day-date">30 et 31 octobre 2026</span>
+          </span>
+          <span class="schedule-day-line"></span>
+        </h2>
+
+        
+        
+        <div class="schedule-timetable-presented">
+          
+
+<a class="schedule-track-presented" href="https://vooban.com" target="_blank" rel="noopener">
+  <span class="schedule-track-presented-label">Présenté par</span>
+  <span class="schedule-track-presented-logo">
+    <img src="https://hackfest.ca/assets/images/sponsors/vooban.webp" alt="Vooban" loading="lazy">
+  </span>
+</a>
+
+
+        </div>
+        
+
+        <div class="hf-schedule-container"></div>
+
+        
+        <noscript>
+          <p class="schedule-timetable-noscript">
+            La grille des conférences a besoin de JavaScript. Consultez l'horaire complet sur
+            <a href="https://cfp.hackfest.ca/hf2026/schedule/">cfp.hackfest.ca</a>
+          </p>
+        </noscript>
+
+        <p class="schedule-timetable-source">
+          Horaire chargé en direct depuis
+          <a href="https://cfp.hackfest.ca/hf2026/schedule/" target="_blank" rel="noopener">cfp.hackfest.ca<span class="schedule-external-icon" title="Lien externe">↗</span></a>
+        </p>
+      </div>
+
+      
+      <script type="application/json" id="hf-schedule-config">
+      {
+        "jsonUrl": "https://cfp.hackfest.ca/hf2026/schedule/export/schedule.json",
+        "cfpUrl": "https://cfp.hackfest.ca/hf2026/schedule/",
+        "refreshInterval": 600000,
+        "lang": "fr",
+        "labels": {"loading":"Chargement du programme...","error":"Impossible de charger le programme.","retry":"Réessayer","no_talks":"Aucune session prévue pour cette journée.","room":"Salle","track":"Volet","speaker":"Conférencier","speakers":"Conférenciers","duration":"Durée","language":"Langue","abstract":"Résumé","description":"Description","biography":"Biographie","close":"Fermer","all_rooms":"Toutes","minutes":"min","filter_room":"Filtrer par salle","filter_track":"Filtrer par volet","search_placeholder":"Rechercher une conférence ou un conférencier…","live_now":"En direct","jump_to_now":"↓ Maintenant","no_results":"Aucun résultat","legend_rooms":"Salles","legend_tracks":"Volets","legend_other":"Autre","view_on_pretalx":"Voir sur pretalx","links":"Liens","attachments":"Fichiers","time_separator":"à","legend_language":"Langue","lang_fr":"Français","lang_en":"Anglais","filters":"Filtres","reset_filters":"Réinitialiser","show_results":"Voir {n} résultats","clear_search":"Effacer la recherche","previous_result":"Résultat précédent","next_result":"Résultat suivant","copy_link":"Copier le lien","link_copied":"Lien copié","match_in_prelude":"Trouvé plus haut, le {day}"}
+      }
+      </script>
     </section>
+    
 
     <!-- Year-round recurring events (QuebecSec), loaded from timeline-{lang}.yml -->
     
     
 
     
-    <section class="schedule-events">
+    <section class="schedule-events" id="year-round">
       <div class="schedule-events-inner">
         <div class="schedule-month schedule-month-recurring">
           <h3 class="schedule-month-header">
@@ -1194,5 +1444,8 @@
 
 
   <script src="assets/js/main.js"></script>
+  <script src="https://hackfest.ca/assets/js/hackfest-schedule.js"></script>
+  <script src="https://hackfest.ca/assets/js/schedule-subnav.js"></script>
+  <script src="https://hackfest.ca/assets/js/schedule-days.js"></script>
 </body>
 </html>
