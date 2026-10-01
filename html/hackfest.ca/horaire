@@ -765,14 +765,14 @@
                 </li>
               
                 <li class="schedule-slot">
-                  <div class="schedule-slot-time">10h00+</div>
+                  <div class="schedule-slot-time">9h00+</div>
                   <div class="schedule-slot-body">
                     
                     
                     <h4 class="schedule-slot-title">
                       
                         
-                          <a href="ctfs#social">Social Engineering CTF</a>
+                          <a href="https://hackfest.ca/ctfs/se/">Social Engineering CTF</a>
                         
                       
                     </h4>
@@ -1109,7 +1109,7 @@
                     <h4 class="schedule-slot-title">
                       
                         
-                          <a href="ctfs#social">Finale du Social Engineering CTF</a>
+                          <a href="https://hackfest.ca/ctfs/se/">Finale du Social Engineering CTF</a>
                         
                       
                     </h4>
@@ -1165,7 +1165,7 @@
                     <h4 class="schedule-slot-title">
                       
                         
-                          <a href="ctfs#social">Social Engineering CTF</a>
+                          <a href="https://hackfest.ca/ctfs/se/">Social Engineering CTF</a>
                         
                       
                     </h4>

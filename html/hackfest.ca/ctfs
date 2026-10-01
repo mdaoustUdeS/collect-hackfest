@@ -339,7 +339,7 @@
           </div>
         </a>
         
-        <a href="ctfs#social" class="ctf-card">
+        <a href="https://hackfest.ca/ctfs/se/" class="ctf-card">
           <div class="ctf-card-image" style="background-image: url('https://hackfest.ca/assets/images/ctfs/social.webp')"></div>
           <div class="ctf-card-overlay"></div>
           <div class="ctf-card-content">
@@ -484,7 +484,7 @@
           
           
             
-          <a href="ctfs#" class="btn btn-primary btn-lg">Inscriptions ouvrent le 1er mai 2026</a>
+          <a href="https://hackfest.ca/ctfs/se/" class="btn btn-primary btn-lg">Inscription, règlements et horaire</a>
             
           
         </div>
