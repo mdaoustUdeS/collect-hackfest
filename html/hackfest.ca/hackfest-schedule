@@ -538,17 +538,17 @@
         
         <a href="formations#securite-101" class="hf-schedule-cs-lava-world-title-ghost" data-text="Sécurité 101-102-103-101C">Sécurité 101-102-103-101C</a>
         
-        <a href="formations#securite-physique" class="hf-schedule-cs-lava-world-title-ghost" data-text="Sécurité Physique 101, 201, 202">Sécurité Physique 101, 201, 202</a>
+        <a href="formations#securite-physique" class="hf-schedule-cs-lava-world-title-ghost" data-text="Sécurité physique 101, 201, 202">Sécurité physique 101, 201, 202</a>
         
-        <a href="formations#aiautomation" class="hf-schedule-cs-lava-world-title-ghost" data-text="Sécurité & Automatisation Intelligente : Réduisez votre temps de réaction aux menaces">Sécurité & Automatisation Intelligente : Réduisez votre temps de réaction aux menaces</a>
+        <a href="formations#aiautomation" class="hf-schedule-cs-lava-world-title-ghost" data-text="Sécurité & automatisation intelligente">Sécurité & automatisation intelligente</a>
         
         <a href="formations#gestion-crise" class="hf-schedule-cs-lava-world-title-ghost" data-text="S'initier à la gestion de crise">S'initier à la gestion de crise</a>
         
         <a href="formations#premier-repondant-ir" class="hf-schedule-cs-lava-world-title-ghost" data-text="Devenir premier répondant en réponse aux cyberincidents">Devenir premier répondant en réponse aux cyberincidents</a>
         
-        <a href="formations#osint-bootcamp" class="hf-schedule-cs-lava-world-title-ghost" data-text="OSINT/Social Engineering Bootcamp">OSINT/Social Engineering Bootcamp</a>
+        <a href="formations#osint-bootcamp" class="hf-schedule-cs-lava-world-title-ghost" data-text="OSINT / Social Engineering Bootcamp">OSINT / Social Engineering Bootcamp</a>
         
-        <a href="formations#azure-swat-phenix" class="hf-schedule-cs-lava-world-title-ghost" data-text="Formation Cloud Pragmatique & Security Ops">Formation Cloud Pragmatique & Security Ops</a>
+        <a href="formations#azure-swat-phenix" class="hf-schedule-cs-lava-world-title-ghost" data-text="Formation Cloud pragmatique & Security Ops">Formation Cloud pragmatique & Security Ops</a>
         
       </div>
       <div class="hf-schedule-cs-lava-world-exit" title="Press Down or Escape to return"></div>
@@ -706,6 +706,58 @@
   </div>
 </div>
 <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/newsletter-modal.js"></script>
+
+
+
+
+
+
+  
+  
+  
+  
+    
+
+<div class="announce-backdrop" id="announceBackdrop" hidden aria-hidden="true"></div>
+<div class="announce-modal"
+     id="announceModal"
+     hidden
+     role="dialog"
+     aria-modal="true"
+     aria-labelledby="announce-modal-title"
+     data-announce-id="ctf-discount-2026-10"
+     data-announce-until="2026-10-29"
+     data-announce-delay="1400">
+
+  <button type="button" class="announce-close" aria-label="Fermer">&#10005;</button>
+
+  <div class="announce-body">
+    <span class="announce-eyebrow">Nouveau</span>
+    <h2 class="announce-title" id="announce-modal-title">Un CTF est caché sur le site</h2>
+    <p class="announce-text">Quelque part sur hackfest.ca, une machine attend. Personne ne vous dira où : c'est un peu l'idée. Résolvez-la et repartez avec un rabais.
+</p>
+
+    
+    <ul class="announce-points">
+      <li>25 % de rabais sur votre inscription au Hackfest</li><li>Rabais sur certaines formations</li>
+    </ul>
+    
+
+    <p class="announce-note">Bonne chasse!</p>
+
+    <div class="announce-actions">
+      
+      <a href="formations" class="announce-cta">Voir les formations</a>
+      
+      <button type="button" class="announce-dismiss">Plus tard</button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/announce-modal.js" defer></script>
+  
+
+
 
   <script src="assets/js/main.js"></script>
   <script src="assets/js/hero-slider.js"></script>

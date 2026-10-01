@@ -29,14 +29,14 @@
 
 <!-- Primary meta -->
 <title>Horaire — Hackfest 2026</title>
-<meta name="description" content="Horaire du Hackfest 2026 et de POLAR : 29, 30 et 31 octobre à Québec. Conférences, villages, CTF, spectacles et activités de soirée.">
+<meta name="description" content="Horaire du Hackfest 2026 et de POLAR : 29, 30 et 31 octobre à Québec. Conférences, ateliers, villages, CTF, spectacles et activités de soirée.">
 <link rel="canonical" href="horaire">
 
 <!-- Open Graph -->
 <meta property="og:type"        content="website">
 <meta property="og:site_name"   content="Hackfest 2026">
 <meta property="og:title"       content="Horaire — Hackfest 2026">
-<meta property="og:description" content="Horaire du Hackfest 2026 et de POLAR : 29, 30 et 31 octobre à Québec. Conférences, villages, CTF, spectacles et activités de soirée.">
+<meta property="og:description" content="Horaire du Hackfest 2026 et de POLAR : 29, 30 et 31 octobre à Québec. Conférences, ateliers, villages, CTF, spectacles et activités de soirée.">
 <meta property="og:url"         content="https://hackfest.ca/horaire/">
 <meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
 <meta property="og:image:alt"   content="Hackfest 2026">
@@ -46,7 +46,7 @@
 <meta name="twitter:card"        content="summary">
 <meta name="twitter:site"        content="@hackfest_ca">
 <meta name="twitter:title"       content="Horaire — Hackfest 2026">
-<meta name="twitter:description" content="Horaire du Hackfest 2026 et de POLAR : 29, 30 et 31 octobre à Québec. Conférences, villages, CTF, spectacles et activités de soirée.">
+<meta name="twitter:description" content="Horaire du Hackfest 2026 et de POLAR : 29, 30 et 31 octobre à Québec. Conférences, ateliers, villages, CTF, spectacles et activités de soirée.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
 
 <!-- Hreflang (bilingual) -->
@@ -65,11 +65,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Orbitron:wght@400;500;600;700&family=Fira+Code&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://hackfest.ca/assets/css/main.css">
-  <link rel="stylesheet" href="https://hackfest.ca/assets/css/schedule.css">
-  <link rel="stylesheet" href="https://hackfest.ca/assets/css/hackfest-schedule.css">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/horaire.css">
   <script defer src="https://analytics.hackfest.ca/script.js" data-website-id="0ce77795-100e-4f53-92c3-5ea0922c0b15"></script>
 </head>
 <body class="schedule-page">
+  <a class="hr-skip" href="horaire#programme">Aller à l'horaire</a>
+
   <header class="site-header">
   <div class="header-inner">
     <div class="header-left">
@@ -292,924 +293,49 @@
   </div>
 </header>
 
-  <main>
-    <!-- Schedule Hero Section -->
-    <section class="schedule-hero schedule-hero-has-image">
-      
-      
-      <div class="schedule-hero-media" aria-hidden="true">
-        <img class="schedule-hero-img"
-             src="https://hackfest.ca/assets/images/hackfest/stats-bg.webp"
-             alt="" decoding="async" fetchpriority="high">
-      </div>
-      
-      <div class="schedule-hero-content">
-        <h1>Horaire 2026</h1>
-        <p>29, 30 et 31 octobre</p>
-      </div>
-    </section>
+  
+  
+  
+  
 
-    <!-- Sticky section menu: jumps to each part of the page, highlights the
-         section in view (assets/js/schedule-subnav.js) -->
-    
-    <nav class="schedule-subnav" aria-label="Sections de l'horaire">
-      <ul class="schedule-subnav-list">
-        
-          <li><a class="schedule-subnav-link" href="horaire#thursday">Jeudi · POLAR</a></li>
-        
-          <li><a class="schedule-subnav-link" href="horaire#friday">Vendredi</a></li>
-        
-          <li><a class="schedule-subnav-link" href="horaire#saturday">Samedi</a></li>
-        
-          <li><a class="schedule-subnav-link" href="horaire#talks">Horaire des conférences et ateliers</a></li>
-        
-          <li><a class="schedule-subnav-link" href="horaire#year-round">Toute l'année</a></li>
-        
-      </ul>
-    </nav>
-    
+  <main id="horaire-app" class="hr-app">
 
-    <!-- Schedule Intro Section -->
-    
-    <section class="schedule-intro">
-      <div class="schedule-intro-inner">
-        <h2 class="schedule-intro-title">Les trois jours</h2>
-        <p class="schedule-intro-text">POLAR ouvre la semaine le jeudi avec son symposium pour les gestionnaires. Le Hackfest prend ensuite le relais le vendredi et le samedi avec plus de 50 conférences et ateliers, des villages, des CTF et des soirées.</p>
-        
-        <a class="schedule-intro-cta" href="horaire#talks">Voir les conférences et ateliers ↓</a>
-        
-        
-        
-        <div class="section-notice"><p>L'horaire des conférences provient directement de notre appel de conférences (pretalx) et se met à jour automatiquement. Des changements sont encore possibles d'ici l'événement.</p></div>
-        
-        
-        <!-- Hotel reminder: book the whole event, evenings run late -->
-        <div class="schedule-stay">
-          <p class="schedule-stay-title">Réservez votre hôtel et vos 3 jours</p>
-          <p class="schedule-stay-text">Le Hackfest dure 2,5 jours et les activités se poursuivent tard le soir. Ne manquez pas le plaisir : les spectacles, les jeux, les CTF et plus encore.</p>
-          <a class="schedule-stay-link" href="sejour">Hôtels et séjour à Québec</a>
+    <!-- ===================================================================
+         HERO
+         =================================================================== -->
+    <section class="hr-hero">
+      <div class="hr-hero__inner">
+        <h1 class="hr-hero__title">Horaire 2026</h1>
+        <p class="hr-hero__lead">29, 30 et 31 octobre au Centre des congrès de Québec. Choisissez un jour, filtrez, et ajoutez vos conférences à <strong>votre horaire</strong>.</p>
+
+        <div class="hr-daycards">
+          
+          <button type="button" class="hr-daycard day-29" data-day="29">
+            <span class="hr-daycard__tag">POLAR + pré-ouverture</span>
+            <span class="hr-daycard__title">Jeudi 29 octobre</span>
+            
+            <span class="hr-daycard__meta" data-meta="POLAR (8h à 18h), inscriptions dès 16h, cocktail, début du HFCTF et Hackfest 101.">POLAR (8h à 18h), inscriptions dès 16h, cocktail, début du HFCTF et Hackfest 101.</span>
+          </button>
+          
+          <button type="button" class="hr-daycard day-30" data-day="30">
+            <span class="hr-daycard__tag">Hackfest · Jour 1</span>
+            <span class="hr-daycard__title">Vendredi 30 octobre</span>
+            
+            <span class="hr-daycard__meta" data-meta="{n} sessions dans 6 salles, villages, CTF. Le soir : French Connection, PEPIN, karaoké.">sessions dans 6 salles, villages, CTF. Le soir : French Connection, PEPIN, karaoké.</span>
+          </button>
+          
+          <button type="button" class="hr-daycard day-31" data-day="31">
+            <span class="hr-daycard__tag">Hackfest · Jour 2</span>
+            <span class="hr-daycard__title">Samedi 31 octobre</span>
+            
+            <span class="hr-daycard__meta" data-meta="{n} sessions, villages, finales. Le soir : Afterdark, SE CTF, ghost talks.">sessions, villages, finales. Le soir : Afterdark, SE CTF, ghost talks.</span>
+          </button>
+          
         </div>
-        
-      </div>
-    </section>
-    
 
-    <!-- Before the talks: Thursday (POLAR first, then Hackfest pre-opening) -->
-    
-<section class="schedule-days">
-  <div class="schedule-events-inner">
-    
-      <div class="schedule-day" id="thursday">
-
-        <!-- Day header: weekday + full date -->
-        <h2 class="schedule-day-header">
-          <span class="schedule-day-line"></span>
-          <span class="schedule-day-name">
-            <span class="schedule-day-weekday">Jeudi</span>
-            <span class="schedule-day-date">29 octobre 2026</span>
-          </span>
-          <span class="schedule-day-line"></span>
-        </h2>
-
-        
-
-        <!-- Tracks: one block per event or per evening programme -->
-        
-          <div class="schedule-track">
-            <div class="schedule-track-head">
-              <h3 class="schedule-track-name">
-                
-                  <a href="polar">POLAR</a>
-                
-              </h3>
-              <span class="schedule-track-tag">Symposium</span>
-              
-                
-                
-                
-                
-
-<a class="schedule-track-presented" href="https://www.paloaltonetworks.com/" target="_blank" rel="noopener">
-  <span class="schedule-track-presented-label">Présenté par</span>
-  <span class="schedule-track-presented-logo">
-    <img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks" loading="lazy">
-  </span>
-</a>
-
-
-              
-            </div>
-
-            <ol class="schedule-slots">
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">8h00 à 18h00</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="polar#schedule">Symposium pour les gestionnaires</a>
-                        
-                      
-                    </h4>
-                    
-                    
-                      <a class="schedule-slot-cta" href="polar#schedule">Cliquez ici pour voir l'horaire, les conférences, les partenaires et plus</a>
-                    
-                    
-                  </div>
-                </li>
-              
-            </ol>
-
-            
-          </div>
-        
-          <div class="schedule-track">
-            <div class="schedule-track-head">
-              <h3 class="schedule-track-name">
-                
-                  Hackfest
-                
-              </h3>
-              <span class="schedule-track-tag">Pré-ouverture</span>
-              
-                
-                
-                
-                
-
-<a class="schedule-track-presented" href="https://vooban.com" target="_blank" rel="noopener">
-  <span class="schedule-track-presented-label">Présenté par</span>
-  <span class="schedule-track-presented-logo">
-    <img src="https://hackfest.ca/assets/images/sponsors/vooban.webp" alt="Vooban" loading="lazy">
-  </span>
-</a>
-
-
-              
-            </div>
-
-            <ol class="schedule-slots">
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">16h00 à 21h00</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        Ouverture des inscriptions
-                      
-                    </h4>
-                    
-                      <p class="schedule-slot-description">Récupérez votre badge et votre trousse de participant.</p>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">18h00 à 22h00</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        Cocktail d'ouverture
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">18h00</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="ctfs#hfctf">Début du HFCTF</a>
-                        
-                      
-                    </h4>
-                    
-                      <p class="schedule-slot-description">24h de compétition, jusqu'au vendredi 30 octobre à 18h00.</p>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">19h00</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        Hackfest 101
-                      
-                    </h4>
-                    
-                      <p class="schedule-slot-description">Présentation pour bien démarrer votre fin de semaine, surtout si c'est votre première visite.</p>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-            </ol>
-
-            
-              
-              <a class="schedule-track-more" href="horaire#talks">Détails dans la grille des conférences ↓</a>
-            
-          </div>
-        
-
-        
-
-      </div>
-    
-  </div>
-</section>
-
-
-    <!-- Around the talks: villages, CTFs and evenings on Friday and Saturday -->
-    
-      
-<section class="schedule-days schedule-days--collapsible">
-  <div class="schedule-events-inner">
-    
-      <div class="schedule-day schedule-day--magenta" id="friday">
-
-        <!-- Day header: weekday + full date -->
-        <h2 class="schedule-day-header">
-          <span class="schedule-day-line"></span>
-          <span class="schedule-day-name">
-            <span class="schedule-day-weekday">Vendredi</span>
-            <span class="schedule-day-date">30 octobre 2026</span>
-          </span>
-          <span class="schedule-day-line"></span>
-        </h2>
-
-        
-        <details class="schedule-day-details" data-collapse-mobile open>
-          <summary class="schedule-day-summary">Portes, villages, HFCTF, chasse au trésor et soirée : jeux, podcast, musique, karaoké</summary>
-        
-
-        <!-- Tracks: one block per event or per evening programme -->
-        
-          <div class="schedule-track">
-            <div class="schedule-track-head">
-              <h3 class="schedule-track-name">
-                
-                  Hackfest
-                
-              </h3>
-              <span class="schedule-track-tag">Jour 1</span>
-              
-                
-                
-                
-                
-
-<a class="schedule-track-presented" href="https://vooban.com" target="_blank" rel="noopener">
-  <span class="schedule-track-presented-label">Présenté par</span>
-  <span class="schedule-track-presented-logo">
-    <img src="https://hackfest.ca/assets/images/sponsors/vooban.webp" alt="Vooban" loading="lazy">
-  </span>
-</a>
-
-
-              
-            </div>
-
-            <ol class="schedule-slots">
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">8h00</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        Ouverture des portes
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">8h00</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="partenaires-hackfest">Hall des partenaires</a>
-                        
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">9h00+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="horaire#talks">Keynote, conférences et ateliers</a>
-                        
-                      
-                    </h4>
-                    
-                      <p class="schedule-slot-description">Voir la grille des conférences ci-dessous.</p>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">10h00+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="villages">Villages</a>
-                        
-                      
-                    </h4>
-                    
-                    
-                    
-                      
-                      <ul class="schedule-slot-items">
-                        
-                          
-                            <li><a href="villages#village-lockpicking">Lockpick</a></li>
-                          
-                        
-                          
-                            <li><a href="villages">Sécurité physique</a></li>
-                          
-                        
-                          
-                            <li><a href="https://hackfest.ca/villages/scada/">OT / SCADA</a></li>
-                          
-                        
-                          
-                            <li><a href="https://hackfest.ca/villages/generations/">Génération (7 à 17 ans)</a></li>
-                          
-                        
-                          
-                            <li><a href="villages#village-ham-radio">Radio amateur</a></li>
-                          
-                        
-                          
-                            <li><a href="villages#village-noc">Palo Alto NoC</a></li>
-                          
-                        
-                          
-                            <li><a href="villages#village-hack-ta-carriere">Hack ta carrière</a></li>
-                          
-                        
-                          
-                            <li><a href="villages#village-startups">Startups</a></li>
-                          
-                        
-                          
-                            <li><a href="villages">Podcasts</a></li>
-                          
-                        
-                          
-                            <li><a href="villages">et plus à venir</a></li>
-                          
-                        
-                      </ul>
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">10h00 à 18h00</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="ctfs#hfctf">HFCTF (fin à 18h00)</a>
-                        
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">10h00+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        Chasse au trésor, partie 1
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">10h00+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="ctfs#brainfuck">BrainFuck Challenge</a>
-                        
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">9h00+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="https://hackfest.ca/ctfs/se/">Social Engineering CTF</a>
-                        
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-            </ol>
-
-            
-          </div>
-        
-          <div class="schedule-track schedule-track-night">
-            <div class="schedule-track-head">
-              <h3 class="schedule-track-name">
-                
-                  Hackfest @ Night
-                
-              </h3>
-              <span class="schedule-track-tag">Soirée</span>
-              
-            </div>
-
-            <ol class="schedule-slots">
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">Toute la soirée</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        Nuit de jeux
-                      
-                    </h4>
-                    
-                      <p class="schedule-slot-description">Plus de jeux à venir.</p>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">19h30+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="horaire#talks">La French Connection et spectacle de PEPIN</a>
-                        
-                      
-                    </h4>
-                    
-                      <p class="schedule-slot-description">Enregistrement LIVE du podcast, puis Live Music Coding. Heures exactes dans la grille ci-dessous.</p>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">22h30+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        Hacker Karaoké
-                      
-                    </h4>
-                    
-                      <p class="schedule-slot-description">Chantez.</p>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-            </ol>
-
-            
-          </div>
-        
-
-        
-        </details>
-        
-
-      </div>
-    
-      <div class="schedule-day schedule-day--orange" id="saturday">
-
-        <!-- Day header: weekday + full date -->
-        <h2 class="schedule-day-header">
-          <span class="schedule-day-line"></span>
-          <span class="schedule-day-name">
-            <span class="schedule-day-weekday">Samedi</span>
-            <span class="schedule-day-date">31 octobre 2026</span>
-          </span>
-          <span class="schedule-day-line"></span>
-        </h2>
-
-        
-        <details class="schedule-day-details" data-collapse-mobile open>
-          <summary class="schedule-day-summary">Keynote, villages, CTF, chasse au trésor et Afterdark : karaoké, SE CTF, ghost talks</summary>
-        
-
-        <!-- Tracks: one block per event or per evening programme -->
-        
-          <div class="schedule-track">
-            <div class="schedule-track-head">
-              <h3 class="schedule-track-name">
-                
-                  Hackfest
-                
-              </h3>
-              <span class="schedule-track-tag">Jour 2</span>
-              
-                
-                
-                
-                
-
-<a class="schedule-track-presented" href="https://vooban.com" target="_blank" rel="noopener">
-  <span class="schedule-track-presented-label">Présenté par</span>
-  <span class="schedule-track-presented-logo">
-    <img src="https://hackfest.ca/assets/images/sponsors/vooban.webp" alt="Vooban" loading="lazy">
-  </span>
-</a>
-
-
-              
-            </div>
-
-            <ol class="schedule-slots">
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">8h00</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        Ouverture des portes
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">8h50</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        Discours d'ouverture + Keynote
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">9h30+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="horaire#talks">Conférences et ateliers</a>
-                        
-                      
-                    </h4>
-                    
-                      <p class="schedule-slot-description">Voir la grille des conférences ci-dessous.</p>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">9h30+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="villages">Villages</a>
-                        
-                      
-                    </h4>
-                    
-                    
-                    
-                      
-                      <ul class="schedule-slot-items">
-                        
-                          
-                            <li><a href="villages#village-lockpicking">Lockpick</a></li>
-                          
-                        
-                          
-                            <li><a href="villages">Sécurité physique</a></li>
-                          
-                        
-                          
-                            <li><a href="https://hackfest.ca/villages/scada/">OT / SCADA</a></li>
-                          
-                        
-                          
-                            <li><a href="https://hackfest.ca/villages/generations/">Génération (7 à 17 ans)</a></li>
-                          
-                        
-                          
-                            <li><a href="villages#village-ham-radio">Radio amateur</a></li>
-                          
-                        
-                          
-                            <li><a href="villages#village-noc">Palo Alto NoC</a></li>
-                          
-                        
-                          
-                            <li><a href="villages#village-hack-ta-carriere">Hack ta carrière</a></li>
-                          
-                        
-                          
-                            <li><a href="villages#village-startups">Startups</a></li>
-                          
-                        
-                          
-                            <li><a href="villages">Podcasts</a></li>
-                          
-                        
-                          
-                            <li><a href="villages">et plus à venir</a></li>
-                          
-                        
-                      </ul>
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">9h30+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="partenaires-hackfest">Hall des partenaires</a>
-                        
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">9h30+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="ctfs">Autres CTF</a>
-                        
-                      
-                    </h4>
-                    
-                      <p class="schedule-slot-description">Beginner CTF et autres CTF à annoncer.</p>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">9h30+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        Chasse au trésor, partie 2
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">9h30+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="ctfs#brainfuck">BrainFuck Challenge</a>
-                        
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">9h30+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="https://hackfest.ca/ctfs/se/">Finale du Social Engineering CTF</a>
-                        
-                      
-                    </h4>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-            </ol>
-
-            
-          </div>
-        
-          <div class="schedule-track schedule-track-night">
-            <div class="schedule-track-head">
-              <h3 class="schedule-track-name">
-                
-                  Hackfest Afterdark
-                
-              </h3>
-              <span class="schedule-track-tag">Soirée</span>
-              
-            </div>
-
-            <ol class="schedule-slots">
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">19h00+</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="horaire#talks">Security Impress Karaoke et Ghost talks</a>
-                        
-                      
-                    </h4>
-                    
-                      <p class="schedule-slot-description">Whose slide is it anyway. Heures exactes dans la grille ci-dessous.</p>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-                <li class="schedule-slot">
-                  <div class="schedule-slot-time">21h00</div>
-                  <div class="schedule-slot-body">
-                    
-                    
-                    <h4 class="schedule-slot-title">
-                      
-                        
-                          <a href="https://hackfest.ca/ctfs/se/">Social Engineering CTF</a>
-                        
-                      
-                    </h4>
-                    
-                      <p class="schedule-slot-description">Adult Only Edition v2.</p>
-                    
-                    
-                    
-                  </div>
-                </li>
-              
-            </ol>
-
-            
-          </div>
-        
-
-        
-        </details>
-        
-
-      </div>
-    
-  </div>
-</section>
-
-    
-
-    <!-- Talks and workshops, fetched live from pretalx by hackfest-schedule.js -->
-    
-    <section class="schedule-timetable hf-schedule-scope" id="talks">
-      <div class="schedule-timetable-inner">
-        <h2 class="schedule-day-header">
-          <span class="schedule-day-line"></span>
-          <span class="schedule-day-name">
-            <span class="schedule-day-weekday">Conférences et ateliers</span>
-            <span class="schedule-day-date">30 et 31 octobre 2026</span>
-          </span>
-          <span class="schedule-day-line"></span>
-        </h2>
-
-        
-        
-        <div class="schedule-timetable-presented">
+        <div class="hr-hero__status">
+          <span class="hr-status"><span class="hr-status__dot" id="hr-status-dot" aria-hidden="true"></span><span id="hr-status-text">Horaire des conférences tiré de cfp.hackfest.ca, changements possibles</span></span>
+          <span>L'activité se poursuit tard le soir : <a href="sejour">réservez votre hôtel</a></span>
           
 
 <a class="schedule-track-presented" href="https://vooban.com" target="_blank" rel="noopener">
@@ -1221,84 +347,281 @@
 
 
         </div>
-        
-
-        <div class="hf-schedule-container"></div>
-
-        
-        <noscript>
-          <p class="schedule-timetable-noscript">
-            La grille des conférences a besoin de JavaScript. Consultez l'horaire complet sur
-            <a href="https://cfp.hackfest.ca/hf2026/schedule/">cfp.hackfest.ca</a>
-          </p>
-        </noscript>
-
-        <p class="schedule-timetable-source">
-          Horaire chargé en direct depuis
-          <a href="https://cfp.hackfest.ca/hf2026/schedule/" target="_blank" rel="noopener">cfp.hackfest.ca<span class="schedule-external-icon" title="Lien externe">↗</span></a>
-        </p>
       </div>
-
-      
-      <script type="application/json" id="hf-schedule-config">
-      {
-        "jsonUrl": "https://cfp.hackfest.ca/hf2026/schedule/export/schedule.json",
-        "cfpUrl": "https://cfp.hackfest.ca/hf2026/schedule/",
-        "refreshInterval": 600000,
-        "lang": "fr",
-        "labels": {"loading":"Chargement du programme...","error":"Impossible de charger le programme.","retry":"Réessayer","no_talks":"Aucune session prévue pour cette journée.","room":"Salle","track":"Volet","speaker":"Conférencier","speakers":"Conférenciers","duration":"Durée","language":"Langue","abstract":"Résumé","description":"Description","biography":"Biographie","close":"Fermer","all_rooms":"Toutes","minutes":"min","filter_room":"Filtrer par salle","filter_track":"Filtrer par volet","search_placeholder":"Rechercher une conférence ou un conférencier…","live_now":"En direct","jump_to_now":"↓ Maintenant","no_results":"Aucun résultat","legend_rooms":"Salles","legend_tracks":"Volets","legend_other":"Autre","view_on_pretalx":"Voir sur pretalx","links":"Liens","attachments":"Fichiers","time_separator":"à","legend_language":"Langue","lang_fr":"Français","lang_en":"Anglais","filters":"Filtres","reset_filters":"Réinitialiser","show_results":"Voir {n} résultats","clear_search":"Effacer la recherche","previous_result":"Résultat précédent","next_result":"Résultat suivant","copy_link":"Copier le lien","link_copied":"Lien copié","match_in_prelude":"Trouvé plus haut, le {day}"}
-      }
-      </script>
     </section>
-    
 
-    <!-- Year-round recurring events (QuebecSec), loaded from timeline-{lang}.yml -->
-    
-    
-
-    
-    <section class="schedule-events" id="year-round">
-      <div class="schedule-events-inner">
-        <div class="schedule-month schedule-month-recurring">
-          <h3 class="schedule-month-header">
-            <span class="schedule-month-line"></span>
-            <span class="schedule-month-name">Toute l'année</span>
-            <span class="schedule-month-line"></span>
-          </h3>
-          <div class="schedule-month-events">
+    <!-- ===================================================================
+         STICKY TOOLBAR
+         =================================================================== -->
+    <div class="hr-toolbar" id="programme">
+      <div class="hr-toolbar__inner">
+        <div class="hr-toolbar__row">
+          <div class="hr-daytabs" role="tablist" aria-label="Jour">
             
-              <article class="schedule-event">
-                <div class="schedule-event-image">
-                  
-                    <img src="https://hackfest.ca/assets/images/quebecsec/circle.webp" alt="QuébecSec">
-                  
-                  <span class="schedule-badge schedule-badge-recurring">Récurrent</span>
-                </div>
-                <div class="schedule-event-content">
-                  <h4 class="schedule-event-title">QuébecSec</h4>
-                  <p class="schedule-event-date">
-                    
-                    
-                      Chaque 4e jeudi du mois
-                    
-                  </p>
-                  <p class="schedule-event-description">Meetup mensuel de la communauté. Chaque 4e jeudi du mois.</p>
-                  
-                    <a href="quebecsec" class="schedule-event-link">
-                      En savoir plus
-                      
-                        <span class="schedule-arrow">→</span>
-                      
-                    </a>
-                  
-                </div>
-              </article>
+            <button type="button" class="hr-daytab" role="tab" id="hr-tab-29" aria-controls="hr-panel" aria-selected="false" tabindex="-1" data-day="29">
+              <span class="hr-daytab__text"><span class="hr-daytab__label">Jeu. 29</span><span class="hr-daytab__tag">POLAR + pré-ouverture</span></span>
+              <span class="hr-daytab__fav" hidden></span>
+            </button>
+            
+            <button type="button" class="hr-daytab" role="tab" id="hr-tab-30" aria-controls="hr-panel" aria-selected="false" tabindex="-1" data-day="30">
+              <span class="hr-daytab__text"><span class="hr-daytab__label">Ven. 30</span><span class="hr-daytab__tag">Hackfest · Jour 1</span></span>
+              <span class="hr-daytab__fav" hidden></span>
+            </button>
+            
+            <button type="button" class="hr-daytab" role="tab" id="hr-tab-31" aria-controls="hr-panel" aria-selected="false" tabindex="-1" data-day="31">
+              <span class="hr-daytab__text"><span class="hr-daytab__label">Sam. 31</span><span class="hr-daytab__tag">Hackfest · Jour 2</span></span>
+              <span class="hr-daytab__fav" hidden></span>
+            </button>
+            
+          </div>
+          <div class="hr-toolbar__actions">
+            <div class="hr-seg" role="group" aria-label="Affichage">
+              <button type="button" class="hr-seg__btn" data-view="grid" aria-pressed="true">Grille</button>
+              <button type="button" class="hr-seg__btn" data-view="list" aria-pressed="false">Liste</button>
+            </div>
+            <button type="button" class="hr-btn hr-btn--now" id="hr-now-btn" hidden>● Maintenant</button>
+            
+            <button type="button" class="hr-btn hr-btn--fav" id="hr-fav-only" aria-pressed="false">★ Mon horaire (0)</button>
+            <button type="button" class="hr-btn hr-btn--outline" id="hr-export" hidden>Exporter (.ics)</button>
+          </div>
+        </div>
+
+        <div class="hr-toolbar__row hr-toolbar__row--filters">
+          <div class="hr-search">
+            <label for="hr-q" class="visually-hidden">Rechercher une conférence ou un conférencier</label>
+            <input id="hr-q" class="hr-search__input" type="search" autocomplete="off" placeholder="Rechercher un titre, un conférencier…">
+          </div>
+          <div class="hr-chips" role="group" aria-label="Langue">
+            <button type="button" class="hr-pill" data-lang="all" aria-pressed="true">Toutes</button>
+            <button type="button" class="hr-pill" data-lang="fr" aria-pressed="false">FR</button>
+            <button type="button" class="hr-pill" data-lang="en" aria-pressed="false">EN</button>
+          </div>
+          <div class="hr-chips" role="group" aria-label="Format">
+            <span class="hr-chips__label">Format</span>
+            
+            <button type="button" class="hr-chip" data-kind="k" aria-pressed="true"><span class="hr-chip__mark" aria-hidden="true">✓</span>Keynotes</button>
+            
+            <button type="button" class="hr-chip" data-kind="t" aria-pressed="true"><span class="hr-chip__mark" aria-hidden="true">✓</span>Conférences</button>
+            
+            <button type="button" class="hr-chip" data-kind="w" aria-pressed="true"><span class="hr-chip__mark" aria-hidden="true">✓</span>Ateliers</button>
+            
+            <button type="button" class="hr-chip" data-kind="n" aria-pressed="true"><span class="hr-chip__mark" aria-hidden="true">✓</span>Soirée & Afterdark</button>
             
           </div>
         </div>
+
+        <div class="hr-toolbar__row hr-chips hr-chips--rooms" role="group" aria-label="Salles (légende des couleurs)">
+          <span class="hr-chips__label">Salles</span>
+          
+          <button type="button" class="hr-chip hr-chip--room room-T1" data-room="T1" aria-pressed="true"><span class="hr-chip__bar" aria-hidden="true"></span>Track 1<span class="hr-chip__num">306B</span></button>
+          
+          <button type="button" class="hr-chip hr-chip--room room-T2" data-room="T2" aria-pressed="true"><span class="hr-chip__bar" aria-hidden="true"></span>Track 2<span class="hr-chip__num">306A</span></button>
+          
+          <button type="button" class="hr-chip hr-chip--room room-T3" data-room="T3" aria-pressed="true"><span class="hr-chip__bar" aria-hidden="true"></span>Track 3<span class="hr-chip__num">2104AB</span></button>
+          
+          <button type="button" class="hr-chip hr-chip--room room-T4" data-room="T4" aria-pressed="true"><span class="hr-chip__bar" aria-hidden="true"></span>Track 4<span class="hr-chip__num">207</span></button>
+          
+          <button type="button" class="hr-chip hr-chip--room room-SE" data-room="SE" aria-pressed="true"><span class="hr-chip__bar" aria-hidden="true"></span>Village SE<span class="hr-chip__num">308AB</span></button>
+          
+          <button type="button" class="hr-chip hr-chip--room room-MS" data-room="MS" aria-pressed="true"><span class="hr-chip__bar" aria-hidden="true"></span>Spectacle<span class="hr-chip__num">2000A</span></button>
+          
+          <button type="button" class="hr-linkbtn" id="hr-reset" hidden>Réinitialiser</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================================================================
+         DAY PANEL
+         =================================================================== -->
+    <section class="hr-panel" id="hr-panel" role="tabpanel" aria-labelledby="hr-tab-30">
+      <div class="hr-dayhead" id="hr-dayhead">
+        <h2 class="hr-h2" id="hr-day-title"></h2>
+        <span class="hr-dayhead__sub" id="hr-day-sub"></span>
+      </div>
+      <h2 class="hr-h2 hr-h2--search" id="hr-search-title" hidden>Résultats sur les 3 jours</h2>
+
+      <div class="hr-moments" id="hr-moments" aria-label="Moments clés"></div>
+
+      <section class="hr-now" id="hr-now" aria-labelledby="hr-now-title" hidden></section>
+
+      
+      <details class="hr-allday" data-allday="30" open hidden>
+        <summary class="hr-allday__summary">Toute la journée : villages, CTF et activités<span class="hr-allday__toggle">Afficher / masquer</span></summary>
+        <div class="hr-allday__grid">
+          
+          <div class="hr-allday__card hr-allday__card--wide">
+            <span class="hr-allday__when">Dès 10h00</span>
+            <a class="hr-allday__title" href="villages">Villages</a>
+            
+            
+            <div class="hr-allday__chips">
+              <a href="villages#village-lockpicking">Lockpick</a><a href="villages">Sécurité physique</a><a href="https://hackfest.ca/villages/scada/">OT / SCADA</a><a href="https://hackfest.ca/villages/generations/">Génération (7 à 17 ans)</a><a href="villages#village-ham-radio">Radio amateur</a><a href="villages#village-noc">Palo Alto NoC</a><a href="villages#village-hack-ta-carriere">Hack ta carrière</a><a href="villages#village-startups">Startups</a><a href="villages">Podcasts</a>
+            </div>
+            
+          </div>
+          
+          <div class="hr-allday__card">
+            <span class="hr-allday__when">Dès 8h00</span>
+            <a class="hr-allday__title" href="partenaires-hackfest">Hall des partenaires</a>
+            
+            
+          </div>
+          
+          <div class="hr-allday__card">
+            <span class="hr-allday__when">Jusqu'à 18h00</span>
+            <a class="hr-allday__title" href="ctfs#hfctf">HFCTF</a>
+            <span class="hr-allday__desc">Fin de la compétition de 24 h.</span>
+            
+          </div>
+          
+          <div class="hr-allday__card">
+            <span class="hr-allday__when">Dès 9h00</span>
+            <a class="hr-allday__title" href="https://hackfest.ca/ctfs/se/">Social Engineering CTF</a>
+            
+            
+          </div>
+          
+          <div class="hr-allday__card">
+            <span class="hr-allday__when">Dès 10h00</span>
+            <span class="hr-allday__title">Chasse au trésor · partie 1</span>
+            
+            
+          </div>
+          
+          <div class="hr-allday__card">
+            <span class="hr-allday__when">Dès 10h00</span>
+            <a class="hr-allday__title" href="ctfs#brainfuck">BrainFuck Challenge</a>
+            
+            
+          </div>
+          
+          <div class="hr-allday__card">
+            <span class="hr-allday__when">Toute la soirée</span>
+            <span class="hr-allday__title">Nuit de jeux</span>
+            <span class="hr-allday__desc">Plus de jeux à venir.</span>
+            
+          </div>
+          
+        </div>
+      </details>
+      
+      <details class="hr-allday" data-allday="31" open hidden>
+        <summary class="hr-allday__summary">Toute la journée : villages, CTF et activités<span class="hr-allday__toggle">Afficher / masquer</span></summary>
+        <div class="hr-allday__grid">
+          
+          <div class="hr-allday__card hr-allday__card--wide">
+            <span class="hr-allday__when">Dès 9h30</span>
+            <a class="hr-allday__title" href="villages">Villages</a>
+            
+            
+            <div class="hr-allday__chips">
+              <a href="villages#village-lockpicking">Lockpick</a><a href="villages">Sécurité physique</a><a href="https://hackfest.ca/villages/scada/">OT / SCADA</a><a href="https://hackfest.ca/villages/generations/">Génération (7 à 17 ans)</a><a href="villages#village-ham-radio">Radio amateur</a><a href="villages#village-noc">Palo Alto NoC</a><a href="villages#village-hack-ta-carriere">Hack ta carrière</a><a href="villages#village-startups">Startups</a><a href="villages">Podcasts</a>
+            </div>
+            
+          </div>
+          
+          <div class="hr-allday__card">
+            <span class="hr-allday__when">Dès 9h30</span>
+            <a class="hr-allday__title" href="partenaires-hackfest">Hall des partenaires</a>
+            
+            
+          </div>
+          
+          <div class="hr-allday__card">
+            <span class="hr-allday__when">Dès 9h30</span>
+            <a class="hr-allday__title" href="ctfs">Beginner CTF et autres CTF</a>
+            <span class="hr-allday__desc">À annoncer.</span>
+            
+          </div>
+          
+          <div class="hr-allday__card">
+            <span class="hr-allday__when">Dès 9h30</span>
+            <span class="hr-allday__title">Chasse au trésor · partie 2</span>
+            
+            
+          </div>
+          
+          <div class="hr-allday__card">
+            <span class="hr-allday__when">Dès 9h30</span>
+            <a class="hr-allday__title" href="ctfs#brainfuck">BrainFuck Challenge</a>
+            
+            
+          </div>
+          
+          <div class="hr-allday__card">
+            <span class="hr-allday__when">Dès 9h30</span>
+            <a class="hr-allday__title" href="https://hackfest.ca/ctfs/se/">Finale du Social Engineering CTF</a>
+            
+            
+          </div>
+          
+        </div>
+      </details>
+      
+
+      <p class="hr-count" id="hr-count" aria-live="polite"></p>
+      <p class="hr-gridnote" id="hr-gridnote" hidden>Cette journée compte une seule salle : affichage en liste.</p>
+
+      <div class="hr-grid" id="hr-grid" tabindex="0" role="region" aria-label="Grille horaire par salle, défilable" hidden></div>
+      <div class="hr-list" id="hr-list" hidden></div>
+
+      <div class="hr-empty" id="hr-empty" hidden>
+        <span id="hr-empty-text"></span>
+        <button type="button" class="hr-linkbtn" id="hr-empty-reset">Réinitialiser les filtres</button>
+      </div>
+
+      <noscript>
+        <p class="hr-noscript">L'horaire interactif a besoin de JavaScript. Consultez l'horaire complet sur <a href="https://cfp.hackfest.ca/hf2026/schedule/">cfp.hackfest.ca</a></p>
+      </noscript>
+
+      <p class="hr-footnote">Les heures sont celles de Québec (HAE). Des changements sont possibles d'ici l'événement. Horaire officiel : <a href="https://cfp.hackfest.ca/hf2026/schedule/" target="_blank" rel="noopener">cfp.hackfest.ca</a></p>
+    </section>
+
+    <!-- ===================================================================
+         VENUES AND YEAR-ROUND
+         =================================================================== -->
+    
+    <section class="hr-venues" aria-labelledby="hr-venues-title">
+      <h2 class="hr-h2 hr-h2--sm" id="hr-venues-title">Lieux et toute l'année</h2>
+      <div class="hr-venues__grid">
+        <div class="hr-venue">
+          <span class="hr-venue__tag">Hackfest · 29 au 31 oct.</span>
+          <span class="hr-venue__name">Centre des congrès de Québec</span>
+          <span class="hr-venue__text">Track 1 · 306B, Track 2 · 306A, Track 3 · 2104AB, Track 4 · 207, Village SE · 308AB, Spectacle · 2000A</span>
+        </div>
+        <div class="hr-venue hr-venue--polar">
+          <span class="hr-venue__tag">POLAR · jeudi 29 oct.</span>
+          <span class="hr-venue__name">Le Capitole de Québec</span>
+          <span class="hr-venue__text">Salle Le Confessionnal. Symposium pour les gestionnaires, 8h00 à 18h00. <a href="polar#schedule">Horaire POLAR</a></span>
+          
+
+<a class="schedule-track-presented" href="https://www.paloaltonetworks.com/" target="_blank" rel="noopener">
+  <span class="schedule-track-presented-label">Présenté par</span>
+  <span class="schedule-track-presented-logo">
+    <img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks" loading="lazy">
+  </span>
+</a>
+
+
+        </div>
+        
+        <div class="hr-venue hr-venue--year">
+          <img class="hr-venue__img" src="https://hackfest.ca/assets/images/quebecsec/circle.webp" alt="" loading="lazy">
+          <div class="hr-venue__body">
+            <span class="hr-venue__tag">Toute l'année</span>
+            <span class="hr-venue__name">QuébecSec</span>
+            <span class="hr-venue__text">Meetup mensuel de la communauté. Chaque 4e jeudi du mois. <a href="quebecsec">En savoir plus</a></span>
+          </div>
+        </div>
+        
       </div>
     </section>
-    
+
+    <!-- ===================================================================
+         SESSION DRAWER (filled by horaire.js)
+         =================================================================== -->
+    <div class="hr-overlay" id="hr-overlay" hidden></div>
+    <div class="hr-drawer" id="hr-drawer" role="dialog" aria-modal="true" aria-labelledby="hr-drawer-title" hidden></div>
 
     
   </main>
@@ -1443,9 +766,79 @@
 <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/newsletter-modal.js"></script>
 
 
+
+
+
+
+  
+  
+  
+  
+    
+
+<div class="announce-backdrop" id="announceBackdrop" hidden aria-hidden="true"></div>
+<div class="announce-modal"
+     id="announceModal"
+     hidden
+     role="dialog"
+     aria-modal="true"
+     aria-labelledby="announce-modal-title"
+     data-announce-id="ctf-discount-2026-10"
+     data-announce-until="2026-10-29"
+     data-announce-delay="1400">
+
+  <button type="button" class="announce-close" aria-label="Fermer">&#10005;</button>
+
+  <div class="announce-body">
+    <span class="announce-eyebrow">Nouveau</span>
+    <h2 class="announce-title" id="announce-modal-title">Un CTF est caché sur le site</h2>
+    <p class="announce-text">Quelque part sur hackfest.ca, une machine attend. Personne ne vous dira où : c'est un peu l'idée. Résolvez-la et repartez avec un rabais.
+</p>
+
+    
+    <ul class="announce-points">
+      <li>25 % de rabais sur votre inscription au Hackfest</li><li>Rabais sur certaines formations</li>
+    </ul>
+    
+
+    <p class="announce-note">Bonne chasse!</p>
+
+    <div class="announce-actions">
+      
+      <a href="formations" class="announce-cta">Voir les formations</a>
+      
+      <button type="button" class="announce-dismiss">Plus tard</button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/announce-modal.js" defer></script>
+  
+
+
+
+
+  
+  <script type="application/json" id="horaire-config">
+  {
+    "lang": "fr",
+    "jsonUrl": "https://cfp.hackfest.ca/hf2026/schedule/export/schedule.json",
+    "cfpUrl": "https://cfp.hackfest.ca/hf2026/schedule/",
+    "refreshInterval": 600000,
+    "monthLong": "octobre",
+    "monthShort": "oct.",
+    "monthFirst": false,
+    "days": [{"d":29,"dow":"Jeudi","short":"Jeu.","tag":"POLAR + pré-ouverture","meta":"POLAR (8h à 18h), inscriptions dès 16h, cocktail, début du HFCTF et Hackfest 101."},{"d":30,"dow":"Vendredi","short":"Ven.","tag":"Hackfest · Jour 1","meta":"{n} sessions dans 6 salles, villages, CTF. Le soir : French Connection, PEPIN, karaoké."},{"d":31,"dow":"Samedi","short":"Sam.","tag":"Hackfest · Jour 2","meta":"{n} sessions, villages, finales. Le soir : Afterdark, SE CTF, ghost talks."}],
+    "rooms": [{"key":"T1","name":"Track 1","num":"306B","match":"306B"},{"key":"T2","name":"Track 2","num":"306A","match":"306A"},{"key":"T3","name":"Track 3","num":"2104AB","match":"2104"},{"key":"T4","name":"Track 4","num":"207","match":"\\b207\\b"},{"key":"SE","name":"Village SE","num":"308AB","match":"308"},{"key":"MS","name":"Spectacle","num":"2000A","match":"2000"}],
+    "kinds": {"k":{"label":"Keynote","filter":"Keynotes"},"t":{"label":"Conférence","filter":"Conférences"},"w":{"label":"Atelier","filter":"Ateliers"},"n":{"label":"Soirée","filter":"Soirée & Afterdark"},"e":{"label":"Logistique","filter":""}},
+    "program": [{"day":29,"start":"08:00","end":"18:00","title":"POLAR · Symposium pour les gestionnaires","desc":"Le Capitole de Québec. Présenté par Palo Alto Networks.","url":"/polar#schedule","where":"Le Capitole de Québec"},{"day":29,"start":"16:00","end":"21:00","title":"Ouverture des inscriptions","desc":"Récupérez votre badge et votre trousse de participant."},{"day":29,"start":"18:00","end":"22:00","title":"Cocktail d'ouverture","desc":"Présenté par Vooban."},{"day":29,"start":"18:00","title":"Début du HFCTF","desc":"24 h de compétition, jusqu'au vendredi 18h00.","url":"/ctfs#hfctf"},{"day":30,"start":"08:00","title":"Ouverture des portes"},{"day":30,"start":"18:00","title":"Fin du HFCTF","url":"/ctfs#hfctf"},{"day":31,"start":"08:00","title":"Ouverture des portes"}],
+    "skipTitles": "inscription|registration|cocktail|opening of both",
+    "hero": {"title":"Horaire 2026","lead":"29, 30 et 31 octobre au Centre des congrès de Québec. Choisissez un jour, filtrez, et ajoutez vos conférences à","lead_strong":"votre horaire","lead_end":".","live_text":"Synchronisé en direct avec cfp.hackfest.ca","snapshot_text":"Horaire des conférences tiré de cfp.hackfest.ca, changements possibles","stay_text":"L'activité se poursuit tard le soir :","stay_link":"réservez votre hôtel","stay_url":"/sejour/"},
+    "labels": {"day_tabs":"Jour","view_aria":"Affichage","view_grid":"Grille","view_list":"Liste","now_btn":"● Maintenant","my_schedule":"★ Mon horaire ({n})","export_ics":"Exporter (.ics)","fav_badge_aria":"{n} dans mon horaire","search_label":"Rechercher une conférence ou un conférencier","search_placeholder":"Rechercher un titre, un conférencier…","lang_aria":"Langue","lang_all":"Toutes","format":"Format","rooms":"Salles","rooms_aria":"Salles (légende des couleurs)","reset":"Réinitialiser","reset_filters":"Réinitialiser les filtres","room_prefix":"Salle","key_moments":"Moments clés","now_title":"En ce moment · {time}","now_ongoing":"En cours","now_next":"Dans l'heure","now_until":"jusqu'à {time}","now_break":"Pause entre deux sessions.","now_divider":"MAINTENANT · {time}","allday_title":"Toute la journée : villages, CTF et activités","allday_toggle":"Afficher / masquer","search_title":"Résultats sur les 3 jours","count_search_one":"{n} résultat pour « {q} »","count_search_many":"{n} résultats pour « {q} »","count_dimmed":"{n} session(s) correspondent, les autres sont estompées","count_one":"{n} élément au programme","count_many":"{n} éléments au programme","grid_note":"Cette journée compte une seule salle : affichage en liste.","grid_aria":"Grille horaire par salle, défilable","empty":"Aucune session ne correspond.","empty_favs":"Votre horaire est vide. Touchez ☆ sur une session pour l'ajouter.","ongoing_tag":"EN COURS","ongoing_pill":"En cours","conflict":"⚠ Chevauche « {title} »","conflict_long":"⚠ Chevauche « {title} », déjà dans votre horaire.","fav_add":"Ajouter à mon horaire : {title}","fav_remove":"Retirer de mon horaire : {title}","fav_state":"dans mon horaire","footnote":"Les heures sont celles de Québec (HAE). Des changements sont possibles d'ici l'événement. Horaire officiel :","lang_fr":"Français","lang_en":"English","close":"Fermer","when":"Quand","where":"Où","where_room":"{room} · salle {num}, Centre des congrès","where_default":"Centre des congrès de Québec","abstract":"Résumé","description":"Description","speaker":"Conférencier","speakers":"Conférenciers","links":"Liens","attachments":"Fichiers","no_abstract":"Résumé et biographie :","no_abstract_link":"voir sur cfp.hackfest.ca","overlap":"En même temps","next_in_room":"Ensuite dans cette salle","fav_btn_add":"☆ Ajouter à mon horaire","fav_btn_on":"★ Dans mon horaire","add_calendar":"Ajouter au calendrier","google_calendar":"Google Agenda","copy_link":"Copier le lien","link_copied":"Lien copié","view_on_pretalx":"Voir sur pretalx","more":"En savoir plus","ics_location":"Centre des congrès de Québec, salle {num}","ics_file_one":"hackfest-session.ics","ics_file_many":"mon-horaire-hackfest-2026.ics"},
+    "snapshot": {"_comment":"Offline fallback for /horaire: trimmed copy of https://cfp.hackfest.ca/hf2026/schedule/export/schedule.json taken 2026-10-01. The page replaces it with the live feed when that loads.","schedule":{"conference":{"days":[{"date":"2026-10-29","rooms":{"Track 1 (306B)":[{"code":"N8AXFA","date":"2026-10-29T16:00:00-04:00","duration":"02:00","room":"Track 1 (306B)","title":"Ouverture des inscriptions (jusqu'à 21h) / Registration Opens (until 9pm)","track":null,"type":"Regular Talk","language":"en","abstract":"Ouverture des inscriptions (jusqu'à 21h) Registration Opens (until 9pm)","url":"https://cfp.hackfest.ca/hf2026/talk/N8AXFA/","persons":[]},{"code":"93NVHP","date":"2026-10-29T18:00:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Cocktail d'ouverture (jusqu'à 22h) / Opening Cocktail (until 10pm)","track":null,"type":"Regular Talk","language":"en","abstract":"Cocktail d'ouverture (jusqu'à 22h) / Opening Cocktail (until 10pm)","url":"https://cfp.hackfest.ca/hf2026/talk/93NVHP/","persons":[]},{"code":"MFAF3E","date":"2026-10-29T19:00:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Hackfest 101","track":null,"type":"Regular Talk","language":"en","abstract":"Tu es nouveau au Hackfest et tu te demandes à quoi t’attendre ? Ou tu es un habitué qui veut être sûr de ne rien manquer cette année ? 🔍\r\n\r\nNe manque pas \"Hackfest 101\", un speed talk dynamique où tu découvriras tout ce qu’il y a à savoir sur l’édition 2025 en seulement 20 minutes ! 🚀 On te révèle les secrets des villages, les invités spéciaux, les activités incontournables et quelques surprises cachées (#AnguilleSousRoche) à surveiller de près. 👀\r\n\r\nQue tu sois novice ou vétéran, ce talk est parfait pour t'armer d'infos et profiter pleinement du Hackfest !","url":"https://cfp.hackfest.ca/hf2026/talk/MFAF3E/","persons":[{"public_name":"TheKGBspy"}]}]}},{"date":"2026-10-30","rooms":{"Social Engineering CTF (308AB)":[{"code":"CQZVCG","date":"2026-10-30T12:00:00-04:00","duration":"00:20","room":"Social Engineering CTF (308AB)","title":"\"Level up\" ta vie avec l'ingénierie sociale","track":"Social Engineering Village","type":"Speed Talk","language":"fr","abstract":"Plusieurs tactiques d'ingénierie sociale sont utilisées afin de manipuler les gens et obtenir les informations voulues, souvent à des fins malicieuses.\r\nEt si on utilisait certaines de ces tactiques pour faciliter notre vie et celles des autres ?\r\nPourquoi ne pas apprendre à reconnaître les tactiques utilisées afin de ne pas tomber dans un piège ?\r\nCombien de fois avez-vous acheter quelque chose que vous ne vouliez pas vraiment à cause d'un vendeur, trop insistant ? Comment a-t-il atteint son objectif?\r\nDécouvrez comment les scammers vous mettent en confiance, comment détecter des vendeurs verreux et comment savoir si un \"small talk\" est sincère.","url":"https://cfp.hackfest.ca/hf2026/talk/CQZVCG/","persons":[{"public_name":"CynQuébec"}]}],"Track 1 (306B)":[{"code":"M7QNHF","date":"2026-10-30T09:00:00-04:00","duration":"00:30","room":"Track 1 (306B)","title":"Keynote - Reflections of a[n almost] Nefarious Hacker ou, plus simplement « I Was the First Edward Snowden »","track":null,"type":"Regular Talk","language":"en","abstract":"Keynote by Jeff Man","url":"https://cfp.hackfest.ca/hf2026/talk/M7QNHF/","persons":[{"public_name":"Jeff Man"}]},{"code":"TCE3FJ","date":"2026-10-30T09:40:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Présentation - Vooban - Partenaire principal","track":null,"type":"Regular Talk","language":"fr","abstract":"À venir","url":"https://cfp.hackfest.ca/hf2026/talk/TCE3FJ/","persons":[{"public_name":"Samuel Bonneau"}]},{"code":"YUJRQN","date":"2026-10-30T10:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Curl | sh et autres mauvaises idées : anatomie d’une supply chain compromise","track":"Offensive","type":"Regular Talk","language":"fr","abstract":"En 2026, les attaques contre la chaîne d’approvisionnement (ou supply chain attacks) se multiplient à une vitesse telle qu'il devient presque impossible de s'en protéger complètement. Installation de dépendance, lancement de script, exécution d’une GitHub Action, build d’un container ou intégration d’un agent à son IDE: toute action en apparence anodine peut maintenant devenir un vecteur d’attaque capable de transformer un agent de build en zombie, ou d’exfiltrer tous les secrets d’une machine de dev.\r\n\r\nDans ce talk orienté démos, nous passerons de la théorie à la pratique en reproduisant plusieurs scénarios d’attaque inspirés de cas réels. L’objectif : montrer comment ces attaques fonctionnent réellement, pourquoi elles passent souvent sous le radar, et quelles pratiques simples permettent de réduire le blast radius quand une dépendance, un outil ou un pipeline tombe aux mains d'un l'attaquant.","url":"https://cfp.hackfest.ca/hf2026/talk/YUJRQN/","persons":[{"public_name":"Samuel Dussault"}]},{"code":"AVGRSZ","date":"2026-10-30T11:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Cyber in Siberia Regionalism in the GRU Information Operations Command","track":"Threat Intelligence / OSINT","type":"Regular Talk","language":"en","abstract":"This talk will explore Russia's GRU Information Operations Command through regionalization, looking at how monolithic groups such as Fancy Bear and Sandworm can be broken into subclusters. Leveraging open source information, we map out the GRU's cyber-enabled military units, attributed threat groups and capabilities to connect them to specific regions within Russia's Military Districts. The talk will draw on technical information, but humans, structure and geography have equal weight, as we explore the intersection of all these topics within the GRU.\r\n\r\nThe intent is to offer the audience the opportunity to reimagine how they consider the GRU's cyber-enabled capabilities and what that means for both attribution and their organizations. Understanding the ways organizational structure guides activity enables us as defenders to better mitigate the threat attackers pose. Attendees will leave with the knowledge that breaks through the hyperbole and approach Russian intrusions with new eyes.","url":"https://cfp.hackfest.ca/hf2026/talk/AVGRSZ/","persons":[{"public_name":"Ian Litschko"}]},{"code":"BN9CTT","date":"2026-10-30T12:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Patching the Human Kernel: Protecting Mental Health and Defeating Burnout in the AI Era","track":"Mental Health","type":"Regular Talk","language":"en","abstract":"Artificial intelligence was deployed across modern workflows virtually overnight, giving practitioners zero adoption runway to adapt cognitively or operationally. What was promised as the ultimate productivity multiplier has instead created an aggressive velocity trap. Driven by unrealistic management expectations and the demand for instant output, professionals are facing an unprecedented, evolving breed of burnout that traditional workplace wellness advice fails to address.\r\n\r\nAt the core of this crisis lies the dangerous myth of multitasking in an AI-assisted environment. Juggling multiple generative prompts, automated streams, and fragmented tasks does not increase efficiency—it fractures deep attention and creates acute cognitive overload. Compounding this issue is the silent threat of cognitive laziness: an over-reliance on automated outputs that gradually atrophies analytical sharpness, critical problem-solving skills, and professional intuition.\r\n\r\nTo counter these pressures, keeping the \"human-in-the-loop\" must be recognized as far more than an engineering safeguard—it is an obligatory cognitive mandate to protect mental health and intellectual autonomy. Attendees will explore actionable frameworks to build an enduring \"Mental Health Shield,\" learning practical boundaries for using AI intentionally as a focused co-pilot rather than an overwhelming, attention-sapping master.\r\n\r\nFinally, this session addresses the human side of technical survival. Participants will gain structured methods to actively train critical thinking against algorithmic bias and automation complacency. Most importantly, the talk highlights why authentic human community and peer connection are now our most vital assets, serving as the ultimate counterweight to algorithmic isolation and synthetic fatigue.","url":"https://cfp.hackfest.ca/hf2026/talk/BN9CTT/","persons":[{"public_name":"Mina Movahedi Shakib"}]},{"code":"QTWNMJ","date":"2026-10-30T13:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"OSINT rechargée: Applications concrètes de l'OSINT en pentest","track":"Threat Intelligence / OSINT","type":"Regular Talk","language":"fr","abstract":"Il y a deux ans, j’ai présenté les techniques de base de l’OSINT qui m’ont valu de paraître au téléjournal, en déverrouillant la porte d’entrée d’une propriétaire de commerce trop sûr d’elle-même. Pour ma deuxième conférence, je souhaite montrer des applications plus courantes de l’OSINT en pentest, accompagné de nouveaux exemples et techniques.","url":"https://cfp.hackfest.ca/hf2026/talk/QTWNMJ/","persons":[{"public_name":"Patricia Gagnon-Renaud"}]},{"code":"TNRSFY","date":"2026-10-30T14:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"I Have Failed - MSP edition : l’ingénierie sociale en affaires","track":"Social Engineering","type":"Regular Talk","language":"fr","abstract":"Ce talk n’est pas une confession. C’est une **autopsie**.\r\n\r\nDans l’industrie des fournisseurs de services informatiques (MSP), on parle de sécurité, de techniques, de processus et encore. Mais on ignore l’essentiel : les décisions qui détruisent une business ne viennent pas des machines…\r\n\r\nElles viennent des **humains**.\r\n\r\n“I Have Failed — MSP Edition” plonge dans les zones grises du métier : les ententes floues, les relations toxiques déguisées en opportunités, les promesses à moitié dites… et celles qu’on accepte quand même.\r\n\r\nÀ travers des histoires vraies, brutes et anonymisées(-ish), cette conférence expose comment l’ingénierie sociale ne se limite pas aux attaques externes ou à la cyber. Elle s’infiltre dans les ventes, dans les partenariats et dans les décisions stratégiques.\r\n\r\nIci, y'a pas de héros ou d'héroïne. Pas de bon réflexe. Juste des **choix**… faits trop vite, pour les mauvaises raisons et leurs conséquences.\r\n\r\nJe te parle de :\r\n\r\n- Comment des phrases anodines deviennent des pièges (aussi appelées bullsh*t)\r\n\r\n- Pourquoi les MSP rationalisent des décisions qu’ils savent déjà mauvaises\r\n\r\n- Comment les dynamiques humaines sabotent la rentabilité, la sécurité… et l’intégrité\r\n\r\n- Et surtout : comment éviter de répéter ces erreurs sans tomber dans le cynisme\r\n\r\nEn TI, en cyber ou en affaires, le plus grand risque n’est pas de se faire hacker. C’est de **se faire convaincre**.","url":"https://cfp.hackfest.ca/hf2026/talk/TNRSFY/","persons":[{"public_name":"Audrey Shink"}]},{"code":"KPWBYK","date":"2026-10-30T15:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Moins de \"prompt\" et plus d'\"engineering\": 10 mois à \"farmer\" les CVEs automatiquement avec l'IA","track":"Offensive","type":"Regular Talk","language":"fr","abstract":"[Entreprise IA] : *\"Ce nouveau modèle a trouvé 5000 CVE !\"*\r\n[Communauté infosec] : *Proof ?*\r\n[Entreprise IA] : *¯\\_(ツ)_/¯*\r\n\r\nPendant des années, on nous a présenté des \"N vulnérabilités trouvées par l’IA\", mais avec peu ou pas de détails sur la manière dont elles ont été découvertes, au point où cela ressemble davantage à des coups marketing qu’autre chose.\r\n\r\nCette présentation décrit en détail un design concret de système end-to-end utilisant des agents IA pour découvrir de manière entièrement autonome des vulnérabilités dans du code open source, ayant mené à des vrais CVE.\r\n\r\nL’objectif n’est pas seulement de présenter le design lui-même, mais aussi comment chaque composant réduit les problèmes fréquents, notamment :\r\n\r\n- Les boucles infinies d’agents qui oublient ce qu’ils ont déjà testé\r\n- Les hallucinations de vulnérabilités\r\n- Les impacts surrestimés\r\n- Les agents qui trichent en introduisant volontairement des bugs dans le code source\r\n- Le manque de profondeur et de créativité dans les vulnérabilités trouvées\r\n\r\nLa présentation couvrira les décisions de desing, notamment :\r\n\r\n- Des processus conçus pour permettre la créativité et l’exploration tout en éliminant les faux positifs\r\n- Un schéma de base de données structuré qui impose et encadre ces processus\r\n- Des agents opinionnés avec des rôles, objectifs, outils et accès à la base de données explicitement définis\r\n- Une exploitation end-to-end imposée dans des environnements isolés\r\n\r\nLe résultat : un pipeline capable de fonctionner de manière entièrement autonome pendant 12h+ et de produire des vulnérabilités reproductibles à impact élevé, incluant des CVE publiées.\r\n\r\nFinalement, on dirait bien que l’IA peut trouver de vrais bugs, il faut juste moins de prompt et plus d’engineering.","url":"https://cfp.hackfest.ca/hf2026/talk/KPWBYK/","persons":[{"public_name":"Marc-André Beaulieu"}]},{"code":"GJMQAV","date":"2026-10-30T16:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Et si votre enfant était un pirate","track":"Mental Health","type":"Regular Talk","language":"fr","abstract":"Pendant deux ans, j’ai suivi des groupes de pirates informatiques dont certains membres avaient à peine 11 ans.\r\n\r\nFrançais, Belges, Canadiens : plusieurs sont devenus les ennemis publics numéro un du web francophone. D’autres ont été arrêtés en avril et mai 2026.\r\n\r\nJe vais vous montrer pourquoi ils agissent, comment ils opèrent, et comment certaines de leurs actions ont déjà mis en danger, sans exagérer, des gouvernements.\r\n\r\nCes trajectoires rappellent que l’addiction aux écrans peut aller bien au-delà du jeu vidéo ou des réseaux sociaux.\r\n\r\n**Éduquer les enfants, c’est aussi éduquer les parents**… et vice versa.","url":"https://cfp.hackfest.ca/hf2026/talk/GJMQAV/","persons":[{"public_name":"Damien Bancal"}]},{"code":"P3KZ9T","date":"2026-10-30T17:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Inside the North Korean Infiltrator Threat","track":"Threat Intelligence / OSINT","type":"Regular Talk","language":"en","abstract":"The sun rises over Pyongyang, and a new shift begins for a global, remote IT workforce you likely employ. While the cybersecurity community tracks sophisticated state-sponsored actors, a quiet, effective army of North Korean IT workers has infiltrated Western organizations to evade sanctions and fund their state. They operate through a mix of purchased illicit accounts, stolen identities, and pirated software that leaves them uniquely susceptible to the very infostealers they utilize against others. We are currently observing a massive influx of these workers using sophisticated remote setups, fake resumes, and American collaborators. Are your hiring practices prepared to spot an applicant who isn't who they say they are? This talk pulls back the curtain on the DPRK IT worker playbook and operationalizes intelligence we’ve gathered by tracking their digital footprint.","url":"https://cfp.hackfest.ca/hf2026/talk/P3KZ9T/","persons":[{"public_name":"Chris d'Eon"}]},{"code":"N73X8E","date":"2026-10-30T18:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Reconnaissance Active Directory depuis Linux : LDAP n'est pas la seule porte","track":"Offensive","type":"Regular Talk","language":"fr","abstract":"ADWS (Active Directory Web Services) est une interface native de Windows Server, largement ignorée par les outils de détection; et pourtant exploitable pour énumérer un domaine AD de bout en bout, sans toucher à LDAP.\r\nDans ce talk, nous présentons Soaphound.py, un outil Python que nous avons développé pour collecter des données AD via ADWS et les injecter dans BloodHound. Nous montrerons comment un attaquant peut, depuis Linux, cartographier un domaine entier en passant sous les radars de la plupart des défenses traditionnelles.\r\nAu-delà de la reconnaissance, nous montrerons qu'ADWS ne se limite pas à la lecture : des opérations d'écriture sur l'annuaire sont également possibles via ce canal, ouvrant la voie à des attaques offensives classiquement associées à LDAP telles que la modification d'attributs sensibles ou la manipulation des droits de délégations, le tout depuis Linux. Nous aborderons également la vision défensive : comment reconnaître du trafic ADWS suspect et construire des règles de détection dans un SIEM malgré l'absence de logs natifs dédiés.","url":"https://cfp.hackfest.ca/hf2026/talk/N73X8E/","persons":[{"public_name":"Hocine Mahtout"},{"public_name":"Joël HIEN"}]},{"code":"ZQTGMG","date":"2026-10-30T19:30:00-04:00","duration":"01:30","room":"Track 1 (306B)","title":"La French Connection – Retour explosif sur 2026","track":null,"type":"Workshop - 120 minutes","language":"fr","abstract":"Joignez-vous à l’équipe de La French Connection pour revivre l’année 2026.\r\n\r\n👉 Un enregistrement en direct pas comme les autres :\r\n\r\n    Interviews\r\n    Nouvelles\r\n    Discussions\r\n    Opinions sans tabou\r\n\r\nLe tout servi dans un format unique, humoristique… et parfois un peu piquant (voire vinaigré 😏).","url":"https://cfp.hackfest.ca/hf2026/talk/ZQTGMG/","persons":[{"public_name":"La French Connection"}]},{"code":"KTVVKA","date":"2026-10-30T22:30:00-04:00","duration":"01:30","room":"Track 1 (306B)","title":"Hackfest @ Night – Hacker Game Night & Karaoke","track":null,"type":"Workshop - 120 minutes","language":"en","abstract":"Put down the laptop and pick up the mic!\r\n\r\nChallenge fellow hackers to games, puzzles and friendly competition, then take the stage and sing your heart out. No skills required, only guts.\r\n\r\nGlory, honors and bragging rights await!\r\n\r\n18+ only on-site, or accompanied by a parent.\r\n\r\nBear with us, it's our very first Hackfest @ Night!","url":"https://cfp.hackfest.ca/hf2026/talk/KTVVKA/","persons":[{"public_name":"Hackfest"}]}],"Track 2 (306A)":[{"code":"ZAXDYK","date":"2026-10-30T09:40:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Les PME ne sont pas dans la mire. Elles remplissent le champ de vision.","track":"Defensive","type":"Regular Talk","language":"fr","abstract":"Et si les PME n’étaient pas réellement ciblées par les cybercriminels? Cette conférence déconstruit un mythe tenace et montre comment une entreprise devient successivement **trouvable**, **accessible** et **monnayable**.","url":"https://cfp.hackfest.ca/hf2026/talk/ZAXDYK/","persons":[{"public_name":"Jacques Sauve"}]},{"code":"7FNMWH","date":"2026-10-30T10:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Cloud Security Posture Management (CSPM) on a Shoestring","track":"Defensive","type":"Regular Talk","language":"en","abstract":"CSPM is just a marketing term for configuration management aligned to standards-based controls validation of security baselines. As a result of the marketing hype, CSPM toolsets are often unreasonably priced, are limited in controls, scope, or flexibility.\r\n\r\nWe will explore the multitude of freely available tools for validation of various perspectives, align them to industry standard baselines such as those provided by CIS, CISA, ASD, and others against Microsoft cloud environments and discuss where they overlap or fail.\r\n\r\nAttendees will leave with a toolkit of options based on real life testing in an enterprise environment. This will cover configuration drift, prioritise misconfigurations based on risk, options to automate evidence collection, and reporting without purchasing a dedicated CSPM platform.\r\n\r\nEffective posture management is not about buying another dashboard, it is about treating cloud security as disciplined configuration management and continuously verifying that your environment remains aligned with established security baselines.","url":"https://cfp.hackfest.ca/hf2026/talk/7FNMWH/","persons":[{"public_name":"Don Mallory"}]},{"code":"SQRKCT","date":"2026-10-30T11:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"How to Make $25K in 60 Seconds in 2026: ShinyHunters, BEC & the Industrialization of Cybercrime","track":"Defensive","type":"Regular Talk","language":"fr","abstract":"A compromised mailbox.\r\nOne fake invoice.\r\nOne Teams message.\r\nOne trusted supplier.\r\n\r\n60 seconds later:\r\n$25,000 is gone.\r\n\r\nWelcome to cybercrime in 2026.\r\n\r\nThis talk dives into the industrialization of Business Email Compromise (BEC) and modern financially motivated threat actors like ShinyHunters, showing how attackers evolved from “hackers” into highly efficient cyber businesses.\r\n\r\nThe scary part?\r\nMost attacks no longer rely on advanced malware or zero-days.\r\n\r\nThey rely on:\r\n- trust\r\n- weak processes\r\n- social engineering\r\n- MFA fatigue\r\n- Shadow AI\r\n- overprivileged accounts\r\n- and humans moving too fast\r\n\r\nWe’ll break down real-world attack chains used today against organizations of all sizes:\r\nfrom mailbox compromise to vendor impersonation, internal fraud, data theft and payment diversion.\r\n\r\nWe’ll also explore how modern threat actors weaponize:\r\n- leaked credentials\r\n- infostealers\r\n- cloud identities\r\n- AI-generated phishing\r\n- session hijacking\r\n- and trusted collaboration tools like Teams, Slack and SharePoint\r\n\r\nAnd while everyone is chasing “next-gen AI security”…\r\nmany organizations still use weak passwords, lack MFA coverage, have no tested recovery process, and trust email far more than they should.\r\n\r\nThis is no longer cybercrime.\r\nIt’s operationalized digital fraud at scale.\r\n\r\nParticipants will leave with:\r\n- A better understanding of modern BEC tradecraft\r\n- Why attackers target finance and operations teams first\r\n- How ShinyHunters-style operations scale so efficiently\r\n- The role AI and Shadow AI now play in fraud\r\n- Practical ways to reduce exposure immediately\r\n\r\nThe future of cybercrime is fast, scalable and frighteningly human.","url":"https://cfp.hackfest.ca/hf2026/talk/SQRKCT/","persons":[{"public_name":"Julien Turcot"}]},{"code":"FCNGAY","date":"2026-10-30T12:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"OAuth Abuse & Exploitation: Implicit Trust is the New Attack Surface","track":"Offensive","type":"Regular Talk","language":"en","abstract":"As a Cybersecurity Solution Consultant at Palo Alto Networks and ethical hacking professor at the University of Sherbrooke, Clément Cruchet is backed by deep experience in offensive security, network security, and incident response. This provides a holistic view of the full attack lifecycle. In this talk, he applies this expertise to cloud identity platforms, bridging the gap between theoretical OAuth RFC protocols and real-world exploitation, to show how attackers weaponize these implementations and how defenders can secure them.","url":"https://cfp.hackfest.ca/hf2026/talk/FCNGAY/","persons":[{"public_name":"Clément Cruchet"}]},{"code":"8N7NSP","date":"2026-10-30T14:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Playing Defense: Improving Blue Team Skills Through Competitions","track":"Defensive","type":"Regular Talk","language":"en","abstract":"The numbers of software vulnerabilities and misconfigurations keep growing year over year. Addressing them requires concerted efforts of \"builders\": software developers, QA, IT specialists. Unfortunately, too often the task of securing software falls to \"breakers\", such as pentesters and security researchers, who expose problems and push for improvements.\r\n\r\nWidespread software weaknesses can be partially explained by the engineers' insufficient knowledge of secure software development. One of the most effective ways to improve it is to \"gamify\" the learning process. This will add rewards, healthy competition and stimulate the acquisition of practical skills.\r\n\r\nUnfortunately \"gamified\" training is almost exclusively available to those on the \"offensive\" side. Security competitions, challenge sites, and hands-on security certifications all provide excellent opportunities for building practical attack security skills. There is a shortage of such opportunities for professionals on the \"defensive\" side.\r\n\r\nIn this talk, we will discuss this imbalance in greater depth and propose ways of making acquiring practical defensive security skills more effective.\r\n\r\nWe will also describe an open-source defence competition framework that we are releasing and share our experiences running defence-style competitions.","url":"https://cfp.hackfest.ca/hf2026/talk/8N7NSP/","persons":[{"public_name":"Dmitriy Beryoza"}]},{"code":"XNJDTR","date":"2026-10-30T15:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Proofpoint talk","track":"Sponsor","type":"Regular Talk","language":"en","abstract":"TBA","url":"https://cfp.hackfest.ca/hf2026/talk/XNJDTR/","persons":[]},{"code":"SKLHN3","date":"2026-10-30T16:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Data, \"Bullshit\", and Post-Truth","track":"Privacy","type":"Regular Talk","language":"en","abstract":"Where do you get your information about the world? How do you know that it is unbiased? What if it is created specifically for you? This talk explores how social media platforms turn user data into personalized streams of persuasive content that blur the line between information and manipulation. In a post-truth world where belief, opinion, and emotion outweigh evidence, targeted messaging doesn’t just spread—it adapts, embedding itself in how we think and feel and influencing how we behave. Moving between theory and real-world cases, this presentation reveals how social media sites shape political and social realities—and asks what happens as AI makes these conditions faster to create and harder to notice.","url":"https://cfp.hackfest.ca/hf2026/talk/SKLHN3/","persons":[{"public_name":"Bee Mallory"}]},{"code":"RWPN7Y","date":"2026-10-30T17:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Breaking Botslab","track":"Hardware/IoT","type":"Regular Talk","language":"en","abstract":"In this presentation we will evaluate the security of one of the most popular dash cams on Amazon, with the goal of answering the question, “Could we, as an unauthenticated attacker, disrupt the video communications in a temporary or permanent way?” Julian will take you through his journey of reverse engineering a high-end dash cam, the vulnerabilities he discovered along the way, and the surprising discovery that this research affects an unknown number of other popular dash cams. You will walk away from this presentation with a deeper understanding of hardware hacking, reverse engineering, and the risks posed by insecure consumer-grade devices.","url":"https://cfp.hackfest.ca/hf2026/talk/RWPN7Y/","persons":[{"public_name":"dead1nfluence"}]},{"code":"WPFKMY","date":"2026-10-30T18:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"From Isolated Events to Connected Evidence: Structuring Fragmented Cybercrime Data","track":"Threat Intelligence / OSINT","type":"Regular Talk","language":"en","abstract":"Cybercrime investigations rarely begin with a clean dataset. They begin with fragmented information scattered across forums, Telegram channels, marketplaces, leak sites, credential sales, and actor conversations.\r\n\r\nThis case study shows how a real-world collection of isolated cybercrime events was transformed into connected investigative evidence. Individual events initially appeared unrelated, but many contained small traces such as aliases, contact handles, cryptocurrency wallets, domains, URLs, organization names, and infrastructure that could be used to identify relationships between actors, targets, and recurring criminal activity.\r\n\r\nUsing sanitized examples, we will walk through how these artifacts were extracted, normalized, enriched, and compared across different sources. We will also show how contextual analysis helped identify intent, risk indicators, criminal activity types, relevant entities, and recurring behavioral patterns.\r\n\r\nThe session focuses not only on successful connections, but also on the investigative decisions behind them, including which signals were useful, which produced noise, where automated analysis helped, and where human validation remained necessary.\r\n\r\nAttendees will leave with a repeatable approach for turning fragmented cybercrime data into structured evidence that can support triage, monitoring, attribution hypotheses, and deeper investigations.","url":"https://cfp.hackfest.ca/hf2026/talk/WPFKMY/","persons":[{"public_name":"Matheus Bezerra"}]},{"code":"GNEP7R","date":"2026-10-30T19:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Hacking IoT Firmwares with LLMs","track":"Hardware/IoT","type":"Regular Talk","language":"en","abstract":"Modern IoT firmware is a largely unexplored attack surface, and manual analysis doesn't scale. In this talk, we present a pipeline that combines core computer science fundamentals with large language models to automate vulnerability discovery in firmware binaries.\r\n\r\nIn this talk, we describe how we built a pipeline that combines computer science fundamentals with LLMs to find bugs in firmware. We use LLMs as an operator for detecting vulnerability patterns, a kind of \"vuln smell\", and walk through how we built the pipeline using control flow graphs, Ghidra internals to extract pseudo-C code, and build taint analyzes pipeline, and how crafting the right prompts with the right context lets even Gemini Flash detect bugs or at least give meaningful hints, and of course our pitfalls, and why LLMs better than fuzzing in case of firmware and MORE.\r\n\r\nAttendees will leave with a practical understanding of how to build LLM-assisted binary analysis pipelines and how prompt engineering decisions directly impact bug-finding accuracy.","url":"https://cfp.hackfest.ca/hf2026/talk/GNEP7R/","persons":[{"public_name":"Ravshan Rikhsiev"}]}],"Track 3 (2104AB)":[{"code":"KEC9UP","date":"2026-10-30T09:40:00-04:00","duration":"04:00","room":"Track 3 (2104AB)","title":"Build Your Own AI Security Agent\"","track":"Defensive","type":"Workshop - 240 minutes","language":"en","abstract":"AI agents are arriving in defensive security faster than most teams planned for - and most practitioners are meeting them as a vendor product with a \"buy\" button, not as something they can build, open up, and bend to their own environment. Those are completely different skills. The teams who understand the architecture underneath - what the field now calls **harness engineering** - are the ones who can adapt agentic systems to their own tooling and threats instead of being locked into whatever capabilities a vendor decides to ship.\r\n\r\nThis hands-on workshop teaches you to build your own AI security agent from the ground up. Using threat hunting as the running example, you'll assemble a working, model-agnostic agent framework piece by piece: the immutable state core that makes a run traceable and auditable; an agnostic provider seam; the **data–agent interface** that shapes what the model actually sees; deliberate context-window management; the three ways to give an agent **tools** - inline functions, CLI wrappers, and MCP; and executable investigation **skills**, culminating in a detection skill you run against real telemetry from the scenario.\r\n\r\nThis is not a session about prompting a chatbot to read logs. It's about the engineering decisions behind systems that agents can do real defensive work inside - and you leave with the framework, yours to extend to detection engineering, incident response, vulnerability triage, or any security problem you face. Harness engineering is the kind of capability that compounds; the earlier you invest, the more leverage you carry as the field keeps moving.","url":"https://cfp.hackfest.ca/hf2026/talk/KEC9UP/","persons":[{"public_name":"Faan Rossouw"}]},{"code":"EDQYAY","date":"2026-10-30T14:00:00-04:00","duration":"03:00","room":"Track 3 (2104AB)","title":"Embedded Firmware Reverse Engineering: Making Mistakes for the Greater Good","track":"Offensive","type":"Workshop - 180 minutes","language":"en","abstract":"Firmware of proprietary systems lies on the border of hardware and software. This talk follows up on last year's presentation \"Breaking both wires: Reverse engineering builiding access control system for MITM attacks and spoofing\", shifting focus from the physical and protocol layer to its embedded firmware, and exploring how behavior, timing, and security logic are implemented, and how they can be systematically uncovered. The talk is structured as a guided progression designed for audiences starting from zero, gradually building the skills and intuition needed to move from an opaque firmware image to a meaningful system-level understanding through iterative analysis, experimentation, and correction of early mistakes.","url":"https://cfp.hackfest.ca/hf2026/talk/EDQYAY/","persons":[{"public_name":"Kirils Solovjovs"}]}],"Track 4 (207)":[{"code":"RSXKYR","date":"2026-10-30T09:40:00-04:00","duration":"02:00","room":"Track 4 (207)","title":"Post-Exploitation of the Desktop with JS-Tap","track":"Offensive","type":"Workshop - 120 minutes","language":"en","abstract":"JS-Tap v3 moves beyond exploiting web applications to targeting the user’s endpoint itself. JavaScript is used heavily on desktops and in this hands-on workshop you'll deploy three new JS-Tap implant types against a Windows workstation on a simulated corporate network.\r\n\r\nStart by installing a malicious browser extension that harvests sessions from every site the victim visits and injects payloads into specific application domains on command. We'll then add optional features that escape the browser sandbox for filesystem and shell access.\r\n\r\nNext we'll patch a local Electron app for screenshots, keylogging, network interception, and message spoofing in a corporate chat platform. Then we'll instrument a Node.js CLI tool with a single environment variable to intercept its traffic and keystrokes.\r\n\r\nYour operator system can't reach the internal corporate web applications directly. You'll use JS-Tap Conductor to pivot through an implant, demonstrating the full attack chain from session theft to authenticated access on an internal network.\r\n\r\nAll infrastructure is provided. Each participant gets a dedicated Windows victim machine and Linux operator box accessible via noVNC. Just bring a laptop with a browser and an ethernet adapter.\r\n\r\nYou'll leave with firsthand experience operating all three beacon types.","url":"https://cfp.hackfest.ca/hf2026/talk/RSXKYR/","persons":[{"public_name":"hoodoer"}]},{"code":"HMV3CS","date":"2026-10-30T12:00:00-04:00","duration":"03:00","room":"Track 4 (207)","title":"Proofpoint workshop","track":"Sponsor","type":"Workshop - 180 minutes","language":"en","abstract":"TBA","url":"https://cfp.hackfest.ca/hf2026/talk/HMV3CS/","persons":[]},{"code":"S7AJFF","date":"2026-10-30T15:30:00-04:00","duration":"00:50","room":"Track 4 (207)","title":"I Can’t Believe This Works: Web Exploits that Still Let Me In","track":"Offensive","type":"Regular Talk","language":"en","abstract":"SQL injection is dead. Local file inclusion is a relic. And that PDF generator surely can’t be used to pivot into an internal network… right?\r\n\r\nWell, think again.\r\n\r\nIn this presentation, we will explore web application exploits that (surprisingly) still let me in. The kind that have great impact, that should have disappeared years ago, yet still show up in real-world engagements. Well, if you can get them to work. They might be buried in business logic or something else.\r\n\r\nThis is what you will get from this presentation; that with a bit of wit and know how, you can turn a seemingly not exploitable vulnerability into a critical finding, even those that should not be out there anymore.\r\n\r\nOh, and this is not just a theoretical talk, there will be demos, and there will be code analysis.","url":"https://cfp.hackfest.ca/hf2026/talk/S7AJFF/","persons":[{"public_name":"Guillaume Croteau"}]}],"Music Show - 2000A":[{"code":"3J9DEX","date":"2026-10-30T21:00:00-04:00","duration":"01:30","room":"Music Show - 2000A","title":"PEPIN - Music Show","track":null,"type":"Workshop - 120 minutes","language":"en","abstract":"Peppin est un producteur et performeur de hyperpop en live-code. Des prestations solo jusqu'à former la moitié de SWEETGUM, Peppin mêle une production maximaliste à haute énergie à une énergie glitch colorée pour créer des morceaux qui brisent le code. Issu de la scène DIY queer de Boston, Peppin est passé des spectacles DIY bricolés sous les ponts au remplissage des clubs.","url":"https://cfp.hackfest.ca/hf2026/talk/3J9DEX/","persons":[{"public_name":"Peppin"}]}]}},{"date":"2026-10-31","rooms":{"Social Engineering CTF (308AB)":[{"code":"MBFZK3","date":"2026-10-31T10:30:00-04:00","duration":"00:50","room":"Social Engineering CTF (308AB)","title":"Scammers Keep Winning: Why Humans and AI Fall for the Same Hustles","track":"Social Engineering","type":"Regular Talk","language":"en","abstract":"Ancient cons still work. Technology just made them faster, cheaper, and easier to scale. What hasn’t changed is the logic that makes them work.\r\n\r\nTreating deception as a “spot the artifact” game has failed. Bad grammar, foreign accents, suspicious links, strange senders, and even valid SSL certificates are all just surface cues that tell us nothing about whether the _request itself_ can be trusted. Attackers can use machines to polish the presentation or leverage compromised trusted accounts to appear genuine.\r\n\r\nThe deeper problem is that both human judgment and machine guardrails can be fooled by the same thing: a convincing request built on deceptive logic.\r\n\r\nUsing real-world attack recordings and examples ranging from traditional social engineering to recent attacks against AI agents, we’ll examine how the same underlying attack logic can bypass both human judgment and machine guardrails. We'll look beyond the individual psychological tricks to the simple, repeatable logic exploits that make them work.\r\n\r\nAttendees will leave with a practical way to recognize and dissect these attacks based not on how they look or how they arrive, but on _what they are trying to make the target believe and do_.","url":"https://cfp.hackfest.ca/hf2026/talk/MBFZK3/","persons":[{"public_name":"Alex Kasper"}]},{"code":"CQM7QM","date":"2026-10-31T13:00:00-04:00","duration":"00:50","room":"Social Engineering CTF (308AB)","title":"Persona Non Grata : Investigation OSINT d'une opération d'influence IA. De la fausse journaliste au wallet de crypto !","track":"Threat Intelligence / OSINT","type":"Regular Talk","language":"fr","abstract":"Katarina Vogel est journaliste indépendante à Bruxelles, spécialiste de la politique énergétique européenne, 12 400 abonnés sur Twitter. Le problème : elle n'existe pas. Dans cette présentation, vous suivrez en temps réel l'investigation complète d'une opération d'influence IA — de la détection d'un avatar Midjourney jusqu'au wallet crypto financé par une adresse sanctionnée par l'OFAC. ExifTool, Hive Moderation, Sherlock, crt.sh, SecurityTrails, Holehe, Breadcrumbs : chaque outil est démontré en direct. Vous repartirez avec une méthodologie en 6 étapes reproductible, un toolkit complet, et les réflexes légaux pour que votre investigation soit admissible. Le paradoxe que vous n'oublierez pas : plus un persona synthétique est déployé à grande échelle, plus il est détectable. Il suffit d'un seul pivot pour ouvrir tout le réseau.","url":"https://cfp.hackfest.ca/hf2026/talk/CQM7QM/","persons":[{"public_name":"Nadia Vigneault"}]},{"code":"YDBBBT","date":"2026-10-31T19:00:00-04:00","duration":"02:00","room":"Social Engineering CTF (308AB)","title":"Security Impress Karaoke","track":"Social Engineering","type":"Workshop - 120 minutes","language":"en","abstract":"Think you can bluff your way through a security talk with zero prep? Now is your chance! At Security Impress Karaoke¹, you'll be handed a totally random, security-themed slide deck you’ve never seen before - and have just 3 minutes to present it like a pro.","url":"https://cfp.hackfest.ca/hf2026/talk/YDBBBT/","persons":[{"public_name":"Kirils Solovjovs"}]},{"code":"UB8EDG","date":"2026-10-31T21:00:00-04:00","duration":"01:30","room":"Social Engineering CTF (308AB)","title":"Hackfest After Dark – Social Engineering Contest: Night Edition","track":null,"type":"Workshop - 120 minutes","language":"en","abstract":"Vous avez aimé le concours d'ingénierie sociale? Vous allez adorer l'Édition de nuit!\r\n\r\nCette fois, tout le monde peut monter sur scène, participants comme spectateurs. Votre mission : appeler des organisations qui opèrent la nuit et obtenir 3 flags. Même principe, conditions plus corsées, cibles très différentes.\r\n\r\nGloire, honneurs et droits de vantardise à la clé!\r\n\r\n18 ans et plus sur place, ou accompagné d'un parent.\r\n\r\nSoyez indulgents, c'est notre toute première édition After Dark!","url":"https://cfp.hackfest.ca/hf2026/talk/UB8EDG/","persons":[{"public_name":"Patrick"}]}],"Track 1 (306B)":[{"code":"HHFVLY","date":"2026-10-31T09:00:00-04:00","duration":"00:20","room":"Track 1 (306B)","title":"Potential Keynote","track":null,"type":"Regular Talk","language":"en","abstract":"Keynote","url":"https://cfp.hackfest.ca/hf2026/talk/HHFVLY/","persons":[]},{"code":"WVQUVN","date":"2026-10-31T09:30:00-04:00","duration":"00:20","room":"Track 1 (306B)","title":"Your Brain is Lying to You: Cognitive Bias in Security Investigations","track":"Defensive","type":"Speed Talk","language":"en","abstract":"Security investigations feel rigorous — but they're shaped by the same cognitive shortcuts that affect every high-stakes decision made under pressure. This talk explores how confirmation bias, anchoring, and automation bias play out in real investigations, and how AI tools amplify these patterns rather than fix them. Through real-world examples from the SOC, you'll walk away with a clearer understanding of how your brain works against you during investigations — and practical techniques to build in the checks.","url":"https://cfp.hackfest.ca/hf2026/talk/WVQUVN/","persons":[{"public_name":"Anastasiia Mytrofanovska"}]},{"code":"NYHDU7","date":"2026-10-31T10:00:00-04:00","duration":"00:20","room":"Track 1 (306B)","title":"Rust Reversing for All: Extracting Metadata From Rust Binaries","track":"Defensive","type":"Speed Talk","language":"en","abstract":"Rust reversing can, at times, prove quite painful. The compiler and standard library are updated every **6 weeks**, there is **no stable ABI**, it has many *exotic* types, macros, etc. Fortunately for any reverser, there exists a common solution to this mess, that being strings! Participants will get a quick look at:\r\n- The various forms of metadata that Rust packs into binaries;\r\n- How to leverage this metadata to extract project structure, dependencies, the build process;\r\n- Available tools to make Rust reversing easier and;\r\n- Present and future outlook on the Rust reversing scene.","url":"https://cfp.hackfest.ca/hf2026/talk/NYHDU7/","persons":[{"public_name":"Mourad Sherif"}]},{"code":"X3PWNY","date":"2026-10-31T10:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Hack ta carrière : Les erreurs qui coûtent des opportunités aux professionnels en cybersécurité","track":"Security Programs/Management","type":"Regular Talk","language":"fr","abstract":"Tu passes des heures à maîtriser des outils, des certifications et des frameworks. Pourtant, ton CV fait fuir les recruteurs, ton profil LinkedIn est invisible et en entrevue, tu passes parfois à côté d'une opportunité sans comprendre pourquoi. \r\n\r\nDans ce talk, Karolynn Boulet, recruteure spécialisée en cybersécurité, t'explique comment les profils cyber sont lus, filtrés et éliminés à chaque étape du processus — et ce que tu peux corriger maintenant.","url":"https://cfp.hackfest.ca/hf2026/talk/X3PWNY/","persons":[{"public_name":"Karolynn Boulet"}]},{"code":"38ETSY","date":"2026-10-31T11:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"HASHCHAT - A Discussion on Password Cracking","track":"Offensive","type":"Regular Talk","language":"en","abstract":"Are you looking to crack passwords more effectively and efficiently? Sit down with cracking expert EvilMog as he fields Carlis’ (and your) questions and demands for ProTips™ in this discussion on the art and science password cracking. Covering hardware considerations, methodologies, online resources, tools, lost techniques, and citations of the deep magic, this session will help you raise your credential recovery game to the next level.  Discover how to get the biggest cracking bang out of your available resources, determine when it’s time to cut your losses, and learn the secret Hashcat flag that Big Password doesn’t want you to know about.##","url":"https://cfp.hackfest.ca/hf2026/talk/38ETSY/","persons":[{"public_name":"Chris Carlis"},{"public_name":"EvilMog"}]},{"code":"RQLBDC","date":"2026-10-31T12:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Three Paths of Hacktivism: Russia, Ukraine and Belarus","track":"Threat Intelligence / OSINT","type":"Regular Talk","language":"en","abstract":"Exploring the hacktivist landscapes of Russia, Ukraine and Belarus, this talk will look at how the war in Ukraine has shaped the three diverging paths for each country's hacktivist landscape. It will explore novel approaches adopted by hacktivist personas across the three countries, and the differing circumstances for each country that have influenced these choices. The result is a novel framework through which to explore the broader global hacktivist landscape and how real world changes can significantly influence hacktivist activity.\r\n\r\nThe audience will leave this talk with a deeper understanding of hacktivism within Russia/Ukraine/Belarus, and a framework through which to consider hacktivism in a global context. For attendees, they can then apply this to their individual company threat landscapes and explore how the hacktivist landscape can change to inform leadership as the global environment changes.","url":"https://cfp.hackfest.ca/hf2026/talk/RQLBDC/","persons":[{"public_name":"Ian Litschko"}]},{"code":"ERTNZ7","date":"2026-10-31T13:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"5 Lies Enterprise Security Still Tells Itself","track":"Defensive","type":"Regular Talk","language":"en","abstract":"Your security program is built on a foundation of convenient lies. Your risk register holds 2014 acceptances. Your asset inventory doesn't exist. Your identity perimeter is a joke. Your vendor controls are theater. And that expensive shelfware? It's never actually alerted on anything you'd care about.\r\nThis is not a technical deep-dive. This is a no-bullshit inventory of enterprise security theater — the persistent, systemic failures that breach-tested Fortune 500s keep repeating, slide after slide, hack after hack.","url":"https://cfp.hackfest.ca/hf2026/talk/ERTNZ7/","persons":[{"public_name":"Johnny Xmas"}]},{"code":"7PKZHG","date":"2026-10-31T14:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"The Four Horsemen of the Privacy Apocalypse (Global Edition)","track":"Privacy","type":"Regular Talk","language":"en","abstract":"Privacy in Europe, and the wider Western world, is undergoing a structural shift toward proactive systems of identity verification, communication governance, environmental sensing, and data infrastructure control.\r\n\r\nThis talk examines four converging mechanisms driving this transition: age verification frameworks that bind access to verified identity; ongoing EU-level proposals around inspection of private encrypted communications under the guise of child safety; expansion of ubiquitous physical-world surveillance through biometric systems, and mobile inference; and the accelerating impact of AI systems that transform public data into inferential and generative models with limited provenance guarantees. Together, these developments suggest a move away from privacy as a default property of digital systems toward privacy as a conditional, regulated state contingent on compliance with layered technical and legal requirements. Using global trajectory as the primary case study, the talk argues that these mechanisms are not isolated policy choices but components of a broader convergence toward an \"access-controlled internet,\" where identity, communication, and content are increasingly mediated by interoperable governance systems rather than open network principles.","url":"https://cfp.hackfest.ca/hf2026/talk/7PKZHG/","persons":[{"public_name":"Kirils Solovjovs"}]},{"code":"YM7ZJM","date":"2026-10-31T15:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Take Off! It's Our Great White North","track":"Defensive","type":"Regular Talk","language":"en","abstract":"When you hear national sovereignty, do you think cybersecurity? Canada’s Arctic could be described as “the world’s most digitally vulnerable frontier”. This vast expanse of land is a highly coveted target, resource rich and strategically valuable for the Northwest Passage, a sea route between the Atlantic and Pacific Oceans over which Canada has claimed sovereignty.  But sparse population, limited critical infrastructure and aging defences leave it vulnerable.  Canada relies heavily on its partnership with the US for military monitoring and defence in the region through NORAD. Surveillance is essential, but satellites, networks, radar, and ships can be targeted and compromised. As polar ice melts, Russian and Chinese vessels increasingly access the shipping routes.  The US President has asserted the need to own Greenland, and boldly declared that Canada should be the 51st state. In a strategic course change of self-assertion, Canada is now committing tremendous resources to defence, technology and infrastructure.  But does this address the risks to national sovereignty via our northern exposure and the cyberthreats we face with advanced technology?  As Canada seeks to forge new alliances externally, and build its leadership capabilities among middle powers, securing our Arctic sovereignty against cyber threats is  essential to guiding our way in a new world order.","url":"https://cfp.hackfest.ca/hf2026/talk/YM7ZJM/","persons":[{"public_name":"Cheryl Biswas"}]},{"code":"BBPE38","date":"2026-10-31T16:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Ctrl + Alt + Lead: Rebooting Cyber Culture with Human Skills","track":"Security Programs/Management","type":"Regular Talk","language":"en","abstract":"Coaching a junior analyst. Translating between the SOC and the C-suite. Holding a team together through an incident. These are cyber skills, even if they never show up on a certification track. Yet most conversations in the field still treat them as a finishing touch on top of the \"real\" technical work.\r\n\r\nThis talk reboots that thinking. It positions leadership, communication, mentorship, and emotional intelligence as load-bearing infrastructure; the layer that decides how teams make decisions under pressure, how incidents actually resolve, and whether the tools and frameworks we invest in ever get used the way they're meant to. When this layer is weak, technical excellence can't compensate. When it's strong, ordinary teams produce extraordinary outcomes.\r\n\r\nThe human side of cyber isn't soft. It's structural. This session treats it that way.","url":"https://cfp.hackfest.ca/hf2026/talk/BBPE38/","persons":[{"public_name":"Amanda Kollmorgan"}]},{"code":"FGFUCU","date":"2026-10-31T17:40:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"Cérémonie de Clôture / Closing Ceremony","track":null,"type":"Regular Talk","language":"en","abstract":"Hackfest 2026 - La revue de l'événement 2026, les statistiques, des histoires, faits marquants, annonce de Hackfest 2027.\r\n\r\nHackfest CTF 2026 - La revue des activitées, remises et paiements des prix, faits marquants, black coins, etc.","url":"https://cfp.hackfest.ca/hf2026/talk/FGFUCU/","persons":[]},{"code":"QPMVY3","date":"2026-10-31T20:00:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"J’étais le CISO qui n’a pas corrigé votre vulnérabilité critique.","track":"Security Programs/Management","type":"Regular Talk","language":"fr","abstract":"Tous les pentesters ont déjà vu une vulnérabilité critique disparaître dans un backlog et se sont demandé : « Mais qu’est-ce que le CISO attend pour agir? » Parfois, cette frustration est entièrement justifiée.\r\n\r\nJ’ai moi-même été ce CISO. Pendant près de 30 ans en cybersécurité, j’ai eu des budgets, de l’autorité et d’excellentes équipes. Pourtant, je n’ai pas tout corrigé — parfois pour de bonnes raisons, parfois non.\r\n\r\nÀ partir de situations réelles anonymisées, cette conférence explore pourquoi une vulnérabilité critique n’est pas toujours la priorité la plus urgente, comment le correctif lui-même peut créer un risque opérationnel et comment de petites faiblesses peuvent se combiner pour former des chemins d’attaque majeurs.","url":"https://cfp.hackfest.ca/hf2026/talk/QPMVY3/","persons":[{"public_name":"Eric Hebert"}]},{"code":"YMMNSD","date":"2026-10-31T22:30:00-04:00","duration":"00:50","room":"Track 1 (306B)","title":"[Ghost Talk]Jedi contre les pirates : l'Eden de l'enfer","track":"Privacy","type":"Regular Talk","language":"fr","abstract":"On le sait mais... les attaques ne se terminent pas quand vos systèmes tombent. Elles commencent quand vos données sont publiées.\r\n\r\nDans cette conférence, vous entrez directement dans l’environnement réel des groupes de cybercriminels : leurs sites, leurs publications, leurs victimes.\r\n\r\nDes centaines de groupes actifs.\r\nDes données volées.\r\nDes entreprises exposées.\r\n\r\nSimon David Williams et Audrey Shink vous amènent sur le Dark Web : pas pour observer, mais pour comprendre ce qui se passe après le point de non-retour.\r\n\r\nVous verrez :\r\n\r\n- Comment les données exfiltrées apparaissent en ligne… souvent avant même que les victimes réalisent ce qui arrive\r\n\r\n- Comment les groupes de ransomwares structurent leurs opérations, exposent les entreprises et monétisent leur chute\r\n\r\n- Comment naviguer ces espaces de façon sécuritaire, sans devenir une autre statistique\r\n\r\n- Et surtout, ...les potins et les histoires _crunchy_.\r\n\r\nÀ travers l’histoire réelle du Groupe ISM et d’un cybercrime majeur, cette conférence plonge dans la phase la plus brutale d’une attaque : celle où il n’y a plus rien à négocier.\r\n\r\nParce qu’au final, les hackers ne cherchent pas seulement à entrer dans vos systèmes. Ils attendent le moment de vous afficher.","url":"https://cfp.hackfest.ca/hf2026/talk/YMMNSD/","persons":[{"public_name":"Audrey Shink"},{"public_name":"Simon David Williams"}]}],"Track 2 (306A)":[{"code":"8U3PEQ","date":"2026-10-31T09:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Leçons Apprises: Automatiser les Opérations Cyber avec l'IA","track":"Ai Security","type":"Regular Talk","language":"fr","abstract":"Retour d'expérience sur l'automatisation des opérations cyber avec l'IA. Ce qui fonctionne, ce qui marche pas, et les leçons apprises sur le terrain du scripts bash et agents IA autonomes","url":"https://cfp.hackfest.ca/hf2026/talk/8U3PEQ/","persons":[{"public_name":"Simon Nolet (Viper)"}]},{"code":"3P3WBK","date":"2026-10-31T10:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"From Disclosure to Re-Weaponized Delivery: Recovering a Go/Sliver-Style Implant from Memory","track":"Threat Intelligence / OSINT","type":"Regular Talk","language":"en","abstract":"A targeted loader campaign first appeared as an AirJaldi firewall-update lure, then shifted delivery after responsible disclosure, and later reappeared as a Tibetan monastery archive and Dalai Lama teachings lure. The Windows loader copied itself as `POWERFUL.exe`, installed scheduled-task persistence, fetched a large encrypted second stage from `blog.tibetanmonasteries.com`, and executed it in process memory. This talk walks through the evidence chain: email headers, static analysis, Sysmon, pcaps, Volatility, x64dbg, Ghidra, and FLOSS. The final result is a recovered 36.7 MB Go PE with Sliver-style capability strings and a runtime Register object containing `fish_tibet`.\r\n\r\nNote: AirJaldi is the ISP provider in and around the city I stay.","url":"https://cfp.hackfest.ca/hf2026/talk/3P3WBK/","persons":[{"public_name":"Sam"}]},{"code":"UR9PHX","date":"2026-10-31T11:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Vulnpocalypse : exorciser le boom des vulnérabilités","track":"Security 101","type":"Regular Talk","language":"fr","abstract":"Chaque année, le cimetière des failles s'agrandit un peu plus : en 2025, près de 50 000 nouvelles vulnérabilités ont été exhumées, et les projections pour 2026 annoncent un chiffre encore plus funeste : jusqu'à 70 000 selon certaines estimations. Pendant ce temps, le délai entre la découverte d'une faille et son exploitation active continue de fondre comme une bougie dans une citrouille oubliée sur le perron, en partie à cause de l'IA qui accélère autant la découverte que l'exploitation.\r\n\r\nDans cette sinistre conférence, on lève le voile sur l'état réel de la gestion des vulnérabilités en 2026 : l'explosion du volume de CVE, l'essoufflement des modèles de pointage classiques, et l'arrivée d'une créature réglementaire bien vivante venue des États-Unis : BOD 26-04. Cette directive de CISA force désormais les agences fédérales civiles américaines à adopter une démarche décisionnelle basée sur le risque réel.\r\n\r\nQue change concrètement cette directive? Pourquoi son influence dépasse-t-elle largement les frontières américaines? Qu'annonce-t-elle pour l'avenir de la priorisation des correctifs? Apportez votre lampe de poche et votre courage : on va éclairer les coins sombres de la gestion des vulnérabilités, sans jamais perdre le sourire, ni la tête (quoi que…).","url":"https://cfp.hackfest.ca/hf2026/talk/UR9PHX/","persons":[{"public_name":"Jocelyn Baril"}]},{"code":"GWQFSE","date":"2026-10-31T12:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Quand la sécurité des infrastructures essentielles n'est pas essentielle","track":"OT/ICS/SCADA","type":"Regular Talk","language":"fr","abstract":"À venir","url":"https://cfp.hackfest.ca/hf2026/talk/GWQFSE/","persons":[{"public_name":"Francis Coats, Steve Waterhouse"}]},{"code":"8DK983","date":"2026-10-31T13:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Threat modeling des protocoles radio maritimes (AIS, DSC, SAR 406 MHz)","track":"Hardware/IoT","type":"Regular Talk","language":"fr","abstract":"Les protocoles maritimes ont toujours reposé sur un écosystème fermé : appareils certifiés restreints, fréquences réglementées, bureaucratie. Le SDR, l'open source de navigation et la montée des embarcations autonomes représentent un défi pour ces protocoles vieux de 25 ans, conçus pour la sûreté anti-collision et non pour résister à un adversaire.\r\n\r\nAvec STRIDE comme colonne vertébrale, cette présentation cartographie la surface d'attaque : du navire fantôme injecté dans un traceur,  aux traces qui « téléportent » une cible, de la reconnaissance OSINT gratuite jusqu'au vrai maillon faible que tous ces protocoles rediffusent aveuglément. et comment les mitigations ne couvriront qu'une fraction de l'écosystème.\r\n\r\nLe tout en open source, sans émettre un seul watt sur les vraies fréquences  et une question qui devient urgente à l'ère des navires sans humain à la barre : contre quoi doivent-ils se protéger quand plus personne ne regarde l'écran ?","url":"https://cfp.hackfest.ca/hf2026/talk/8DK983/","persons":[{"public_name":"Francois Harvey"}]},{"code":"BWAZRB","date":"2026-10-31T14:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Relever sa posture de sécurité face au risque quantique","track":"Security Programs/Management","type":"Regular Talk","language":"fr","abstract":"La conjoncture actuelle met à mal les équipes de cybersécurité. Déjà, l'usage massif de l'intelligence artificielle par les attaquants nous demande de relever le niveau de vigilance et de nombreuses équipes n'arrivent pas à suivre le rythme qui s'accélère. Qu'en sera-t-il lorsque les ordinateurs quantiques décupleront la puissance de frappe que devront contenir vos équipes de sécurité?\r\nDans cette présentation, nous passerons en revue ce que vous pouvez faire dès maintenant pour être prêt à l'ère Post-Quantique.","url":"https://cfp.hackfest.ca/hf2026/talk/BWAZRB/","persons":[{"public_name":"Jérémy Viau-Trudel"}]},{"code":"VVC3G8","date":"2026-10-31T15:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Qubes OS: From Zero to a Live Bootkit Attack","track":"Defensive","type":"Regular Talk","language":"en","abstract":"Qubes OS is known as one of the most secure OS. But what is it actually like to use, customize and attack it? Whether you're a beginner or advanced in the cybersecurity field, join this session to explore this OS and the many amazing features it offers. Finally, stick around for a live bootkit demonstration on a Qubes OS computer, targeting a universal flaw affecting almost any computer, leading to a remote root shell, and disk encryption passphrase exfiltration.","url":"https://cfp.hackfest.ca/hf2026/talk/VVC3G8/","persons":[{"public_name":"Luc"}]},{"code":"HRWUDH","date":"2026-10-31T16:30:00-04:00","duration":"00:50","room":"Track 2 (306A)","title":"Un pentest, à quoi ça sert ?","track":"Security Programs/Management","type":"Regular Talk","language":"fr","abstract":"Toutes les organisations font des tests d’intrusions, mais pourquoi ? \r\nAujourd'hui, tous les fournisseurs semblent offrir des tests d'intrusion et la plupart du temps, les clients ne semblent jamais en avoir pour leurs argents.  Alors, quel est le véritable but d’un test d’intrusion et en avons-nous réellement besoin ?","url":"https://cfp.hackfest.ca/hf2026/talk/HRWUDH/","persons":[{"public_name":"Philippe Hamel"}]}],"Track 3 (2104AB)":[{"code":"NEGZJW","date":"2026-10-31T09:30:00-04:00","duration":"04:00","room":"Track 3 (2104AB)","title":"Mindgames: How to Hack a Human Being","track":"Social Engineering","type":"Workshop - 240 minutes","language":"en","abstract":"Building relationships and understanding human behaviour\r\nAn introduction to the world of mind reading and social engineering\r\nThe importance of building relationships and making a positive first impression\r\nUnderstanding human behaviour: psychology, neuroscience and sociology\r\nThe basics of body language: posture, facial expressions and non-verbal cues\r\nMicro-expressions: what they are, how to recognise them and what they mean\r\nReading a person’s baseline: understanding their emotional state and motivation\r\nIntroduction to 'mind-reading techniques and mentalism\r\nTechniques for extracting information: how to ask effective questions and gather information\r\nSocial engineering tactics: using persuasion, influence and manipulation to achieve your goals","url":"https://cfp.hackfest.ca/hf2026/talk/NEGZJW/","persons":[{"public_name":"Dorota Kozlowska"}]}],"Track 4 (207)":[{"code":"AXCNUH","date":"2026-10-31T09:30:00-04:00","duration":"02:00","room":"Track 4 (207)","title":"Village Rétro Hacking","track":"Mental Health","type":"Workshop - 120 minutes","language":"fr","abstract":"**Retro Hacking Village**\r\n\r\nLancement et période de recrutement pour un tout nouveau village sur le hacking rétro des années 1990 et 2000 !\r\n\r\nImaginez un village où différentes présentations et activités interactives liées au hacking des années 90 et 2000 sont à l’honneur. Une époque où IRC était le seul réseau social en temps réel et où Internet était un terrain de jeu à explorer pour le plaisir plutôt que pour l’argent. Pas de *bug bounty*, pas d’IA, juste de la curiosité et des *flame wars*.\r\n\r\nLes sujets abordés toucheront à la culture et aux *crews underground* (incluant les *ezines*), des exploits *elite* jusqu'aux trucs plus *lame* comme le *nuker* sous Windows 95.\r\n\r\nAu début de la session, nous aurons une présentation avec une vue d’ensemble des concepts rétro et quelques aperçus des démonstrations possibles.\r\n\r\nSi vous voulez participer, manifester votre intérêt ou si vous êtes simplement curieux, venez nous voir !","url":"https://cfp.hackfest.ca/hf2026/talk/AXCNUH/","persons":[{"public_name":"Jonathan Marcil"},{"public_name":"Wyzeman"}]},{"code":"D3YM3U","date":"2026-10-31T12:00:00-04:00","duration":"04:00","room":"Track 4 (207)","title":"Certified Vibe Hacker","track":"Ai Security","type":"Workshop - 240 minutes","language":"en","abstract":"Claude Mythos is finding zero-days in production software. Project Glasswing is letting AWS, Apple, Google, Microsoft and JPMorgan use it to pre-patch critical vulnerabilities before attackers get there. The rest of us are stuck with AI tools that refuse to analyze a suspicious PowerShell command.\r\n\r\nThat gap is real, it's frustrating, and it's fixable.\r\n\r\nMost security practitioners have formed their opinion about AI from one of three places: a vendor pitch, a ChatGPT refusal, or a breathless blog post. None of those tell you what AI can actually do for your work today. This workshop does.\r\n\r\nVibe hacking is the practice of directing AI through security tasks using your expertise and judgment as the guide. The model handles the volume. You handle the judgment. It is not about replacing your skills. It is about multiplying them.\r\n\r\nOver the course of the day, you will use a purpose-built security AI platform to analyze logs, prioritize vulnerabilities, review code for exploitable flaws, assist with web application penetration testing, and develop proof of concept exploits. You will understand how these tools work under the hood, why commercial AI refuses to help with legitimate security tasks, and how the techniques you practice today apply to any capable agentic AI platform, not just the one we use in the workshop.\r\n\r\nNo coding required. No passive demos. You do the work, you see the results, and you leave with a clear-eyed answer to the question the whole industry is arguing about right now: what can AI actually do for security practitioners today?","url":"https://cfp.hackfest.ca/hf2026/talk/D3YM3U/","persons":[{"public_name":"Robert  Wagner"}]}]}}]}}}
+  }
+  </script>
   <script src="assets/js/main.js"></script>
-  <script src="https://hackfest.ca/assets/js/hackfest-schedule.js"></script>
-  <script src="https://hackfest.ca/assets/js/schedule-subnav.js"></script>
-  <script src="https://hackfest.ca/assets/js/schedule-days.js"></script>
+  <script src="https://hackfest.ca/assets/js/horaire.js"></script>
 </body>
 </html>
