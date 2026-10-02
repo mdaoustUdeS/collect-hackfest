@@ -485,6 +485,7 @@
             
             <dl class="tr-card__meta">
               <dt>Dates</dt><dd>28–29 oct.</dd>
+              <dt>Horaire</dt><dd>09h00–17h30</dd>
               <dt>Formateur</dt><dd>Shane MacDougall</dd>
             </dl>
           </div>
@@ -546,6 +547,7 @@
             
             <dl class="tr-card__meta">
               <dt>Dates</dt><dd>26–29 oct.</dd>
+              <dt>Horaire</dt><dd>09h00–18h00</dd>
               <dt>Formateur</dt><dd>Claude Roy, Simon Nolet, Samuel De Grace</dd>
             </dl>
           </div>
@@ -602,6 +604,7 @@
             
             <dl class="tr-card__meta">
               <dt>Dates</dt><dd>26–29 oct.</dd>
+              <dt>Horaire</dt><dd>09h00–17h00</dd>
               <dt>Formateur</dt><dd>Expert Hackfest</dd>
             </dl>
           </div>
@@ -658,6 +661,7 @@
             
             <dl class="tr-card__meta">
               <dt>Dates</dt><dd>27–29 oct.</dd>
+              <dt>Horaire</dt><dd>09h00–17h30</dd>
               <dt>Formateur</dt><dd>Expert Hackfest</dd>
             </dl>
           </div>
@@ -714,6 +718,7 @@
             
             <dl class="tr-card__meta">
               <dt>Dates</dt><dd>27–28 oct.</dd>
+              <dt>Horaire</dt><dd>09h00–18h00</dd>
               <dt>Formateur</dt><dd>Franck (@PhenixCorp)</dd>
             </dl>
           </div>
@@ -770,6 +775,7 @@
             
             <dl class="tr-card__meta">
               <dt>Dates</dt><dd>mer. 28 oct.</dd>
+              <dt>Horaire</dt><dd>09h00–17h00</dd>
               <dt>Formateur</dt><dd>Alexandre Fournier, Karine Maréchal Richard</dd>
             </dl>
           </div>
@@ -826,6 +832,7 @@
             
             <dl class="tr-card__meta">
               <dt>Dates</dt><dd>jeu. 29 oct.</dd>
+              <dt>Horaire</dt><dd>09h00–17h30</dd>
               <dt>Formateur</dt><dd>Expert Hackfest</dd>
             </dl>
           </div>
@@ -1301,7 +1308,7 @@
                     data-open-course="securite-101"
                     aria-haspopup="dialog"
                     aria-controls="tr-drawer-securite-101"
-                    aria-label="Sécurité 101-102-103-101C, 101, 26 octobre">101</button>
+                    aria-label="Sécurité 101-102-103-101C, 101, 26 octobre, 09h00–18h00">101<span class="tr-cal-seg__hours">09h00–18h00</span></button>
             
             
             
@@ -1311,7 +1318,7 @@
                     data-open-course="securite-101"
                     aria-haspopup="dialog"
                     aria-controls="tr-drawer-securite-101"
-                    aria-label="Sécurité 101-102-103-101C, 102, 27 octobre">102</button>
+                    aria-label="Sécurité 101-102-103-101C, 102, 27 octobre, 09h00–18h00">102<span class="tr-cal-seg__hours">09h00–18h00</span></button>
             
             
             
@@ -1321,7 +1328,7 @@
                     data-open-course="securite-101"
                     aria-haspopup="dialog"
                     aria-controls="tr-drawer-securite-101"
-                    aria-label="Sécurité 101-102-103-101C, 101C, 28 octobre">101C</button>
+                    aria-label="Sécurité 101-102-103-101C, 101C, 28 octobre, 09h00–18h00">101C<span class="tr-cal-seg__hours">09h00–18h00</span></button>
             
             
             
@@ -1331,7 +1338,7 @@
                     data-open-course="securite-101"
                     aria-haspopup="dialog"
                     aria-controls="tr-drawer-securite-101"
-                    aria-label="Sécurité 101-102-103-101C, 103, 29 octobre">103</button>
+                    aria-label="Sécurité 101-102-103-101C, 103, 29 octobre, 09h00–18h00">103<span class="tr-cal-seg__hours">09h00–18h00</span></button>
             
           </div>
           
@@ -1346,7 +1353,7 @@
                     data-open-course="securite-physique"
                     aria-haspopup="dialog"
                     aria-controls="tr-drawer-securite-physique"
-                    aria-label="Sécurité physique 101, 201, 202, 101 Blue, 26 octobre">101 Blue</button>
+                    aria-label="Sécurité physique 101, 201, 202, 101 Blue, 26 octobre, 09h00–17h00">101 Blue<span class="tr-cal-seg__hours">09h00–17h00</span></button>
             
             
             
@@ -1356,7 +1363,7 @@
                     data-open-course="securite-physique"
                     aria-haspopup="dialog"
                     aria-controls="tr-drawer-securite-physique"
-                    aria-label="Sécurité physique 101, 201, 202, 201 Red Team, 27–28 octobre">201 Red Team</button>
+                    aria-label="Sécurité physique 101, 201, 202, 201 Red Team, 27–28 octobre, 09h00–17h00">201 Red Team<span class="tr-cal-seg__hours">09h00–17h00</span></button>
             
             
             
@@ -1366,7 +1373,7 @@
                     data-open-course="securite-physique"
                     aria-haspopup="dialog"
                     aria-controls="tr-drawer-securite-physique"
-                    aria-label="Sécurité physique 101, 201, 202, 202 Rétro, 29 octobre">202 Rétro</button>
+                    aria-label="Sécurité physique 101, 201, 202, 202 Rétro, 29 octobre, 09h00–17h00">202 Rétro<span class="tr-cal-seg__hours">09h00–17h00</span></button>
             
           </div>
           
@@ -1381,7 +1388,7 @@
                     data-open-course="premier-repondant-ir"
                     aria-haspopup="dialog"
                     aria-controls="tr-drawer-premier-repondant-ir"
-                    aria-label="Devenir premier répondant en réponse aux cyberincidents, Réponse aux incidents, 27–29 octobre">Réponse aux incidents</button>
+                    aria-label="Devenir premier répondant en réponse aux cyberincidents, Réponse aux incidents, 27–29 octobre, 09h00–17h30">Réponse aux incidents<span class="tr-cal-seg__hours">09h00–17h30</span></button>
             
           </div>
           
@@ -1396,7 +1403,7 @@
                     data-open-course="azure-swat-phenix"
                     aria-haspopup="dialog"
                     aria-controls="tr-drawer-azure-swat-phenix"
-                    aria-label="Formation Cloud pragmatique &amp; Security Ops, Cloud &amp; SecOps, 27–28 octobre">Cloud & SecOps</button>
+                    aria-label="Formation Cloud pragmatique &amp; Security Ops, Cloud &amp; SecOps, 27–28 octobre, 09h00–18h00">Cloud & SecOps<span class="tr-cal-seg__hours">09h00–18h00</span></button>
             
           </div>
           
@@ -1411,7 +1418,7 @@
                     data-open-course="gestion-crise"
                     aria-haspopup="dialog"
                     aria-controls="tr-drawer-gestion-crise"
-                    aria-label="S&#39;initier à la gestion de crise, Gestion de crise, 28 octobre">Gestion de crise</button>
+                    aria-label="S&#39;initier à la gestion de crise, Gestion de crise, 28 octobre, 09h00–17h00">Gestion de crise<span class="tr-cal-seg__hours">09h00–17h00</span></button>
             
           </div>
           
@@ -1426,7 +1433,7 @@
                     data-open-course="osint-bootcamp"
                     aria-haspopup="dialog"
                     aria-controls="tr-drawer-osint-bootcamp"
-                    aria-label="OSINT / Social Engineering Bootcamp, OSINT / SE Bootcamp, 28–29 octobre">OSINT / SE Bootcamp</button>
+                    aria-label="OSINT / Social Engineering Bootcamp, OSINT / SE Bootcamp, 28–29 octobre, 09h00–17h30">OSINT / SE Bootcamp<span class="tr-cal-seg__hours">09h00–17h30</span></button>
             
           </div>
           
@@ -1441,7 +1448,7 @@
                     data-open-course="aiautomation"
                     aria-haspopup="dialog"
                     aria-controls="tr-drawer-aiautomation"
-                    aria-label="Sécurité &amp; automatisation intelligente, IA &amp; automatisation, 29 octobre">IA & automatisation</button>
+                    aria-label="Sécurité &amp; automatisation intelligente, IA &amp; automatisation, 29 octobre, 09h00–17h30">IA & automatisation<span class="tr-cal-seg__hours">09h00–17h30</span></button>
             
           </div>
           
@@ -1651,7 +1658,7 @@
         </div>
         <h2 class="tr-drawer__title" id="tr-drawer-title-securite-101">Sécurité 101-102-103-101C</h2>
         <div class="tr-drawer__meta">
-          <span>26–29 oct.</span><span>09h00–19h00</span><span>Hôtel Palace Royal, Québec</span>
+          <span>26–29 oct.</span><span>09h00–18h00</span><span>Hôtel Palace Royal, Québec</span>
         </div>
         <div class="tr-tabs" role="tablist" aria-label="Sections">
           
@@ -2380,7 +2387,7 @@
         </div>
         <h2 class="tr-drawer__title" id="tr-drawer-title-gestion-crise">S'initier à la gestion de crise</h2>
         <div class="tr-drawer__meta">
-          <span>mer. 28 oct.</span><span>08h30–16h30</span><span>Hôtel Palace Royal, Québec</span>
+          <span>mer. 28 oct.</span><span>09h00–17h00</span><span>Hôtel Palace Royal, Québec</span>
         </div>
         <div class="tr-tabs" role="tablist" aria-label="Sections">
           
@@ -2539,7 +2546,7 @@
         </div>
         <h2 class="tr-drawer__title" id="tr-drawer-title-premier-repondant-ir">Devenir premier répondant en réponse aux cyberincidents</h2>
         <div class="tr-drawer__meta">
-          <span>27–29 oct.</span><span>21 heures</span><span>Hôtel Palace Royal, Québec</span>
+          <span>27–29 oct.</span><span>09h00–17h30</span><span>Hôtel Palace Royal, Québec</span>
         </div>
         <div class="tr-tabs" role="tablist" aria-label="Sections">
           
@@ -2697,7 +2704,7 @@
         </div>
         <h2 class="tr-drawer__title" id="tr-drawer-title-osint-bootcamp">OSINT / Social Engineering Bootcamp</h2>
         <div class="tr-drawer__meta">
-          <span>28–29 oct.</span><span>2 jours</span><span>Hôtel Palace Royal, Québec</span>
+          <span>28–29 oct.</span><span>09h00–17h30</span><span>Hôtel Palace Royal, Québec</span>
         </div>
         <div class="tr-tabs" role="tablist" aria-label="Sections">
           

@@ -490,22 +490,22 @@
       <div class="hf-schedule-cs-lava-world-title-ghosts" aria-label="Liens vers les activités Hackfest">
         
           
-        <a href="ctfs#hfctf" class="hf-schedule-cs-lava-world-title-ghost" data-text="Hackfest CTF">Hackfest CTF</a>
+        <a href="ctfs" class="hf-schedule-cs-lava-world-title-ghost" data-text="Hackfest CTF">Hackfest CTF</a>
         
           
-        <a href="ctfs#beginner" class="hf-schedule-cs-lava-world-title-ghost" data-text="Beginner CTF">Beginner CTF</a>
+        <a href="ctfs" class="hf-schedule-cs-lava-world-title-ghost" data-text="Social Engineering CTF (SECTF)">Social Engineering CTF (SECTF)</a>
         
           
-        <a href="https://hackfest.ca/ctfs/se/" class="hf-schedule-cs-lava-world-title-ghost" data-text="Social Engineering Village (CTF & Présentations)">Social Engineering Village (CTF & Présentations)</a>
+        <a href="ctfs" class="hf-schedule-cs-lava-world-title-ghost" data-text="Escape Room">Escape Room</a>
         
           
-        <a href="ctfs#brainfuck" class="hf-schedule-cs-lava-world-title-ghost" data-text="BrainFuck">BrainFuck</a>
+        <a href="ctfs" class="hf-schedule-cs-lava-world-title-ghost" data-text="Beginner CTF">Beginner CTF</a>
         
           
-        <a href="after-dark" class="hf-schedule-cs-lava-world-title-ghost" data-text="AfterDark CTF">AfterDark CTF</a>
+        <a href="ctfs" class="hf-schedule-cs-lava-world-title-ghost" data-text="BrainFuck">BrainFuck</a>
         
           
-        <a href="ctfs#escape" class="hf-schedule-cs-lava-world-title-ghost" data-text="Escape Room">Escape Room</a>
+        <a href="ctfs" class="hf-schedule-cs-lava-world-title-ghost" data-text="AfterDark CTF">AfterDark CTF</a>
         
         
         <a href="services#ctf" class="hf-schedule-cs-lava-world-title-ghost" data-text="CTF as a Service">CTF as a Service</a>

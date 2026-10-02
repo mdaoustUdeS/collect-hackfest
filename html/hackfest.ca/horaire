@@ -321,7 +321,7 @@
             <span class="hr-daycard__tag">Hackfest · Jour 1</span>
             <span class="hr-daycard__title">Vendredi 30 octobre</span>
             
-            <span class="hr-daycard__meta" data-meta="{n} sessions dans 6 salles, villages, CTF. Le soir : French Connection, PEPIN, karaoké.">sessions dans 6 salles, villages, CTF. Le soir : French Connection, PEPIN, karaoké.</span>
+            <span class="hr-daycard__meta" data-meta="{n} sessions dans 6 salles, villages, CTF. Le soir : French Connection, PEPPIN, karaoké.">sessions dans 6 salles, villages, CTF. Le soir : French Connection, PEPPIN, karaoké.</span>
           </button>
           
           <button type="button" class="hr-daycard day-31" data-day="31">
@@ -828,7 +828,7 @@
     "monthLong": "octobre",
     "monthShort": "oct.",
     "monthFirst": false,
-    "days": [{"d":29,"dow":"Jeudi","short":"Jeu.","tag":"POLAR + pré-ouverture","meta":"POLAR (8h à 18h), inscriptions dès 16h, cocktail, début du HFCTF et Hackfest 101."},{"d":30,"dow":"Vendredi","short":"Ven.","tag":"Hackfest · Jour 1","meta":"{n} sessions dans 6 salles, villages, CTF. Le soir : French Connection, PEPIN, karaoké."},{"d":31,"dow":"Samedi","short":"Sam.","tag":"Hackfest · Jour 2","meta":"{n} sessions, villages, finales. Le soir : Afterdark, SE CTF, ghost talks."}],
+    "days": [{"d":29,"dow":"Jeudi","short":"Jeu.","tag":"POLAR + pré-ouverture","meta":"POLAR (8h à 18h), inscriptions dès 16h, cocktail, début du HFCTF et Hackfest 101."},{"d":30,"dow":"Vendredi","short":"Ven.","tag":"Hackfest · Jour 1","meta":"{n} sessions dans 6 salles, villages, CTF. Le soir : French Connection, PEPPIN, karaoké."},{"d":31,"dow":"Samedi","short":"Sam.","tag":"Hackfest · Jour 2","meta":"{n} sessions, villages, finales. Le soir : Afterdark, SE CTF, ghost talks."}],
     "rooms": [{"key":"T1","name":"Track 1","num":"306B","match":"306B"},{"key":"T2","name":"Track 2","num":"306A","match":"306A"},{"key":"T3","name":"Track 3","num":"2104AB","match":"2104"},{"key":"T4","name":"Track 4","num":"207","match":"\\b207\\b"},{"key":"SE","name":"Village SE","num":"308AB","match":"308"},{"key":"MS","name":"Spectacle","num":"2000A","match":"2000"}],
     "kinds": {"k":{"label":"Keynote","filter":"Keynotes"},"t":{"label":"Conférence","filter":"Conférences"},"w":{"label":"Atelier","filter":"Ateliers"},"n":{"label":"Soirée","filter":"Soirée & Afterdark"},"e":{"label":"Logistique","filter":""}},
     "program": [{"day":29,"start":"08:00","end":"18:00","title":"POLAR · Symposium pour les gestionnaires","desc":"Le Capitole de Québec. Présenté par Palo Alto Networks.","url":"/polar#schedule","where":"Le Capitole de Québec"},{"day":29,"start":"16:00","end":"21:00","title":"Ouverture des inscriptions","desc":"Récupérez votre badge et votre trousse de participant."},{"day":29,"start":"18:00","end":"22:00","title":"Cocktail d'ouverture","desc":"Présenté par Vooban."},{"day":29,"start":"18:00","title":"Début du HFCTF","desc":"24 h de compétition, jusqu'au vendredi 18h00.","url":"/ctfs#hfctf"},{"day":30,"start":"08:00","title":"Ouverture des portes"},{"day":30,"start":"18:00","title":"Fin du HFCTF","url":"/ctfs#hfctf"},{"day":31,"start":"08:00","title":"Ouverture des portes"}],
