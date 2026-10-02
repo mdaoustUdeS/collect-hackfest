@@ -324,8 +324,19 @@
       <div class="ctf-cards-grid">
         
         <article class="ctf-card ctf-card--hfctf" id="hfctf">
+          
+          
+          
+
+          
+          
+          
           <div class="ctf-card-media">
-            <img src="https://hackfest.ca/assets/images/ctfs/hfctf.webp" alt="Hackfest CTF" loading="lazy">
+            
+            <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-card-media-link" tabindex="-1" aria-hidden="true" target="_blank" rel="noopener">
+              <img src="https://hackfest.ca/assets/images/ctfs/hfctf.webp" alt="Hackfest CTF" loading="lazy">
+            </a>
+            
           </div>
 
           <div class="ctf-card-body">
@@ -349,15 +360,15 @@
           </div>
 
           <div class="ctf-card-foot">
-            <p class="ctf-card-access">Inclus avec le billet du Hackfest</p>
+            <p class="ctf-card-access">Billet Hackfest + CTF requis</p>
 
             
-            
-              
-              
             <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-card-register" target="_blank" rel="noopener">
-              L&#39;inscription se fait avec le billet du Hackfest : cliquez ici pour vous inscrire.
+              Le HFCTF demande le billet Hackfest + CTF : cliquez ici pour vous inscrire.
             </a>
+            
+
+            
             
 
             <div class="ctf-card-actions">
@@ -370,8 +381,19 @@
         </article>
         
         <article class="ctf-card ctf-card--social" id="social">
+          
+          
+          
+
+          
+          
+          
           <div class="ctf-card-media">
-            <img src="https://hackfest.ca/assets/images/ctfs/social.webp" alt="Social Engineering CTF (SECTF)" loading="lazy">
+            
+            <a href="https://hackfest.ca/ctfs/se/" class="ctf-card-media-link" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/ctfs/social.webp" alt="Social Engineering CTF (SECTF)" loading="lazy">
+            </a>
+            
           </div>
 
           <div class="ctf-card-body">
@@ -400,12 +422,12 @@
             <p class="ctf-card-access">Frais de 25 $ remboursables et billet du Hackfest</p>
 
             
-            
-              
-              
             <a href="https://hackfest.ca/ctfs/se/#register" class="ctf-card-register">
               Places limitées : cliquez ici pour vous inscrire et voir les étapes.
             </a>
+            
+
+            
             
 
             <div class="ctf-card-actions">
@@ -419,9 +441,81 @@
           </div>
         </article>
         
-        <article class="ctf-card ctf-card--escape" id="escape">
+        <article class="ctf-card ctf-card--stealthcup" id="stealthcup">
+          
+          
+          
+
+          
+          
+          
           <div class="ctf-card-media">
-            <img src="https://hackfest.ca/assets/images/ctfs/escape2.webp" alt="Escape Room" loading="lazy">
+            
+            <a href="https://hackfest.ca/ctfs/stealthcup/" class="ctf-card-media-link" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/ctfs/ctfroom.webp" alt="StealthCup" loading="lazy">
+            </a>
+            
+          </div>
+
+          <div class="ctf-card-body">
+            
+            <div class="ctf-pills">
+              <span class="ctf-pill ctf-pill--accent"><span class="ctf-dot" aria-hidden="true"></span>Nouveau</span>
+            </div>
+            
+            <h3 class="ctf-card-title">StealthCup</h3>
+            <p class="ctf-card-summary">Des red teams professionnelles attaquent un vrai réseau d&#39;entreprise IT/OT surveillé par de vrais outils de détection. Le pointage récompense la discrétion : chaque alerte coûte des points.</p>
+
+            
+            <dl class="ctf-card-facts">
+              
+              <dt>Quand</dt><dd>Sam. 31 oct., 9h à 17h</dd>
+              
+              <dt>Lieu</dt><dd>Centre des congrès de Québec</dd>
+              
+            </dl>
+            
+          </div>
+
+          <div class="ctf-card-foot">
+            <p class="ctf-card-access">Billet du Hackfest requis</p>
+
+            
+            <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-card-register" target="_blank" rel="noopener">
+              Un billet du Hackfest est requis pour participer : procurez-vous le vôtre dès maintenant, cliquez ici.
+            </a>
+            
+
+            
+            
+            <p class="ctf-card-soon">Inscription à la StealthCup à venir.</p>
+            
+
+            <div class="ctf-card-actions">
+              
+              <a href="https://hackfest.ca/ctfs/stealthcup/" class="ctf-btn ctf-btn--outline">En savoir plus</a>
+              
+              
+              <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-btn ctf-btn--register" target="_blank" rel="noopener">S&#39;inscrire au Hackfest</a>
+              
+            </div>
+          </div>
+        </article>
+        
+        <article class="ctf-card ctf-card--escape" id="escape">
+          
+          
+          
+
+          
+          
+          
+          <div class="ctf-card-media">
+            
+            <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-card-media-link" tabindex="-1" aria-hidden="true" target="_blank" rel="noopener">
+              <img src="https://hackfest.ca/assets/images/ctfs/escape2.webp" alt="Escape Room" loading="lazy">
+            </a>
+            
           </div>
 
           <div class="ctf-card-body">
@@ -445,15 +539,15 @@
           </div>
 
           <div class="ctf-card-foot">
-            <p class="ctf-card-access">Billet du Hackfest et inscription au HFCTF</p>
+            <p class="ctf-card-access">Billet Hackfest + CTF requis</p>
 
             
-            
-              
-              
             <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-card-register" target="_blank" rel="noopener">
-              Accessible aux participants du HFCTF : cliquez ici pour vous inscrire.
+              Accessible avec le billet Hackfest + CTF : cliquez ici pour vous inscrire.
             </a>
+            
+
+            
             
 
             <div class="ctf-card-actions">
@@ -466,8 +560,19 @@
         </article>
         
         <article class="ctf-card ctf-card--beginner" id="beginner">
+          
+          
+          
+
+          
+          
+          
           <div class="ctf-card-media">
-            <img src="https://hackfest.ca/assets/images/ctfs/beginner.webp" alt="Beginner CTF" loading="lazy">
+            
+            <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-card-media-link" tabindex="-1" aria-hidden="true" target="_blank" rel="noopener">
+              <img src="https://hackfest.ca/assets/images/ctfs/beginner.webp" alt="Beginner CTF" loading="lazy">
+            </a>
+            
           </div>
 
           <div class="ctf-card-body">
@@ -494,12 +599,12 @@
             <p class="ctf-card-access">Inclus avec le billet du Hackfest</p>
 
             
-            
-              
-              
             <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-card-register" target="_blank" rel="noopener">
               Aucune inscription séparée : votre billet du Hackfest suffit.
             </a>
+            
+
+            
             
 
             <div class="ctf-card-actions">
@@ -511,9 +616,79 @@
           </div>
         </article>
         
-        <article class="ctf-card ctf-card--brainfuck" id="brainfuck">
+        <article class="ctf-card ctf-card--lockpicking" id="lockpicking">
+          
+          
+          
+
+          
+          
+          
           <div class="ctf-card-media">
-            <img src="https://hackfest.ca/assets/images/ctfs/brainfuck.webp" alt="BrainFuck" loading="lazy">
+            
+            <a href="villages#village-lockpicking" class="ctf-card-media-link" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/villages/lockpicks.webp" alt="Lockpicking CTF" loading="lazy">
+            </a>
+            
+          </div>
+
+          <div class="ctf-card-body">
+            
+            <div class="ctf-pills">
+              <span class="ctf-pill ctf-pill--accent"><span class="ctf-dot" aria-hidden="true"></span>CTF</span>
+            </div>
+            
+            <h3 class="ctf-card-title">Lockpicking CTF</h3>
+            <p class="ctf-card-summary">Le village Lockpicking tient un CTF de crochetage de serrures et une compétition, ouverts à tous les niveaux. Serrures et outils fournis sur place.</p>
+
+            
+            <dl class="ctf-card-facts">
+              
+              <dt>Quand</dt><dd>30 et 31 oct., au village</dd>
+              
+              <dt>Pour</dt><dd>Tout le monde</dd>
+              
+            </dl>
+            
+          </div>
+
+          <div class="ctf-card-foot">
+            <p class="ctf-card-access">Inclus avec le billet du Hackfest</p>
+
+            
+            <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-card-register" target="_blank" rel="noopener">
+              Aucune inscription séparée : votre billet du Hackfest suffit.
+            </a>
+            
+
+            
+            
+
+            <div class="ctf-card-actions">
+              
+              <a href="villages#village-lockpicking" class="ctf-btn ctf-btn--outline">Voir le village</a>
+              
+              
+              <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-btn ctf-btn--register" target="_blank" rel="noopener">Obtenir un billet</a>
+              
+            </div>
+          </div>
+        </article>
+        
+        <article class="ctf-card ctf-card--brainfuck" id="brainfuck">
+          
+          
+          
+
+          
+          
+          
+          <div class="ctf-card-media">
+            
+            <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-card-media-link" tabindex="-1" aria-hidden="true" target="_blank" rel="noopener">
+              <img src="https://hackfest.ca/assets/images/ctfs/brainfuck.webp" alt="BrainFuck" loading="lazy">
+            </a>
+            
           </div>
 
           <div class="ctf-card-body">
@@ -540,12 +715,12 @@
             <p class="ctf-card-access">Inclus avec le billet du Hackfest</p>
 
             
-            
-              
-              
             <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-card-register" target="_blank" rel="noopener">
               Aucune inscription séparée : votre billet du Hackfest suffit.
             </a>
+            
+
+            
             
 
             <div class="ctf-card-actions">
@@ -558,8 +733,19 @@
         </article>
         
         <article class="ctf-card ctf-card--afterdark" id="afterdark">
+          
+          
+          
+
+          
+          
+          
           <div class="ctf-card-media">
-            <img src="https://hackfest.ca/assets/images/afterdark/afterdark.webp" alt="AfterDark CTF" loading="lazy">
+            
+            <a href="after-dark" class="ctf-card-media-link" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/afterdark/afterdark.webp" alt="AfterDark CTF" loading="lazy">
+            </a>
+            
           </div>
 
           <div class="ctf-card-body">
@@ -569,7 +755,7 @@
             </div>
             
             <h3 class="ctf-card-title">AfterDark CTF</h3>
-            <p class="ctf-card-summary">Le CTF de nuit du Hackfest : CTF Blueteam par Corelight, concours de social engineering 18+, poker et Ghost Talks.</p>
+            <p class="ctf-card-summary">La soirée nocturne du Hackfest : Security Impress Karaoke (à qui sont ces slides?), Ghost Talks et le Social Engineering CTF, édition de nuit (18+).</p>
 
             
             <dl class="ctf-card-facts">
@@ -584,6 +770,8 @@
 
           <div class="ctf-card-foot">
             <p class="ctf-card-access">Inclus avec le billet du Hackfest</p>
+
+            
 
             
             

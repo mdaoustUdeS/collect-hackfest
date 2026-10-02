@@ -425,7 +425,7 @@
 
     <div class="hf-schedule-cs-content">
       <h1 class="hf-schedule-cs-title">L'horaire est sorti</h1>
-      <p class="hf-schedule-cs-subtitle">Conférences & Workshops : 30 et 31 octobre</p>
+      <p class="hf-schedule-cs-subtitle">Conférences & Workshops : 29, 30 et 31 octobre</p>
       <p class="hf-schedule-cs-message">Plus de 50 conférences et ateliers sont au programme. Salles, heures, conférenciers : tout est dans l'horaire.</p>
       <a href="horaire" class="hf-schedule-cs-cta">
         Voir l'horaire
@@ -496,10 +496,16 @@
         <a href="ctfs" class="hf-schedule-cs-lava-world-title-ghost" data-text="Social Engineering CTF (SECTF)">Social Engineering CTF (SECTF)</a>
         
           
+        <a href="ctfs" class="hf-schedule-cs-lava-world-title-ghost" data-text="StealthCup">StealthCup</a>
+        
+          
         <a href="ctfs" class="hf-schedule-cs-lava-world-title-ghost" data-text="Escape Room">Escape Room</a>
         
           
         <a href="ctfs" class="hf-schedule-cs-lava-world-title-ghost" data-text="Beginner CTF">Beginner CTF</a>
+        
+          
+        <a href="ctfs" class="hf-schedule-cs-lava-world-title-ghost" data-text="Lockpicking CTF">Lockpicking CTF</a>
         
           
         <a href="ctfs" class="hf-schedule-cs-lava-world-title-ghost" data-text="BrainFuck">BrainFuck</a>
@@ -533,7 +539,7 @@
         
         <a href="villages#startups" class="hf-schedule-cs-lava-world-title-ghost" data-text="Vitrine Startups & Éducation">Vitrine Startups & Éducation</a>
         
-        <a href="villages#ai" class="hf-schedule-cs-lava-world-title-ghost" data-text="IA — Intelligence Artificielle">IA — Intelligence Artificielle</a>
+        <a href="villages#podcasts" class="hf-schedule-cs-lava-world-title-ghost" data-text="Village Podcasts">Village Podcasts</a>
         
         
         <a href="formations#securite-101" class="hf-schedule-cs-lava-world-title-ghost" data-text="Sécurité 101-102-103-101C">Sécurité 101-102-103-101C</a>

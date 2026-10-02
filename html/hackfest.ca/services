@@ -299,20 +299,18 @@
       <div class="services-hero-content">
         <h1>Services Professionnels</h1>
         <p class="services-hero-subtitle">Formations, conférences et CTF personnalisés</p>
-      </div>
-    </section>
 
-    <!-- Introduction Section -->
-    
-    <section class="services-intro">
-      <div class="services-intro-inner">
-        <h2>Expertise au service de votre sécurité</h2>
-        <p>Hackfest offre une gamme de services professionnels en cybersécurité. Forts de plus de 18 ans d'expérience dans l'organisation du plus grand événement de hacking au Canada, nous mettons notre expertise à votre disposition. Tous nos profits sont réinvestis dans les activités Hackfest et le développement de la communauté.</p>
+        <!-- Introduction: value proposition, inside the hero -->
         
+        <div class="services-intro-inner">
+          <h2>Expertise au service de votre sécurité</h2>
+          <p>Hackfest offre une gamme de services professionnels en cybersécurité. Forts de plus de 18 ans d'expérience dans l'organisation du plus grand événement de hacking au Canada, nous mettons notre expertise à votre disposition. Tous nos profits sont réinvestis dans les activités Hackfest et le développement de la communauté.</p>
+          
+          
+        </div>
         
       </div>
     </section>
-    
 
     <!-- Mobile section sub-navigation -->
     <nav class="services-subnav" id="servicesSubnav" aria-label="Sections">

@@ -29,14 +29,14 @@
 
 <!-- Primary meta -->
 <title>Villages — Hackfest 2026</title>
-<meta name="description" content="Explorez les 9 villages thématiques du Hackfest — lockpicking, radio amateur, SCADA, IA, et bien plus.">
+<meta name="description" content="Explorez les 9 villages thématiques du Hackfest : lockpicking, radio amateur, SCADA, podcasts, et bien plus. 30 et 31 octobre, 9h à 18h.">
 <link rel="canonical" href="villages">
 
 <!-- Open Graph -->
 <meta property="og:type"        content="website">
 <meta property="og:site_name"   content="Hackfest 2026">
 <meta property="og:title"       content="Villages — Hackfest 2026">
-<meta property="og:description" content="Explorez les 9 villages thématiques du Hackfest — lockpicking, radio amateur, SCADA, IA, et bien plus.">
+<meta property="og:description" content="Explorez les 9 villages thématiques du Hackfest : lockpicking, radio amateur, SCADA, podcasts, et bien plus. 30 et 31 octobre, 9h à 18h.">
 <meta property="og:url"         content="https://hackfest.ca/villages/">
 <meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
 <meta property="og:image:alt"   content="Hackfest 2026">
@@ -46,7 +46,7 @@
 <meta name="twitter:card"        content="summary">
 <meta name="twitter:site"        content="@hackfest_ca">
 <meta name="twitter:title"       content="Villages — Hackfest 2026">
-<meta name="twitter:description" content="Explorez les 9 villages thématiques du Hackfest — lockpicking, radio amateur, SCADA, IA, et bien plus.">
+<meta name="twitter:description" content="Explorez les 9 villages thématiques du Hackfest : lockpicking, radio amateur, SCADA, podcasts, et bien plus. 30 et 31 octobre, 9h à 18h.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
 
 <!-- Hreflang (bilingual) -->
@@ -65,10 +65,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Orbitron:wght@400;500;600;700&family=Fira+Code&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://hackfest.ca/assets/css/main.css">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/ctfs.css">
   <link rel="stylesheet" href="https://hackfest.ca/assets/css/villages.css">
   <script defer src="https://analytics.hackfest.ca/script.js" data-website-id="0ce77795-100e-4f53-92c3-5ea0922c0b15"></script>
 </head>
-<body class="villages-page">
+<body class="ctf-page villages-page">
   <header class="site-header">
   <div class="header-inner">
     <div class="header-left">
@@ -312,378 +313,462 @@
       <div class="villages-hero-content">
         <h1>Villages</h1>
         <p class="villages-hero-subtitle">9 espaces thématiques, 1 événement</p>
-      </div>
-    </section>
 
-    <!-- ===================================================================
-         INTRO BLOCK
-         Short centred paragraph introducing the villages concept.
-         =================================================================== -->
-    
-    <section class="villages-intro">
-      <div class="villages-intro-inner">
-        <h2>9 villages, 1 événement</h2>
-        <p>Les villages du Hackfest sont GRATUITS et des espaces interactifs animés par des experts passionnés. Chaque village offre une expérience unique : démonstrations, ateliers pratiques, conférences et défis. Venez explorer, apprendre et échanger avec la communauté.
-</p>
+        <!-- Opening hours (a village can run longer: see its card / modal) -->
         
+        <p class="villages-hero-hours">30 et 31 octobre, 9h à 18h</p>
+        <p class="villages-hero-hours-note">Sauf indication contraire dans la fiche du village.</p>
+        
+
+        <!-- One Hackfest ticket button for all villages (not repeated on each card) -->
+        
+        <div class="villages-hero-ticket">
+          <p>Les villages sont gratuits pour les détenteurs d&#39;un billet du Hackfest.</p>
+          <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-btn ctf-btn--register" target="_blank" rel="noopener">S&#39;inscrire au Hackfest</a>
+        </div>
+        
+
+        <!-- Intro: short paragraph introducing the villages, inside the hero -->
+        
+        <div class="villages-intro-inner">
+          <h2>9 villages, 1 événement</h2>
+          <p>Les villages du Hackfest sont GRATUITS et des espaces interactifs animés par des experts passionnés. Chaque village offre une expérience unique : démonstrations, ateliers pratiques, conférences et défis. Venez explorer, apprendre et échanger avec la communauté.
+</p>
+          
+          
+        </div>
         
       </div>
     </section>
-    
 
     <!-- ===================================================================
          VILLAGE CARDS GRID
-         One card per village. Cards are <button> elements with data-village
-         attribute used by villages.js to identify which modal to open.
+         Same card system as /ctfs/ (ctfs.css: .ctf-card, .ctf-pill, .ctf-btn).
+         Villages with a modal get a "Détails" button (data-village, used by
+         villages.js); villages with their own page get "En savoir plus".
          =================================================================== -->
-    <section class="villages-grid-section">
-      <div class="villages-grid">
+    <section class="ctf-cards villages-cards">
+      <div class="ctf-cards-grid">
         
 
         
-        
-        <button class="village-card" id="village-lockpicking" data-village="lockpicking"
-                aria-haspopup="dialog" aria-controls="modal-lockpicking">
-        
-
-          <!-- Background: image if available, else CSS gradient fallback -->
-          <div class="village-card-bg"
-            style="background-image:url('https://hackfest.ca/assets/images/villages/lockpicks.webp')"
-          ></div>
-
-          <!-- Gradient overlay darkening the bottom half -->
-          <div class="village-card-overlay"></div>
-
-          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
-          <div class="village-card-content">
+        <article class="ctf-card village-card" id="village-lockpicking">
+          
+          
+          
+          <div class="ctf-card-media">
             
+            <button type="button" class="ctf-card-media-link" data-village="lockpicking" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/villages/lockpicks.webp" alt="Lockpicking" loading="lazy">
+            </button>
             
-            <div class="village-card-tags">
+          </div>
+          
+
+          <div class="ctf-card-body">
+            
+            <div class="ctf-pills">
               
-              <span class="village-tag">hands-on</span>
+              <span class="ctf-pill ctf-pill--accent"><span class="ctf-dot" aria-hidden="true"></span>CTF</span>
               
-              <span class="village-tag">débutant</span>
+              <span class="ctf-pill">hands-on</span>
+              
+              <span class="ctf-pill">débutant</span>
               
             </div>
             
-            <h2 class="village-card-name">Lockpicking</h2>
-            <p class="village-card-desc">Atelier de crochetage de serrures et CTF ouvert à tous les niveaux. Venez tester vos aptitudes manuelles.</p>
-            <span class="village-card-cta">En savoir plus →</span>
+            <h3 class="ctf-card-title">Lockpicking</h3>
+            <p class="ctf-card-summary">Atelier de crochetage de serrures, CTF et compétition de lockpicking, ouverts à tous les niveaux. Venez tester vos aptitudes manuelles.</p>
+
+            
           </div>
 
-        
-        </button>
-        
+          <div class="ctf-card-foot">
+            <p class="ctf-card-access">Inclus avec le billet Hackfest</p>
+
+            <div class="ctf-card-actions">
+              
+              <button type="button" class="ctf-btn ctf-btn--outline" data-village="lockpicking"
+                      aria-haspopup="dialog" aria-controls="modal-lockpicking">Détails</button>
+              
+            </div>
+          </div>
+        </article>
 
         
 
         
-        
-        <button class="village-card" id="village-social-engineering" data-village="social-engineering"
-                aria-haspopup="dialog" aria-controls="modal-social-engineering">
-        
-
-          <!-- Background: image if available, else CSS gradient fallback -->
-          <div class="village-card-bg"
-            style="background-image:url('https://hackfest.ca/assets/images/villages/se.webp')"
-          ></div>
-
-          <!-- Gradient overlay darkening the bottom half -->
-          <div class="village-card-overlay"></div>
-
-          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
-          <div class="village-card-content">
+        <article class="ctf-card village-card" id="village-social-engineering">
+          
+          
+          
+          <div class="ctf-card-media">
             
+            <button type="button" class="ctf-card-media-link" data-village="social-engineering" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/villages/se.webp" alt="Social Engineering Village (CTF &amp; Présentations)" loading="lazy">
+            </button>
             
-            <div class="village-card-tags">
+          </div>
+          
+
+          <div class="ctf-card-body">
+            
+            <div class="ctf-pills">
               
-              <span class="village-tag">compétition</span>
+              <span class="ctf-pill ctf-pill--accent"><span class="ctf-dot" aria-hidden="true"></span>compétition</span>
               
-              <span class="village-tag">vishing</span>
+              <span class="ctf-pill">vishing</span>
               
-              <span class="village-tag">OSINT</span>
+              <span class="ctf-pill">OSINT</span>
               
             </div>
             
-            <h2 class="village-card-name">Social Engineering Village (CTF & Présentations)</h2>
-            <p class="village-card-desc">Présentations & concours de social engineering en direct : vishing, prétexting et OSINT face à de vraies cibles.</p>
-            <span class="village-card-cta">En savoir plus →</span>
+            <h3 class="ctf-card-title">Social Engineering Village (CTF &amp; Présentations)</h3>
+            <p class="ctf-card-summary">Présentations &amp; concours de social engineering en direct : vishing, prétexting et OSINT face à de vraies cibles.</p>
+
+            
           </div>
 
-        
-        </button>
-        
+          <div class="ctf-card-foot">
+            <p class="ctf-card-access">Inclus avec le billet Hackfest</p>
+
+            <div class="ctf-card-actions">
+              
+              <button type="button" class="ctf-btn ctf-btn--outline" data-village="social-engineering"
+                      aria-haspopup="dialog" aria-controls="modal-social-engineering">Détails</button>
+              
+            </div>
+          </div>
+        </article>
 
         
 
         
-        
-        <a class="village-card" id="village-generations" href="https://hackfest.ca/villages/generations/">
-        
-
-          <!-- Background: image if available, else CSS gradient fallback -->
-          <div class="village-card-bg"
-            style="background-image:url('https://hackfest.ca/assets/images/villages/generation.webp')"
-          ></div>
-
-          <!-- Gradient overlay darkening the bottom half -->
-          <div class="village-card-overlay"></div>
-
-          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
-          <div class="village-card-content">
+        <article class="ctf-card village-card" id="village-generations">
+          
+          
+          
+          <div class="ctf-card-media">
             
+            <a href="https://hackfest.ca/villages/generations/" class="ctf-card-media-link" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/villages/generation.webp" alt="Hackfest Générations" loading="lazy">
+            </a>
             
-            <div class="village-card-tags">
+          </div>
+          
+
+          <div class="ctf-card-body">
+            
+            <div class="ctf-pills">
               
-              <span class="village-tag">jeunesse</span>
+              <span class="ctf-pill ctf-pill--accent"><span class="ctf-dot" aria-hidden="true"></span>jeunesse</span>
               
-              <span class="village-tag">éducation</span>
+              <span class="ctf-pill">éducation</span>
               
-              <span class="village-tag">initiation</span>
+              <span class="ctf-pill">initiation</span>
               
             </div>
             
-            <h2 class="village-card-name">Hackfest Générations</h2>
-            <p class="village-card-desc">Initiation à la cybersécurité pour les jeunes de 7 à 17 ans. Activités adaptées, encadrées par des mentors.</p>
-            <span class="village-card-cta">En savoir plus →</span>
+            <h3 class="ctf-card-title">Hackfest Générations</h3>
+            <p class="ctf-card-summary">Initiation à la cybersécurité pour les jeunes de 7 à 17 ans. Activités adaptées, encadrées par des mentors.</p>
+
+            
           </div>
 
-        
-        </a>
-        
+          <div class="ctf-card-foot">
+            <p class="ctf-card-access">Inclus avec le billet Hackfest</p>
+
+            <div class="ctf-card-actions">
+              
+              <a href="https://hackfest.ca/villages/generations/" class="ctf-btn ctf-btn--outline">En savoir plus</a>
+              
+            </div>
+          </div>
+        </article>
 
         
 
         
-        
-        <button class="village-card" id="village-ham-radio" data-village="ham-radio"
-                aria-haspopup="dialog" aria-controls="modal-ham-radio">
-        
-
-          <!-- Background: image if available, else CSS gradient fallback -->
-          <div class="village-card-bg"
-            style="background-image:url('https://hackfest.ca/assets/images/villages/hamradio.webp')"
-          ></div>
-
-          <!-- Gradient overlay darkening the bottom half -->
-          <div class="village-card-overlay"></div>
-
-          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
-          <div class="village-card-content">
+        <article class="ctf-card village-card" id="village-ham-radio">
+          
+          
+          
+          <div class="ctf-card-media">
             
+            <button type="button" class="ctf-card-media-link" data-village="ham-radio" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/villages/hamradio.webp" alt="Radio Amateur" loading="lazy">
+            </button>
             
-            <div class="village-card-tags">
+          </div>
+          
+
+          <div class="ctf-card-body">
+            
+            <div class="ctf-pills">
               
-              <span class="village-tag">RF</span>
+              <span class="ctf-pill ctf-pill--accent"><span class="ctf-dot" aria-hidden="true"></span>RF</span>
               
-              <span class="village-tag">radio</span>
+              <span class="ctf-pill">radio</span>
               
-              <span class="village-tag">communications</span>
+              <span class="ctf-pill">communications</span>
               
             </div>
             
-            <h2 class="village-card-name">Radio Amateur</h2>
-            <p class="village-card-desc">Démonstrations de radio amateur, communications RF et SDR. Un monde de fréquences à explorer.</p>
-            <span class="village-card-cta">En savoir plus →</span>
+            <h3 class="ctf-card-title">Radio Amateur</h3>
+            <p class="ctf-card-summary">Démonstrations de radio amateur, communications RF et SDR. Un monde de fréquences à explorer.</p>
+
+            
           </div>
 
-        
-        </button>
-        
+          <div class="ctf-card-foot">
+            <p class="ctf-card-access">Inclus avec le billet Hackfest</p>
+
+            <div class="ctf-card-actions">
+              
+              <button type="button" class="ctf-btn ctf-btn--outline" data-village="ham-radio"
+                      aria-haspopup="dialog" aria-controls="modal-ham-radio">Détails</button>
+              
+            </div>
+          </div>
+        </article>
 
         
 
         
-        
-        <button class="village-card" id="village-noc" data-village="noc"
-                aria-haspopup="dialog" aria-controls="modal-noc">
-        
-
-          <!-- Background: image if available, else CSS gradient fallback -->
-          <div class="village-card-bg"
-            style="background-image:url('https://hackfest.ca/assets/images/villages/noc.webp')"
-          ></div>
-
-          <!-- Gradient overlay darkening the bottom half -->
-          <div class="village-card-overlay"></div>
-
-          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
-          <div class="village-card-content">
+        <article class="ctf-card village-card" id="village-noc">
+          
+          
+          
+          <div class="ctf-card-media">
             
+            <button type="button" class="ctf-card-media-link" data-village="noc" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/villages/noc.webp" alt="Palo Alto NOC" loading="lazy">
+            </button>
             
-            <div class="village-card-tags">
+          </div>
+          
+
+          <div class="ctf-card-body">
+            
+            <div class="ctf-pills">
               
-              <span class="village-tag">réseau</span>
+              <span class="ctf-pill ctf-pill--accent"><span class="ctf-dot" aria-hidden="true"></span>réseau</span>
               
-              <span class="village-tag">défense</span>
+              <span class="ctf-pill">défense</span>
               
-              <span class="village-tag">SOC</span>
+              <span class="ctf-pill">SOC</span>
               
             </div>
             
-            <h2 class="village-card-name">Palo Alto NOC</h2>
-            <p class="village-card-desc">Centre d'opérations réseau en direct. Surveillance, analyse et réponse aux incidents en temps réel.</p>
-            <span class="village-card-cta">En savoir plus →</span>
+            <h3 class="ctf-card-title">Palo Alto NOC</h3>
+            <p class="ctf-card-summary">Centre d&#39;opérations réseau en direct. Surveillance, analyse et réponse aux incidents en temps réel.</p>
+
+            
+            <p class="village-sponsor">
+              <span>Présenté par</span>
+              <img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="https://www.paloaltonetworks.com" loading="lazy">
+            </p>
+            
           </div>
 
-        
-        </button>
-        
+          <div class="ctf-card-foot">
+            <p class="ctf-card-access">Inclus avec le billet Hackfest</p>
+
+            <div class="ctf-card-actions">
+              
+              <button type="button" class="ctf-btn ctf-btn--outline" data-village="noc"
+                      aria-haspopup="dialog" aria-controls="modal-noc">Détails</button>
+              
+            </div>
+          </div>
+        </article>
 
         
 
         
-        
-        <button class="village-card" id="village-hack-ta-carriere" data-village="hack-ta-carriere"
-                aria-haspopup="dialog" aria-controls="modal-hack-ta-carriere">
-        
-
-          <!-- Background: image if available, else CSS gradient fallback -->
-          <div class="village-card-bg"
-            style="background-image:url('https://hackfest.ca/assets/images/villages/job.webp')"
-          ></div>
-
-          <!-- Gradient overlay darkening the bottom half -->
-          <div class="village-card-overlay"></div>
-
-          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
-          <div class="village-card-content">
+        <article class="ctf-card village-card" id="village-hack-ta-carriere">
+          
+          
+          
+          <div class="ctf-card-media">
             
+            <button type="button" class="ctf-card-media-link" data-village="hack-ta-carriere" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/villages/job.webp" alt="Hack ta Carrière" loading="lazy">
+            </button>
             
-            <div class="village-card-tags">
+          </div>
+          
+
+          <div class="ctf-card-body">
+            
+            <div class="ctf-pills">
               
-              <span class="village-tag">carrière</span>
+              <span class="ctf-pill ctf-pill--accent"><span class="ctf-dot" aria-hidden="true"></span>carrière</span>
               
-              <span class="village-tag">emploi</span>
+              <span class="ctf-pill">emploi</span>
               
-              <span class="village-tag">networking</span>
+              <span class="ctf-pill">networking</span>
               
             </div>
             
-            <h2 class="village-card-name">Hack ta Carrière</h2>
-            <p class="village-card-desc">Rencontrez des employeurs, découvrez les métiers de la cybersécurité et faites évoluer votre carrière.</p>
-            <span class="village-card-cta">En savoir plus →</span>
+            <h3 class="ctf-card-title">Hack ta Carrière</h3>
+            <p class="ctf-card-summary">Rencontrez des employeurs, découvrez les métiers de la cybersécurité et faites évoluer votre carrière.</p>
+
+            
+            <p class="village-sponsor">
+              <span>Présenté par</span>
+              <img src="https://hackfest.ca/assets/images/sponsors/talenty.webp" alt="https://www.talenty.ca" loading="lazy">
+            </p>
+            
           </div>
 
-        
-        </button>
-        
+          <div class="ctf-card-foot">
+            <p class="ctf-card-access">Inclus avec le billet Hackfest</p>
+
+            <div class="ctf-card-actions">
+              
+              <button type="button" class="ctf-btn ctf-btn--outline" data-village="hack-ta-carriere"
+                      aria-haspopup="dialog" aria-controls="modal-hack-ta-carriere">Détails</button>
+              
+            </div>
+          </div>
+        </article>
 
         
 
         
-        
-        <a class="village-card" id="village-scada" href="https://hackfest.ca/villages/scada/">
-        
-
-          <!-- Background: image if available, else CSS gradient fallback -->
-          <div class="village-card-bg"
-            style="background-image:url('https://hackfest.ca/assets/images/villages/scada.webp')"
-          ></div>
-
-          <!-- Gradient overlay darkening the bottom half -->
-          <div class="village-card-overlay"></div>
-
-          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
-          <div class="village-card-content">
+        <article class="ctf-card village-card" id="village-scada">
+          
+          
+          
+          <div class="ctf-card-media">
             
+            <a href="https://hackfest.ca/villages/scada/" class="ctf-card-media-link" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/villages/scada.webp" alt="SCADA / OT" loading="lazy">
+            </a>
             
-            <div class="village-card-tags">
+          </div>
+          
+
+          <div class="ctf-card-body">
+            
+            <div class="ctf-pills">
               
-              <span class="village-tag">ICS</span>
+              <span class="ctf-pill ctf-pill--accent"><span class="ctf-dot" aria-hidden="true"></span>ICS</span>
               
-              <span class="village-tag">OT</span>
+              <span class="ctf-pill">OT</span>
               
-              <span class="village-tag">infrastructures critiques</span>
+              <span class="ctf-pill">infrastructures critiques</span>
               
             </div>
             
-            <h2 class="village-card-name">SCADA / OT</h2>
-            <p class="village-card-desc">Présenté par Phoenix Contact. Cybersécurité industrielle (ICS/OT), démonstrations d'équipements réels et un CTF King of the Hill.</p>
-            <span class="village-card-cta">En savoir plus →</span>
+            <h3 class="ctf-card-title">SCADA / OT</h3>
+            <p class="ctf-card-summary">Présenté par Phoenix Contact. Cybersécurité industrielle (ICS/OT), démonstrations d&#39;équipements réels et un CTF King of the Hill.</p>
+
+            
           </div>
 
-        
-        </a>
-        
+          <div class="ctf-card-foot">
+            <p class="ctf-card-access">Inclus avec le billet Hackfest</p>
+
+            <div class="ctf-card-actions">
+              
+              <a href="https://hackfest.ca/villages/scada/" class="ctf-btn ctf-btn--outline">En savoir plus</a>
+              
+            </div>
+          </div>
+        </article>
 
         
 
         
-        
-        <button class="village-card" id="village-startups" data-village="startups"
-                aria-haspopup="dialog" aria-controls="modal-startups">
-        
-
-          <!-- Background: image if available, else CSS gradient fallback -->
-          <div class="village-card-bg"
-            style="background-image:url('https://hackfest.ca/assets/images/villages/startup.webp')"
-          ></div>
-
-          <!-- Gradient overlay darkening the bottom half -->
-          <div class="village-card-overlay"></div>
-
-          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
-          <div class="village-card-content">
+        <article class="ctf-card village-card" id="village-startups">
+          
+          
+          
+          <div class="ctf-card-media">
             
+            <button type="button" class="ctf-card-media-link" data-village="startups" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/villages/startup.webp" alt="Vitrine Startups &amp; Éducation" loading="lazy">
+            </button>
             
-            <div class="village-card-tags">
+          </div>
+          
+
+          <div class="ctf-card-body">
+            
+            <div class="ctf-pills">
               
-              <span class="village-tag">innovation</span>
+              <span class="ctf-pill ctf-pill--accent"><span class="ctf-dot" aria-hidden="true"></span>innovation</span>
               
-              <span class="village-tag">startups</span>
+              <span class="ctf-pill">startups</span>
               
-              <span class="village-tag">produits</span>
+              <span class="ctf-pill">produits</span>
               
             </div>
             
-            <h2 class="village-card-name">Vitrine Startups & Éducation</h2>
-            <p class="village-card-desc">Découvrez les startups innovantes en cybersécurité. Présentations de produits et rencontres avec les fondateurs.</p>
-            <span class="village-card-cta">En savoir plus →</span>
+            <h3 class="ctf-card-title">Vitrine Startups &amp; Éducation</h3>
+            <p class="ctf-card-summary">Découvrez les startups innovantes en cybersécurité. Présentations de produits et rencontres avec les fondateurs.</p>
+
+            
           </div>
 
-        
-        </button>
-        
+          <div class="ctf-card-foot">
+            <p class="ctf-card-access">Inclus avec le billet Hackfest</p>
+
+            <div class="ctf-card-actions">
+              
+              <button type="button" class="ctf-btn ctf-btn--outline" data-village="startups"
+                      aria-haspopup="dialog" aria-controls="modal-startups">Détails</button>
+              
+            </div>
+          </div>
+        </article>
 
         
 
         
-        
-        <button class="village-card" id="village-ai" data-village="ai"
-                aria-haspopup="dialog" aria-controls="modal-ai">
-        
-
-          <!-- Background: image if available, else CSS gradient fallback -->
-          <div class="village-card-bg"
-            style="background-image:url('https://hackfest.ca/assets/images/villages/ai.webp')"
-          ></div>
-
-          <!-- Gradient overlay darkening the bottom half -->
-          <div class="village-card-overlay"></div>
-
-          <!-- Card content: icon fallback, tags, name, short desc, CTA -->
-          <div class="village-card-content">
+        <article class="ctf-card village-card" id="village-podcasts">
+          
+          
+          
+          <div class="ctf-card-media ctf-card-media--contain">
             
+            <a href="https://hackfest.ca/villages/podcasts/" class="ctf-card-media-link" tabindex="-1" aria-hidden="true">
+              <img src="https://hackfest.ca/assets/images/villages/podcasts.webp" alt="Village Podcasts" loading="lazy">
+            </a>
             
-            <div class="village-card-tags">
+          </div>
+          
+
+          <div class="ctf-card-body">
+            
+            <div class="ctf-pills">
               
-              <span class="village-tag">IA</span>
+              <span class="ctf-pill ctf-pill--accent"><span class="ctf-dot" aria-hidden="true"></span>podcasts</span>
               
-              <span class="village-tag">LLM</span>
+              <span class="ctf-pill">en direct</span>
               
-              <span class="village-tag">sécurité IA</span>
+              <span class="ctf-pill">communauté</span>
               
             </div>
             
-            <h2 class="village-card-name">IA — Intelligence Artificielle</h2>
-            <p class="village-card-desc">Exploration de l'IA appliquée à la cybersécurité : attaques, défenses et enjeux éthiques.</p>
-            <span class="village-card-cta">En savoir plus →</span>
+            <h3 class="ctf-card-title">Village Podcasts</h3>
+            <p class="ctf-card-summary">Enregistrements en direct avec La French Connection, Go Pyrate podcast, Maeve Security Podcast, et d&#39;autres à venir.</p>
+
+            
           </div>
 
-        
-        </button>
-        
+          <div class="ctf-card-foot">
+            <p class="ctf-card-access">Inclus avec le billet Hackfest</p>
+
+            <div class="ctf-card-actions">
+              
+              <a href="https://hackfest.ca/villages/podcasts/" class="ctf-btn ctf-btn--outline">En savoir plus</a>
+              
+            </div>
+          </div>
+        </article>
 
         
       </div>
@@ -721,6 +806,8 @@
         
         <div class="village-card-tags villages-modal-tags">
           
+          <span class="village-tag">CTF</span>
+          
           <span class="village-tag">hands-on</span>
           
           <span class="village-tag">débutant</span>
@@ -729,7 +816,7 @@
         
 
         <!-- Full description -->
-        <div class="villages-modal-desc"><p>Venez tester vos aptitudes en crochetage de serrures dans un cadre ludique et pédagogique. Des instructeurs expérimentés vous guideront, que vous soyez complètement débutant ou déjà initié. Toutes les serrures et outils sont fournis sur place. Un village idéal pour comprendre les vulnérabilités physiques souvent négligées dans les stratégies de sécurité.</p>
+        <div class="villages-modal-desc"><p>Venez tester vos aptitudes en crochetage de serrures dans un cadre ludique et pédagogique. Des instructeurs expérimentés vous guideront, que vous soyez complètement débutant ou déjà initié. Toutes les serrures et outils sont fournis sur place. Un village idéal pour comprendre les vulnérabilités physiques souvent négligées dans les stratégies de sécurité. Le village propose aussi un CTF de lockpicking et une compétition : mesurez-vous aux autres participants!</p>
 </div>
 
         <!-- Sponsor block
@@ -1165,74 +1252,6 @@
     </div><!-- /.villages-modal -->
     
     
-    
-    <div class="villages-modal"
-         id="modal-ai"
-         role="dialog"
-         aria-modal="true"
-         aria-labelledby="modal-title-ai"
-         hidden>
-
-      <!-- Modal header: village name + close button -->
-      <div class="villages-modal-header">
-        <h2 class="villages-modal-title" id="modal-title-ai">IA — Intelligence Artificielle</h2>
-        <button class="villages-modal-close"
-                aria-label="Fermer">✕</button>
-      </div>
-
-      <!-- Modal body: tags, full desc, sponsor, schedule, logistics -->
-      <div class="villages-modal-body">
-
-        <!-- Tags row -->
-        
-        <div class="village-card-tags villages-modal-tags">
-          
-          <span class="village-tag">IA</span>
-          
-          <span class="village-tag">LLM</span>
-          
-          <span class="village-tag">sécurité IA</span>
-          
-        </div>
-        
-
-        <!-- Full description -->
-        <div class="villages-modal-desc"><p>Le village IA explore l’intersection entre l’intelligence artificielle et la cybersécurité sous tous ses angles. Comment les attaquants utilisent-ils les LLM ? Comment défendre les systèmes IA contre les adversaires ? Quelles sont les implications éthiques de l’IA militarisée ? Des démonstrations pratiques, des présentations et des discussions ouvertes vous attendent dans cet espace à la pointe de l’actualité technologique.</p>
-</div>
-
-        <!-- Sponsor block
-             Renders when sponsor is a hash with at least one of: name, logo.
-             Sponsor must be a YAML object — a plain string value is ignored.
-             Examples in YAML:
-               sponsor:
-                 name: "Acme Corp"               # text only (no link, no image)
-                 logo: "sponsors/acme.png"        # image only (no name, no URL)
-                 url:  "https://acme.com"         # makes the name a clickable link
-        -->
-        
-
-        <!-- Schedule block (only when schedule array is not empty) -->
-        
-        <div class="villages-modal-schedule">
-          <h3 class="villages-modal-section-title">Horaire</h3>
-          <ol class="villages-modal-schedule-list">
-            
-            <li class="villages-modal-schedule-item">Plus d'informations bientôt disponibles.</li>
-            
-          </ol>
-        </div>
-        
-
-        <!-- Logistics block (only when logistics string is not empty) -->
-        
-        <div class="villages-modal-logistics">
-          <h3 class="villages-modal-section-title">Logistique</h3>
-          <p>Plus d'informations bientôt disponibles.</p>
-        </div>
-        
-
-      </div><!-- /.villages-modal-body -->
-    </div><!-- /.villages-modal -->
     
     
 

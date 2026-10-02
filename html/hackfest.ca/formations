@@ -369,6 +369,29 @@
     </section>
 
     <!-- ===================================================================
+         STICKY SECTION MENU
+         Same markup as /horaire and /ctfs/se/, so assets/js/schedule-subnav.js
+         handles smooth scroll, missing targets and the active link
+         =================================================================== -->
+    
+    <nav class="schedule-subnav tr-subnav" aria-label="Sections de la page">
+      <ul class="schedule-subnav-list">
+        
+        <li><a class="schedule-subnav-link" href="formations#catalogue">Formations</a></li>
+        
+        <li><a class="schedule-subnav-link" href="formations#forfaits">Forfaits</a></li>
+        
+        <li><a class="schedule-subnav-link" href="formations#calendrier">Calendrier</a></li>
+        
+        <li><a class="schedule-subnav-link" href="formations#formateurs">Formateurs</a></li>
+        
+        <li><a class="schedule-subnav-link" href="formations#faq">FAQ</a></li>
+        
+      </ul>
+    </nav>
+    
+
+    <!-- ===================================================================
          2. INCLUDED BAND
          =================================================================== -->
     <section class="tr-included" aria-label="Inclus avec chaque formation">
@@ -1155,7 +1178,7 @@
     <!-- ===================================================================
          4. BUNDLES
          =================================================================== -->
-    <section class="tr-section tr-bundles" aria-labelledby="tr-bundles-title">
+    <section id="forfaits" class="tr-section tr-bundles" aria-labelledby="tr-bundles-title">
       <div class="tr-bundles__panel">
         <h2 class="tr-h2 tr-h2--sm" id="tr-bundles-title">Économisez avec les forfaits</h2>
         <p class="tr-sub tr-bundles__sub">Enchaînez les cours d'une même série et payez moins.</p>
@@ -3196,5 +3219,6 @@
 
   <script src="assets/js/main.js"></script>
   <script src="https://hackfest.ca/assets/js/trainings.js"></script>
+  <script src="https://hackfest.ca/assets/js/schedule-subnav.js"></script>
 </body>
 </html>
