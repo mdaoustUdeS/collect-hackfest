@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hackfest : nouvelles</title>
+    <link>https://hackfest.ca/</link>
+    <description>Les dernières nouvelles du Hackfest, de POLAR et de la communauté.</description>
+    <language>fr-CA</language>
+    <lastBuildDate>Sat, 03 Oct 2026 21:01:41 +0000</lastBuildDate>
+    <atom:link href="https://hackfest.ca/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://hackfest.ca/assets/images/global/cercle-black-transparent.webp</url>
+      <title>Hackfest : nouvelles</title>
+      <link>https://hackfest.ca/</link>
+    </image>
+    
+    
+    
+    
+    <item>
+      <title>Nouveau au Hackfest 2026 : la StealthCup (des red teams notées sur leur discrétion,…</title>
+      <link>https://hackfest.ca/ctfs/stealthcup/</link>
+      <guid isPermaLink="false">https://hackfest.ca/#news-2026-10-02-7</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Nouveau au &lt;strong&gt;Hackfest 2026&lt;/strong&gt; : la &lt;strong&gt;StealthCup&lt;/strong&gt; (des red teams notées sur leur discrétion, samedi 31 octobre), le &lt;strong&gt;Village Podcasts&lt;/strong&gt; et un &lt;strong&gt;CTF de lockpicking&lt;/strong&gt;, à découvrir sur les pages CTF et Villages revues.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/ctfs/stealthcup/&quot;&gt;StealthCup&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/ctfs/&quot;&gt;CTF&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/villages/&quot;&gt;Villages&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    
+    
+    
+    
+    <item>
+      <title>Jeff Man est le conférencier d’honneur du Hackfest 2026 : cryptanalyste certifié NSA, architecte…</title>
+      <link>https://hackfest.ca/hackfest-schedule</link>
+      <guid isPermaLink="false">https://hackfest.ca/#news-2026-09-07-6</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Jeff Man&lt;/strong&gt; est le conférencier d’honneur du &lt;strong&gt;Hackfest 2026&lt;/strong&gt; : cryptanalyste certifié NSA, architecte de la première « red team » de la NSA et inventeur de la Whiz Wheel. Il montera aussi sur la scène de &lt;strong&gt;POLAR&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/hackfest-schedule&quot;&gt;Keynote Hackfest&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/polar&quot;&gt;POLAR&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    
+    
+    
+    
+    <item>
+      <title>De nouveaux partenaires se joignent à l’édition 2026 du Hackfest et de POLAR. Merci…</title>
+      <link>https://hackfest.ca/partenaires-hackfest</link>
+      <guid isPermaLink="false">https://hackfest.ca/#news-2026-05-14-5</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;De &lt;strong&gt;nouveaux partenaires&lt;/strong&gt; se joignent à l’édition 2026 du &lt;strong&gt;Hackfest&lt;/strong&gt; et de &lt;strong&gt;POLAR&lt;/strong&gt;. Merci à eux ! Consultez les listes complètes.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/partenaires-hackfest&quot;&gt;Partenaires Hackfest&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/polar#sponsors&quot;&gt;Partenaires POLAR&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    
+    
+    
+    
+    <item>
+      <title>Les inscriptions de POLAR et du Hackfest CTF sont ouvertes. / Le Call For…</title>
+      <link>https://hackfest.ca/polar</link>
+      <guid isPermaLink="false">https://hackfest.ca/#news-2026-05-02-4</guid>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Les inscriptions de &lt;strong&gt;POLAR&lt;/strong&gt; et du &lt;strong&gt;Hackfest CTF&lt;/strong&gt; sont ouvertes. / Le &lt;strong&gt;Call For Papers&lt;/strong&gt; est ouvert pour le premier tour.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/polar&quot;&gt;POLAR&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/ctfs&quot;&gt;CTF&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://cfp.hackfest.ca/hf2026/&quot;&gt;CFP&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
+    
+    
+    
+    
+    <item>
+      <title>Les inscriptions du iHack sont ouvertes pour Québec, Montréal, Trois-Rivières et Chicoutimi.</title>
+      <link>https://hackfest.ca/ihack</link>
+      <guid isPermaLink="false">https://hackfest.ca/#news-2026-04-13-3</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Les inscriptions du iHack sont ouvertes pour Québec, Montréal, Trois-Rivières et Chicoutimi.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    
+    <item>
+      <title>Nouvelle formation disponible : ‘Formation Cloud Pragmatique &amp;amp; Security Ops’. Visitez la page des…</title>
+      <link>https://hackfest.ca/formations</link>
+      <guid isPermaLink="false">https://hackfest.ca/#news-2026-03-22-2</guid>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Nouvelle formation disponible : ‘Formation Cloud Pragmatique &amp;amp; Security Ops’. Visitez la page des formations pour plus d’informations.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    
+    <item>
+      <title>Un nouveau site web est en ligne ! Les formations sont disponibles maintenant et…</title>
+      <link>https://hackfest.ca/formations</link>
+      <guid isPermaLink="false">https://hackfest.ca/#news-2026-03-04-1</guid>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Un nouveau site web est en ligne ! Les formations sont disponibles maintenant et l’horaire du Hackfest 2026 est en cours de développement. Visitez le site pour plus d’informations.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
+

@@ -30,6 +30,8 @@
 <!-- Primary meta -->
 <title>Séjour — Hackfest & POLAR 2026 — Hackfest 2026</title>
 <meta name="description" content="Tout pour planifier votre venue au Hackfest & POLAR 2026 : adresses des lieux, hôtels partenaires avec rabais, stationnement et activités à découvrir à Québec.">
+
+
 <link rel="canonical" href="sejour">
 
 <!-- Open Graph -->
@@ -48,6 +50,11 @@
 <meta name="twitter:title"       content="Séjour — Hackfest & POLAR 2026 — Hackfest 2026">
 <meta name="twitter:description" content="Tout pour planifier votre venue au Hackfest & POLAR 2026 : adresses des lieux, hôtels partenaires avec rabais, stationnement et activités à découvrir à Québec.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
+
+<link rel="alternate" type="application/rss+xml" title="Hackfest : nouvelles" href="feed.xml">
+
 
 <!-- Hreflang (bilingual) -->
 

@@ -16,6 +16,8 @@
 
 
 
+
+
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
@@ -29,14 +31,16 @@
 
 <!-- Primary meta -->
 <title>Services — Hackfest 2026</title>
-<meta name="description" content="Services professionnels de cybersécurité Hackfest. CTF as a Service, conférences pour écoles et entreprises, formations Security 101-102-103. Tous nos profits sont réinvestis dans la communauté.">
+<meta name="description" content="Services professionnels Hackfest : CTF sur mesure, formations privées et conférences pour écoles et entreprises, en français ou en anglais. Tous nos profits sont réinvestis dans la communauté.">
+
+
 <link rel="canonical" href="services">
 
 <!-- Open Graph -->
 <meta property="og:type"        content="website">
 <meta property="og:site_name"   content="Hackfest 2026">
 <meta property="og:title"       content="Services — Hackfest 2026">
-<meta property="og:description" content="Services professionnels de cybersécurité Hackfest. CTF as a Service, conférences pour écoles et entreprises, formations Security 101-102-103. Tous nos profits sont réinvestis dans la communauté.">
+<meta property="og:description" content="Services professionnels Hackfest : CTF sur mesure, formations privées et conférences pour écoles et entreprises, en français ou en anglais. Tous nos profits sont réinvestis dans la communauté.">
 <meta property="og:url"         content="https://hackfest.ca/services/">
 <meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
 <meta property="og:image:alt"   content="Hackfest 2026">
@@ -46,8 +50,13 @@
 <meta name="twitter:card"        content="summary">
 <meta name="twitter:site"        content="@hackfest_ca">
 <meta name="twitter:title"       content="Services — Hackfest 2026">
-<meta name="twitter:description" content="Services professionnels de cybersécurité Hackfest. CTF as a Service, conférences pour écoles et entreprises, formations Security 101-102-103. Tous nos profits sont réinvestis dans la communauté.">
+<meta name="twitter:description" content="Services professionnels Hackfest : CTF sur mesure, formations privées et conférences pour écoles et entreprises, en français ou en anglais. Tous nos profits sont réinvestis dans la communauté.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
+
+<link rel="alternate" type="application/rss+xml" title="Hackfest : nouvelles" href="feed.xml">
+
 
 <!-- Hreflang (bilingual) -->
 
@@ -65,10 +74,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Orbitron:wght@400;500;600;700&family=Fira+Code&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://hackfest.ca/assets/css/main.css">
+  <link rel="stylesheet" href="https://hackfest.ca/assets/css/trainings.css">
   <link rel="stylesheet" href="https://hackfest.ca/assets/css/services.css">
   <script defer src="https://analytics.hackfest.ca/script.js" data-website-id="0ce77795-100e-4f53-92c3-5ea0922c0b15"></script>
 </head>
-<body class="services-page">
+<body class="trainings-page services-page">
   <header class="site-header">
   <div class="header-inner">
     <div class="header-left">
@@ -291,437 +301,797 @@
   </div>
 </header>
 
-  <main>
-    <!-- Hero Section -->
-    <section class="services-hero">
-      <div class="services-hero-bg" style="background-image: url('https://hackfest.ca/assets/images/services/hero.webp')"></div>
-      <div class="services-hero-overlay"></div>
-      <div class="services-hero-content">
-        <h1>Services Professionnels</h1>
-        <p class="services-hero-subtitle">Formations, conférences et CTF personnalisés</p>
+  
 
-        <!-- Introduction: value proposition, inside the hero -->
+  <main id="services-app">
+
+    <!-- ===================================================================
+         1. HERO
+         =================================================================== -->
+    <section class="tr-hero">
+      <div class="tr-hero__inner">
+        <h1 class="tr-hero__title svc-hero__title">Formez vos équipes comme au Hackfest</h1>
+        <p class="tr-hero__lead">CTF sur mesure, formations privées, conférences dans les écoles et en entreprise : l&#39;expertise de l&#39;équipe derrière le plus grand événement de hacking au Canada, adaptée à votre organisation.</p>
+        <div class="tr-hero__ctas">
+          <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="tr-btn tr-btn--primary tr-btn--lg">Demander une soumission</a>
+          <a href="services#services" class="tr-btn tr-btn--outline tr-btn--lg">Voir les services</a>
+        </div>
+
         
-        <div class="services-intro-inner">
-          <h2>Expertise au service de votre sécurité</h2>
-          <p>Hackfest offre une gamme de services professionnels en cybersécurité. Forts de plus de 18 ans d'expérience dans l'organisation du plus grand événement de hacking au Canada, nous mettons notre expertise à votre disposition. Tous nos profits sont réinvestis dans les activités Hackfest et le développement de la communauté.</p>
+        <dl class="tr-facts">
+          
+          <div class="tr-facts__cell">
+            <dt class="tr-facts__label">Expérience</dt>
+            <dd class="tr-facts__value">18+ ans</dd>
+            <dd class="tr-facts__sub">Le plus grand événement de hacking au Canada</dd>
+          </div>
+          
+          <div class="tr-facts__cell">
+            <dt class="tr-facts__label">CTF</dt>
+            <dd class="tr-facts__value">15+ ans</dd>
+            <dd class="tr-facts__sub">Conçus et animés par l&#39;équipe des CTF Hackfest</dd>
+          </div>
+          
+          <div class="tr-facts__cell">
+            <dt class="tr-facts__label">Équipe</dt>
+            <dd class="tr-facts__value">Communauté Hackfest</dd>
+            <dd class="tr-facts__sub">Formateurs et conférenciers du milieu</dd>
+          </div>
+          
+          <div class="tr-facts__cell">
+            <dt class="tr-facts__label">Profits</dt>
+            <dd class="tr-facts__value">100 % réinvestis</dd>
+            <dd class="tr-facts__sub">Dans les activités Hackfest et la communauté</dd>
+          </div>
+          
+        </dl>
+        
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         STICKY SECTION MENU (same markup as /formations, schedule-subnav.js)
+         =================================================================== -->
+    
+    <nav class="schedule-subnav tr-subnav" aria-label="Sections de la page">
+      <ul class="schedule-subnav-list">
+        
+        <li><a class="schedule-subnav-link" href="services#services">Services</a></li>
+        
+        <li><a class="schedule-subnav-link" href="services#demarche">Démarche</a></li>
+        
+        <li><a class="schedule-subnav-link" href="services#formations">Formations</a></li>
+        
+        <li><a class="schedule-subnav-link" href="services#faq">FAQ</a></li>
+        
+        <li><a class="schedule-subnav-link" href="services#soumission">Soumission</a></li>
+        
+      </ul>
+    </nav>
+    
+
+    <!-- ===================================================================
+         2. INCLUDED BAND
+         =================================================================== -->
+    
+    <section class="tr-included" aria-label="Avec chaque service">
+      <div class="tr-included__inner">
+        <span class="tr-included__title">Avec chaque service</span>
+        
+        <span class="tr-included__item"><span class="tr-check" aria-hidden="true">✓</span>Animé par l&#39;équipe Hackfest</span>
+        
+        <span class="tr-included__item"><span class="tr-check" aria-hidden="true">✓</span>Contenu adapté à votre audience</span>
+        
+        <span class="tr-included__item"><span class="tr-check" aria-hidden="true">✓</span>Soumission personnalisée</span>
+        
+        <span class="tr-included__item"><span class="tr-check" aria-hidden="true">✓</span>Profits réinvestis dans la communauté</span>
+        
+      </div>
+    </section>
+    
+
+    <!-- ===================================================================
+         3. SERVICES
+         =================================================================== -->
+    <section id="services" class="tr-section">
+      <h2 class="tr-h2">Nos services</h2>
+      <p class="tr-sub">Choisissez selon votre objectif, nous adaptons le reste.</p>
+
+      <div class="tr-cards svc-cards">
+        
+        
+        <article class="tr-card svc-card svc-ctf" id="ctf">
           
           
+          <button type="button" class="svc-card__media" data-open-service="ctf" tabindex="-1" aria-hidden="true">
+            <img src="https://hackfest.ca/assets/images/services/ctf.webp" alt="" loading="lazy">
+          </button>
+          
+          <div class="tr-card__body">
+            <div class="tr-pills">
+              <span class="tr-pill svc-badge svc-badge--limited"><span class="tr-dot" aria-hidden="true"></span>Disponibilité limitée</span>
+              <span class="tr-pill tr-pill--lang">Français · English</span>
+            </div>
+            <h3 class="tr-card__title">CTF as a Service</h3>
+            
+            <p class="svc-ideal"><span class="svc-ideal__label">Idéal pour</span>Équipes techniques, sensibilisation à la sécurité, team building</p>
+            
+            <p class="tr-card__pitch">Transformez la formation en sécurité en une expérience que vos équipes voudront vraiment vivre.</p>
+            <ul class="tr-highlights">
+              
+              <li><span class="tr-chev" aria-hidden="true">›</span>Défis pratiques, zéro PowerPoint</li>
+              
+              <li><span class="tr-chev" aria-hidden="true">›</span>Mode équipe ou solo, distant ou sur site</li>
+              
+              <li><span class="tr-chev" aria-hidden="true">›</span>Scoring en temps réel + analytics post-événement</li>
+              
+            </ul>
+          </div>
+          <div class="tr-card__foot">
+            <div class="tr-card__actions">
+              <button type="button" class="tr-btn tr-btn--outline" data-open-service="ctf" aria-haspopup="dialog" aria-controls="svc-drawer-ctf">Voir les détails</button>
+              <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="tr-btn tr-btn--primary">Demander une soumission</a>
+            </div>
+          </div>
+        </article>
+        
+        
+        <article class="tr-card svc-card svc-training" id="training">
+          
+          
+          <button type="button" class="svc-card__media" data-open-service="training" tabindex="-1" aria-hidden="true">
+            <img src="https://hackfest.ca/assets/images/services/formation.webp" alt="" loading="lazy">
+          </button>
+          
+          <div class="tr-card__body">
+            <div class="tr-pills">
+              <span class="tr-pill svc-badge svc-badge--exclusive"><span class="tr-dot" aria-hidden="true"></span>Formations exclusives Hackfest</span>
+              <span class="tr-pill tr-pill--lang">Selon la formation</span>
+            </div>
+            <h3 class="tr-card__title">Formation as a Service</h3>
+            
+            <p class="svc-ideal"><span class="svc-ideal__label">Idéal pour</span>Équipes à perfectionner, du débutant à l&#39;expert</p>
+            
+            <p class="tr-card__pitch">Les formations du Hackfest, données en privé à vos équipes.</p>
+            <ul class="tr-highlights">
+              
+              <li><span class="tr-chev" aria-hidden="true">›</span>Formations créées par la communauté Hackfest</li>
+              
+              <li><span class="tr-chev" aria-hidden="true">›</span>Niveaux débutant à expert</li>
+              
+              <li><span class="tr-chev" aria-hidden="true">›</span>Théorie + pratique intensive</li>
+              
+            </ul>
+          </div>
+          <div class="tr-card__foot">
+            <div class="tr-card__actions">
+              <button type="button" class="tr-btn tr-btn--outline" data-open-service="training" aria-haspopup="dialog" aria-controls="svc-drawer-training">Voir les détails</button>
+              <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="tr-btn tr-btn--primary">Demander une soumission</a>
+            </div>
+          </div>
+        </article>
+        
+        
+        <article class="tr-card svc-card svc-schools" id="schools">
+          
+          
+          <button type="button" class="svc-card__media" data-open-service="schools" tabindex="-1" aria-hidden="true">
+            <img src="https://hackfest.ca/assets/images/services/school.webp" alt="" loading="lazy">
+          </button>
+          
+          <div class="tr-card__body">
+            <div class="tr-pills">
+              <span class="tr-pill svc-badge svc-badge--free"><span class="tr-dot" aria-hidden="true"></span>Gratuit</span>
+              <span class="tr-pill tr-pill--lang">Français · English</span>
+            </div>
+            <h3 class="tr-card__title">Conférences dans les écoles</h3>
+            
+            <p class="svc-ideal"><span class="svc-ideal__label">Idéal pour</span>Cégeps, universités et écoles secondaires</p>
+            
+            <p class="tr-card__pitch">Faites découvrir la cybersécurité et ses carrières à vos étudiants.</p>
+            <ul class="tr-highlights">
+              
+              <li><span class="tr-chev" aria-hidden="true">›</span>CEGEPs, universités et écoles secondaires</li>
+              
+              <li><span class="tr-chev" aria-hidden="true">›</span>Démos de hacking en direct</li>
+              
+              <li><span class="tr-chev" aria-hidden="true">›</span>Gratuit, frais de déplacement seulement</li>
+              
+            </ul>
+          </div>
+          <div class="tr-card__foot">
+            <div class="tr-card__actions">
+              <button type="button" class="tr-btn tr-btn--outline" data-open-service="schools" aria-haspopup="dialog" aria-controls="svc-drawer-schools">Voir les détails</button>
+              <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="tr-btn tr-btn--primary">Demander une soumission</a>
+            </div>
+          </div>
+        </article>
+        
+        
+        <article class="tr-card svc-card svc-corporate" id="corporate">
+          
+          
+          <button type="button" class="svc-card__media" data-open-service="corporate" tabindex="-1" aria-hidden="true">
+            <img src="https://hackfest.ca/assets/images/services/corporate.webp" alt="" loading="lazy">
+          </button>
+          
+          <div class="tr-card__body">
+            <div class="tr-pills">
+              <span class="tr-pill svc-badge svc-badge--exclusive"><span class="tr-dot" aria-hidden="true"></span>Experts en cybersécurité</span>
+              <span class="tr-pill tr-pill--lang">Français · English</span>
+            </div>
+            <h3 class="tr-card__title">Conférences pour entreprises</h3>
+            
+            <p class="svc-ideal"><span class="svc-ideal__label">Idéal pour</span>Du C-level aux équipes opérationnelles</p>
+            
+            <p class="tr-card__pitch">Des risques concrets, expliqués à votre réalité d&#39;entreprise.</p>
+            <ul class="tr-highlights">
+              
+              <li><span class="tr-chev" aria-hidden="true">›</span>Du C-level aux équipes opérationnelles</li>
+              
+              <li><span class="tr-chev" aria-hidden="true">›</span>IT, ingénierie sociale et sécurité physique</li>
+              
+              <li><span class="tr-chev" aria-hidden="true">›</span>Format flexible selon votre audience</li>
+              
+            </ul>
+          </div>
+          <div class="tr-card__foot">
+            <div class="tr-card__actions">
+              <button type="button" class="tr-btn tr-btn--outline" data-open-service="corporate" aria-haspopup="dialog" aria-controls="svc-drawer-corporate">Voir les détails</button>
+              <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="tr-btn tr-btn--primary">Demander une soumission</a>
+            </div>
+          </div>
+        </article>
+        
+
+        
+        <article class="tr-card svc-card svc-card--more">
+          <div class="tr-card__body">
+            <span class="svc-more__plus" aria-hidden="true">+</span>
+            <h3 class="tr-card__title">D&#39;autres services arrivent bientôt</h3>
+            <p class="tr-card__pitch">Vous avez un besoin qui n&#39;est pas dans la liste? Écrivez-nous, nous en discutons.</p>
+          </div>
+          <div class="tr-card__foot">
+            <div class="tr-card__actions">
+              <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="tr-btn tr-btn--outline">Demander une soumission</a>
+            </div>
+          </div>
+        </article>
+        
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         4. HOW IT WORKS
+         =================================================================== -->
+    
+    <section id="demarche" class="tr-section svc-steps-section">
+      <h2 class="tr-h2">Comment ça marche</h2>
+      <p class="tr-sub">Trois étapes, de votre premier courriel jusqu&#39;au jour J.</p>
+      <ol class="svc-steps">
+        
+        <li class="svc-step">
+          <span class="svc-step__num" aria-hidden="true">1</span>
+          <h3 class="svc-step__title">Vous nous écrivez</h3>
+          <p class="svc-step__text">Décrivez votre besoin, votre audience et vos dates. Le bouton de soumission prépare le courriel pour vous.</p>
+        </li>
+        
+        <li class="svc-step">
+          <span class="svc-step__num" aria-hidden="true">2</span>
+          <h3 class="svc-step__title">On adapte</h3>
+          <p class="svc-step__text">Nous ajustons le contenu et le format à votre audience, du C-level aux équipes techniques, et vous envoyons une soumission personnalisée.</p>
+        </li>
+        
+        <li class="svc-step">
+          <span class="svc-step__num" aria-hidden="true">3</span>
+          <h3 class="svc-step__title">On anime</h3>
+          <p class="svc-step__text">L&#39;équipe Hackfest livre le service sur site, à distance ou en hybride, selon le format choisi.</p>
+        </li>
+        
+      </ol>
+    </section>
+    
+
+    <!-- ===================================================================
+         5. PRIVATE TRAININGS (from the training catalogue)
+         =================================================================== -->
+    
+    <section id="formations" class="tr-section">
+      <h2 class="tr-h2">Nos formations, offertes en privé</h2>
+      <p class="tr-sub">Les formations du catalogue Hackfest peuvent être données à vos équipes. Consultez le programme détaillé de chacune, puis demandez une soumission pour votre groupe.</p>
+
+      <div class="svc-courses">
+        
+        
+        
+        
+        <article class="svc-course lv-multi">
+          <div class="tr-pills">
+            <span class="tr-pill tr-pill--level"><span class="tr-dot" aria-hidden="true"></span>Multi-niveaux</span>
+            <span class="tr-pill tr-pill--lang">Français</span>
+            <span class="tr-pill">1 jour par cours</span>
+          </div>
+          <h3 class="svc-course__title">Sécurité 101-102-103-101C</h3>
+          <p class="svc-course__pitch">Le parcours créé par la communauté Hackfest : de votre premier audit réseau jusqu&#39;à l&#39;escalade de privilèges et aux attaques AWS. Prenez un cours ou toute la série.</p>
+          <a class="svc-course__link" href="formations#securite-101">Voir le programme<span class="visually-hidden"> : Sécurité 101-102-103-101C</span> <span aria-hidden="true">→</span></a>
+        </article>
+        
+        
+        
+        
+        <article class="svc-course lv-multi">
+          <div class="tr-pills">
+            <span class="tr-pill tr-pill--level"><span class="tr-dot" aria-hidden="true"></span>Multi-niveaux</span>
+            <span class="tr-pill tr-pill--lang">Français</span>
+            <span class="tr-pill">1 à 4 jours</span>
+          </div>
+          <h3 class="svc-course__title">Sécurité physique 101, 201, 202</h3>
+          <p class="svc-course__pitch">Le pilier oublié de la sécurité de l&#39;information. Du Blue Team au Red Team, jusqu&#39;à la rétro-ingénierie d&#39;équipements réels.</p>
+          <a class="svc-course__link" href="formations#securite-physique">Voir le programme<span class="visually-hidden"> : Sécurité physique 101, 201, 202</span> <span aria-hidden="true">→</span></a>
+        </article>
+        
+        
+        
+        
+        <article class="svc-course lv-intermediaire">
+          <div class="tr-pills">
+            <span class="tr-pill tr-pill--level"><span class="tr-dot" aria-hidden="true"></span>Intermédiaire</span>
+            <span class="tr-pill tr-pill--lang">Français</span>
+            <span class="tr-pill">1 jour</span>
+          </div>
+          <h3 class="svc-course__title">Sécurité &amp; automatisation intelligente</h3>
+          <p class="svc-course__pitch">Réduisez votre temps de réaction aux menaces. Une journée pratique pour intégrer l&#39;IA à vos opérations : pentest, triage et gestion des vulnérabilités. Vous repartez avec des workflows prêts à l&#39;emploi.</p>
+          <a class="svc-course__link" href="formations#aiautomation">Voir le programme<span class="visually-hidden"> : Sécurité &amp; automatisation intelligente</span> <span aria-hidden="true">→</span></a>
+        </article>
+        
+        
+        
+        
+        
+        
+        <article class="svc-course lv-avance">
+          <div class="tr-pills">
+            <span class="tr-pill tr-pill--level"><span class="tr-dot" aria-hidden="true"></span>Avancé</span>
+            <span class="tr-pill tr-pill--lang">Anglais</span>
+            <span class="tr-pill">2 jours</span>
+          </div>
+          <h3 class="svc-course__title">OSINT / Social Engineering Bootcamp</h3>
+          <p class="svc-course__pitch">Deux jours pour profiler, cibler et approcher individus et institutions, avec Shane MacDougall, double lauréat du black badge DEF CON. Donné en anglais.</p>
+          <a class="svc-course__link" href="formations#osint-bootcamp">Voir le programme<span class="visually-hidden"> : OSINT / Social Engineering Bootcamp</span> <span aria-hidden="true">→</span></a>
+        </article>
+        
+        
+        
+        
+        <article class="svc-course lv-avance">
+          <div class="tr-pills">
+            <span class="tr-pill tr-pill--level"><span class="tr-dot" aria-hidden="true"></span>Avancé</span>
+            <span class="tr-pill tr-pill--lang">Français</span>
+            <span class="tr-pill">2 jours</span>
+          </div>
+          <h3 class="svc-course__title">Formation Cloud pragmatique &amp; Security Ops</h3>
+          <p class="svc-course__pitch">Pas une formation : un bootcamp opérationnel. Cinq ans d&#39;expérience Azure condensés en deux jours, en mode REAL-WORLD SWAT.</p>
+          <a class="svc-course__link" href="formations#azure-swat-phenix">Voir le programme<span class="visually-hidden"> : Formation Cloud pragmatique &amp; Security Ops</span> <span aria-hidden="true">→</span></a>
+        </article>
+        
+      </div>
+
+      
+      
+      <div class="svc-inline-cta">
+        <p>Une formation vous intéresse pour votre équipe?</p>
+        <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="tr-btn tr-btn--primary">Demander une soumission</a>
+      </div>
+    </section>
+    
+
+    <!-- ===================================================================
+         6. FAQ
+         =================================================================== -->
+    
+    <section id="faq" class="tr-section tr-faq">
+      <h2 class="tr-h2 tr-h2--sm tr-h2--spaced">Questions fréquentes</h2>
+      <div class="tr-faq__list">
+        
+        <details class="tr-faq__item">
+          <summary>Combien coûtent vos services?<span class="tr-faq__plus" aria-hidden="true">+</span></summary>
+          <div class="tr-faq__answer"><p>Chaque service fait l’objet d’une soumission personnalisée, selon votre audience, le format et la durée. Les conférences dans les écoles sont <strong>gratuites</strong> : seuls les frais de déplacement sont facturés.</p>
+</div>
+        </details>
+        
+        <details class="tr-faq__item">
+          <summary>Pouvez-vous venir chez nous ou animer à distance?<span class="tr-faq__plus" aria-hidden="true">+</span></summary>
+          <div class="tr-faq__answer"><p>Oui. Le CTF as a Service se déroule sur site, à distance ou en hybride. Les conférences s’adaptent au format qui convient à votre audience.</p>
+</div>
+        </details>
+        
+        <details class="tr-faq__item">
+          <summary>Nos employés débutent en sécurité. Le CTF est-il pour eux?<span class="tr-faq__plus" aria-hidden="true">+</span></summary>
+          <div class="tr-faq__answer"><p>Oui. Les parcours débutants offrent des indices progressifs, et l’option « CTF guidé » ajoute des coachs qui circulent pour aider les équipes. Des pistes expertes challengent aussi vos profils seniors.</p>
+</div>
+        </details>
+        
+        <details class="tr-faq__item">
+          <summary>Dans quelle langue offrez-vous vos services?<span class="tr-faq__plus" aria-hidden="true">+</span></summary>
+          <div class="tr-faq__answer"><p>Le CTF et les conférences (écoles et entreprises) sont offerts en français ou en anglais. Les formations sont données dans la langue indiquée pour chacune dans <a href="formations">notre catalogue</a>.</p>
+</div>
+        </details>
+        
+        <details class="tr-faq__item">
+          <summary>Pouvez-vous adapter le contenu à notre organisation?<span class="tr-faq__plus" aria-hidden="true">+</span></summary>
+          <div class="tr-faq__answer"><p>Oui. Nous ajustons le contenu des conférences du C-level aux équipes opérationnelles, et le CTF peut inclure des défis thématiques, un portail personnalisé et des prix.</p>
+</div>
+        </details>
+        
+        <details class="tr-faq__item">
+          <summary>Où vont les profits?<span class="tr-faq__plus" aria-hidden="true">+</span></summary>
+          <div class="tr-faq__answer"><p>Tous nos profits sont réinvestis dans les activités Hackfest et le développement de la communauté en cybersécurité. Votre investissement soutient donc directement la communauté Hackfest.</p>
+</div>
+        </details>
+        
+        <details class="tr-faq__item">
+          <summary>Comment obtenir une soumission?<span class="tr-faq__plus" aria-hidden="true">+</span></summary>
+          <div class="tr-faq__answer"><p>Écrivez à <a href="https://hackfest.ca/cdn-cgi/l/email-protection"><span class="__cf_email__" data-cfemail="">[email&#160;protected]</span></a> en précisant votre organisation, le service souhaité, votre audience et le nombre de personnes, le format (sur site, à distance ou hybride) et vos dates. Le bouton « Demander une soumission » prépare ce courriel pour vous.</p>
+</div>
+        </details>
+        
+      </div>
+    </section>
+    
+
+    <!-- ===================================================================
+         7. CLOSING CTA
+         =================================================================== -->
+    <section id="soumission" class="tr-closing">
+      <div class="tr-closing__inner">
+        <h2 class="tr-closing__title">Prêt à renforcer votre sécurité?</h2>
+        <p class="tr-closing__sub">Contactez notre équipe pour discuter de vos besoins et obtenir une soumission personnalisée.</p>
+        
+        <div class="svc-checklist">
+          <p class="svc-checklist__title">À inclure dans votre demande</p>
+          <ul>
+            <li><span class="tr-check" aria-hidden="true">✓</span>Votre organisation</li><li><span class="tr-check" aria-hidden="true">✓</span>Le service souhaité</li><li><span class="tr-check" aria-hidden="true">✓</span>Votre audience et le nombre de personnes</li><li><span class="tr-check" aria-hidden="true">✓</span>Le format : sur site, à distance ou hybride</li><li><span class="tr-check" aria-hidden="true">✓</span>Vos dates</li>
+          </ul>
         </div>
         
+        <div class="tr-hero__ctas">
+          <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="tr-btn tr-btn--primary tr-btn--lg">Demander une soumission</a>
+        </div>
+        <p class="svc-email">Ou écrivez directement à <a href="https://hackfest.ca/cdn-cgi/l/email-protection"><span class="__cf_email__" data-cfemail="">[email&#160;protected]</span></a></p>
       </div>
     </section>
 
-    <!-- Mobile section sub-navigation -->
-    <nav class="services-subnav" id="servicesSubnav" aria-label="Sections">
-      <div class="services-subnav-inner">
-        
-        <a href="services#ctf" class="services-subnav-link" data-section="ctf">CTF as a Service</a>
-        
-        <a href="services#training" class="services-subnav-link" data-section="training">Formation as a Service</a>
-        
-        <a href="services#schools" class="services-subnav-link" data-section="schools">Conférences dans les écoles</a>
-        
-        <a href="services#corporate" class="services-subnav-link" data-section="corporate">Conférences pour entreprises</a>
-        
-      </div>
-    </nav>
+    <!-- ===================================================================
+         8. DETAIL DRAWERS (one per service, opened by services.js)
+         =================================================================== -->
+    <div class="tr-overlay" id="svc-overlay" hidden></div>
 
-    <!-- Services Grid: compact cards -->
-    <section class="services-section">
-      
-      <div class="services-more-banner" aria-hidden="true">
-        <span class="services-more-dot"></span>
-        <p class="services-more-label">D'autres services arrivent bientôt</p>
-      </div>
-      
-      <div class="services-grid">
-        
-        <article class="services-card" id="ctf">
-          <div class="services-card-image">
-            <img src="https://hackfest.ca/assets/images/services/ctf.webp" alt="CTF as a Service" loading="lazy">
-            
-            <span class="services-badge services-badge-limited">Disponibilité limitée</span>
-            
-          </div>
-          <div class="services-card-content">
-            <h3>CTF as a Service</h3>
-            
-            <p class="services-card-tagline">Transformez la formation en sécurité en une expérience que vos équipes voudront vraiment vivre.</p>
-            
-            <ul class="services-card-highlights">
-              
-                
-                <li>Défis pratiques, zéro PowerPoint</li>
-                
-                <li>Mode équipe ou solo, distant ou sur site</li>
-                
-                <li>Scoring en temps réel + analytics post-événement</li>
-                
-              
-            </ul>
-            
-            <button class="btn btn-outline btn-sm services-card-detail-btn"
-                    data-modal="modal-ctf"
-                    aria-haspopup="dialog">
-              Voir les détails <span class="arrow">→</span>
-            </button>
-          </div>
-        </article>
-        
-        <article class="services-card" id="training">
-          <div class="services-card-image">
-            <img src="https://hackfest.ca/assets/images/services/formation.webp" alt="Formation as a Service" loading="lazy">
-            
-            <span class="services-badge services-badge-exclusive">Formations exclusives Hackfest</span>
-            
-          </div>
-          <div class="services-card-content">
-            <h3>Formation as a Service</h3>
-            
-            <ul class="services-card-highlights">
-              
-                
-                <li>Formations créées par la communauté Hackfest</li>
-                
-                <li>Niveaux débutant à expert</li>
-                
-                <li>Théorie + pratique intensive</li>
-                
-              
-            </ul>
-            
-            <button class="btn btn-outline btn-sm services-card-detail-btn"
-                    data-modal="modal-training"
-                    aria-haspopup="dialog">
-              Voir les détails <span class="arrow">→</span>
-            </button>
-          </div>
-        </article>
-        
-        <article class="services-card" id="schools">
-          <div class="services-card-image">
-            <img src="https://hackfest.ca/assets/images/services/school.webp" alt="Conférences dans les écoles" loading="lazy">
-            
-            <span class="services-badge services-badge-free">Gratuit</span>
-            
-          </div>
-          <div class="services-card-content">
-            <h3>Conférences dans les écoles</h3>
-            
-            <ul class="services-card-highlights">
-              
-                
-                <li>CEGEPs, universités et écoles secondaires</li>
-                
-                <li>Démos de hacking en direct</li>
-                
-                <li>Gratuit – frais de déplacement seulement</li>
-                
-              
-            </ul>
-            
-            <button class="btn btn-outline btn-sm services-card-detail-btn"
-                    data-modal="modal-schools"
-                    aria-haspopup="dialog">
-              Voir les détails <span class="arrow">→</span>
-            </button>
-          </div>
-        </article>
-        
-        <article class="services-card" id="corporate">
-          <div class="services-card-image">
-            <img src="https://hackfest.ca/assets/images/services/corporate.webp" alt="Conférences pour entreprises" loading="lazy">
-            
-            <span class="services-badge services-badge-exclusive">Experts en cybersécurité</span>
-            
-          </div>
-          <div class="services-card-content">
-            <h3>Conférences pour entreprises</h3>
-            
-            <ul class="services-card-highlights">
-              
-                
-                <li>Du C-level aux équipes opérationnelles</li>
-                
-                <li>IT, ingénierie sociale et sécurité physique</li>
-                
-                <li>Format flexible selon votre audience</li>
-                
-              
-            </ul>
-            
-            <button class="btn btn-outline btn-sm services-card-detail-btn"
-                    data-modal="modal-corporate"
-                    aria-haspopup="dialog">
-              Voir les détails <span class="arrow">→</span>
-            </button>
-          </div>
-        </article>
-        
-      </div>
-    </section>
-
-    <!-- Modal dialogs: full service details -->
     
-    <div class="svc-modal" id="modal-ctf"
-         role="dialog" aria-modal="true"
-         aria-labelledby="modal-ctf-title" hidden>
-      <div class="svc-modal-dialog">
-        <button class="svc-modal-close" aria-label="Fermer">
-          <span aria-hidden="true">×</span>
-        </button>
-        <div class="svc-modal-body">
+    
+    <div class="tr-drawer svc-drawer svc-ctf"
+         id="svc-drawer-ctf"
+         data-service="ctf"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="svc-drawer-title-ctf"
+         hidden>
+      <div class="tr-drawer__head">
+        <div class="tr-drawer__top">
+          <div class="tr-pills">
+            <span class="tr-pill svc-badge svc-badge--limited"><span class="tr-dot" aria-hidden="true"></span>Disponibilité limitée</span>
+            <span class="tr-pill tr-pill--lang">Français · English</span>
+          </div>
+          <button type="button" class="tr-drawer__close" data-close-drawer aria-label="Fermer">✕</button>
+        </div>
+        <h2 class="tr-drawer__title" id="svc-drawer-title-ctf">CTF as a Service</h2>
+        
+        <p class="svc-ideal svc-ideal--drawer"><span class="svc-ideal__label">Idéal pour</span>Équipes techniques, sensibilisation à la sécurité, team building</p>
+        
+      </div>
+
+      <div class="tr-drawer__body">
+        <div class="tr-panel">
+          <p class="tr-panel__pitch">Transformez la formation en sécurité en une expérience que vos équipes voudront vraiment vivre.</p>
+          <div>
+            <h3 class="tr-panel__kicker">Le service</h3>
+            <p class="tr-panel__text">Conçu et animé par les organisateurs des CTF Hackfest depuis plus de 15 ans, nos compétitions Capture The Flag développent de vrais réflexes de sécurité grâce à des défis pratiques, une compétition amicale et un apprentissage guidé. Que votre objectif soit la sensibilisation à la sécurité, le perfectionnement des équipes techniques ou la création d&#39;un événement de team building mémorable, nous offrons un CTF clé en main qui fonctionne et produit des résultats mesurables.</p>
+          </div>
+
           
-          <span class="services-badge services-badge-limited svc-modal-badge">Disponibilité limitée</span>
-          
-          <h3 id="modal-ctf-title">CTF as a Service</h3>
-          
-          <p class="services-card-tagline">Transformez la formation en sécurité en une expérience que vos équipes voudront vraiment vivre.</p>
-          
-          
-          <p class="services-card-description">Conçu et animé par les organisateurs des CTF Hackfest depuis plus de 15 ans, nos compétitions Capture The Flag développent de vrais réflexes de sécurité grâce à des défis pratiques, une compétition amicale et un apprentissage guidé. Que votre objectif soit la sensibilisation à la sécurité, le perfectionnement des équipes techniques ou la création d'un événement de team building mémorable, nous offrons un CTF clé en main qui fonctionne et produit des résultats mesurables.</p>
-          
-          
-          <div class="services-benefits">
-            <h4 class="services-section-title">Ce que votre équipe obtient</h4>
-            <div class="services-benefits-list">
+          <div>
+            <h3 class="tr-panel__kicker">Ce que votre équipe obtient</h3>
+            <ul class="svc-benefits">
               
-              <div class="services-benefit-item">
+              <li class="tr-box">
                 <strong>Apprentissage pratique, pas de slides</strong>
-                <span>Exploitez, détectez et remédiez à des vulnérabilités dans des scénarios réalistes.</span>
-              </div>
+                <span>Exploitez des vulnérabilités dans des scénarios réalistes et comprenez comment sécuriser chaque système.</span>
+              </li>
               
-              <div class="services-benefit-item">
+              <li class="tr-box">
                 <strong>Confiance à tous les niveaux</strong>
                 <span>Parcours adaptés aux débutants avec indices progressifs, plus des pistes expertes pour challenger les talents seniors.</span>
-              </div>
+              </li>
               
-              <div class="services-benefit-item">
+              <li class="tr-box">
                 <strong>Collaboration sous pression</strong>
-                <span>Les équipes pratiquent la communication, le triage et la résolution de problèmes comme lors d'un vrai incident.</span>
-              </div>
+                <span>Les équipes pratiquent la communication, le triage et la résolution de problèmes comme lors d&#39;un vrai incident.</span>
+              </li>
               
-              <div class="services-benefit-item">
+              <li class="tr-box">
                 <strong>Vision claire des forces et lacunes</strong>
                 <span>Le scoring et les analytics révèlent où concentrer la formation future.</span>
-              </div>
-              
-            </div>
-          </div>
-          
-          
-          <div class="services-options">
-            <h4 class="services-section-title">Conçu pour l'engagement</h4>
-            <ul class="services-options-list">
-              
-              <li>Mode équipe (recommandé) ou mode solo</li>
-              
-              <li>À distance, sur site ou hybride</li>
-              
-              <li>Prix optionnels, défis thématiques et portail personnalisé</li>
-              
-              <li>Option « CTF guidé » avec coachs pour aider les débutants à réussir</li>
+              </li>
               
             </ul>
           </div>
           
-          
-          
-          
-          
-          
-          <div class="svc-modal-cta">
-            <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="btn btn-primary btn-sm">
-              Nous contacter <span class="arrow">→</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="svc-modal" id="modal-training"
-         role="dialog" aria-modal="true"
-         aria-labelledby="modal-training-title" hidden>
-      <div class="svc-modal-dialog">
-        <button class="svc-modal-close" aria-label="Fermer">
-          <span aria-hidden="true">×</span>
-        </button>
-        <div class="svc-modal-body">
-          
-          <span class="services-badge services-badge-exclusive svc-modal-badge">Formations exclusives Hackfest</span>
-          
-          <h3 id="modal-training-title">Formation as a Service</h3>
-          
-          
-          <p class="services-card-description">Développez les compétences de vos équipes avec nos formations spécialisées en cybersécurité. Créées par la communauté Hackfest, nos formations combinent théorie et pratique intensive.</p>
-          
-          
-          
-          
-          
-          <div class="services-trainings-list">
-            
-            <div class="services-training-item">
-              <h4>
-                Sécurité 101-102-103
-                
-              </h4>
-              <p>Formation unique créée par la communauté du Hackfest! Nos formations d'introduction à divers éléments essentiels de sécurité informatique.</p>
-              
-            </div>
-            
-            <div class="services-training-item">
-              <h4>
-                Sécurité Physique 101-201-202
-                
-              </h4>
-              <p>Formation unique pour vos besoins de sécurité physique en entreprise.</p>
-              
-              <ul class="services-training-levels">
-                
-                <li>101 - Blue Team</li>
-                
-                <li>201 - Red Team</li>
-                
-                <li>202 - Rétro-ingénierie</li>
-                
-              </ul>
-              
-            </div>
-            
-            <div class="services-training-item">
-              <h4>
-                Cloud Pragmatique & Security Ops
-                
-                <span class="services-training-badge">Bootcamp</span>
-                
-              </h4>
-              <p>Cette formation n'est pas une formation. C'est un bootcamp opérationnel! 5 ans d'expérience condensés en 2 jours. Êtes-vous prêt?</p>
-              
-            </div>
-            
-          </div>
-          
-          
-          
-          
-          <div class="svc-modal-cta">
-            <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="btn btn-primary btn-sm">
-              Nous contacter <span class="arrow">→</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="svc-modal" id="modal-schools"
-         role="dialog" aria-modal="true"
-         aria-labelledby="modal-schools-title" hidden>
-      <div class="svc-modal-dialog">
-        <button class="svc-modal-close" aria-label="Fermer">
-          <span aria-hidden="true">×</span>
-        </button>
-        <div class="svc-modal-body">
-          
-          <span class="services-badge services-badge-free svc-modal-badge">Gratuit</span>
-          
-          <h3 id="modal-schools-title">Conférences dans les écoles</h3>
-          
-          
-          <p class="services-card-description">Sensibilisez les étudiants à la cybersécurité et aux carrières dans le domaine. Nous offrons des présentations dynamiques adaptées à différents niveaux scolaires.</p>
-          
-          
-          
-          
-          <ul class="services-card-features">
-            
-            <li>CEGEPs et universités</li>
-            
-            <li>Écoles secondaires</li>
-            
-            <li>Démonstrations de hacking en direct</li>
-            
-            <li>Sujets: bug bounty, OWASP, sécurité physique</li>
-            
-          </ul>
-          
-          
-          
-          <p class="services-card-note">Frais de déplacement seulement</p>
-          
-          
-          
-          <div class="svc-modal-cta">
-            <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="btn btn-primary btn-sm">
-              Nous contacter <span class="arrow">→</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="svc-modal" id="modal-corporate"
-         role="dialog" aria-modal="true"
-         aria-labelledby="modal-corporate-title" hidden>
-      <div class="svc-modal-dialog">
-        <button class="svc-modal-close" aria-label="Fermer">
-          <span aria-hidden="true">×</span>
-        </button>
-        <div class="svc-modal-body">
-          
-          <span class="services-badge services-badge-exclusive svc-modal-badge">Experts en cybersécurité</span>
-          
-          <h3 id="modal-corporate-title">Conférences pour entreprises</h3>
-          
-          
-          <p class="services-card-description">Sensibilisez vos employés aux risques de sécurité avec des présentations adaptées à votre réalité d'entreprise. Du C-level aux équipes opérationnelles, nous ajustons le contenu selon votre audience.</p>
-          
-          
-          
-          
-          <ul class="services-card-features">
-            
-            <li>Contenu adapté du C-level aux opérations</li>
-            
-            <li>Plus de 15 ans d'expérience en conférences</li>
-            
-            <li>Sécurité IT, ingénierie sociale et physique</li>
-            
-            <li>Format flexible selon vos besoins</li>
-            
-          </ul>
-          
-          
-          
-          
-          
-          <div class="svc-modal-cta">
-            <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="btn btn-primary btn-sm">
-              Nous contacter <span class="arrow">→</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="svc-modal-backdrop" aria-hidden="true"></div>
 
-    <!-- CTA Section -->
-    
-    <section class="services-cta">
-      <div class="services-cta-inner">
-        <h2>Prêt à renforcer votre sécurité?</h2>
-        <p>Contactez notre équipe pour discuter de vos besoins et obtenir une soumission personnalisée.</p>
-        
-        <div class="services-cta-email">
-          <span class="email-icon">📧</span>
-          <a href="https://hackfest.ca/cdn-cgi/l/email-protection"><span class="__cf_email__" data-cfemail="">[email&#160;protected]</span></a>
+          
+          <div>
+            <h3 class="tr-panel__kicker">Conçu pour l&#39;engagement</h3>
+            <ul class="tr-checklist">
+              <li><span class="tr-check" aria-hidden="true">✓</span>Mode équipe (recommandé) ou mode solo</li><li><span class="tr-check" aria-hidden="true">✓</span>À distance, sur site ou hybride</li><li><span class="tr-check" aria-hidden="true">✓</span>Prix optionnels, défis thématiques et portail personnalisé</li><li><span class="tr-check" aria-hidden="true">✓</span>Option « CTF guidé » avec coachs pour aider les débutants à réussir</li>
+            </ul>
+          </div>
+          
+
+          
+
+          
+
+          
+          
         </div>
-        <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="btn btn-primary btn-lg">Nous contacter</a>
+      </div>
+
+      <div class="tr-drawer__foot">
+        <span class="svc-drawer__email"><a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="">[email&#160;protected]</a></span>
+        <div class="tr-drawer__actions">
+          <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="tr-btn tr-btn--primary">Demander une soumission</a>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="tr-drawer svc-drawer svc-training"
+         id="svc-drawer-training"
+         data-service="training"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="svc-drawer-title-training"
+         hidden>
+      <div class="tr-drawer__head">
+        <div class="tr-drawer__top">
+          <div class="tr-pills">
+            <span class="tr-pill svc-badge svc-badge--exclusive"><span class="tr-dot" aria-hidden="true"></span>Formations exclusives Hackfest</span>
+            <span class="tr-pill tr-pill--lang">Selon la formation</span>
+          </div>
+          <button type="button" class="tr-drawer__close" data-close-drawer aria-label="Fermer">✕</button>
+        </div>
+        <h2 class="tr-drawer__title" id="svc-drawer-title-training">Formation as a Service</h2>
+        
+        <p class="svc-ideal svc-ideal--drawer"><span class="svc-ideal__label">Idéal pour</span>Équipes à perfectionner, du débutant à l&#39;expert</p>
         
       </div>
-    </section>
+
+      <div class="tr-drawer__body">
+        <div class="tr-panel">
+          <p class="tr-panel__pitch">Les formations du Hackfest, données en privé à vos équipes.</p>
+          <div>
+            <h3 class="tr-panel__kicker">Le service</h3>
+            <p class="tr-panel__text">Développez les compétences de vos équipes avec nos formations spécialisées en cybersécurité. Créées par la communauté Hackfest, nos formations combinent théorie et pratique intensive.</p>
+          </div>
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+          <div>
+            <h3 class="tr-panel__kicker">Formations offertes</h3>
+            <ul class="svc-drawer-courses">
+              
+              
+              
+              
+              <li class="tr-box svc-drawer-course lv-multi">
+                <div class="tr-pills">
+                  <span class="tr-pill tr-pill--level"><span class="tr-dot" aria-hidden="true"></span>Multi-niveaux</span>
+                  <span class="tr-pill tr-pill--lang">Français</span>
+                  <span class="tr-pill">1 jour par cours</span>
+                </div>
+                <a class="svc-drawer-course__title" href="formations#securite-101">Sécurité 101-102-103-101C</a>
+                <p class="svc-drawer-course__pitch">Le parcours créé par la communauté Hackfest : de votre premier audit réseau jusqu&#39;à l&#39;escalade de privilèges et aux attaques AWS. Prenez un cours ou toute la série.</p>
+              </li>
+              
+              
+              
+              
+              <li class="tr-box svc-drawer-course lv-multi">
+                <div class="tr-pills">
+                  <span class="tr-pill tr-pill--level"><span class="tr-dot" aria-hidden="true"></span>Multi-niveaux</span>
+                  <span class="tr-pill tr-pill--lang">Français</span>
+                  <span class="tr-pill">1 à 4 jours</span>
+                </div>
+                <a class="svc-drawer-course__title" href="formations#securite-physique">Sécurité physique 101, 201, 202</a>
+                <p class="svc-drawer-course__pitch">Le pilier oublié de la sécurité de l&#39;information. Du Blue Team au Red Team, jusqu&#39;à la rétro-ingénierie d&#39;équipements réels.</p>
+              </li>
+              
+              
+              
+              
+              <li class="tr-box svc-drawer-course lv-intermediaire">
+                <div class="tr-pills">
+                  <span class="tr-pill tr-pill--level"><span class="tr-dot" aria-hidden="true"></span>Intermédiaire</span>
+                  <span class="tr-pill tr-pill--lang">Français</span>
+                  <span class="tr-pill">1 jour</span>
+                </div>
+                <a class="svc-drawer-course__title" href="formations#aiautomation">Sécurité &amp; automatisation intelligente</a>
+                <p class="svc-drawer-course__pitch">Réduisez votre temps de réaction aux menaces. Une journée pratique pour intégrer l&#39;IA à vos opérations : pentest, triage et gestion des vulnérabilités. Vous repartez avec des workflows prêts à l&#39;emploi.</p>
+              </li>
+              
+              
+              
+              
+              
+              
+              <li class="tr-box svc-drawer-course lv-avance">
+                <div class="tr-pills">
+                  <span class="tr-pill tr-pill--level"><span class="tr-dot" aria-hidden="true"></span>Avancé</span>
+                  <span class="tr-pill tr-pill--lang">Anglais</span>
+                  <span class="tr-pill">2 jours</span>
+                </div>
+                <a class="svc-drawer-course__title" href="formations#osint-bootcamp">OSINT / Social Engineering Bootcamp</a>
+                <p class="svc-drawer-course__pitch">Deux jours pour profiler, cibler et approcher individus et institutions, avec Shane MacDougall, double lauréat du black badge DEF CON. Donné en anglais.</p>
+              </li>
+              
+              
+              
+              
+              <li class="tr-box svc-drawer-course lv-avance">
+                <div class="tr-pills">
+                  <span class="tr-pill tr-pill--level"><span class="tr-dot" aria-hidden="true"></span>Avancé</span>
+                  <span class="tr-pill tr-pill--lang">Français</span>
+                  <span class="tr-pill">2 jours</span>
+                </div>
+                <a class="svc-drawer-course__title" href="formations#azure-swat-phenix">Formation Cloud pragmatique &amp; Security Ops</a>
+                <p class="svc-drawer-course__pitch">Pas une formation : un bootcamp opérationnel. Cinq ans d&#39;expérience Azure condensés en deux jours, en mode REAL-WORLD SWAT.</p>
+              </li>
+              
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="tr-drawer__foot">
+        <span class="svc-drawer__email"><a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="">[email&#160;protected]</a></span>
+        <div class="tr-drawer__actions">
+          <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="tr-btn tr-btn--primary">Demander une soumission</a>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="tr-drawer svc-drawer svc-schools"
+         id="svc-drawer-schools"
+         data-service="schools"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="svc-drawer-title-schools"
+         hidden>
+      <div class="tr-drawer__head">
+        <div class="tr-drawer__top">
+          <div class="tr-pills">
+            <span class="tr-pill svc-badge svc-badge--free"><span class="tr-dot" aria-hidden="true"></span>Gratuit</span>
+            <span class="tr-pill tr-pill--lang">Français · English</span>
+          </div>
+          <button type="button" class="tr-drawer__close" data-close-drawer aria-label="Fermer">✕</button>
+        </div>
+        <h2 class="tr-drawer__title" id="svc-drawer-title-schools">Conférences dans les écoles</h2>
+        
+        <p class="svc-ideal svc-ideal--drawer"><span class="svc-ideal__label">Idéal pour</span>Cégeps, universités et écoles secondaires</p>
+        
+      </div>
+
+      <div class="tr-drawer__body">
+        <div class="tr-panel">
+          <p class="tr-panel__pitch">Faites découvrir la cybersécurité et ses carrières à vos étudiants.</p>
+          <div>
+            <h3 class="tr-panel__kicker">Le service</h3>
+            <p class="tr-panel__text">Sensibilisez les étudiants à la cybersécurité et aux carrières dans le domaine. Nous offrons des présentations dynamiques adaptées à différents niveaux scolaires.</p>
+          </div>
+
+          
+
+          
+
+          
+          <div>
+            <h3 class="tr-panel__kicker">Au programme</h3>
+            <ul class="tr-checklist">
+              <li><span class="tr-check" aria-hidden="true">✓</span>CEGEPs et universités</li><li><span class="tr-check" aria-hidden="true">✓</span>Écoles secondaires</li><li><span class="tr-check" aria-hidden="true">✓</span>Démonstrations de hacking en direct</li><li><span class="tr-check" aria-hidden="true">✓</span>Sujets : bug bounty, OWASP, sécurité physique</li>
+            </ul>
+          </div>
+          
+
+          <div class="tr-note">Gratuit : seuls les frais de déplacement sont facturés.</div>
+
+          
+          
+        </div>
+      </div>
+
+      <div class="tr-drawer__foot">
+        <span class="svc-drawer__email"><a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="">[email&#160;protected]</a></span>
+        <div class="tr-drawer__actions">
+          <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="tr-btn tr-btn--primary">Demander une soumission</a>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="tr-drawer svc-drawer svc-corporate"
+         id="svc-drawer-corporate"
+         data-service="corporate"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="svc-drawer-title-corporate"
+         hidden>
+      <div class="tr-drawer__head">
+        <div class="tr-drawer__top">
+          <div class="tr-pills">
+            <span class="tr-pill svc-badge svc-badge--exclusive"><span class="tr-dot" aria-hidden="true"></span>Experts en cybersécurité</span>
+            <span class="tr-pill tr-pill--lang">Français · English</span>
+          </div>
+          <button type="button" class="tr-drawer__close" data-close-drawer aria-label="Fermer">✕</button>
+        </div>
+        <h2 class="tr-drawer__title" id="svc-drawer-title-corporate">Conférences pour entreprises</h2>
+        
+        <p class="svc-ideal svc-ideal--drawer"><span class="svc-ideal__label">Idéal pour</span>Du C-level aux équipes opérationnelles</p>
+        
+      </div>
+
+      <div class="tr-drawer__body">
+        <div class="tr-panel">
+          <p class="tr-panel__pitch">Des risques concrets, expliqués à votre réalité d&#39;entreprise.</p>
+          <div>
+            <h3 class="tr-panel__kicker">Le service</h3>
+            <p class="tr-panel__text">Sensibilisez vos employés aux risques de sécurité avec des présentations adaptées à votre réalité d&#39;entreprise. Du C-level aux équipes opérationnelles, nous ajustons le contenu selon votre audience.</p>
+          </div>
+
+          
+
+          
+
+          
+          <div>
+            <h3 class="tr-panel__kicker">Au programme</h3>
+            <ul class="tr-checklist">
+              <li><span class="tr-check" aria-hidden="true">✓</span>Contenu adapté du C-level aux opérations</li><li><span class="tr-check" aria-hidden="true">✓</span>Plus de 15 ans d&#39;expérience en conférences</li><li><span class="tr-check" aria-hidden="true">✓</span>Sécurité IT, ingénierie sociale et physique</li><li><span class="tr-check" aria-hidden="true">✓</span>Format flexible selon vos besoins</li>
+            </ul>
+          </div>
+          
+
+          
+
+          
+          
+        </div>
+      </div>
+
+      <div class="tr-drawer__foot">
+        <span class="svc-drawer__email"><a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="">[email&#160;protected]</a></span>
+        <div class="tr-drawer__actions">
+          <a href="https://hackfest.ca/cdn-cgi/l/email-protection" class="tr-btn tr-btn--primary">Demander une soumission</a>
+        </div>
+      </div>
+    </div>
     
 
     
@@ -921,5 +1291,6 @@
 
   <script src="assets/js/main.js"></script>
   <script src="https://hackfest.ca/assets/js/services.js"></script>
+  <script src="https://hackfest.ca/assets/js/schedule-subnav.js"></script>
 </body>
 </html>

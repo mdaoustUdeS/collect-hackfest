@@ -28,6 +28,8 @@
 <!-- Primary meta -->
 <title>Code d'éthique — Hackfest 2026</title>
 <meta name="description" content="Code d'éthique de Hackfest Communication et de ses personnes liées.">
+
+
 <link rel="canonical" href="code-ethique">
 
 <!-- Open Graph -->
@@ -46,6 +48,11 @@
 <meta name="twitter:title"       content="Code d'éthique — Hackfest 2026">
 <meta name="twitter:description" content="Code d'éthique de Hackfest Communication et de ses personnes liées.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
+
+<link rel="alternate" type="application/rss+xml" title="Hackfest : nouvelles" href="feed.xml">
+
 
 <!-- Hreflang (bilingual) -->
 

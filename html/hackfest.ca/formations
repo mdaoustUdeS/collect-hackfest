@@ -30,6 +30,8 @@
 <!-- Primary meta -->
 <title>Formations — Hackfest 2026</title>
 <meta name="description" content="7 formations en cybersécurité au Hackfest 2026, de débutant à avancé, avec des experts reconnus. Billet Hackfest inclus.">
+
+
 <link rel="canonical" href="formations">
 
 <!-- Open Graph -->
@@ -48,6 +50,11 @@
 <meta name="twitter:title"       content="Formations — Hackfest 2026">
 <meta name="twitter:description" content="7 formations en cybersécurité au Hackfest 2026, de débutant à avancé, avec des experts reconnus. Billet Hackfest inclus.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
+
+<link rel="alternate" type="application/rss+xml" title="Hackfest : nouvelles" href="feed.xml">
+
 
 <!-- Hreflang (bilingual) -->
 

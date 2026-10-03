@@ -30,6 +30,8 @@
 <!-- Primary meta -->
 <title>Spectacle — Hackfest 2026</title>
 <meta name="description" content="Peppin — hyperpop live-code — en vedette au spectacle musical du Hackfest le 30 octobre 2026.">
+
+
 <link rel="canonical" href="spectacle">
 
 <!-- Open Graph -->
@@ -48,6 +50,11 @@
 <meta name="twitter:title"       content="Spectacle — Hackfest 2026">
 <meta name="twitter:description" content="Peppin — hyperpop live-code — en vedette au spectacle musical du Hackfest le 30 octobre 2026.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
+
+<link rel="alternate" type="application/rss+xml" title="Hackfest : nouvelles" href="feed.xml">
+
 
 <!-- Hreflang (bilingual) -->
 

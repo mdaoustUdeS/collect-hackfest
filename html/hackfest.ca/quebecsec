@@ -21,6 +21,8 @@
 <!-- Primary meta -->
 <title>QuébecSec — Hackfest 2026</title>
 <meta name="description" content="Rencontres mensuelles de sécurité et hacking dans la ville de Québec.">
+
+
 <link rel="canonical" href="quebecsec">
 
 <!-- Open Graph -->
@@ -39,6 +41,11 @@
 <meta name="twitter:title"       content="QuébecSec — Hackfest 2026">
 <meta name="twitter:description" content="Rencontres mensuelles de sécurité et hacking dans la ville de Québec.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
+
+<link rel="alternate" type="application/rss+xml" title="Hackfest : nouvelles" href="feed.xml">
+
 
 <!-- Hreflang (bilingual) -->
 

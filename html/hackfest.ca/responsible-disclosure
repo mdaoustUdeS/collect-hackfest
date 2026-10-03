@@ -28,6 +28,8 @@
 <!-- Primary meta -->
 <title>Divulgation responsable — Hackfest 2026</title>
 <meta name="description" content="Processus de divulgation responsable des vulnérabilités pour les systèmes et sites Web Hackfest.">
+
+
 <link rel="canonical" href="responsible-disclosure">
 
 <!-- Open Graph -->
@@ -46,6 +48,11 @@
 <meta name="twitter:title"       content="Divulgation responsable — Hackfest 2026">
 <meta name="twitter:description" content="Processus de divulgation responsable des vulnérabilités pour les systèmes et sites Web Hackfest.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
+
+<link rel="alternate" type="application/rss+xml" title="Hackfest : nouvelles" href="feed.xml">
+
 
 <!-- Hreflang (bilingual) -->
 

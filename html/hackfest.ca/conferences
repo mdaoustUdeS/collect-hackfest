@@ -30,6 +30,8 @@
 <!-- Primary meta -->
 <title>Conférences & Présentations — Hackfest 2026</title>
 <meta name="description" content="Revivez les meilleures présentations du Hackfest, Polar, iHack et QuébecSEC — des années de contenu cybersécurité disponibles sur YouTube.">
+
+
 <link rel="canonical" href="conferences">
 
 <!-- Open Graph -->
@@ -48,6 +50,11 @@
 <meta name="twitter:title"       content="Conférences & Présentations — Hackfest 2026">
 <meta name="twitter:description" content="Revivez les meilleures présentations du Hackfest, Polar, iHack et QuébecSEC — des années de contenu cybersécurité disponibles sur YouTube.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
+
+<link rel="alternate" type="application/rss+xml" title="Hackfest : nouvelles" href="feed.xml">
+
 
 <!-- Hreflang (bilingual) -->
 

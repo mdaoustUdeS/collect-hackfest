@@ -30,6 +30,8 @@
 <!-- Primary meta -->
 <title>Horaire — Hackfest 2026</title>
 <meta name="description" content="Horaire du Hackfest 2026 et de POLAR : 29, 30 et 31 octobre à Québec. Conférences, ateliers, villages, CTF, spectacles et activités de soirée.">
+
+
 <link rel="canonical" href="horaire">
 
 <!-- Open Graph -->
@@ -48,6 +50,11 @@
 <meta name="twitter:title"       content="Horaire — Hackfest 2026">
 <meta name="twitter:description" content="Horaire du Hackfest 2026 et de POLAR : 29, 30 et 31 octobre à Québec. Conférences, ateliers, villages, CTF, spectacles et activités de soirée.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
+
+<link rel="alternate" type="application/rss+xml" title="Hackfest : nouvelles" href="feed.xml">
+
 
 <!-- Hreflang (bilingual) -->
 

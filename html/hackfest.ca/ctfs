@@ -30,6 +30,8 @@
 <!-- Primary meta -->
 <title>CTFs — Hackfest 2026</title>
 <meta name="description" content="Capture The Flag - Compétitions de hacking au Hackfest">
+
+
 <link rel="canonical" href="ctfs">
 
 <!-- Open Graph -->
@@ -48,6 +50,11 @@
 <meta name="twitter:title"       content="CTFs — Hackfest 2026">
 <meta name="twitter:description" content="Capture The Flag - Compétitions de hacking au Hackfest">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+
+<!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
+
+<link rel="alternate" type="application/rss+xml" title="Hackfest : nouvelles" href="feed.xml">
+
 
 <!-- Hreflang (bilingual) -->
 
@@ -307,8 +314,6 @@
       <div class="ctf-hero-content">
         <h1>Tout le monde peut s'inscrire.<br>Level up ou game over.</h1>
         
-        <p class="hero-subtitle">Entre avec des certitudes. Sors avec des compétences.</p>
-        
         <div class="cta-buttons">
           
           <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="btn btn-primary btn-lg">S'inscrire</a>
@@ -333,7 +338,7 @@
           
           <div class="ctf-card-media">
             
-            <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-card-media-link" tabindex="-1" aria-hidden="true" target="_blank" rel="noopener">
+            <a href="https://hackfest.ca/ctfs/hfctf/" class="ctf-card-media-link" tabindex="-1" aria-hidden="true">
               <img src="https://hackfest.ca/assets/images/ctfs/hfctf.webp" alt="Hackfest CTF" loading="lazy">
             </a>
             
@@ -372,6 +377,8 @@
             
 
             <div class="ctf-card-actions">
+              
+              <a href="https://hackfest.ca/ctfs/hfctf/" class="ctf-btn ctf-btn--outline">En savoir plus</a>
               
               
               <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-btn ctf-btn--register" target="_blank" rel="noopener">S&#39;inscrire</a>
