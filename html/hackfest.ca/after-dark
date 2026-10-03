@@ -29,14 +29,14 @@
 
 <!-- Primary meta -->
 <title>After Dark — Hackfest 2026</title>
-<meta name="description" content="La soirée nocturne du Hackfest — poker, CTF Blueteam, Ghost Talks et concours de social engineering 18+. 31 octobre 2026, 19h.">
+<meta name="description" content="La soirée nocturne du Hackfest : poker, Ghost Talks et concours de social engineering 18+. 31 octobre 2026, 19h.">
 <link rel="canonical" href="after-dark">
 
 <!-- Open Graph -->
 <meta property="og:type"        content="website">
 <meta property="og:site_name"   content="Hackfest 2026">
 <meta property="og:title"       content="After Dark — Hackfest 2026">
-<meta property="og:description" content="La soirée nocturne du Hackfest — poker, CTF Blueteam, Ghost Talks et concours de social engineering 18+. 31 octobre 2026, 19h.">
+<meta property="og:description" content="La soirée nocturne du Hackfest : poker, Ghost Talks et concours de social engineering 18+. 31 octobre 2026, 19h.">
 <meta property="og:url"         content="https://hackfest.ca/after-dark/">
 <meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
 <meta property="og:image:alt"   content="Hackfest 2026">
@@ -46,7 +46,7 @@
 <meta name="twitter:card"        content="summary">
 <meta name="twitter:site"        content="@hackfest_ca">
 <meta name="twitter:title"       content="After Dark — Hackfest 2026">
-<meta name="twitter:description" content="La soirée nocturne du Hackfest — poker, CTF Blueteam, Ghost Talks et concours de social engineering 18+. 31 octobre 2026, 19h.">
+<meta name="twitter:description" content="La soirée nocturne du Hackfest : poker, Ghost Talks et concours de social engineering 18+. 31 octobre 2026, 19h.">
 <meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
 
 <!-- Hreflang (bilingual) -->
@@ -425,12 +425,6 @@
             <div class="afterdark-activity-icon" aria-hidden="true">🎤</div>
             <h3 class="afterdark-activity-title">Social Engineering</h3>
             <p class="afterdark-activity-desc">Concours de social engineering — 18+. Mettez à l'épreuve vos techniques d'influence.</p>
-          </div><!-- /.afterdark-activity-card -->
-          
-          <div class="afterdark-activity-card">
-            <div class="afterdark-activity-icon" aria-hidden="true">💻</div>
-            <h3 class="afterdark-activity-title">CTF Blueteam</h3>
-            <p class="afterdark-activity-desc">CTF Blueteam par Corelight — relevez le défi nocturne.</p>
           </div><!-- /.afterdark-activity-card -->
           
           <div class="afterdark-activity-card">
