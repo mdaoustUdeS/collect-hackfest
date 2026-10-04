@@ -88,6 +88,9 @@
       
       
       
+      
+      
+      
       <span class="header-subbrand-sep" aria-hidden="true">/</span>
       <a href="polar"
          class="header-subbrand-link">
@@ -100,62 +103,60 @@
     <nav class="main-nav" id="mainNav">
       <ul class="nav-list">
         
+        
+        
         <li class="nav-item has-dropdown">
           
-            <button class="nav-btn">Communauté</button>
+            <button class="nav-btn">Hackfest</button>
           
           
           <ul class="dropdown">
             
-            <li class="dropdown-item has-dropdown">
-              
-                <button class="nav-btn">Hackfest</button>
-              
-              
-              <ul class="dropdown sub-dropdown">
-                
-                <li><a href="ctfs">CTFs</a></li>
-                
-                <li><a href="villages">Villages</a></li>
-                
-                <li><a href="formations">Formations</a></li>
-                
-                <li><a href="spectacle">Spectacle</a></li>
-                
-                <li><a href="after-dark">After Dark</a></li>
-                
-                <li><a href="hackfest-schedule">Programme Hackfest</a></li>
-                
-                <li><a href="partenaires-hackfest">Partenaires</a></li>
-                
-              </ul>
-              
-            </li>
-            
             <li class="dropdown-item">
               
-                <a href="polar">Polar</a>
+                <a href="ctfs">CTFs</a>
               
               
             </li>
             
             <li class="dropdown-item">
               
-                <a href="quebecsec">QuébecSec</a>
+                <a href="villages">Villages</a>
               
               
             </li>
             
             <li class="dropdown-item">
               
-                <a href="ihack">iHack</a>
+                <a href="formations">Formations</a>
               
               
             </li>
             
             <li class="dropdown-item">
               
-                <a href="https://securite.fm">French Connection</a>
+                <a href="spectacle">Spectacle</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="after-dark">After Dark</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="hackfest-schedule">Programme Hackfest</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="partenaires-hackfest">Partenaires</a>
               
               
             </li>
@@ -164,26 +165,34 @@
           
         </li>
         
-        <li class="nav-item">
+        
+        
+        <li class="nav-item has-dropdown">
           
-            <a href="services">Services</a>
+            <a href="polar">Polar</a>
           
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="polar">Aperçu</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="polar#sponsors">Partenaires</a>
+              
+              
+            </li>
+            
+          </ul>
           
         </li>
         
-        <li class="nav-item">
-          
-            <a href="sejour">Séjour</a>
-          
-          
-        </li>
         
-        <li class="nav-item">
-          
-            <a href="horaire">Horaire</a>
-          
-          
-        </li>
         
         <li class="nav-item has-dropdown">
           
@@ -224,6 +233,39 @@
           
         </li>
         
+        
+        
+        <li class="nav-item">
+          
+            <a href="sejour">Séjour</a>
+          
+          
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          
+            <a href="horaire">Horaire</a>
+          
+          
+        </li>
+        
+        
+        
+        <li class="nav-item nav-item--highlight">
+          
+            <a href="formations">Formations</a>
+          
+          
+        </li>
+        
+        
+        
+        <li class="nav-separator" aria-hidden="true"></li>
+        
+        
+        
         <li class="nav-item has-dropdown">
           
             <button class="nav-btn">Contact</button>
@@ -256,12 +298,50 @@
           
         </li>
         
+        
+        
         <li class="nav-item">
           
-            <a href="historique">Historique</a>
+            <a href="services">Services</a>
           
           
         </li>
+        
+        
+        
+        <li class="nav-item has-dropdown">
+          
+            <button class="nav-btn">Communauté</button>
+          
+          
+          <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="quebecsec">QuébecSec</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="ihack">iHack</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://securite.fm">French Connection</a>
+              
+              
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        
         
         <li class="nav-item has-dropdown">
           
@@ -269,6 +349,13 @@
           
           
           <ul class="dropdown">
+            
+            <li class="dropdown-item">
+              
+                <a href="historique">Historique</a>
+              
+              
+            </li>
             
             <li class="dropdown-item">
               

@@ -163,6 +163,59 @@ window.addEventListener('load', handleScrollAnimations);
   });
 })();
 
+(function initHeaderFit() {
+  var header    = document.querySelector('.site-header');
+  var hamburger = document.getElementById('hamburger');
+  var navList   = header && header.querySelector('.nav-list');
+
+  if (!header || !hamburger || !navList) { return; }
+
+  var MIN_GAP = 16;
+  var pending = false;
+
+  function visibleRects(selector) {
+    return Array.prototype.slice.call(header.querySelectorAll(selector))
+      .filter(function(el) { return el.offsetParent !== null; })
+      .map(function(el) { return el.getBoundingClientRect(); });
+  }
+
+  function update() {
+    pending = false;
+    header.classList.remove('is-compact');
+
+    if (getComputedStyle(hamburger).display !== 'none') { return; }
+
+    var left  = visibleRects('.header-left img, .header-left .header-subbrand-sep');
+    var right = visibleRects('.header-right > *');
+    var nav   = navList.getBoundingClientRect();
+    if (!left.length || !right.length) { return; }
+
+    var leftEnd    = Math.max.apply(null, left.map(function(r) { return r.right; }));
+    var rightStart = Math.min.apply(null, right.map(function(r) { return r.left; }));
+    var rightEnd   = Math.max.apply(null, right.map(function(r) { return r.right; }));
+
+    var overflows = leftEnd + MIN_GAP > nav.left ||
+                    nav.right + MIN_GAP > rightStart ||
+                    rightEnd > document.documentElement.clientWidth;
+
+    if (overflows) { header.classList.add('is-compact'); }
+  }
+
+  function schedule() {
+    if (pending) { return; }
+    pending = true;
+    window.requestAnimationFrame(update);
+  }
+
+  update();
+  window.addEventListener('resize', schedule);
+  window.addEventListener('load', schedule);
+  header.querySelectorAll('img').forEach(function(img) {
+    if (!img.complete) { img.addEventListener('load', schedule); }
+  });
+  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(schedule); }
+})();
+
 (function initDesktopDropdowns() {
   var hamburger = document.getElementById('hamburger');
   if (!hamburger) { return; }
