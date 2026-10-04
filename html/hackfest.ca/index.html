@@ -630,17 +630,22 @@
       </div>
     </div>
 
-    <!-- RIGHT: navigation (only shown when more than 1 item) -->
-    
+    <!-- RIGHT: navigation arrows (only when more than 1 item) + RSS download (always) -->
     <div class="news-ticker-nav"
          aria-label="Navigation nouvelles">
+      
       <button class="news-ticker-btn" id="newsTickerPrev"
               aria-label="Nouvelle précédente">&#x2039;</button>
       <span class="news-ticker-counter" id="newsTickerCounter">1 / 7</span>
       <button class="news-ticker-btn" id="newsTickerNext"
               aria-label="Nouvelle suivante">&#x203a;</button>
+      
+      
+      
+      <a class="news-ticker-rss" href="feed.xml" download="hackfest-nouvelles.xml"
+         title="Télécharger le flux RSS des nouvelles">RSS</a>
+      
     </div>
-    
 
   </div><!-- /.news-ticker-inner -->
 
