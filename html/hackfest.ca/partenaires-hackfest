@@ -598,6 +598,34 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
             <div class="sponsor-entry">
               <div class="sponsor-item">
                 
+                <a href="https://www.trendai.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">TrendAI est la division entreprise de Trend Micro (renommée en 2026), qui protège les organisations et les systèmes d'IA sur lesquels elles s'appuient.</p>
+                <a href="https://www.trendai.com/" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://cyvault.io/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/cyvault.webp" alt="CyVault"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">CyVault, une division de PM SCADA Cyber Défense (Canada), protège en temps réel les organisations TI, les infrastructures critiques et les environnements OT contre les cybermenaces connues et émergentes, avec des bureaux à Montréal, Strasbourg et Casablanca.</p>
+                <a href="https://cyvault.io/" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
                 <a href="https://vendel.ca/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/vendel.png" alt="Vendel"></a>
                 
               </div>
@@ -621,26 +649,9 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
           
           
           
-          
-          
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://owasp.org/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/owasp.png" alt="OWASP"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">L'Open Web Application Security Project (OWASP) est une fondation à but non lucratif qui œuvre à l'amélioration de la sécurité des logiciels. Grâce à des projets de logiciels libres dirigés par la communauté, à des centaines de chapitres locaux dans le monde entier, à des dizaines de milliers de membres et à des conférences d'éducation et de formation de premier plan, la fondation OWASP est la source des développeurs et des technologues pour sécuriser le web.</p>
-                <a href="https://owasp.org/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
+          <div class="sponsor-logos sponsor-logos-empty">
+            <span class="sponsor-placeholder">À venir</span>
           </div>
-          
           
         </div>
         
@@ -743,6 +754,20 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
               
             </div>
             
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://www.talenty.ca/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/talenty.webp" alt="Talenty"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text"></p>
+                <a href="https://www.talenty.ca/" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
           </div>
           
           
@@ -779,6 +804,36 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
               <div class="sponsor-desc-block">
                 <p class="sponsor-item-text">Proofpoint est une entreprise mondiale de cybersécurité et de conformité qui protège les organisations et leurs employés contre les menaces par courriel, la perte de données et la prise de contrôle de comptes.</p>
                 <a href="https://www.proofpoint.com/" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+          </div>
+          
+          
+        </div>
+        
+        
+        
+        <div class="sponsor-row " id="community">
+          <span class="sponsor-label">Communauté</span>
+          
+          
+          
+          
+          
+          <div class="sponsor-entries">
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://owasp.org/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/owasp.png" alt="OWASP"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">L'Open Web Application Security Project (OWASP) est une fondation à but non lucratif qui œuvre à l'amélioration de la sécurité des logiciels. Grâce à des projets de logiciels libres dirigés par la communauté, à des centaines de chapitres locaux dans le monde entier, à des dizaines de milliers de membres et à des conférences d'éducation et de formation de premier plan, la fondation OWASP est la source des développeurs et des technologues pour sécuriser le web.</p>
+                <a href="https://owasp.org/" class="sponsor-item-url">Visiter le site</a>
               </div>
               
             </div>

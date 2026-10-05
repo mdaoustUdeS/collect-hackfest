@@ -1845,6 +1845,34 @@
         
         
         
+        <div class="sponsor-row " id="bar">
+          <span class="sponsor-label">Bar</span>
+          
+          
+          
+          
+          
+          <div class="sponsor-entries">
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://www.trendai.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">TrendAI est la division entreprise de Trend Micro (renommée en 2026), qui protège les organisations et les systèmes d'IA sur lesquels elles s'appuient.</p>
+                <a href="https://www.trendai.com/" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+          </div>
+          
+          
+        </div>
+        
         
         
         
