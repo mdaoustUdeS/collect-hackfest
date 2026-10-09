@@ -720,7 +720,7 @@
           
           <div class="ctf-card-media">
             
-            <a href="villages#village-lockpicking" class="ctf-card-media-link" tabindex="-1" aria-hidden="true">
+            <a href="https://hackfest.ca/ctfs/lockpicking/" class="ctf-card-media-link" tabindex="-1" aria-hidden="true">
               <img src="https://hackfest.ca/assets/images/villages/lockpicks.webp" alt="Lockpicking CTF" loading="lazy">
             </a>
             
@@ -733,12 +733,12 @@
             </div>
             
             <h3 class="ctf-card-title">Lockpicking CTF</h3>
-            <p class="ctf-card-summary">Le village Lockpicking tient un CTF de crochetage de serrures et une compétition, ouverts à tous les niveaux. Serrures et outils fournis sur place.</p>
+            <p class="ctf-card-summary">Le tournoi de crochetage du Hackfest, en collaboration avec Aéroports de Montréal : qualification le vendredi, finale à trois le samedi. Ouvert à tous les niveaux, serrures et outils fournis sur place.</p>
 
             
             <dl class="ctf-card-facts">
               
-              <dt>Quand</dt><dd>30 et 31 oct., au village</dd>
+              <dt>Quand</dt><dd>Qualif. ven. 30 oct., finale sam. 31 oct.</dd>
               
               <dt>Pour</dt><dd>Tout le monde</dd>
               
@@ -760,7 +760,7 @@
 
             <div class="ctf-card-actions">
               
-              <a href="villages#village-lockpicking" class="ctf-btn ctf-btn--outline">Voir le village</a>
+              <a href="https://hackfest.ca/ctfs/lockpicking/" class="ctf-btn ctf-btn--outline">Règlements et horaire</a>
               
               
               <a href="https://www.eventbrite.com/e/hackfest-2026-level-up-edition-registration-1816217959809?aff=oddtdtcreator" class="ctf-btn ctf-btn--register" target="_blank" rel="noopener">Obtenir un billet</a>

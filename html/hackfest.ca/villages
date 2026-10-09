@@ -452,9 +452,9 @@
           
           <div class="ctf-card-media">
             
-            <button type="button" class="ctf-card-media-link" data-village="lockpicking" tabindex="-1" aria-hidden="true">
+            <a href="https://hackfest.ca/ctfs/lockpicking/" class="ctf-card-media-link" tabindex="-1" aria-hidden="true">
               <img src="https://hackfest.ca/assets/images/villages/lockpicks.webp" alt="Lockpicking" loading="lazy">
-            </button>
+            </a>
             
           </div>
           
@@ -475,6 +475,11 @@
             <p class="ctf-card-summary">Atelier de crochetage de serrures, CTF et compétition de lockpicking, ouverts à tous les niveaux. Venez tester vos aptitudes manuelles.</p>
 
             
+            <p class="village-sponsor">
+              <span>Présenté par</span>
+              <img src="https://hackfest.ca/assets/images/sponsors/adm-light.webp" alt="Aéroports de Montréal" loading="lazy">
+            </p>
+            
           </div>
 
           <div class="ctf-card-foot">
@@ -482,8 +487,7 @@
 
             <div class="ctf-card-actions">
               
-              <button type="button" class="ctf-btn ctf-btn--outline" data-village="lockpicking"
-                      aria-haspopup="dialog" aria-controls="modal-lockpicking">Détails</button>
+              <a href="https://hackfest.ca/ctfs/lockpicking/" class="ctf-btn ctf-btn--outline">En savoir plus</a>
               
             </div>
           </div>
@@ -878,74 +882,6 @@
     <div class="villages-modal-backdrop" id="villagesModalBackdrop" hidden></div>
 
     
-    
-    <div class="villages-modal"
-         id="modal-lockpicking"
-         role="dialog"
-         aria-modal="true"
-         aria-labelledby="modal-title-lockpicking"
-         hidden>
-
-      <!-- Modal header: village name + close button -->
-      <div class="villages-modal-header">
-        <h2 class="villages-modal-title" id="modal-title-lockpicking">Lockpicking</h2>
-        <button class="villages-modal-close"
-                aria-label="Fermer">✕</button>
-      </div>
-
-      <!-- Modal body: tags, full desc, sponsor, schedule, logistics -->
-      <div class="villages-modal-body">
-
-        <!-- Tags row -->
-        
-        <div class="village-card-tags villages-modal-tags">
-          
-          <span class="village-tag">CTF</span>
-          
-          <span class="village-tag">hands-on</span>
-          
-          <span class="village-tag">débutant</span>
-          
-        </div>
-        
-
-        <!-- Full description -->
-        <div class="villages-modal-desc"><p>Venez tester vos aptitudes en crochetage de serrures dans un cadre ludique et pédagogique. Des instructeurs expérimentés vous guideront, que vous soyez complètement débutant ou déjà initié. Toutes les serrures et outils sont fournis sur place. Un village idéal pour comprendre les vulnérabilités physiques souvent négligées dans les stratégies de sécurité. Le village propose aussi un CTF de lockpicking et une compétition : mesurez-vous aux autres participants!</p>
-</div>
-
-        <!-- Sponsor block
-             Renders when sponsor is a hash with at least one of: name, logo.
-             Sponsor must be a YAML object — a plain string value is ignored.
-             Examples in YAML:
-               sponsor:
-                 name: "Acme Corp"               # text only (no link, no image)
-                 logo: "sponsors/acme.png"        # image only (no name, no URL)
-                 url:  "https://acme.com"         # makes the name a clickable link
-        -->
-        
-
-        <!-- Schedule block (only when schedule array is not empty) -->
-        
-        <div class="villages-modal-schedule">
-          <h3 class="villages-modal-section-title">Horaire</h3>
-          <ol class="villages-modal-schedule-list">
-            
-            <li class="villages-modal-schedule-item">Plus d'informations bientôt disponibles.</li>
-            
-          </ol>
-        </div>
-        
-
-        <!-- Logistics block (only when logistics string is not empty) -->
-        
-        <div class="villages-modal-logistics">
-          <h3 class="villages-modal-section-title">Logistique</h3>
-          <p>Plus d'informations bientôt disponibles.</p>
-        </div>
-        
-
-      </div><!-- /.villages-modal-body -->
-    </div><!-- /.villages-modal -->
     
     
     
