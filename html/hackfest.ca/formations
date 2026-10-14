@@ -408,8 +408,8 @@
         data-count-one="{n} formation affichée"
         data-count-many="{n} formations affichées"
         data-count-zero="0 formation"
-        data-urgency="Les inscriptions ferment dans {n} jours pour {course} ({date}), et d&#39;ici le 16 octobre pour les autres."
-        data-urgency-today="Dernier jour pour s&#39;inscrire à {course}. Les autres formations ferment d&#39;ici le 16 octobre."
+        data-urgency="Les inscriptions ferment dans {n} jours ({date}). La gestion de crise reste ouverte jusqu&#39;au 26 octobre."
+        data-urgency-today="Dernier jour pour s&#39;inscrire. La gestion de crise reste ouverte jusqu&#39;au 26 octobre."
         data-urgency-closed="Les inscriptions sont fermées."
         data-cta-sub="Billet Hackfest inclus avec chaque formation. Premières fermetures le {date}"
         data-cta-fallback="Billet Hackfest inclus avec chaque formation.">
@@ -577,9 +577,9 @@
                  data-start="28"
                  data-featured="1"
                  data-min="1400"
-                 data-deadline="2026-10-14"
+                 data-deadline="2026-10-24"
                  data-short="OSINT / Social Eng."
-                 data-date="14 oct."
+                 data-date="24 oct."
                  data-glow="rgba(130,75,20,.38)">
           <div class="tr-card__body">
             <div class="tr-pills">
@@ -615,7 +615,7 @@
               <div class="tr-card__notes">
                 
                 <div class="tr-save-note">Économisez 100&nbsp;$</div>
-                <div class="tr-deadline js-deadline" data-deadline="2026-10-14" data-date="14 oct." data-variant="long">14 oct.</div>
+                <div class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="long">24 oct.</div>
               </div>
             </div>
             <div class="tr-card__actions">
@@ -634,9 +634,9 @@
                  data-start="26"
                  data-featured="0"
                  data-min="450"
-                 data-deadline="2026-10-12"
+                 data-deadline="2026-10-24"
                  data-short="Sécurité 101–103 + 101C"
-                 data-date="12 oct."
+                 data-date="24 oct."
                  data-glow="rgba(40,60,160,.38)">
           <div class="tr-card__body">
             <div class="tr-pills">
@@ -677,7 +677,7 @@
               <div class="tr-card__notes">
                 <div class="tr-save-note">Forfaits : jusqu'à −400&nbsp;$</div>
                 
-                <div class="tr-deadline js-deadline" data-deadline="2026-10-12" data-date="12 oct." data-variant="long">12 oct.</div>
+                <div class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="long">24 oct.</div>
               </div>
             </div>
             <div class="tr-card__actions">
@@ -696,9 +696,9 @@
                  data-start="26"
                  data-featured="0"
                  data-min="950"
-                 data-deadline="2026-10-12"
+                 data-deadline="2026-10-24"
                  data-short="Sécurité physique"
-                 data-date="12 oct."
+                 data-date="24 oct."
                  data-glow="rgba(30,120,70,.36)">
           <div class="tr-card__body">
             <div class="tr-pills">
@@ -734,7 +734,7 @@
               <div class="tr-card__notes">
                 <div class="tr-save-note">Forfaits : jusqu'à −300&nbsp;$</div>
                 
-                <div class="tr-deadline js-deadline" data-deadline="2026-10-12" data-date="12 oct." data-variant="long">12 oct.</div>
+                <div class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="long">24 oct.</div>
               </div>
             </div>
             <div class="tr-card__actions">
@@ -753,9 +753,9 @@
                  data-start="27"
                  data-featured="0"
                  data-min="1500"
-                 data-deadline="2026-10-15"
+                 data-deadline="2026-10-24"
                  data-short="Réponse aux incidents"
-                 data-date="15 oct."
+                 data-date="24 oct."
                  data-glow="rgba(80,40,170,.40)">
           <div class="tr-card__body">
             <div class="tr-pills">
@@ -791,7 +791,7 @@
               <div class="tr-card__notes">
                 
                 
-                <div class="tr-deadline js-deadline" data-deadline="2026-10-15" data-date="15 oct." data-variant="long">15 oct.</div>
+                <div class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="long">24 oct.</div>
               </div>
             </div>
             <div class="tr-card__actions">
@@ -810,9 +810,9 @@
                  data-start="27"
                  data-featured="0"
                  data-min="1600"
-                 data-deadline="2026-10-11"
+                 data-deadline="2026-10-24"
                  data-short="Cloud &amp; SecOps Azure"
-                 data-date="11 oct."
+                 data-date="24 oct."
                  data-glow="rgba(60,40,130,.40)">
           <div class="tr-card__body">
             <div class="tr-pills">
@@ -848,7 +848,7 @@
               <div class="tr-card__notes">
                 
                 
-                <div class="tr-deadline js-deadline" data-deadline="2026-10-11" data-date="11 oct." data-variant="long">11 oct.</div>
+                <div class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="long">24 oct.</div>
               </div>
             </div>
             <div class="tr-card__actions">
@@ -867,9 +867,9 @@
                  data-start="28"
                  data-featured="0"
                  data-min="600"
-                 data-deadline="2026-10-15"
+                 data-deadline="2026-10-26"
                  data-short="Gestion de crise"
-                 data-date="15 oct."
+                 data-date="26 oct."
                  data-glow="rgba(20,100,100,.36)">
           <div class="tr-card__body">
             <div class="tr-pills">
@@ -905,7 +905,7 @@
               <div class="tr-card__notes">
                 
                 
-                <div class="tr-deadline js-deadline" data-deadline="2026-10-15" data-date="15 oct." data-variant="long">15 oct.</div>
+                <div class="tr-deadline js-deadline" data-deadline="2026-10-26" data-date="26 oct." data-variant="long">26 oct.</div>
               </div>
             </div>
             <div class="tr-card__actions">
@@ -924,9 +924,9 @@
                  data-start="29"
                  data-featured="0"
                  data-min="700"
-                 data-deadline="2026-10-16"
+                 data-deadline="2026-10-24"
                  data-short="IA &amp; automatisation"
-                 data-date="16 oct."
+                 data-date="24 oct."
                  data-glow="rgba(130,30,60,.36)">
           <div class="tr-card__body">
             <div class="tr-pills">
@@ -962,7 +962,7 @@
               <div class="tr-card__notes">
                 
                 
-                <div class="tr-deadline js-deadline" data-deadline="2026-10-16" data-date="16 oct." data-variant="long">16 oct.</div>
+                <div class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="long">24 oct.</div>
               </div>
             </div>
             <div class="tr-card__actions">
@@ -1000,7 +1000,7 @@
                 data-start="28"
                  data-featured="1"
                 data-min="1400"
-                data-deadline="2026-10-14">
+                data-deadline="2026-10-24">
               <th scope="row">
                 <button type="button" class="tr-row__title" data-open-course="osint-bootcamp" aria-haspopup="dialog" aria-controls="tr-drawer-osint-bootcamp">OSINT / Social Engineering Bootcamp</button>
                 <ul class="tr-highlights tr-highlights--sm">
@@ -1017,7 +1017,7 @@
               <td><span class="tr-level"><span class="tr-dot" aria-hidden="true"></span>Avancé</span></td>
               <td class="tr-nowrap">28–29 oct.<div class="tr-muted-sm">2 jours</div></td>
               <td>Anglais</td>
-              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-14" data-date="14 oct." data-variant="short">14 oct.</span></td>
+              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="short">24 oct.</span></td>
               <td class="tr-table__num tr-nowrap">
                 <div class="tr-muted-sm">Prix</div>
                 <s class="tr-price-was">1&nbsp;500&nbsp;$</s>
@@ -1039,7 +1039,7 @@
                 data-start="26"
                  data-featured="0"
                 data-min="450"
-                data-deadline="2026-10-12">
+                data-deadline="2026-10-24">
               <th scope="row">
                 <button type="button" class="tr-row__title" data-open-course="securite-101" aria-haspopup="dialog" aria-controls="tr-drawer-securite-101">Sécurité 101-102-103-101C</button>
                 <ul class="tr-highlights tr-highlights--sm">
@@ -1056,7 +1056,7 @@
               <td><span class="tr-level"><span class="tr-dot" aria-hidden="true"></span>Multi-niveaux</span></td>
               <td class="tr-nowrap">26–29 oct.<div class="tr-muted-sm">1 jour par cours</div></td>
               <td>Français</td>
-              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-12" data-date="12 oct." data-variant="short">12 oct.</span></td>
+              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="short">24 oct.</span></td>
               <td class="tr-table__num tr-nowrap">
                 <div class="tr-muted-sm">À partir de</div>
                 
@@ -1078,7 +1078,7 @@
                 data-start="26"
                  data-featured="0"
                 data-min="950"
-                data-deadline="2026-10-12">
+                data-deadline="2026-10-24">
               <th scope="row">
                 <button type="button" class="tr-row__title" data-open-course="securite-physique" aria-haspopup="dialog" aria-controls="tr-drawer-securite-physique">Sécurité physique 101, 201, 202</button>
                 <ul class="tr-highlights tr-highlights--sm">
@@ -1095,7 +1095,7 @@
               <td><span class="tr-level"><span class="tr-dot" aria-hidden="true"></span>Multi-niveaux</span></td>
               <td class="tr-nowrap">26–29 oct.<div class="tr-muted-sm">1 à 4 jours</div></td>
               <td>Français</td>
-              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-12" data-date="12 oct." data-variant="short">12 oct.</span></td>
+              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="short">24 oct.</span></td>
               <td class="tr-table__num tr-nowrap">
                 <div class="tr-muted-sm">À partir de</div>
                 
@@ -1117,7 +1117,7 @@
                 data-start="27"
                  data-featured="0"
                 data-min="1500"
-                data-deadline="2026-10-15">
+                data-deadline="2026-10-24">
               <th scope="row">
                 <button type="button" class="tr-row__title" data-open-course="premier-repondant-ir" aria-haspopup="dialog" aria-controls="tr-drawer-premier-repondant-ir">Devenir premier répondant en réponse aux cyberincidents</button>
                 <ul class="tr-highlights tr-highlights--sm">
@@ -1134,7 +1134,7 @@
               <td><span class="tr-level"><span class="tr-dot" aria-hidden="true"></span>Intermédiaire</span></td>
               <td class="tr-nowrap">27–29 oct.<div class="tr-muted-sm">3 jours · 21 h</div></td>
               <td>Français</td>
-              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-15" data-date="15 oct." data-variant="short">15 oct.</span></td>
+              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="short">24 oct.</span></td>
               <td class="tr-table__num tr-nowrap">
                 <div class="tr-muted-sm">Prix</div>
                 
@@ -1156,7 +1156,7 @@
                 data-start="27"
                  data-featured="0"
                 data-min="1600"
-                data-deadline="2026-10-11">
+                data-deadline="2026-10-24">
               <th scope="row">
                 <button type="button" class="tr-row__title" data-open-course="azure-swat-phenix" aria-haspopup="dialog" aria-controls="tr-drawer-azure-swat-phenix">Formation Cloud pragmatique & Security Ops</button>
                 <ul class="tr-highlights tr-highlights--sm">
@@ -1173,7 +1173,7 @@
               <td><span class="tr-level"><span class="tr-dot" aria-hidden="true"></span>Avancé</span></td>
               <td class="tr-nowrap">27–28 oct.<div class="tr-muted-sm">2 jours</div></td>
               <td>Français</td>
-              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-11" data-date="11 oct." data-variant="short">11 oct.</span></td>
+              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="short">24 oct.</span></td>
               <td class="tr-table__num tr-nowrap">
                 <div class="tr-muted-sm">Prix</div>
                 
@@ -1195,7 +1195,7 @@
                 data-start="28"
                  data-featured="0"
                 data-min="600"
-                data-deadline="2026-10-15">
+                data-deadline="2026-10-26">
               <th scope="row">
                 <button type="button" class="tr-row__title" data-open-course="gestion-crise" aria-haspopup="dialog" aria-controls="tr-drawer-gestion-crise">S'initier à la gestion de crise</button>
                 <ul class="tr-highlights tr-highlights--sm">
@@ -1212,7 +1212,7 @@
               <td><span class="tr-level"><span class="tr-dot" aria-hidden="true"></span>Débutant</span></td>
               <td class="tr-nowrap">mer. 28 oct.<div class="tr-muted-sm">1 jour</div></td>
               <td>Français</td>
-              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-15" data-date="15 oct." data-variant="short">15 oct.</span></td>
+              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-26" data-date="26 oct." data-variant="short">26 oct.</span></td>
               <td class="tr-table__num tr-nowrap">
                 <div class="tr-muted-sm">Prix</div>
                 
@@ -1234,7 +1234,7 @@
                 data-start="29"
                  data-featured="0"
                 data-min="700"
-                data-deadline="2026-10-16">
+                data-deadline="2026-10-24">
               <th scope="row">
                 <button type="button" class="tr-row__title" data-open-course="aiautomation" aria-haspopup="dialog" aria-controls="tr-drawer-aiautomation">Sécurité & automatisation intelligente</button>
                 <ul class="tr-highlights tr-highlights--sm">
@@ -1251,7 +1251,7 @@
               <td><span class="tr-level"><span class="tr-dot" aria-hidden="true"></span>Intermédiaire</span></td>
               <td class="tr-nowrap">jeu. 29 oct.<div class="tr-muted-sm">1 jour</div></td>
               <td>Français</td>
-              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-16" data-date="16 oct." data-variant="short">16 oct.</span></td>
+              <td class="tr-nowrap"><span class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="short">24 oct.</span></td>
               <td class="tr-table__num tr-nowrap">
                 <div class="tr-muted-sm">Prix</div>
                 
@@ -1710,7 +1710,7 @@
         
         <details class="tr-faq__item">
           <summary>Jusqu'à quand puis-je m'inscrire ?<span class="tr-faq__plus" aria-hidden="true">+</span></summary>
-          <div class="tr-faq__answer"><p>Les inscriptions ferment entre le 11 et le 16 octobre 2026 selon la formation. Les places sont limitées.</p>
+          <div class="tr-faq__answer"><p>Les inscriptions ferment le 24 octobre 2026 (le 26 octobre pour la gestion de crise). Les places sont limitées.</p>
 </div>
         </details>
         
@@ -2059,7 +2059,7 @@
       <div class="tr-drawer__foot">
         <div>
           <div class="tr-drawer__price"><span class="tr-price-prefix">À partir de</span><span class="tr-price tr-price--md">450&nbsp;$</span></div>
-          <div class="tr-deadline js-deadline" data-deadline="2026-10-12" data-date="12 oct." data-variant="long">12 oct.</div>
+          <div class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="long">24 oct.</div>
         </div>
         <div class="tr-drawer__actions">
           <button type="button" class="tr-btn tr-btn--outline" data-goto-tab="tarifs">Voir les tarifs</button>
@@ -2297,7 +2297,7 @@
       <div class="tr-drawer__foot">
         <div>
           <div class="tr-drawer__price"><span class="tr-price-prefix">À partir de</span><span class="tr-price tr-price--md">950&nbsp;$</span></div>
-          <div class="tr-deadline js-deadline" data-deadline="2026-10-12" data-date="12 oct." data-variant="long">12 oct.</div>
+          <div class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="long">24 oct.</div>
         </div>
         <div class="tr-drawer__actions">
           <button type="button" class="tr-btn tr-btn--outline" data-goto-tab="tarifs">Voir les tarifs</button>
@@ -2476,7 +2476,7 @@
       <div class="tr-drawer__foot">
         <div>
           <div class="tr-drawer__price"><span class="tr-price-prefix">Prix</span><span class="tr-price tr-price--md">700&nbsp;$</span></div>
-          <div class="tr-deadline js-deadline" data-deadline="2026-10-16" data-date="16 oct." data-variant="long">16 oct.</div>
+          <div class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="long">24 oct.</div>
         </div>
         <div class="tr-drawer__actions">
           <button type="button" class="tr-btn tr-btn--outline" data-goto-tab="tarifs">Voir les tarifs</button>
@@ -2635,7 +2635,7 @@
       <div class="tr-drawer__foot">
         <div>
           <div class="tr-drawer__price"><span class="tr-price-prefix">Prix</span><span class="tr-price tr-price--md">600&nbsp;$</span></div>
-          <div class="tr-deadline js-deadline" data-deadline="2026-10-15" data-date="15 oct." data-variant="long">15 oct.</div>
+          <div class="tr-deadline js-deadline" data-deadline="2026-10-26" data-date="26 oct." data-variant="long">26 oct.</div>
         </div>
         <div class="tr-drawer__actions">
           <button type="button" class="tr-btn tr-btn--outline" data-goto-tab="tarifs">Voir les tarifs</button>
@@ -2793,7 +2793,7 @@
       <div class="tr-drawer__foot">
         <div>
           <div class="tr-drawer__price"><span class="tr-price-prefix">Prix</span><span class="tr-price tr-price--md">1&nbsp;500&nbsp;$</span></div>
-          <div class="tr-deadline js-deadline" data-deadline="2026-10-15" data-date="15 oct." data-variant="long">15 oct.</div>
+          <div class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="long">24 oct.</div>
         </div>
         <div class="tr-drawer__actions">
           <button type="button" class="tr-btn tr-btn--outline" data-goto-tab="tarifs">Voir les tarifs</button>
@@ -2952,7 +2952,7 @@
       <div class="tr-drawer__foot">
         <div>
           <div class="tr-drawer__price"><span class="tr-price-prefix">Prix</span><span class="tr-price tr-price--md">1&nbsp;400&nbsp;$</span><s class="tr-price-was">1&nbsp;500&nbsp;$</s></div>
-          <div class="tr-deadline js-deadline" data-deadline="2026-10-14" data-date="14 oct." data-variant="long">14 oct.</div>
+          <div class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="long">24 oct.</div>
         </div>
         <div class="tr-drawer__actions">
           <button type="button" class="tr-btn tr-btn--outline" data-goto-tab="tarifs">Voir les tarifs</button>
@@ -3106,7 +3106,7 @@
       <div class="tr-drawer__foot">
         <div>
           <div class="tr-drawer__price"><span class="tr-price-prefix">Prix</span><span class="tr-price tr-price--md">1&nbsp;600&nbsp;$</span></div>
-          <div class="tr-deadline js-deadline" data-deadline="2026-10-11" data-date="11 oct." data-variant="long">11 oct.</div>
+          <div class="tr-deadline js-deadline" data-deadline="2026-10-24" data-date="24 oct." data-variant="long">24 oct.</div>
         </div>
         <div class="tr-drawer__actions">
           <button type="button" class="tr-btn tr-btn--outline" data-goto-tab="tarifs">Voir les tarifs</button>
