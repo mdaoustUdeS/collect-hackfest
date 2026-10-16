@@ -793,28 +793,29 @@
           
           
           
-          <div class="polar-speaker-card polar-speaker-card--no-photo"
-               id="polar-speaker-pierre-rousseau">
+          <div class="polar-speaker-card polar-speaker-card--clickable"
+               id="polar-speaker-eric-robert">
             
-            
-            
-            
-            
-            <div class="polar-speaker-image polar-speaker-image--monogram" aria-hidden="true">PR</div>
+            <div class="polar-speaker-image" style="background-image: url('https://hackfest.ca/assets/images/speakers/eric-robert.webp')"></div>
             
             <div class="polar-speaker-info">
-              <h3>Pierre Rousseau</h3>
+              <h3>Éric Robert</h3>
               
               
-              
-              <p class="polar-speaker-role">Vice-président des ventes, Centre de données, Micro Logic</p>
               
               
               
               <p class="polar-speaker-talk">
-                <span class="polar-speaker-talk__final">Conférence à dévoiler</span>
+                <span class="polar-speaker-talk__final">Le prochain chaos n'est pas un ransomware! Bâtir une cyberrésilience souveraine à l'ère de l'intelligence artificielle</span>
               </p>
               
+              
+              <button type="button" class="polar-speaker-open"
+                      data-speaker="eric-robert"
+                      aria-haspopup="dialog"
+                      aria-controls="polar-speaker-modal-eric-robert">
+                Voir la conférence et la bio
+              </button>
               
             </div>
           </div>
@@ -1130,6 +1131,36 @@
         
         
         
+        
+        
+        <div class="polar-speaker-modal"
+             id="polar-speaker-modal-eric-robert"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="polar-speaker-modal-title-eric-robert"
+             hidden>
+          <div class="polar-speaker-modal-header">
+            <div>
+              <h3 class="polar-speaker-modal-title" id="polar-speaker-modal-title-eric-robert">Éric Robert</h3>
+              <p class="polar-speaker-modal-role">Vice-président, stratégie et croissance, Cybersécurité, Micro Logic</p>
+            </div>
+            <button type="button" class="polar-speaker-modal-close"
+                    aria-label="Fermer">&#10005;</button>
+          </div>
+
+          <div class="polar-speaker-modal-body">
+            
+            <p class="polar-speaker-talk polar-speaker-modal-talk">
+              <span class="polar-speaker-talk__final">Le prochain chaos n'est pas un ransomware! Bâtir une cyberrésilience souveraine à l'ère de l'intelligence artificielle</span>
+            </p>
+            
+            
+            <div class="polar-speaker-abstract"><p>Alors que les agents IA acquièrent de plus en plus d’autonomie et d’accès aux systèmes critiques, les organisations doivent se préparer à de nouveaux types de risques qui dépassent les modèles traditionnels de cybersécurité. Cette conférence explore les scénarios émergents qui façonneront les prochaines années et les stratégies permettant d’assurer la continuité des opérations, la protection de l’intelligence organisationnelle et la souveraineté numérique.</p>
+</div>
+            
+            
+          </div>
+        </div>
         
         
         
@@ -1494,7 +1525,12 @@
                   <span class="polar-slot-headline">
                     
                     
-                    <span class="polar-slot-title">Conférence à dévoiler</span>
+                    <button type="button" class="polar-slot-open"
+                            data-speaker="eric-robert"
+                            aria-haspopup="dialog"
+                            aria-controls="polar-speaker-modal-eric-robert">
+                      <span class="polar-slot-title">Le prochain chaos n'est pas un ransomware! Bâtir une cyberrésilience souveraine à l'ère de l'intelligence artificielle</span>
+                    </button>
                     
                     
                     
@@ -1507,7 +1543,7 @@
                     </span>
                     
                   </span>
-                  <span class="polar-slot-speaker">Pierre Rousseau, vice-président des ventes, Centre de données</span>
+                  <span class="polar-slot-speaker">Éric Robert, vice-président, stratégie et croissance, Cybersécurité</span>
                   
                   
                   

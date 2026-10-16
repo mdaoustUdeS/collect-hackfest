@@ -845,6 +845,36 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
         
         
         
+        <div class="sponsor-row " id="partner">
+          <span class="sponsor-label">Partenaire</span>
+          
+          
+          
+          
+          
+          <div class="sponsor-entries">
+            
+            <div class="sponsor-entry">
+              <div class="sponsor-item">
+                
+                <a href="https://dictia.ca/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/dictia.webp" alt="DictIA"></a>
+                
+              </div>
+              
+              <div class="sponsor-desc-block">
+                <p class="sponsor-item-text">DictIA est votre partenaire en automatisation et intelligence artificielle au Québec. Sites web qui attirent des clients, tâches automatisées, logiciels bâtis sur mesure et IA sans mauvaises surprises : connectez vos données, libérez votre équipe.</p>
+                <a href="https://dictia.ca/" class="sponsor-item-url">Visiter le site</a>
+              </div>
+              
+            </div>
+            
+          </div>
+          
+          
+        </div>
+        
+        
+        
         
         
         
