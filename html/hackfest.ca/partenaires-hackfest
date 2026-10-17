@@ -404,480 +404,1178 @@
     </section>
 
     <section class="hackfest-sponsors-block">
-      <div class="container sponsors-content">
+      <div class="container">
         
-        
-        <div class="sponsor-row sponsor-row-main" id="main">
-          <span class="sponsor-label">Partenaire principal</span>
-          
-          
-          
-          
-          
-          <div class="sponsor-logos sponsor-logos-single">
-            
-            <div class="sponsor-item">
-              
-              <a href="https://vooban.com" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/vooban.webp" alt="Vooban"></a>
-              
-            </div>
-            
-          </div>
-          
-          
-            
-              
-              
-          
-          <div class="sponsor-descriptions">
-            
-              
-            <div class="sponsor-desc-block">
-              <p class="sponsor-item-text">Installés au Canada, pôle mondial de l’intelligence artificielle, Vooban est un leader national et un pionnier dans le domaine de l’IA appliquée. Ils accompagnent les entreprises dans la conception et la mise en œuvre de projets innovants afin d’accélérer leur transformation numérique. Ayant pour mission de stimuler l’innovation organisationnelle, Vooban utilise l’intelligence artificielle, les données et l’Internet des objets (IoT) pour développer des applications à fort impact. Ils allient également cybersécurité et IA pour renforcer les stratégies de défense des entreprises, leur permettant de tirer parti des dernières avancées technologiques pour une protection robuste et durable.</p>
-              <a href="https://vooban.com" class="sponsor-item-url">Visiter le site</a>
-            </div>
-              
-            
-          </div>
-          
-          
-          
-        </div>
-        
-        
-        
-        <div class="sponsor-row " id="kiosk">
-          <span class="sponsor-label">Kiosque</span>
-          
-          
-          
-          
-          
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://astate.one" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/astate.webp" alt="ASTATE"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">ASTATE, c’est l’équipe qui ne dort pas pendant que vous dormez. On traque les failles, on surveille vos systèmes 24/7, on fait parler vos logs et on vous guide dans les méandres de la conformité (PCI, SWIFT, ISO…). Red Team, Blue Team, Purple mindset , on joue tous les rôles, mais toujours à fond.</p>
-                <a href="https://astate.one" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://elitesec.io" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/elitesec.webp" alt="EliteSec"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">EliteSec is a Canadian cybersecurity company that offers specialized security services to help organizations strengthen their cyber defenses. They focus on areas like penetration testing, cybersecurity consulting, and gamified tabletop exercises to improve readiness against digital threats. EliteSec provides certified services with practical advice tailored to each client’s needs, aiming to help businesses reduce risk, meet compliance requirements, and demonstrate strong security practices. EliteSec is ISO 27001:2022 and CREST-accredited and is based in Waterloo, Ontario.</p>
-                <a href="https://elitesec.io" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://fc.cegepgarneau.ca/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/fc-garneau.webp" alt="Cégep Garneau - Formation Continue"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">La Direction de la formation continue du Cégep Garneau est fière de se démarquer dans le secteur des technologies de l’information, notamment avec la Certification collégiale en cybersécurité ainsi que notre nouvelle Certification collégiale en sécurité dans un environnement Cloud. En plus, elle offre une grande variété de cours de perfectionnement à temps partiel.
 
-Le Cégep se positionne comme un intervenant de choix pour faire face aux défis de main-d’œuvre et de formation.
 
-De plus, la Formation continue offre :
 
-    Plus de 20 attestations d’études collégiales (AEC) ;
-    8 programmes de reconnaissance des acquis et des compétences (RAC).
-    Plusieurs cours de perfectionnement;
-    Des certifications collégiales dans des secteurs spécialisés.
-    Un service sur mesure en entreprise
-</p>
-                <a href="https://fc.cegepgarneau.ca/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.cse-cst.gc.ca/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/cse.png" alt="CSE / CST"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Le Centre de la sécurité des télécommunications (CST) est l’organisme national de cryptologie du Canada. Il fournit au gouvernement du Canada des renseignements sur la sécurité des technologies de l’information et sur les signaux étrangers.
 
-Le CST recrute des Canadiens possédant un large éventail de compétences, d’expériences et de points de vue, car la diversité nous rend plus forts. Nous offrons des perspectives de carrière passionnantes aux professionnels comme aux étudiants. Nous sommes des joueurs d’équipe, des éclaireurs et des résolveurs de problèmes, tous différents, tous unis par une mission commune : protéger le Canada et les Canadiens.
-</p>
-                <a href="https://www.cse-cst.gc.ca/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.telus.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/telus.webp" alt="TELUS"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Notre technologie de calibre mondial, notre engagement à accorder la priorité aux clients et notre détermination à favoriser les changements sociaux contribuent à créer un monde meilleur pour les générations à venir. Ensemble, créons un futur meilleur.</p>
-                <a href="https://www.telus.com/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.it-2-go.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/it2go.svg" alt="It2Go"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text"></p>
-                <a href="https://www.it-2-go.com/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://groupecosior.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/groupe-cosior.png" alt="Groupe Cosior"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text"></p>
-                <a href="https://groupecosior.com/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.paloaltonetworks.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Palo Alto Networks est un leader mondial de la cybersécurité. L'entreprise opère le centre d'opérations réseau (NoC) du Hackfest et tient un kiosque dans la salle du CTF.</p>
-                <a href="https://www.paloaltonetworks.com/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://devolutions.net/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/devolutions.png" alt="Devolutions"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Devolutions aide les entreprises de partout à travers le monde à contrôler le chaos relié aux technologies de l'information en offrant des solutions sécurisées de gestion de mots de passe, de connexions à distance et d'accès privilégiés. Depuis 2010, Devolutions est un chef de file en tant que partenaire de sécurité, avec plus de 350 000 utilisateurs répartis dans 130 pays, et compte parmi sa clientèle des entreprises de renommée mondiale telles que SpaceX, Shell, Loto-Québec, Walt Disney, NASDAQ, Dell, Sony, Microsoft, Pfizer, Airbnb et la NASA.</p>
-                <a href="https://devolutions.net/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.trendai.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">TrendAI est la division entreprise de Trend Micro (renommée en 2026), qui protège les organisations et les systèmes d'IA sur lesquels elles s'appuient.</p>
-                <a href="https://www.trendai.com/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://cyvault.io/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/cyvault.webp" alt="CyVault"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">CyVault, une division de PM SCADA Cyber Défense (Canada), protège en temps réel les organisations TI, les infrastructures critiques et les environnements OT contre les cybermenaces connues et émergentes, avec des bureaux à Montréal, Strasbourg et Casablanca.</p>
-                <a href="https://cyvault.io/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://vendel.ca/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/vendel.png" alt="Vendel"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Vendel est une firme 100% canadienne en cybersécurité spécialisée dans la sécurité des systèmes embarqués et cyber-physiques. L'entreprise effectue de la recherche de vulnérabilités, de la rétro-ingénierie matérielle et logicielle (firmware), des tests d'intrusion et des évaluations de risque sur des dispositifs embarqués. Elle fournit des services de mitigation et de conseil en sécurité dès la conception (« secure-by-design ») aux propriétaires de systèmes et aux manufacturiers de produit électronique. Vendel conçoit et livre de la formation technique et des exercices dans ces disciplines.</p>
-                <a href="https://vendel.ca/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
+
+
+
+
+
+
+<nav class="sponsor-jump" aria-label="Aller à">
+  
+    
+      
+      
+  <a href="partenaires-hackfest#main" class="sponsor-jump-link">Partenaire principal <span class="sponsor-jump-count">1</span></a>
+      
+    
+  
+    
+      
+      
+  <a href="partenaires-hackfest#kiosk" class="sponsor-jump-link">Kiosque <span class="sponsor-jump-count">17</span></a>
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+  
+    
+  
+    
+      
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+  
+    
+  
+  
+  <a href="partenaires-hackfest#other-tiers" class="sponsor-jump-link">Autres partenariats <span class="sponsor-jump-count">10</span></a>
+  
+</nav>
+
+
+
+
+  
+    
+    
+<section class="sponsor-tier sponsor-tier-main" id="main" aria-labelledby="main-title">
+  <h2 class="sponsor-tier-title" id="main-title">Partenaire principal</h2>
+  <div class="sponsor-grid sponsor-grid-main">
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card sponsor-card-featured">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://vooban.com" rel="noopener" aria-label="Vooban"><img src="https://hackfest.ca/assets/images/sponsors/vooban.webp" alt="Vooban" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">Vooban</h3>
+    
+    <p class="sponsor-card-text">Installés au Canada, pôle mondial de l’intelligence artificielle, Vooban est un leader national et un pionnier dans le domaine de l’IA appliquée. Ils accompagnent les entreprises dans la conception et la mise en œuvre de projets innovants afin d’accélérer leur transformation numérique. Ayant pour mission de stimuler l’innovation organisationnelle, Vooban utilise l’intelligence artificielle, les données et l’Internet des objets (IoT) pour développer des applications à fort impact. Ils allient également cybersécurité et IA pour renforcer les stratégies de défense des entreprises, leur permettant de tirer parti des dernières avancées technologiques pour une protection robuste et durable.</p>
+    
+    
+    <a href="https://vooban.com" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+  </div>
+</section>
+    
+  
+
+  
+    
+    
+<section class="sponsor-tier" id="kiosk" aria-labelledby="kiosk-title">
+  <h2 class="sponsor-tier-title" id="kiosk-title">Kiosque <span class="sponsor-tier-count">17</span></h2>
+  <div class="sponsor-grid">
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://astate.one" rel="noopener" aria-label="ASTATE"><img src="https://hackfest.ca/assets/images/sponsors/astate.webp" alt="ASTATE" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">ASTATE</h3>
+    
+    <p class="sponsor-card-text is-clamped">ASTATE, c’est l’équipe qui ne dort pas pendant que vous dormez. On traque les failles, on surveille vos systèmes 24/7, on fait parler vos logs et on vous guide dans les méandres de la conformité (PCI, SWIFT, ISO…). Red Team, Blue Team, Purple mindset , on joue tous les rôles, mais toujours à fond.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://astate.one" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://elitesec.io" rel="noopener" aria-label="EliteSec"><img src="https://hackfest.ca/assets/images/sponsors/elitesec.webp" alt="EliteSec" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">EliteSec</h3>
+    
+    <p class="sponsor-card-text is-clamped">EliteSec is a Canadian cybersecurity company that offers specialized security services to help organizations strengthen their cyber defenses. They focus on areas like penetration testing, cybersecurity consulting, and gamified tabletop exercises to improve readiness against digital threats. EliteSec provides certified services with practical advice tailored to each client’s needs, aiming to help businesses reduce risk, meet compliance requirements, and demonstrate strong security practices. EliteSec is ISO 27001:2022 and CREST-accredited and is based in Waterloo, Ontario.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://elitesec.io" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://fc.cegepgarneau.ca/" rel="noopener" aria-label="Cégep Garneau - Formation Continue"><img src="https://hackfest.ca/assets/images/sponsors/fc-garneau.webp" alt="Cégep Garneau - Formation Continue" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">Cégep Garneau - Formation Continue</h3>
+    
+    <p class="sponsor-card-text is-clamped">La Direction de la formation continue du Cégep Garneau est fière de se démarquer dans le secteur des technologies de l’information, notamment avec la Certification collégiale en cybersécurité ainsi que notre nouvelle Certification collégiale en sécurité dans un environnement Cloud. En plus, elle offre une grande variété de cours de perfectionnement à temps partiel.<br />
+<br />
+Le Cégep se positionne comme un intervenant de choix pour faire face aux défis de main-d’œuvre et de formation.<br />
+<br />
+De plus, la Formation continue offre :<br />
+<br />
+    Plus de 20 attestations d’études collégiales (AEC) ;<br />
+    8 programmes de reconnaissance des acquis et des compétences (RAC).<br />
+    Plusieurs cours de perfectionnement;<br />
+    Des certifications collégiales dans des secteurs spécialisés.<br />
+    Un service sur mesure en entreprise</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://fc.cegepgarneau.ca/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.cse-cst.gc.ca/" rel="noopener" aria-label="CSE / CST"><img src="https://hackfest.ca/assets/images/sponsors/cse.png" alt="CSE / CST" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">CSE / CST</h3>
+    
+    <p class="sponsor-card-text is-clamped">Le Centre de la sécurité des télécommunications (CST) est l’organisme national de cryptologie du Canada. Il fournit au gouvernement du Canada des renseignements sur la sécurité des technologies de l’information et sur les signaux étrangers.<br />
+<br />
+Le CST recrute des Canadiens possédant un large éventail de compétences, d’expériences et de points de vue, car la diversité nous rend plus forts. Nous offrons des perspectives de carrière passionnantes aux professionnels comme aux étudiants. Nous sommes des joueurs d’équipe, des éclaireurs et des résolveurs de problèmes, tous différents, tous unis par une mission commune : protéger le Canada et les Canadiens.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.cse-cst.gc.ca/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.telus.com/" rel="noopener" aria-label="TELUS"><img src="https://hackfest.ca/assets/images/sponsors/telus.webp" alt="TELUS" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">TELUS</h3>
+    
+    <p class="sponsor-card-text is-clamped">Notre technologie de calibre mondial, notre engagement à accorder la priorité aux clients et notre détermination à favoriser les changements sociaux contribuent à créer un monde meilleur pour les générations à venir. Ensemble, créons un futur meilleur.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.telus.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://www.it-2-go.com/" rel="noopener" aria-label="It2Go"><img src="https://hackfest.ca/assets/images/sponsors/it2go.svg" alt="It2Go" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">It2Go</h3>
+    
+    <p class="sponsor-card-text"></p>
+    
+    
+    <a href="https://www.it-2-go.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://groupecosior.com/" rel="noopener" aria-label="Groupe Cosior"><img src="https://hackfest.ca/assets/images/sponsors/groupe-cosior.png" alt="Groupe Cosior" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">Groupe Cosior</h3>
+    
+    <p class="sponsor-card-text"></p>
+    
+    
+    <a href="https://groupecosior.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.paloaltonetworks.com/" rel="noopener" aria-label="Palo Alto Networks"><img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">Palo Alto Networks</h3>
+    
+    <p class="sponsor-card-text">Palo Alto Networks est un leader mondial de la cybersécurité. L&#39;entreprise opère le centre d&#39;opérations réseau (NoC) du Hackfest et tient un kiosque dans la salle du CTF.</p>
+    
+    
+    <a href="https://www.paloaltonetworks.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://devolutions.net/" rel="noopener" aria-label="Devolutions"><img src="https://hackfest.ca/assets/images/sponsors/devolutions.png" alt="Devolutions" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">Devolutions</h3>
+    
+    <p class="sponsor-card-text is-clamped">Devolutions aide les entreprises de partout à travers le monde à contrôler le chaos relié aux technologies de l&#39;information en offrant des solutions sécurisées de gestion de mots de passe, de connexions à distance et d&#39;accès privilégiés. Depuis 2010, Devolutions est un chef de file en tant que partenaire de sécurité, avec plus de 350 000 utilisateurs répartis dans 130 pays, et compte parmi sa clientèle des entreprises de renommée mondiale telles que SpaceX, Shell, Loto-Québec, Walt Disney, NASDAQ, Dell, Sony, Microsoft, Pfizer, Airbnb et la NASA.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://devolutions.net/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.trendai.com/" rel="noopener" aria-label="TrendAI"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">TrendAI</h3>
+    
+    <p class="sponsor-card-text">TrendAI est la division entreprise de Trend Micro (renommée en 2026), qui protège les organisations et les systèmes d&#39;IA sur lesquels elles s&#39;appuient.</p>
+    
+    
+    <a href="https://www.trendai.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://cyvault.io/" rel="noopener" aria-label="CyVault"><img src="https://hackfest.ca/assets/images/sponsors/cyvault.webp" alt="CyVault" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">CyVault</h3>
+    
+    <p class="sponsor-card-text is-clamped">CyVault, une division de PM SCADA Cyber Défense (Canada), protège en temps réel les organisations TI, les infrastructures critiques et les environnements OT contre les cybermenaces connues et émergentes, avec des bureaux à Montréal, Strasbourg et Casablanca.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://cyvault.io/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://wiz.io" rel="noopener" aria-label="Wiz"><img src="https://hackfest.ca/assets/images/sponsors/wiz.png" alt="Wiz" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">Wiz</h3>
+    
+    <p class="sponsor-card-text is-clamped">Wiz transforme la sécurité de l&#39;informatique en nuage pour ses clients, dont 40 % des entreprises du classement Fortune 100, en mettant en place un nouveau modèle d&#39;exploitation. Notre CNAPP permet aux équipes de sécurité et de développement de construire rapidement et en toute sécurité en fournissant une visibilité sur leurs environnements en nuage. Avec Wiz, les entreprises peuvent prioriser les risques et rester agiles.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://wiz.io" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://vendel.ca/" rel="noopener" aria-label="Vendel"><img src="https://hackfest.ca/assets/images/sponsors/vendel.png" alt="Vendel" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">Vendel</h3>
+    
+    <p class="sponsor-card-text is-clamped">Vendel est une firme 100% canadienne en cybersécurité spécialisée dans la sécurité des systèmes embarqués et cyber-physiques. L&#39;entreprise effectue de la recherche de vulnérabilités, de la rétro-ingénierie matérielle et logicielle (firmware), des tests d&#39;intrusion et des évaluations de risque sur des dispositifs embarqués. Elle fournit des services de mitigation et de conseil en sécurité dès la conception (« secure-by-design ») aux propriétaires de systèmes et aux manufacturiers de produit électronique. Vendel conçoit et livre de la formation technique et des exercices dans ces disciplines.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://vendel.ca/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://www.arista.com/" rel="noopener" aria-label="Arista Networks"><img src="https://hackfest.ca/assets/images/sponsors/arista.svg" alt="Arista Networks" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">Arista Networks</h3>
+    
+    <p class="sponsor-card-text is-clamped">Arista Networks est un chef de file des solutions de réseautique infonuagique et d&#39;IA, du poste client jusqu&#39;au nuage, pour les grands centres de données, les campus et les environnements de routage.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.arista.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://www.canada.ca/fr/service-renseignement-securite.html" rel="noopener" aria-label="SCRS / CSIS"><img src="https://hackfest.ca/assets/images/sponsors/csis.svg" alt="SCRS / CSIS" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">SCRS / CSIS</h3>
+    
+    <p class="sponsor-card-text is-clamped">Le Service canadien du renseignement de sécurité (SCRS) enquête sur les menaces envers la sécurité du Canada, comme l&#39;espionnage, le terrorisme et les cybermenaces, et conseille le gouvernement du Canada à leur sujet.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.canada.ca/fr/service-renseignement-securite.html" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://www.tenable.com/" rel="noopener" aria-label="Tenable"><img src="https://hackfest.ca/assets/images/sponsors/tenable.svg" alt="Tenable" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">Tenable</h3>
+    
+    <p class="sponsor-card-text">Tenable est une entreprise de gestion de l&#39;exposition qui aide les organisations à voir, prioriser et réduire leurs risques cyber sur l&#39;ensemble de leur surface d&#39;attaque.</p>
+    
+    
+    <a href="https://www.tenable.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://www.thalesgroup.com/" rel="noopener" aria-label="Thales"><img src="https://hackfest.ca/assets/images/sponsors/thales.svg" alt="Thales" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">Thales</h3>
+    
+    <p class="sponsor-card-text">Thales est un leader mondial des hautes technologies dans les domaines de la défense, de l&#39;aéronautique, de l&#39;espace, de la cybersécurité et de l&#39;identité numérique.</p>
+    
+    
+    <a href="https://www.thalesgroup.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+  </div>
+</section>
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+
+
+
+<section class="sponsor-tier" id="other-tiers" aria-labelledby="other-tiers-title">
+  <h2 class="sponsor-tier-title" id="other-tiers-title">Autres partenariats <span class="sponsor-tier-count">10</span></h2>
+  <div class="sponsor-subtiers">
+    
+      
+    
+      
+        
+        
+      
+    
+      
+        
+        
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="kiosk_pme" aria-labelledby="kiosk_pme-title">
+      <h3 class="sponsor-subtier-title" id="kiosk_pme-title">Kiosque PME</h3>
+      <div class="sponsor-subtier-cards">
           
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://privacy-safe.io/" rel="noopener" aria-label="Privacy Safe"><img src="https://hackfest.ca/assets/images/sponsors/privacy-safe.webp" alt="Privacy Safe" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">Privacy Safe</h4>
+    
+    <p class="sponsor-card-text"></p>
+    
+    
+    <a href="https://privacy-safe.io/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
-        </div>
+      </div>
+    </section>
+        
+      
+    
+      
         
         
-        
-        <div class="sponsor-row " id="kiosk_pme">
-          <span class="sponsor-label">Kiosque PME</span>
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="depanneur" aria-labelledby="depanneur-title">
+      <h3 class="sponsor-subtier-title" id="depanneur-title">Dépanneur</h3>
+      <div class="sponsor-subtier-cards">
           
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://gosecure.ai/" rel="noopener" aria-label="GoSecure"><img src="https://hackfest.ca/assets/images/sponsors/gosec.png" alt="GoSecure" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">GoSecure</h4>
+    
+    <p class="sponsor-card-text is-clamped">GoSecure est un leader et un innovateur reconnu en matière de cybersécurité, pionnier de l’intégration de la détection des menaces au niveau des terminaux, du réseau et des courriels en un seul service de détection et réponse gérées et étendues (MXDR). Depuis plus de 20 ans, GoSecure aide ses clients à mieux comprendre leurs failles en matière de sécurité et à améliorer leurs risques organisationnels ainsi que leur maturité en matière de sécurité grâce aux solutions MXDR et aux services professionnels fournis par l’une des équipes les plus fiables et les plus compétentes de l’industrie.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://gosecure.ai/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
+      </div>
+    </section>
+        
+      
+    
+      
+        
+        
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="lanieres" aria-labelledby="lanieres-title">
+      <h3 class="sponsor-subtier-title" id="lanieres-title">Lanières</h3>
+      <div class="sponsor-subtier-cards">
           
-          <div class="sponsor-logos sponsor-logos-empty">
-            <span class="sponsor-placeholder">À venir</span>
-          </div>
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://sekcore.com/" rel="noopener" aria-label="Sekcore"><img src="https://hackfest.ca/assets/images/sponsors/sekcore.png" alt="Sekcore" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">Sekcore</h4>
+    
+    <p class="sponsor-card-text is-clamped">Sekcore se classe parmi les entreprises de sécurité les plus avant-gardistes et les plus innovantes. Que vous ayez un besoin stratégique immédiat ou à long terme, Sekcore offre des solutions tactiques aux défis de sécurité qui dépassent de loin les normes de l’industrie. Notre équipe de spécialistes de la sécurité travaille 24 heures sur 24 pour recueillir des informations, évaluer les menaces émergentes et mettre en œuvre des mesures de sécurité pour les particuliers et les entreprises.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://sekcore.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
-        </div>
+      </div>
+    </section>
+        
+      
+    
+      
+    
+      
+    
+      
         
         
-        
-        
-        
-        <div class="sponsor-row " id="lanieres">
-          <span class="sponsor-label">Lanières</span>
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="poutine" aria-labelledby="poutine-title">
+      <h3 class="sponsor-subtier-title" id="poutine-title">Poutine</h3>
+      <div class="sponsor-subtier-cards">
           
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.secur01.com" rel="noopener" aria-label="Secur01"><img src="https://hackfest.ca/assets/images/sponsors/secur01.png" alt="Secur01" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">Secur01</h4>
+    
+    <p class="sponsor-card-text is-clamped">Notre mission est la même depuis le début : sensibiliser aux questions de cybersécurité, avertir nos clients des menaces et mettre en place des plans de continuité en cas de catastrophe imprévue. Nous prenons en charge tous les besoins de nos clients en matière de cybersécurité et de conformité informatique. Nous proposons également des services gérés afin que vous puissiez bénéficier de la tranquillité d’esprit d’un RSSI ou d’un responsable de la conformité/de la protection de la vie privée.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.secur01.com" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
+      </div>
+    </section>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+        
+    <section class="sponsor-subtier sponsor-subtier-span-2" id="ctf" aria-labelledby="ctf-title">
+      <h3 class="sponsor-subtier-title" id="ctf-title">CTF</h3>
+      <div class="sponsor-subtier-cards">
           
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.poka.io/fr" rel="noopener" aria-label="POKA"><img src="https://hackfest.ca/assets/images/sponsors/poka.svg" alt="POKA" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">POKA</h4>
+    
+    <p class="sponsor-card-text is-clamped">Poka aide les manufacturiers à stimuler le rendement en autonomisant les travailleurs dans leur apprentissage, la résolution de problèmes et la transmission des connaissances en temps réel, sur le plancher. Notre application est conçue pour connecter les travailleurs aux opérations numériques de la manufacture et favoriser une culture de l’amélioration continue.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.poka.io/fr" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.talenty.ca/" rel="noopener" aria-label="Talenty"><img src="https://hackfest.ca/assets/images/sponsors/talenty.webp" alt="Talenty" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">Talenty</h4>
+    
+    <p class="sponsor-card-text"></p>
+    
+    
+    <a href="https://www.talenty.ca/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://sekcore.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/sekcore.png" alt="Sekcore"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Sekcore se classe parmi les entreprises de sécurité les plus avant-gardistes et les plus innovantes. Que vous ayez un besoin stratégique immédiat ou à long terme, Sekcore offre des solutions tactiques aux défis de sécurité qui dépassent de loin les normes de l’industrie. Notre équipe de spécialistes de la sécurité travaille 24 heures sur 24 pour recueillir des informations, évaluer les menaces émergentes et mettre en œuvre des mesures de sécurité pour les particuliers et les entreprises.</p>
-                <a href="https://sekcore.com/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
+      </div>
+    </section>
+        
+      
+    
+      
+        
+        
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="ctf_pizza_drinks" aria-labelledby="ctf_pizza_drinks-title">
+      <h3 class="sponsor-subtier-title" id="ctf_pizza_drinks-title">CTF Pizza/Boissons</h3>
+      <div class="sponsor-subtier-cards">
           
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://www.arista.com/" rel="noopener" aria-label="Arista Networks"><img src="https://hackfest.ca/assets/images/sponsors/arista.svg" alt="Arista Networks" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">Arista Networks</h4>
+    
+    <p class="sponsor-card-text is-clamped">Arista Networks est un chef de file des solutions de réseautique infonuagique et d&#39;IA, du poste client jusqu&#39;au nuage, pour les grands centres de données, les campus et les environnements de routage.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.arista.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
-        </div>
+      </div>
+    </section>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
         
         
-        
-        
-        
-        
-        
-        <div class="sponsor-row " id="poutine">
-          <span class="sponsor-label">Poutine</span>
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="content_provider" aria-labelledby="content_provider-title">
+      <h3 class="sponsor-subtier-title" id="content_provider-title">Fournisseur de contenu</h3>
+      <div class="sponsor-subtier-cards">
           
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.proofpoint.com/" rel="noopener" aria-label="Proofpoint"><img src="https://hackfest.ca/assets/images/sponsors/proofpoint.svg" alt="Proofpoint" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">Proofpoint</h4>
+    
+    <p class="sponsor-card-text is-clamped">Proofpoint est une entreprise mondiale de cybersécurité et de conformité qui protège les organisations et leurs employés contre les menaces par courriel, la perte de données et la prise de contrôle de comptes.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.proofpoint.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
+      </div>
+    </section>
+        
+      
+    
+      
+        
+        
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="community" aria-labelledby="community-title">
+      <h3 class="sponsor-subtier-title" id="community-title">Communauté</h3>
+      <div class="sponsor-subtier-cards">
           
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://owasp.org/" rel="noopener" aria-label="OWASP"><img src="https://hackfest.ca/assets/images/sponsors/owasp.png" alt="OWASP" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">OWASP</h4>
+    
+    <p class="sponsor-card-text is-clamped">L&#39;Open Web Application Security Project (OWASP) est une fondation à but non lucratif qui œuvre à l&#39;amélioration de la sécurité des logiciels. Grâce à des projets de logiciels libres dirigés par la communauté, à des centaines de chapitres locaux dans le monde entier, à des dizaines de milliers de membres et à des conférences d&#39;éducation et de formation de premier plan, la fondation OWASP est la source des développeurs et des technologues pour sécuriser le web.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://owasp.org/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
+      </div>
+    </section>
+        
+      
+    
+      
+        
+        
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="partner" aria-labelledby="partner-title">
+      <h3 class="sponsor-subtier-title" id="partner-title">Partenaire</h3>
+      <div class="sponsor-subtier-cards">
           
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.secur01.com" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/secur01.png" alt="Secur01"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Notre mission est la même depuis le début : sensibiliser aux questions de cybersécurité, avertir nos clients des menaces et mettre en place des plans de continuité en cas de catastrophe imprévue. Nous prenons en charge tous les besoins de nos clients en matière de cybersécurité et de conformité informatique. Nous proposons également des services gérés afin que vous puissiez bénéficier de la tranquillité d’esprit d’un RSSI ou d’un responsable de la conformité/de la protection de la vie privée.</p>
-                <a href="https://www.secur01.com" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://dictia.ca/" rel="noopener" aria-label="DictIA"><img src="https://hackfest.ca/assets/images/sponsors/dictia.webp" alt="DictIA" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">DictIA</h4>
+    
+    <p class="sponsor-card-text is-clamped">DictIA est votre partenaire en automatisation et intelligence artificielle au Québec. Sites web qui attirent des clients, tâches automatisées, logiciels bâtis sur mesure et IA sans mauvaises surprises : connectez vos données, libérez votre équipe.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://dictia.ca/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
-          
-        </div>
+      </div>
+    </section>
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div class="sponsor-row " id="ctf">
-          <span class="sponsor-label">CTF</span>
-          
-          
-          
-          
-          
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.poka.io/fr" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/poka.svg" alt="POKA"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Poka aide les manufacturiers à stimuler le rendement en autonomisant les travailleurs dans leur apprentissage, la résolution de problèmes et la transmission des connaissances en temps réel, sur le plancher. Notre application est conçue pour connecter les travailleurs aux opérations numériques de la manufacture et favoriser une culture de l’amélioration continue.</p>
-                <a href="https://www.poka.io/fr" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.talenty.ca/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/talenty.webp" alt="Talenty"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text"></p>
-                <a href="https://www.talenty.ca/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
-          
-          
-        </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <div class="sponsor-row " id="content_provider">
-          <span class="sponsor-label">Fournisseur de contenu</span>
-          
-          
-          
-          
-          
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.proofpoint.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/proofpoint.svg" alt="Proofpoint"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Proofpoint est une entreprise mondiale de cybersécurité et de conformité qui protège les organisations et leurs employés contre les menaces par courriel, la perte de données et la prise de contrôle de comptes.</p>
-                <a href="https://www.proofpoint.com/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
-          
-          
-        </div>
-        
-        
-        
-        <div class="sponsor-row " id="community">
-          <span class="sponsor-label">Communauté</span>
-          
-          
-          
-          
-          
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://owasp.org/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/owasp.png" alt="OWASP"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">L'Open Web Application Security Project (OWASP) est une fondation à but non lucratif qui œuvre à l'amélioration de la sécurité des logiciels. Grâce à des projets de logiciels libres dirigés par la communauté, à des centaines de chapitres locaux dans le monde entier, à des dizaines de milliers de membres et à des conférences d'éducation et de formation de premier plan, la fondation OWASP est la source des développeurs et des technologues pour sécuriser le web.</p>
-                <a href="https://owasp.org/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
-          
-          
-        </div>
-        
-        
-        
-        <div class="sponsor-row " id="partner">
-          <span class="sponsor-label">Partenaire</span>
-          
-          
-          
-          
-          
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://dictia.ca/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/dictia.webp" alt="DictIA"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">DictIA est votre partenaire en automatisation et intelligence artificielle au Québec. Sites web qui attirent des clients, tâches automatisées, logiciels bâtis sur mesure et IA sans mauvaises surprises : connectez vos données, libérez votre équipe.</p>
-                <a href="https://dictia.ca/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
-          
-          
-        </div>
-        
-        
-        
-        
-        
-        
+      
+    
+      
+    
+      
+    
+  </div>
+</section>
+
+
       </div>
     </section>
   </main>

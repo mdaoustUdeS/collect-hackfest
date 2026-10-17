@@ -592,7 +592,7 @@
           <div class="hr-allday__card">
             <span class="hr-allday__when">Toute la soirée</span>
             <span class="hr-allday__title">Nuit de jeux</span>
-            <span class="hr-allday__desc">Plus de jeux à venir.</span>
+            
             
           </div>
           
@@ -624,7 +624,7 @@
           <div class="hr-allday__card">
             <span class="hr-allday__when">Dès 9h30</span>
             <a class="hr-allday__title" href="ctfs">Beginner CTF et autres CTF</a>
-            <span class="hr-allday__desc">À annoncer.</span>
+            
             
           </div>
           

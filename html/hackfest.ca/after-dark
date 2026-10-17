@@ -443,7 +443,7 @@
           document.addEventListener('DOMContentLoaded', function () {
             HFWriter.init({
               element: '#afterdarkTypedText',
-              phrases: ["La nuit commence à 19h","Badge Hackfest requise","Social engineering contest ... 18+","CTF de nuit","Lieux à venir"],
+              phrases: ["La nuit commence à 19h","Badge Hackfest requise","Social engineering contest ... 18+","CTF de nuit","Hall 310, Espace urbain, salles 306B et 308AB"],
               location: 'afterdark_hero',
               terminal: false
             });
@@ -476,7 +476,7 @@
         <!-- Venue info -->
         
         <p class="afterdark-about-venue">
-          <strong>Lieu: À venir</strong> — Même lieu que la conférence - salles avoisinantes incluses
+          <strong>Lieu : Hall 310, Espace urbain, salles 306B et 308AB</strong> — Centre des congrès de Québec, même lieu que la conférence
         </p>
         
 

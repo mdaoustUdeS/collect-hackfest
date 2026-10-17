@@ -523,7 +523,7 @@
       <div class="container">
         <div class="polar-speakers-header">
           <h2>Nos conférenciers</h2>
-          <p>Premiers conférenciers annoncés, d'autres à venir</p>
+          
         </div>
         
         <div class="polar-speakers-grid">
@@ -672,14 +672,10 @@
           
           
           
-          <div class="polar-speaker-card polar-speaker-card--no-photo polar-speaker-card--clickable"
+          <div class="polar-speaker-card polar-speaker-card--clickable"
                id="polar-speaker-samuel-bonneau">
             
-            
-            
-            
-            
-            <div class="polar-speaker-image polar-speaker-image--monogram" aria-hidden="true">SB</div>
+            <div class="polar-speaker-image" style="background-image: url('https://hackfest.ca/assets/images/speakers/samuel-bonneau.webp')"></div>
             
             <div class="polar-speaker-info">
               <h3>Samuel Bonneau</h3>
@@ -705,14 +701,10 @@
           
           
           
-          <div class="polar-speaker-card polar-speaker-card--no-photo polar-speaker-card--clickable"
+          <div class="polar-speaker-card polar-speaker-card--clickable"
                id="polar-speaker-eric-hebert">
             
-            
-            
-            
-            
-            <div class="polar-speaker-image polar-speaker-image--monogram" aria-hidden="true">ÉH</div>
+            <div class="polar-speaker-image" style="background-image: url('https://hackfest.ca/assets/images/speakers/eric-hebert.webp')"></div>
             
             <div class="polar-speaker-info">
               <h3>Éric Hébert</h3>
@@ -767,14 +759,10 @@
           
           
           
-          <div class="polar-speaker-card polar-speaker-card--no-photo"
+          <div class="polar-speaker-card"
                id="polar-speaker-simon-david-williams">
             
-            
-            
-            
-            
-            <div class="polar-speaker-image polar-speaker-image--monogram" aria-hidden="true">SW</div>
+            <div class="polar-speaker-image" style="background-image: url('https://hackfest.ca/assets/images/speakers/simon-david-williams.webp')"></div>
             
             <div class="polar-speaker-info">
               <h3>Simon-David Williams</h3>
@@ -820,12 +808,6 @@
             </div>
           </div>
           
-          
-          
-          <div class="polar-speaker-card polar-speaker-card--placeholder" aria-hidden="true">
-            <span class="polar-speaker-placeholder-mark">+</span>
-            <span class="polar-speaker-placeholder-text">D'autres conférenciers à venir</span>
-          </div>
           
         </div>
 
@@ -1040,7 +1022,7 @@
             </p>
             
             
-            <div class="polar-speaker-abstract"><p>Panel. Les autres panélistes seront dévoilés sous peu.</p>
+            <div class="polar-speaker-abstract"><p>Panel.</p>
 </div>
             
             
@@ -1077,7 +1059,7 @@
             </p>
             
             
-            <div class="polar-speaker-abstract"><p>Panel. Les autres panélistes seront dévoilés sous peu.</p>
+            <div class="polar-speaker-abstract"><p>Panel.</p>
 </div>
             
             
@@ -1114,7 +1096,7 @@
             </p>
             
             
-            <div class="polar-speaker-abstract"><p>Panel. Les autres panélistes seront dévoilés sous peu.</p>
+            <div class="polar-speaker-abstract"><p>Panel.</p>
 </div>
             
             
@@ -1172,9 +1154,9 @@
     
     <!-- ===================================================================
          SCHEDULE
-         Day programme from p.schedule.slots. Each slot carries a `kind`
-         (open / talk / sponsor / pause / meal / social / end) used to colour
-         the marker and badge. Only confirmed sessions are in the data.
+         Day programme from p.schedule.slots, as a vertical agenda. Each slot
+         carries a `kind` (open / talk / sponsor / pause / meal / social / end):
+         talk and sponsor render as session cards, the rest as slim rows.
          =================================================================== -->
     
     <section class="polar-schedule" id="schedule">
@@ -1184,438 +1166,423 @@
           <p>Le programme de la journée</p>
         </div>
 
-        <div class="polar-schedule-scroll">
-          <table class="polar-schedule-table">
-            <thead>
-              <tr>
-                <th scope="col">Heure</th>
-                <th scope="col">Activité</th>
-                <th scope="col">Durée</th>
-                <th scope="col">Langue</th>
-              </tr>
-            </thead>
-            <tbody>
+        
+        <ol class="polar-agenda">
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--open polar-agenda-item--break">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">8h00</span>
               
-              <tr class="polar-slot polar-slot--open">
-                <td class="polar-slot-time">8h00</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <span class="polar-slot-title">Ouverture des portes</span>
-                    
-                    
-                    
-                    <span class="polar-slot-sponsors">
-                      
-                      <img class="polar-slot-sponsor-logo"
-                           src="https://hackfest.ca/assets/images/sponsors/astate.webp"
-                           alt="ASTATE" title="ASTATE" loading="lazy">
-                      
-                      <img class="polar-slot-sponsor-logo"
-                           src="https://hackfest.ca/assets/images/sponsors/elitesec.webp"
-                           alt="EliteSec" title="EliteSec" loading="lazy">
-                      
-                      <img class="polar-slot-sponsor-logo"
-                           src="https://hackfest.ca/assets/images/sponsors/telus.webp"
-                           alt="TELUS" title="TELUS" loading="lazy">
-                      
-                    </span>
-                    
-                  </span>
-                  
-                  
-                  
-                  <span class="polar-slot-desc">Viennoiseries et réseautage.</span>
-                </td>
-                <td class="polar-slot-duration" data-label="Durée"></td>
-                <td class="polar-slot-lang" data-label="Langue"></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--sponsor">
-                <td class="polar-slot-time">8h55</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <span class="polar-slot-title">Mot d'ouverture</span>
-                    
-                    
-                    
-                    <span class="polar-slot-sponsors">
-                      
-                      <img class="polar-slot-sponsor-logo"
-                           src="https://hackfest.ca/assets/images/sponsors/paloalto.webp"
-                           alt="Palo Alto Networks" title="Palo Alto Networks" loading="lazy">
-                      
-                    </span>
-                    
-                  </span>
-                  
-                  
-                  
-                  
-                </td>
-                <td class="polar-slot-duration" data-label="Durée">5 min</td>
-                <td class="polar-slot-lang" data-label="Langue"></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--talk">
-                <td class="polar-slot-time">9h00</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <button type="button" class="polar-slot-open"
-                            data-speaker="dominic-villeneuve"
-                            aria-haspopup="dialog"
-                            aria-controls="polar-speaker-modal-dominic-villeneuve">
-                      <span class="polar-slot-title">Zéro Budget, Zéro Excuse : la naissance d'un département cyber</span>
-                    </button>
-                    
-                    
-                  </span>
-                  <span class="polar-slot-speaker">Dominic Villeneuve</span>
-                  
-                  
-                  
-                </td>
-                <td class="polar-slot-duration" data-label="Durée">50 min</td>
-                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--talk">
-                <td class="polar-slot-time">10h00</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <button type="button" class="polar-slot-open"
-                            data-speaker="jeff-man"
-                            aria-haspopup="dialog"
-                            aria-controls="polar-speaker-modal-jeff-man">
-                      <span class="polar-slot-title">What Are We Doing Here?</span>
-                    </button>
-                    
-                    
-                  </span>
-                  <span class="polar-slot-speaker">Jeff Man</span>
-                  
-                  
-                  
-                </td>
-                <td class="polar-slot-duration" data-label="Durée">50 min</td>
-                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--en">EN</span></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--pause">
-                <td class="polar-slot-time">10h50</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <span class="polar-slot-title">Pause réseautage</span>
-                    
-                    
-                  </span>
-                  
-                  
-                  
-                  
-                </td>
-                <td class="polar-slot-duration" data-label="Durée">20 min</td>
-                <td class="polar-slot-lang" data-label="Langue"></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--talk">
-                <td class="polar-slot-time">11h10</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <span class="polar-slot-title">Panel : Acquisition d'entreprise : comment amener les TI à la table des négociations ?</span>
-                    
-                    
-                  </span>
-                  
-                  
-                  
-                  <span class="polar-slot-speaker">
-                    <button type="button" class="polar-slot-panelist"
-                            data-speaker="samuel-bonneau"
-                            aria-haspopup="dialog"
-                            aria-controls="polar-speaker-modal-samuel-bonneau">Samuel Bonneau</button>, <button type="button" class="polar-slot-panelist"
-                            data-speaker="eric-hebert"
-                            aria-haspopup="dialog"
-                            aria-controls="polar-speaker-modal-eric-hebert">Éric Hébert</button>, <button type="button" class="polar-slot-panelist"
-                            data-speaker="regis-desmeules"
-                            aria-haspopup="dialog"
-                            aria-controls="polar-speaker-modal-regis-desmeules">Régis Desmeules</button>
-                  </span>
-                  
-                  <span class="polar-slot-desc">Panel. Premiers panélistes annoncés, d'autres à venir.</span>
-                </td>
-                <td class="polar-slot-duration" data-label="Durée">50 min</td>
-                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--sponsor">
-                <td class="polar-slot-time">12h00</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <button type="button" class="polar-slot-open"
-                            data-speaker="mark-pilon"
-                            aria-haspopup="dialog"
-                            aria-controls="polar-speaker-modal-mark-pilon">
-                      <span class="polar-slot-title">AI Security needs Cloud security</span>
-                    </button>
-                    
-                    
-                    
-                    <span class="polar-slot-sponsors">
-                      
-                      <img class="polar-slot-sponsor-logo"
-                           src="https://hackfest.ca/assets/images/sponsors/wiz.png"
-                           alt="Wiz" title="Wiz" loading="lazy">
-                      
-                    </span>
-                    
-                  </span>
-                  <span class="polar-slot-speaker">Mark Pilon, directeur régional des ventes, Est du Canada</span>
-                  
-                  
-                  <span class="polar-slot-desc">Conférence partenaire du dîner.</span>
-                </td>
-                <td class="polar-slot-duration" data-label="Durée">15 min</td>
-                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--en">EN</span></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--meal">
-                <td class="polar-slot-time">12h15</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <span class="polar-slot-title">Dîner</span>
-                    
-                    
-                    
-                    <span class="polar-slot-sponsors">
-                      
-                      <img class="polar-slot-sponsor-logo"
-                           src="https://hackfest.ca/assets/images/sponsors/wiz.png"
-                           alt="Wiz" title="Wiz" loading="lazy">
-                      
-                    </span>
-                    
-                  </span>
-                  
-                  
-                  
-                  <span class="polar-slot-desc">Repas trois services.</span>
-                </td>
-                <td class="polar-slot-duration" data-label="Durée"></td>
-                <td class="polar-slot-lang" data-label="Langue"></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--sponsor">
-                <td class="polar-slot-time">13h30</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <button type="button" class="polar-slot-open"
-                            data-speaker="karim-benhamouche"
-                            aria-haspopup="dialog"
-                            aria-controls="polar-speaker-modal-karim-benhamouche">
-                      <span class="polar-slot-title">Sécuriser l'écosystème de l'IA agentique : de la chaîne d'approvisionnement aux points de terminaison</span>
-                    </button>
-                    
-                    
-                    
-                    <span class="polar-slot-sponsors">
-                      
-                      <img class="polar-slot-sponsor-logo"
-                           src="https://hackfest.ca/assets/images/sponsors/paloalto.webp"
-                           alt="Palo Alto Networks" title="Palo Alto Networks" loading="lazy">
-                      
-                    </span>
-                    
-                  </span>
-                  <span class="polar-slot-speaker">Karim Benhamouche</span>
-                  
-                  
-                  
-                </td>
-                <td class="polar-slot-duration" data-label="Durée">50 min</td>
-                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--pause">
-                <td class="polar-slot-time">14h20</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <span class="polar-slot-title">Pause réseautage</span>
-                    
-                    
-                  </span>
-                  
-                  
-                  
-                  
-                </td>
-                <td class="polar-slot-duration" data-label="Durée">20 min</td>
-                <td class="polar-slot-lang" data-label="Langue"></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--talk">
-                <td class="polar-slot-time">14h40</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <span class="polar-slot-title">Conférence à dévoiler</span>
-                    
-                    
-                  </span>
-                  <span class="polar-slot-speaker">Simon-David Williams</span>
-                  
-                  
-                  
-                </td>
-                <td class="polar-slot-duration" data-label="Durée">50 min</td>
-                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--pause">
-                <td class="polar-slot-time">15h30</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <span class="polar-slot-title">Pause café et sucrée</span>
-                    
-                    
-                    
-                    <span class="polar-slot-sponsors">
-                      
-                      <img class="polar-slot-sponsor-logo"
-                           src="https://hackfest.ca/assets/images/sponsors/gosec.png"
-                           alt="GoSecure" title="GoSecure" loading="lazy">
-                      
-                    </span>
-                    
-                  </span>
-                  
-                  
-                  
-                  
-                </td>
-                <td class="polar-slot-duration" data-label="Durée">20 min</td>
-                <td class="polar-slot-lang" data-label="Langue"></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--sponsor">
-                <td class="polar-slot-time">15h50</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <button type="button" class="polar-slot-open"
-                            data-speaker="eric-robert"
-                            aria-haspopup="dialog"
-                            aria-controls="polar-speaker-modal-eric-robert">
-                      <span class="polar-slot-title">Le prochain chaos n'est pas un ransomware! Bâtir une cyberrésilience souveraine à l'ère de l'intelligence artificielle</span>
-                    </button>
-                    
-                    
-                    
-                    <span class="polar-slot-sponsors">
-                      
-                      <img class="polar-slot-sponsor-logo"
-                           src="https://hackfest.ca/assets/images/sponsors/micrologic.png"
-                           alt="Micro Logic" title="Micro Logic" loading="lazy">
-                      
-                    </span>
-                    
-                  </span>
-                  <span class="polar-slot-speaker">Éric Robert, vice-président, stratégie et croissance, Cybersécurité</span>
-                  
-                  
-                  
-                </td>
-                <td class="polar-slot-duration" data-label="Durée">20 min</td>
-                <td class="polar-slot-lang" data-label="Langue"><span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--social">
-                <td class="polar-slot-time">16h10</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <span class="polar-slot-title">Cocktail</span>
-                    
-                    
-                    
-                    <span class="polar-slot-sponsors">
-                      
-                      <img class="polar-slot-sponsor-logo"
-                           src="https://hackfest.ca/assets/images/sponsors/micrologic.png"
-                           alt="Micro Logic" title="Micro Logic" loading="lazy">
-                      
-                    </span>
-                    
-                  </span>
-                  
-                  
-                  
-                  
-                </td>
-                <td class="polar-slot-duration" data-label="Durée"></td>
-                <td class="polar-slot-lang" data-label="Langue"></td>
-              </tr>
-              
-              <tr class="polar-slot polar-slot--end">
-                <td class="polar-slot-time">18h00</td>
-                <td class="polar-slot-body">
-                  <span class="polar-slot-headline">
-                    
-                    
-                    <span class="polar-slot-title">Fin de POLAR</span>
-                    
-                    
-                  </span>
-                  
-                  
-                  
-                  <span class="polar-slot-desc">Rendez-vous au cocktail d'ouverture du Hackfest, au Centre des congrès de Québec.</span>
-                </td>
-                <td class="polar-slot-duration" data-label="Durée"></td>
-                <td class="polar-slot-lang" data-label="Langue"></td>
-              </tr>
-              
-            </tbody>
-          </table>
-        </div>
+            </div>
 
-        
-        <ul class="polar-schedule-legend">
+            
+            <div class="polar-agenda-break">
+              <p class="polar-agenda-break-title">Ouverture des portes</p>
+              <p class="polar-agenda-desc">Viennoiseries et réseautage.</p>
+              
+              <div class="polar-agenda-sponsors polar-agenda-sponsors--inline">
+                <span class="polar-agenda-sponsors-label">Présenté par</span>
+                <img src="https://hackfest.ca/assets/images/sponsors/astate.webp" alt="ASTATE" title="ASTATE" loading="lazy"><img src="https://hackfest.ca/assets/images/sponsors/elitesec.webp" alt="EliteSec" title="EliteSec" loading="lazy"><img src="https://hackfest.ca/assets/images/sponsors/telus.webp" alt="TELUS" title="TELUS" loading="lazy">
+              </div>
+              
+            </div>
+            
+          </li>
           
-          <li class="polar-legend-item polar-legend-item--talk">Conférence</li>
           
-          <li class="polar-legend-item polar-legend-item--sponsor">Partenaire</li>
           
-          <li class="polar-legend-item polar-legend-item--pause">Pause</li>
+          <li class="polar-agenda-item polar-agenda-item--sponsor polar-agenda-item--session">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">8h55</span>
+              <span class="polar-agenda-duration">5 min</span>
+            </div>
+
+            
+            <div class="polar-agenda-card">
+              <div class="polar-agenda-meta">
+                
+                <span class="polar-agenda-kind">Partenaire</span>
+                
+              </div>
+              <h3 class="polar-agenda-title">
+                
+                Mot d'ouverture
+              </h3>
+              
+              
+              
+              
+              <div class="polar-agenda-sponsors">
+                <span class="polar-agenda-sponsors-label">Présenté par</span>
+                <img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks" title="Palo Alto Networks" loading="lazy">
+              </div>
+              
+            </div>
+            
+          </li>
           
-          <li class="polar-legend-item polar-legend-item--social">Accueil et réseautage</li>
           
-        </ul>
-        
+          
+          <li class="polar-agenda-item polar-agenda-item--talk polar-agenda-item--session">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">9h00</span>
+              <span class="polar-agenda-duration">50 min</span>
+            </div>
+
+            
+            <div class="polar-agenda-card">
+              <div class="polar-agenda-meta">
+                
+                <span class="polar-agenda-kind">Conférence</span>
+                <span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span>
+              </div>
+              <h3 class="polar-agenda-title">
+                
+                
+                <button type="button" class="polar-slot-open"
+                        data-speaker="dominic-villeneuve"
+                        aria-haspopup="dialog"
+                        aria-controls="polar-speaker-modal-dominic-villeneuve">Zéro Budget, Zéro Excuse : la naissance d'un département cyber</button>
+                
+              </h3>
+              <p class="polar-agenda-speaker">Dominic Villeneuve</p>
+              
+              
+              
+            </div>
+            
+          </li>
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--talk polar-agenda-item--session">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">10h00</span>
+              <span class="polar-agenda-duration">50 min</span>
+            </div>
+
+            
+            <div class="polar-agenda-card">
+              <div class="polar-agenda-meta">
+                
+                <span class="polar-agenda-kind">Conférence</span>
+                <span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--en">EN</span>
+              </div>
+              <h3 class="polar-agenda-title">
+                
+                
+                <button type="button" class="polar-slot-open"
+                        data-speaker="jeff-man"
+                        aria-haspopup="dialog"
+                        aria-controls="polar-speaker-modal-jeff-man">What Are We Doing Here?</button>
+                
+              </h3>
+              <p class="polar-agenda-speaker">Jeff Man</p>
+              
+              
+              
+            </div>
+            
+          </li>
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--pause polar-agenda-item--break">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">10h50</span>
+              <span class="polar-agenda-duration">20 min</span>
+            </div>
+
+            
+            <div class="polar-agenda-break">
+              <p class="polar-agenda-break-title">Pause réseautage</p>
+              
+              
+            </div>
+            
+          </li>
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--talk polar-agenda-item--session">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">11h10</span>
+              <span class="polar-agenda-duration">50 min</span>
+            </div>
+
+            
+            <div class="polar-agenda-card">
+              <div class="polar-agenda-meta">
+                
+                <span class="polar-agenda-kind">Panel</span>
+                <span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span>
+              </div>
+              <h3 class="polar-agenda-title">
+                
+                Panel : Acquisition d'entreprise : comment amener les TI à la table des négociations ?
+              </h3>
+              
+              
+              <p class="polar-agenda-speaker">
+                <button type="button" class="polar-slot-panelist"
+                        data-speaker="samuel-bonneau"
+                        aria-haspopup="dialog"
+                        aria-controls="polar-speaker-modal-samuel-bonneau">Samuel Bonneau</button>, <button type="button" class="polar-slot-panelist"
+                        data-speaker="eric-hebert"
+                        aria-haspopup="dialog"
+                        aria-controls="polar-speaker-modal-eric-hebert">Éric Hébert</button>, <button type="button" class="polar-slot-panelist"
+                        data-speaker="regis-desmeules"
+                        aria-haspopup="dialog"
+                        aria-controls="polar-speaker-modal-regis-desmeules">Régis Desmeules</button>
+              </p>
+              
+              
+              
+            </div>
+            
+          </li>
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--sponsor polar-agenda-item--session">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">12h00</span>
+              <span class="polar-agenda-duration">15 min</span>
+            </div>
+
+            
+            <div class="polar-agenda-card">
+              <div class="polar-agenda-meta">
+                
+                <span class="polar-agenda-kind">Partenaire</span>
+                <span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--en">EN</span>
+              </div>
+              <h3 class="polar-agenda-title">
+                
+                
+                <button type="button" class="polar-slot-open"
+                        data-speaker="mark-pilon"
+                        aria-haspopup="dialog"
+                        aria-controls="polar-speaker-modal-mark-pilon">AI Security needs Cloud security</button>
+                
+              </h3>
+              <p class="polar-agenda-speaker">Mark Pilon, directeur régional des ventes, Est du Canada</p>
+              
+              <p class="polar-agenda-desc">Conférence partenaire du dîner.</p>
+              
+              <div class="polar-agenda-sponsors">
+                <span class="polar-agenda-sponsors-label">Présenté par</span>
+                <img src="https://hackfest.ca/assets/images/sponsors/wiz.png" alt="Wiz" title="Wiz" loading="lazy">
+              </div>
+              
+            </div>
+            
+          </li>
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--meal polar-agenda-item--break">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">12h15</span>
+              
+            </div>
+
+            
+            <div class="polar-agenda-break">
+              <p class="polar-agenda-break-title">Dîner</p>
+              <p class="polar-agenda-desc">Repas trois services.</p>
+              
+              <div class="polar-agenda-sponsors polar-agenda-sponsors--inline">
+                <span class="polar-agenda-sponsors-label">Présenté par</span>
+                <img src="https://hackfest.ca/assets/images/sponsors/wiz.png" alt="Wiz" title="Wiz" loading="lazy">
+              </div>
+              
+            </div>
+            
+          </li>
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--sponsor polar-agenda-item--session">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">13h30</span>
+              <span class="polar-agenda-duration">50 min</span>
+            </div>
+
+            
+            <div class="polar-agenda-card">
+              <div class="polar-agenda-meta">
+                
+                <span class="polar-agenda-kind">Partenaire</span>
+                <span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span>
+              </div>
+              <h3 class="polar-agenda-title">
+                
+                
+                <button type="button" class="polar-slot-open"
+                        data-speaker="karim-benhamouche"
+                        aria-haspopup="dialog"
+                        aria-controls="polar-speaker-modal-karim-benhamouche">Sécuriser l'écosystème de l'IA agentique : de la chaîne d'approvisionnement aux points de terminaison</button>
+                
+              </h3>
+              <p class="polar-agenda-speaker">Karim Benhamouche</p>
+              
+              
+              
+              <div class="polar-agenda-sponsors">
+                <span class="polar-agenda-sponsors-label">Présenté par</span>
+                <img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks" title="Palo Alto Networks" loading="lazy">
+              </div>
+              
+            </div>
+            
+          </li>
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--pause polar-agenda-item--break">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">14h20</span>
+              <span class="polar-agenda-duration">20 min</span>
+            </div>
+
+            
+            <div class="polar-agenda-break">
+              <p class="polar-agenda-break-title">Pause réseautage</p>
+              
+              
+            </div>
+            
+          </li>
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--talk polar-agenda-item--session">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">14h40</span>
+              <span class="polar-agenda-duration">50 min</span>
+            </div>
+
+            
+            <div class="polar-agenda-card">
+              <div class="polar-agenda-meta">
+                
+                <span class="polar-agenda-kind">Conférence</span>
+                <span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span>
+              </div>
+              <h3 class="polar-agenda-title">
+                
+                Conférence à dévoiler
+              </h3>
+              <p class="polar-agenda-speaker">Simon-David Williams</p>
+              
+              
+              
+            </div>
+            
+          </li>
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--pause polar-agenda-item--break">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">15h30</span>
+              <span class="polar-agenda-duration">20 min</span>
+            </div>
+
+            
+            <div class="polar-agenda-break">
+              <p class="polar-agenda-break-title">Pause café et sucrée</p>
+              
+              
+              <div class="polar-agenda-sponsors polar-agenda-sponsors--inline">
+                <span class="polar-agenda-sponsors-label">Présenté par</span>
+                <img src="https://hackfest.ca/assets/images/sponsors/gosec.png" alt="GoSecure" title="GoSecure" loading="lazy">
+              </div>
+              
+            </div>
+            
+          </li>
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--sponsor polar-agenda-item--session">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">15h50</span>
+              <span class="polar-agenda-duration">20 min</span>
+            </div>
+
+            
+            <div class="polar-agenda-card">
+              <div class="polar-agenda-meta">
+                
+                <span class="polar-agenda-kind">Partenaire</span>
+                <span class="polar-slot-tag polar-slot-tag--lang polar-slot-tag--fr">FR</span>
+              </div>
+              <h3 class="polar-agenda-title">
+                
+                
+                <button type="button" class="polar-slot-open"
+                        data-speaker="eric-robert"
+                        aria-haspopup="dialog"
+                        aria-controls="polar-speaker-modal-eric-robert">Le prochain chaos n'est pas un ransomware! Bâtir une cyberrésilience souveraine à l'ère de l'intelligence artificielle</button>
+                
+              </h3>
+              <p class="polar-agenda-speaker">Éric Robert, vice-président, stratégie et croissance, Cybersécurité</p>
+              
+              
+              
+              <div class="polar-agenda-sponsors">
+                <span class="polar-agenda-sponsors-label">Présenté par</span>
+                <img src="https://hackfest.ca/assets/images/sponsors/micrologic.png" alt="Micro Logic" title="Micro Logic" loading="lazy">
+              </div>
+              
+            </div>
+            
+          </li>
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--social polar-agenda-item--break">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">16h10</span>
+              
+            </div>
+
+            
+            <div class="polar-agenda-break">
+              <p class="polar-agenda-break-title">Cocktail</p>
+              
+              
+              <div class="polar-agenda-sponsors polar-agenda-sponsors--inline">
+                <span class="polar-agenda-sponsors-label">Présenté par</span>
+                <img src="https://hackfest.ca/assets/images/sponsors/micrologic.png" alt="Micro Logic" title="Micro Logic" loading="lazy">
+              </div>
+              
+            </div>
+            
+          </li>
+          
+          
+          
+          <li class="polar-agenda-item polar-agenda-item--end polar-agenda-item--break">
+            <div class="polar-agenda-time">
+              <span class="polar-agenda-clock">18h00</span>
+              
+            </div>
+
+            
+            <div class="polar-agenda-break">
+              <p class="polar-agenda-break-title">Fin de POLAR</p>
+              <p class="polar-agenda-desc">Rendez-vous au cocktail d'ouverture du Hackfest, au Centre des congrès de Québec.</p>
+              
+            </div>
+            
+          </li>
+          
+        </ol>
 
         
         <ul class="polar-schedule-standing">
@@ -1664,254 +1631,524 @@
         </div>
         
         
-        <div class="sponsor-row sponsor-row-main" id="main">
-          <span class="sponsor-label">Partenaire principal</span>
-          
-          
-          
-          
-          
-          <div class="sponsor-logos sponsor-logos-single">
-            
-            <div class="sponsor-item">
-              
-              <a href="https://www.paloaltonetworks.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks"></a>
-              
-            </div>
-            
-          </div>
-          
-          
-            
-              
-              
-          
-          <div class="sponsor-descriptions">
-            
-              
-            <div class="sponsor-desc-block">
-              <p class="sponsor-item-text">Palo Alto Networks est un leader mondial de la cybersécurité. Partenaire principal de POLAR 2026, l'entreprise présente également une conférence au programme de la journée.</p>
-              <a href="https://www.paloaltonetworks.com/" class="sponsor-item-url">Visiter le site</a>
-            </div>
-              
-            
-          </div>
-          
-          
-          
-        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+<section class="sponsor-tier sponsor-tier-main" id="main" aria-labelledby="main-title">
+  <h3 class="sponsor-tier-title" id="main-title">Partenaire principal</h3>
+  <div class="sponsor-grid sponsor-grid-main">
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card sponsor-card-featured">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.paloaltonetworks.com/" rel="noopener" aria-label="Palo Alto Networks"><img src="https://hackfest.ca/assets/images/sponsors/paloalto.webp" alt="Palo Alto Networks" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">Palo Alto Networks</h4>
+    
+    <p class="sponsor-card-text">Palo Alto Networks est un leader mondial de la cybersécurité. Partenaire principal de POLAR 2026, l&#39;entreprise présente également une conférence au programme de la journée.</p>
+    
+    
+    <a href="https://www.paloaltonetworks.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+  </div>
+</section>
+    
+  
+
+  
+    
+    
+<section class="sponsor-tier" id="kiosk" aria-labelledby="kiosk-title">
+  <h3 class="sponsor-tier-title" id="kiosk-title">Kiosque <span class="sponsor-tier-count">3</span></h3>
+  <div class="sponsor-grid">
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.telus.com/" rel="noopener" aria-label="TELUS"><img src="https://hackfest.ca/assets/images/sponsors/telus.webp" alt="TELUS" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">TELUS</h4>
+    
+    <p class="sponsor-card-text is-clamped">Notre technologie de calibre mondial, notre engagement à accorder la priorité aux clients et notre détermination à favoriser les changements sociaux contribuent à créer un monde meilleur pour les générations à venir. Ensemble, créons un futur meilleur.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.telus.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://astate.one" rel="noopener" aria-label="ASTATE"><img src="https://hackfest.ca/assets/images/sponsors/astate.webp" alt="ASTATE" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">ASTATE</h4>
+    
+    <p class="sponsor-card-text is-clamped">ASTATE, c&#39;est l&#39;équipe qui ne dort pas pendant que vous dormez. On traque les failles, on surveille vos systèmes 24/7, on fait parler vos logs et on vous guide dans les méandres de la conformité (PCI, SWIFT, ISO…). Red Team, Blue Team, Purple mindset, on joue tous les rôles, mais toujours à fond.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://astate.one" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://elitesec.io" rel="noopener" aria-label="EliteSec"><img src="https://hackfest.ca/assets/images/sponsors/elitesec.webp" alt="EliteSec" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">EliteSec</h4>
+    
+    <p class="sponsor-card-text is-clamped">EliteSec est une entreprise canadienne de cybersécurité qui offre des services spécialisés pour aider les organisations à renforcer leurs défenses : tests d&#39;intrusion, conseil en cybersécurité et exercices de simulation ludifiés. EliteSec est accréditée ISO 27001:2022 et CREST, et est établie à Waterloo, en Ontario.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://elitesec.io" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+  </div>
+</section>
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+  
+
+
+
+
+<section class="sponsor-tier" id="other-tiers" aria-labelledby="other-tiers-title">
+  <h3 class="sponsor-tier-title" id="other-tiers-title">Autres partenariats <span class="sponsor-tier-count">8</span></h3>
+  <div class="sponsor-subtiers">
+    
+      
+    
+      
         
         
-        
-        <div class="sponsor-row " id="kiosk">
-          <span class="sponsor-label">Kiosque</span>
-          
-          
-          
-          
-          
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.telus.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/telus.webp" alt="TELUS"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Notre technologie de calibre mondial, notre engagement à accorder la priorité aux clients et notre détermination à favoriser les changements sociaux contribuent à créer un monde meilleur pour les générations à venir. Ensemble, créons un futur meilleur.</p>
-                <a href="https://www.telus.com/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://astate.one" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/astate.webp" alt="ASTATE"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">ASTATE, c'est l'équipe qui ne dort pas pendant que vous dormez. On traque les failles, on surveille vos systèmes 24/7, on fait parler vos logs et on vous guide dans les méandres de la conformité (PCI, SWIFT, ISO…). Red Team, Blue Team, Purple mindset, on joue tous les rôles, mais toujours à fond.</p>
-                <a href="https://astate.one" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://elitesec.io" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/elitesec.webp" alt="EliteSec"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">EliteSec est une entreprise canadienne de cybersécurité qui offre des services spécialisés pour aider les organisations à renforcer leurs défenses : tests d'intrusion, conseil en cybersécurité et exercices de simulation ludifiés. EliteSec est accréditée ISO 27001:2022 et CREST, et est établie à Waterloo, en Ontario.</p>
-                <a href="https://elitesec.io" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
-          
-          
-        </div>
+      
+    
+      
         
         
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="banniere" aria-labelledby="banniere-title">
+      <h4 class="sponsor-subtier-title" id="banniere-title">Bannière</h4>
+      <div class="sponsor-subtier-cards">
+          
         
-        <div class="sponsor-row " id="lanieres">
-          <span class="sponsor-label">Lanières</span>
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://www.tenable.com/" rel="noopener" aria-label="Tenable"><img src="https://hackfest.ca/assets/images/sponsors/tenable.svg" alt="Tenable" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h5 class="sponsor-card-name">Tenable</h5>
+    
+    <p class="sponsor-card-text">Tenable est une entreprise de gestion de l&#39;exposition qui aide les organisations à voir, prioriser et réduire leurs risques cyber sur l&#39;ensemble de leur surface d&#39;attaque.</p>
+    
+    
+    <a href="https://www.tenable.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
-          
-          
-          
-          
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.secur01.com" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/secur01.png" alt="Secur01"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Notre mission est la même depuis le début : sensibiliser aux questions de cybersécurité, avertir nos clients des menaces et mettre en place des plans de continuité en cas de catastrophe imprévue. Nous prenons en charge tous les besoins de nos clients en matière de cybersécurité et de conformité informatique. Nous proposons également des services gérés afin que vous puissiez bénéficier de la tranquillité d’esprit d’un RSSI ou d’un responsable de la conformité/de la protection de la vie privée.</p>
-                <a href="https://www.secur01.com" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
-          
-          
-        </div>
+      </div>
+    </section>
         
-        
-        
-        <div class="sponsor-row " id="cafe">
-          <span class="sponsor-label">Café</span>
-          
-          
-          
-          
-          
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.secur01.com" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/secur01.png" alt="Secur01"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Notre mission est la même depuis le début : sensibiliser aux questions de cybersécurité, avertir nos clients des menaces et mettre en place des plans de continuité en cas de catastrophe imprévue. Nous prenons en charge tous les besoins de nos clients en matière de cybersécurité et de conformité informatique. Nous proposons également des services gérés afin que vous puissiez bénéficier de la tranquillité d’esprit d’un RSSI ou d’un responsable de la conformité/de la protection de la vie privée.</p>
-                <a href="https://www.secur01.com" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
-          
-          
-        </div>
+      
+    
+      
         
         
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="lanieres" aria-labelledby="lanieres-title">
+      <h4 class="sponsor-subtier-title" id="lanieres-title">Lanières</h4>
+      <div class="sponsor-subtier-cards">
+          
         
-        <div class="sponsor-row " id="cocktail">
-          <span class="sponsor-label">Cocktail</span>
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.secur01.com" rel="noopener" aria-label="Secur01"><img src="https://hackfest.ca/assets/images/sponsors/secur01.png" alt="Secur01" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h5 class="sponsor-card-name">Secur01</h5>
+    
+    <p class="sponsor-card-text is-clamped">Notre mission est la même depuis le début : sensibiliser aux questions de cybersécurité, avertir nos clients des menaces et mettre en place des plans de continuité en cas de catastrophe imprévue. Nous prenons en charge tous les besoins de nos clients en matière de cybersécurité et de conformité informatique. Nous proposons également des services gérés afin que vous puissiez bénéficier de la tranquillité d’esprit d’un RSSI ou d’un responsable de la conformité/de la protection de la vie privée.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.secur01.com" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
-          
-          
-          
-          
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://micrologic.ca/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/micrologic.png" alt="Micro Logic"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Micro Logic est une entreprise québécoise qui occupe une place prépondérante dans l’univers de la transformation numérique figurant parmi les plus importants fournisseurs de solutions TI au Canada. Son produit phare, Projet Cirrus, est un cloud souverain de classe mondiale qui permet de se distinguer par la sécurité et la souveraineté des données, assujetti aux lois et à la règlementation du territoire canadien.</p>
-                <a href="https://micrologic.ca/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
-          
-          
-        </div>
+      </div>
+    </section>
         
-        
-        
-        <div class="sponsor-row " id="diner">
-          <span class="sponsor-label">Dîner</span>
-          
-          
-          
-          
-          
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://wiz.io" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/wiz.png" alt="Wiz"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">Wiz transforme la sécurité de l'informatique en nuage pour ses clients, dont 40 % des entreprises du classement Fortune 100, en mettant en place un nouveau modèle d'exploitation. Notre CNAPP permet aux équipes de sécurité et de développement de construire rapidement et en toute sécurité en fournissant une visibilité sur leurs environnements en nuage.</p>
-                <a href="https://wiz.io" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
-          
-          
-        </div>
+      
+    
+      
         
         
+    <section class="sponsor-subtier sponsor-subtier-span-2" id="cafe" aria-labelledby="cafe-title">
+      <h4 class="sponsor-subtier-title" id="cafe-title">Café</h4>
+      <div class="sponsor-subtier-cards">
+          
         
-        <div class="sponsor-row " id="bar">
-          <span class="sponsor-label">Bar</span>
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.secur01.com" rel="noopener" aria-label="Secur01"><img src="https://hackfest.ca/assets/images/sponsors/secur01.png" alt="Secur01" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h5 class="sponsor-card-name">Secur01</h5>
+    
+    <p class="sponsor-card-text is-clamped">Notre mission est la même depuis le début : sensibiliser aux questions de cybersécurité, avertir nos clients des menaces et mettre en place des plans de continuité en cas de catastrophe imprévue. Nous prenons en charge tous les besoins de nos clients en matière de cybersécurité et de conformité informatique. Nous proposons également des services gérés afin que vous puissiez bénéficier de la tranquillité d’esprit d’un RSSI ou d’un responsable de la conformité/de la protection de la vie privée.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.secur01.com" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo sponsor-card-logo-light">
+    
+    <a href="https://www.arista.com/" rel="noopener" aria-label="Arista Networks"><img src="https://hackfest.ca/assets/images/sponsors/arista.svg" alt="Arista Networks" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h5 class="sponsor-card-name">Arista Networks</h5>
+    
+    <p class="sponsor-card-text is-clamped">Arista Networks est un chef de file des solutions de réseautique infonuagique et d&#39;IA, du poste client jusqu&#39;au nuage, pour les grands centres de données, les campus et les environnements de routage.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.arista.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
           
-          
-          
-          
-          <div class="sponsor-entries">
-            
-            <div class="sponsor-entry">
-              <div class="sponsor-item">
-                
-                <a href="https://www.trendai.com/" class="sponsor-item-link"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI"></a>
-                
-              </div>
-              
-              <div class="sponsor-desc-block">
-                <p class="sponsor-item-text">TrendAI est la division entreprise de Trend Micro (renommée en 2026), qui protège les organisations et les systèmes d'IA sur lesquels elles s'appuient.</p>
-                <a href="https://www.trendai.com/" class="sponsor-item-url">Visiter le site</a>
-              </div>
-              
-            </div>
-            
-          </div>
-          
-          
-        </div>
+      </div>
+    </section>
+        
+      
+    
+      
         
         
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="cocktail" aria-labelledby="cocktail-title">
+      <h4 class="sponsor-subtier-title" id="cocktail-title">Cocktail</h4>
+      <div class="sponsor-subtier-cards">
+          
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://micrologic.ca/" rel="noopener" aria-label="Micro Logic"><img src="https://hackfest.ca/assets/images/sponsors/micrologic.png" alt="Micro Logic" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h5 class="sponsor-card-name">Micro Logic</h5>
+    
+    <p class="sponsor-card-text is-clamped">Micro Logic est une entreprise québécoise qui occupe une place prépondérante dans l’univers de la transformation numérique figurant parmi les plus importants fournisseurs de solutions TI au Canada. Son produit phare, Projet Cirrus, est un cloud souverain de classe mondiale qui permet de se distinguer par la sécurité et la souveraineté des données, assujetti aux lois et à la règlementation du territoire canadien.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://micrologic.ca/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+          
+      </div>
+    </section>
+        
+      
+    
+      
         
         
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="diner" aria-labelledby="diner-title">
+      <h4 class="sponsor-subtier-title" id="diner-title">Dîner</h4>
+      <div class="sponsor-subtier-cards">
+          
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://wiz.io" rel="noopener" aria-label="Wiz"><img src="https://hackfest.ca/assets/images/sponsors/wiz.png" alt="Wiz" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h5 class="sponsor-card-name">Wiz</h5>
+    
+    <p class="sponsor-card-text is-clamped">Wiz transforme la sécurité de l&#39;informatique en nuage pour ses clients, dont 40 % des entreprises du classement Fortune 100, en mettant en place un nouveau modèle d&#39;exploitation. Notre CNAPP permet aux équipes de sécurité et de développement de construire rapidement et en toute sécurité en fournissant une visibilité sur leurs environnements en nuage.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://wiz.io" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+          
+      </div>
+    </section>
+        
+      
+    
+      
+        
+        
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="bar" aria-labelledby="bar-title">
+      <h4 class="sponsor-subtier-title" id="bar-title">Bar</h4>
+      <div class="sponsor-subtier-cards">
+          
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.trendai.com/" rel="noopener" aria-label="TrendAI"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h5 class="sponsor-card-name">TrendAI</h5>
+    
+    <p class="sponsor-card-text">TrendAI est la division entreprise de Trend Micro (renommée en 2026), qui protège les organisations et les systèmes d&#39;IA sur lesquels elles s&#39;appuient.</p>
+    
+    
+    <a href="https://www.trendai.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+          
+      </div>
+    </section>
+        
+      
+    
+      
+        
+        
+    <section class="sponsor-subtier sponsor-subtier-span-1" id="pause_sucree" aria-labelledby="pause_sucree-title">
+      <h4 class="sponsor-subtier-title" id="pause_sucree-title">Pause sucrée</h4>
+      <div class="sponsor-subtier-cards">
+          
+        
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://gosecure.ai/" rel="noopener" aria-label="GoSecure"><img src="https://hackfest.ca/assets/images/sponsors/gosec.png" alt="GoSecure" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h5 class="sponsor-card-name">GoSecure</h5>
+    
+    <p class="sponsor-card-text is-clamped">GoSecure est un leader et un innovateur reconnu en matière de cybersécurité, pionnier de l&#39;intégration de la détection des menaces au niveau des terminaux, du réseau et des courriels en un seul service de détection et réponse gérées et étendues (MXDR).</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://gosecure.ai/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+          
+      </div>
+    </section>
+        
+      
+    
+  </div>
+</section>
+
+
       </div>
     </section>
 
