@@ -846,7 +846,7 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
 <article class="sponsor-card">
   <div class="sponsor-card-logo">
     
-    <a href="https://www.trendai.com/" rel="noopener" aria-label="TrendAI"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI" loading="lazy"></a>
+    <a href="https://www.trendmicro.com/" rel="noopener" aria-label="TrendAI"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI" loading="lazy"></a>
     
   </div>
   <div class="sponsor-card-body">
@@ -855,7 +855,7 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
     <p class="sponsor-card-text">TrendAI est la division entreprise de Trend Micro (renommée en 2026), qui protège les organisations et les systèmes d&#39;IA sur lesquels elles s&#39;appuient.</p>
     
     
-    <a href="https://www.trendai.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+    <a href="https://www.trendmicro.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
   </div>
 </article>
 
@@ -1383,7 +1383,11 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
   <div class="sponsor-card-body">
     <h4 class="sponsor-card-name">Talenty</h4>
     
-    <p class="sponsor-card-text"></p>
+    <p class="sponsor-card-text is-clamped">Talenty est votre partenaire stratégique en recrutement cybersécurité et TI au Québec. L&#39;équipe livre des candidats qualifiés, rapidement, avec un taux de rétention d&#39;environ 90 % après 12 mois. Pas un fournisseur, un partenaire : Talenty ne lance pas des CV, elle comprend ce que vous cherchez, pourquoi vous le cherchez, et trouve la bonne personne.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
     
     
     <a href="https://www.talenty.ca/" class="sponsor-card-url" rel="noopener">Visiter le site</a>

@@ -1687,7 +1687,7 @@
     
     
 <section class="sponsor-tier" id="kiosk" aria-labelledby="kiosk-title">
-  <h3 class="sponsor-tier-title" id="kiosk-title">Kiosque <span class="sponsor-tier-count">3</span></h3>
+  <h3 class="sponsor-tier-title" id="kiosk-title">Kiosque <span class="sponsor-tier-count">4</span></h3>
   <div class="sponsor-grid">
     
       
@@ -1778,6 +1778,37 @@
     
     
     <a href="https://elitesec.io" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://cyberdefense.ai/" rel="noopener" aria-label="CyberDefense AI"><img src="https://hackfest.ca/assets/images/sponsors/cyberdefense-ai.png" alt="CyberDefense AI" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h4 class="sponsor-card-name">CyberDefense AI</h4>
+    
+    <p class="sponsor-card-text is-clamped">Nous développons des solutions de cybersécurité de haute technologie abordables, résilientes, évolutives et innovantes. Le CYBERWALL.AI est une plateforme hyper-automatisée basée sur le modèle SASE de Gartner. Il permet aux PME d&#39;obtenir plus rapidement une certification en cybersécurité et offre la surveillance complète des services assistés par l&#39;IA, ainsi qu&#39;un pare-feu Web intelligent (WAF).</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://cyberdefense.ai/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
   </div>
 </article>
 
@@ -2085,7 +2116,7 @@
 <article class="sponsor-card">
   <div class="sponsor-card-logo">
     
-    <a href="https://www.trendai.com/" rel="noopener" aria-label="TrendAI"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI" loading="lazy"></a>
+    <a href="https://www.trendmicro.com/" rel="noopener" aria-label="TrendAI"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI" loading="lazy"></a>
     
   </div>
   <div class="sponsor-card-body">
@@ -2094,7 +2125,7 @@
     <p class="sponsor-card-text">TrendAI est la division entreprise de Trend Micro (renommée en 2026), qui protège les organisations et les systèmes d&#39;IA sur lesquels elles s&#39;appuient.</p>
     
     
-    <a href="https://www.trendai.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+    <a href="https://www.trendmicro.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
   </div>
 </article>
 
