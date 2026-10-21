@@ -5,13 +5,25 @@
     <link>https://hackfest.ca/</link>
     <description>Les dernières nouvelles du Hackfest, de POLAR et de la communauté.</description>
     <language>fr-CA</language>
-    <lastBuildDate>Tue, 20 Oct 2026 18:53:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 18:42:10 +0000</lastBuildDate>
     <atom:link href="https://hackfest.ca/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://hackfest.ca/assets/images/global/cercle-black-transparent.webp</url>
       <title>Hackfest : nouvelles</title>
       <link>https://hackfest.ca/</link>
     </image>
+    
+    
+    
+    
+    <item>
+      <title>Du nouveau au Hackfest 2026 : un concours de costumes d’Halloween (500 $ au…</title>
+      <link>https://hackfest.ca/halloween/</link>
+      <guid isPermaLink="false">https://hackfest.ca/#news-2026-10-20-8</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Du nouveau au &lt;strong&gt;Hackfest 2026&lt;/strong&gt; : un &lt;strong&gt;concours de costumes d’Halloween&lt;/strong&gt; (500 $ au meilleur costume, samedi 31 octobre), une &lt;strong&gt;chasse au trésor&lt;/strong&gt; en équipe au Hackfest et en ville, et les &lt;strong&gt;inscriptions à la StealthCup&lt;/strong&gt; sont ouvertes.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/halloween/&quot;&gt;Halloween&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/ctfs/scav/&quot;&gt;Chasse au trésor&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/ctfs/stealthcup/&quot;&gt;StealthCup&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
     
     
     

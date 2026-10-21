@@ -69,6 +69,16 @@ function animateCounters() {
   });
 }
 
+function resetCounters() {
+  document.querySelectorAll(SELECTORS.statNumber).forEach(function(el) {
+    if (!el.dataset.animated && !isNaN(parseInt(el.dataset.target, 10))) {
+      el.textContent = '0';
+    }
+  });
+}
+
+resetCounters();
+
 function handleScrollAnimations() {
 
   var scrollElements = document.querySelectorAll(SELECTORS.scrollAnimate);
@@ -303,4 +313,52 @@ window.addEventListener('load', handleScrollAnimations);
     if (tokens.indexOf('noreferrer') === -1) tokens.push('noreferrer');
     link.setAttribute('rel', tokens.join(' '));
   });
+})();
+
+(function initFeaturesJump() {
+  var jump = document.querySelector('.features-jump');
+  if (!jump) return;
+
+  var floating = jump.cloneNode(true);
+  floating.classList.add('features-jump--floating');
+  floating.setAttribute('aria-hidden', 'true');
+  floating.querySelectorAll('a').forEach(function(a) { a.setAttribute('tabindex', '-1'); });
+  document.body.appendChild(floating);
+
+  var floatingLink = floating.querySelector('a[href^="#"]');
+  var target = floatingLink && document.getElementById(floatingLink.getAttribute('href').slice(1));
+  if (floatingLink && target) {
+    floatingLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+
+  function coversHeroLink() {
+    var box = floating.getBoundingClientRect();
+    var links = document.querySelectorAll('.hero-slide-content.active a, .hero-slide-content.active button');
+    return Array.prototype.some.call(links, function(el) {
+      var r = el.getBoundingClientRect();
+      return r.width > 0 && r.left < box.right && r.right > box.left && r.top < box.bottom && r.bottom > box.top;
+    });
+  }
+
+  function update() {
+    var inView = jump.getBoundingClientRect().bottom <= window.innerHeight;
+    floating.classList.toggle('is-hidden', inView || coversHeroLink());
+  }
+
+  var slider = document.querySelector('.hero-slider-content');
+  if (slider && window.MutationObserver) {
+    new MutationObserver(update).observe(slider, { attributes: true, subtree: true, attributeFilter: ['class'] });
+  }
+
+  var ticking = false;
+  window.addEventListener('scroll', function() {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(function() { update(); ticking = false; });
+  }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
 })();

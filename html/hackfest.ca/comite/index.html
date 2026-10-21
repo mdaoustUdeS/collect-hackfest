@@ -17,7 +17,7 @@
 
 
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="fr-CA">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -62,6 +62,12 @@
 <link rel="alternate" hreflang="fr"        href="index.html">
 <link rel="alternate" hreflang="en"        href="https://hackfest.ca/en/committee/">
 <link rel="alternate" hreflang="x-default" href="index.html">
+
+
+<!-- Structured data (schema.org JSON-LD), facts from _data/event.yml.
+     Organization on home and about, conference on home and schedule,
+     POLAR block on /polar/. -->
+
 
 
   <!-- Favicon and touch icon (192x192) -->
@@ -135,13 +141,6 @@
             <li class="dropdown-item">
               
                 <a href="../after-dark">After Dark</a>
-              
-              
-            </li>
-            
-            <li class="dropdown-item">
-              
-                <a href="../hackfest-schedule">Programme Hackfest</a>
               
               
             </li>
@@ -236,7 +235,7 @@
         
         
         
-        <li class="nav-item">
+        <li class="nav-item nav-item--highlight nav-item--highlight-red">
           
             <a href="../horaire">Horaire</a>
           
@@ -1107,29 +1106,59 @@
      role="dialog"
      aria-modal="true"
      aria-labelledby="announce-modal-title"
-     data-announce-id="ctf-discount-2026-10"
-     data-announce-until="2026-10-29"
+     data-announce-id="news-2026-10-20"
+     data-announce-until="2026-10-31"
      data-announce-delay="1400">
 
   <button type="button" class="announce-close" aria-label="Fermer">&#10005;</button>
 
   <div class="announce-body">
-    <span class="announce-eyebrow">Nouveau</span>
-    <h2 class="announce-title" id="announce-modal-title">Un CTF est caché sur le site</h2>
-    <p class="announce-text">Quelque part sur hackfest.ca, une machine attend. Personne ne vous dira où : c'est un peu l'idée. Résolvez-la et repartez avec un rabais.
-</p>
+    <span class="announce-eyebrow">Nouveautés</span>
+    <h2 class="announce-title" id="announce-modal-title">Du nouveau au Hackfest 2026</h2>
+    
 
     
-    <ul class="announce-points">
-      <li>25 % de rabais sur votre inscription au Hackfest</li><li>Rabais sur certaines formations</li>
+    
+    <ul class="announce-items">
+      
+      <li>
+        <a href="https://hackfest.ca/ctfs/stealthcup/" class="announce-item announce-item--green">
+          <span>
+            <span class="announce-item-title">StealthCup : inscriptions ouvertes</span>
+            <span class="announce-item-text">Des red teams notées sur leur discrétion, samedi 31 octobre. 12 équipes au maximum.</span>
+          </span>
+          <span class="announce-item-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../halloween/index.html" class="announce-item announce-item--orange">
+          <span>
+            <span class="announce-item-title">Concours de costumes d&#39;Halloween</span>
+            <span class="announce-item-text">500 $ pour le meilleur costume, samedi 31 octobre. Aucune inscription.</span>
+          </span>
+          <span class="announce-item-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://hackfest.ca/ctfs/scav/" class="announce-item announce-item--red">
+          <span>
+            <span class="announce-item-title">Chasse au trésor</span>
+            <span class="announce-item-text">En équipe de 6 au maximum, des indices au Hackfest et en ville, les 30 et 31 octobre.</span>
+          </span>
+          <span class="announce-item-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+      
     </ul>
     
 
-    <p class="announce-note">Bonne chasse!</p>
+    
+
+    
 
     <div class="announce-actions">
-      
-      <a href="../formations" class="announce-cta">Voir les formations</a>
       
       <button type="button" class="announce-dismiss">Plus tard</button>
     </div>

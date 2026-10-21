@@ -117,7 +117,7 @@
 
     backdrop.addEventListener('click', close);
 
-    var closers = modal.querySelectorAll('.announce-close, .announce-dismiss, .announce-cta');
+    var closers = modal.querySelectorAll('.announce-close, .announce-dismiss, .announce-cta, .announce-item');
     Array.prototype.forEach.call(closers, function (el) {
       el.addEventListener('click', close);
     });
