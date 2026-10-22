@@ -38,16 +38,19 @@
 <meta property="og:title"       content="Infolettre partenaires — Hackfest 2026">
 <meta property="og:description" content="Inscrivez-vous à l'infolettre des partenaires du Hackfest pour recevoir les nouvelles, dates limites et opportunités.">
 <meta property="og:url"         content="https://hackfest.ca/infolettre-partenaires/">
-<meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta property="og:image"       content="https://hackfest.ca/assets/images/og/default.jpg">
+<meta property="og:image:width"  content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:image:alt"   content="Hackfest 2026">
 <meta property="og:locale"      content="fr_CA">
 
+
 <!-- Twitter Card -->
-<meta name="twitter:card"        content="summary">
+<meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:site"        content="@hackfest_ca">
 <meta name="twitter:title"       content="Infolettre partenaires — Hackfest 2026">
 <meta name="twitter:description" content="Inscrivez-vous à l'infolettre des partenaires du Hackfest pour recevoir les nouvelles, dates limites et opportunités.">
-<meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta name="twitter:image"       content="https://hackfest.ca/assets/images/og/default.jpg">
 
 <!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
 
@@ -282,6 +285,20 @@
               
             </li>
             
+            <li class="dropdown-item">
+              
+                <a href="faq/index.html">FAQ</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="presse/index.html">Médias</a>
+              
+              
+            </li>
+            
           </ul>
           
         </li>
@@ -428,6 +445,10 @@
           
           <li><a href="services">Services</a></li>
           
+          <li><a href="faq/index.html">FAQ</a></li>
+          
+          <li><a href="presse/index.html">Trousse média</a></li>
+          
           <li><a href="index.html">Page d'Accueil</a></li>
           
         </ul>
@@ -443,14 +464,14 @@
           <li>
             <span class="footer-venue-label">Hackfest:</span>
             <span class="footer-venue-name">Centre des congrès de Québec</span>
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           
           <li>
             <span class="footer-venue-label">POLAR:</span>
-            <span class="footer-venue-name">Le Capitole de Québec — Salle Le Confessionnal</span>
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-name">Le Capitole de Québec, Salle Le Confessionnal</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           
@@ -458,9 +479,9 @@
           <li>
             <span class="footer-venue-label">QuébecSec:</span>
             
-            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console — 830 Rue Saint-Joseph Est, 5e étage</a>
+            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console, 830 Rue Saint-Joseph Est, 5e étage</a>
             
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           

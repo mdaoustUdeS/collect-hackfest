@@ -40,16 +40,19 @@
 <meta property="og:title"       content="Polar 2026 — Hackfest 2026">
 <meta property="og:description" content="Polar 2026 - Le rendez-vous annuel des décideurs en sécurité">
 <meta property="og:url"         content="https://hackfest.ca/polar/">
-<meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta property="og:image"       content="https://hackfest.ca/assets/images/og/polar.jpg">
+<meta property="og:image:width"  content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:image:alt"   content="Hackfest 2026">
 <meta property="og:locale"      content="fr_CA">
 
+
 <!-- Twitter Card -->
-<meta name="twitter:card"        content="summary">
+<meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:site"        content="@hackfest_ca">
 <meta name="twitter:title"       content="Polar 2026 — Hackfest 2026">
 <meta name="twitter:description" content="Polar 2026 - Le rendez-vous annuel des décideurs en sécurité">
-<meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta name="twitter:image"       content="https://hackfest.ca/assets/images/og/polar.jpg">
 
 <!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
 
@@ -78,6 +81,7 @@
       "name": "POLAR 2026",
       "description": "Polar 2026 - Le rendez-vous annuel des décideurs en sécurité",
       "url": "https://hackfest.ca/polar/",
+      "image": ["https://hackfest.ca/assets/images/og/polar.jpg"],
       "startDate": "2026-10-29T08:00:00-04:00",
       "endDate": "2026-10-29T18:00:00-04:00",
       "eventStatus": "https://schema.org/EventScheduled",
@@ -94,8 +98,22 @@
           "addressCountry": "CA"
         }
       },
-      "organizer": { "@id": "https://hackfest.ca/#organization" },
-      "superEvent": { "@id": "https://hackfest.ca/#event-2026" }
+      "offers": [{
+      "@type": "Offer",
+      "name": "POLAR",
+      "url": "https://www.eventbrite.ca/e/hackfest-2026-level-up-edition-tickets-1816217959809",
+      "price": 330,
+      "priceCurrency": "CAD",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": 330,
+        "priceCurrency": "CAD",
+        "valueAddedTaxIncluded": false
+      },
+      "availability": "https://schema.org/InStock"
+    }
+],
+      "organizer": { "@type": "Organization", "@id": "https://hackfest.ca/#organization", "name": "Hackfest", "url": "https://hackfest.ca/" }
     }
 
 </script>
@@ -325,6 +343,20 @@
               
             </li>
             
+            <li class="dropdown-item">
+              
+                <a href="faq/index.html">FAQ</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="presse/index.html">Médias</a>
+              
+              
+            </li>
+            
           </ul>
           
         </li>
@@ -465,7 +497,7 @@
     
     <span class="venue-strip-icon" aria-hidden="true">📍</span>
     <span class="venue-strip-label">Lieu:</span>
-    <span class="venue-strip-name">Le Capitole de Québec — Salle Le Confessionnal</span>
+    <span class="venue-strip-name">Le Capitole de Québec, Salle Le Confessionnal</span>
     <span class="venue-strip-address">972 Rue Saint-Jean, Québec, QC G1R 1R5</span>
     
     <a class="venue-strip-map" href="https://maps.google.com/?q=Le+Capitole+de+Qu%C3%A9bec+972+Rue+Saint-Jean+Qu%C3%A9bec" target="_blank" rel="noopener">Voir sur la carte ↗</a>
@@ -534,7 +566,7 @@
             
             <li>1 journée de banquet avec conférences et ateliers</li>
             
-            <li>2e édition d'un événement unique conçu pour les responsables de la cybersécurité</li>
+            <li>4e édition d'un événement unique conçu pour les responsables de la cybersécurité</li>
             
             <li>Une occasion pour les dirigeants de présenter leurs défis et de partager leurs réussites et leurs difficultés</li>
             
@@ -2242,6 +2274,10 @@
           
           <li><a href="services">Services</a></li>
           
+          <li><a href="faq/index.html">FAQ</a></li>
+          
+          <li><a href="presse/index.html">Trousse média</a></li>
+          
           <li><a href="index.html">Page d'Accueil</a></li>
           
         </ul>
@@ -2257,14 +2293,14 @@
           <li>
             <span class="footer-venue-label">Hackfest:</span>
             <span class="footer-venue-name">Centre des congrès de Québec</span>
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           
           <li>
             <span class="footer-venue-label">POLAR:</span>
-            <span class="footer-venue-name">Le Capitole de Québec — Salle Le Confessionnal</span>
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-name">Le Capitole de Québec, Salle Le Confessionnal</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           
@@ -2272,9 +2308,9 @@
           <li>
             <span class="footer-venue-label">QuébecSec:</span>
             
-            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console — 830 Rue Saint-Joseph Est, 5e étage</a>
+            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console, 830 Rue Saint-Joseph Est, 5e étage</a>
             
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           

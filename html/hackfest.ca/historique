@@ -40,16 +40,19 @@
 <meta property="og:title"       content="Historique — Hackfest 2026">
 <meta property="og:description" content="Découvrez l'histoire du Hackfest depuis 2009 - l'évolution de l'événement en cybersécurité au Québec">
 <meta property="og:url"         content="https://hackfest.ca/historique/">
-<meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta property="og:image"       content="https://hackfest.ca/assets/images/og/default.jpg">
+<meta property="og:image:width"  content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:image:alt"   content="Hackfest 2026">
 <meta property="og:locale"      content="fr_CA">
 
+
 <!-- Twitter Card -->
-<meta name="twitter:card"        content="summary">
+<meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:site"        content="@hackfest_ca">
 <meta name="twitter:title"       content="Historique — Hackfest 2026">
 <meta name="twitter:description" content="Découvrez l'histoire du Hackfest depuis 2009 - l'évolution de l'événement en cybersécurité au Québec">
-<meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta name="twitter:image"       content="https://hackfest.ca/assets/images/og/default.jpg">
 
 <!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
 
@@ -285,6 +288,20 @@
               
             </li>
             
+            <li class="dropdown-item">
+              
+                <a href="faq/index.html">FAQ</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="presse/index.html">Médias</a>
+              
+              
+            </li>
+            
           </ul>
           
         </li>
@@ -431,18 +448,19 @@
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">LEVEL UP!</h3>
-              <span class="history-subtitle">En développement</span>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2026 : </span>LEVEL UP!</h3>
+              <span class="history-subtitle">18e édition</span>
             </header>
 
             <!-- Excerpt (shown by default) -->
             <div class="history-excerpt">
-              <p>L'histoire est en train d'être écrite...</p>
+              <p>La 18e édition du Hackfest a lieu du 29 au 31 octobre 2026 au Centre des congrès de Québec.</p>
             </div>
 
             <!-- Full Text (shown when expanded) -->
             <div class="history-full-text" aria-hidden="true">
-              <p>Vous verrez en octobre 2026!</p>
+              <p>La 18e édition du Hackfest a lieu du 29 au 31 octobre 2026 au Centre des congrès de Québec, sous le thème LEVEL UP!</p>
             </div>
 
             <!-- Toggle Button -->
@@ -519,7 +537,8 @@
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">In the SHELL</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2025 : </span>In the SHELL</h3>
               <span class="history-subtitle">Encore plus !</span>
             </header>
 
@@ -719,7 +738,8 @@ Un adage dit que « l’action vaut mieux que l’intention ». Cette 17e éditi
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">16 bit</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2024 : </span>16 bit</h3>
               <span class="history-subtitle">En préparation</span>
             </header>
 
@@ -899,7 +919,8 @@ Bonne exploration et bienvenue à cette 16e édition du Hackfest! … 17 …
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">Back to the Future</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2023 : </span>Back to the Future</h3>
               <span class="history-subtitle">En préparation</span>
             </header>
 
@@ -1075,7 +1096,8 @@ Nous sommes également fiers de soutenir l'initiative CQEC (Circuit Québécois 
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">Ressurection</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2022 : </span>Ressurection</h3>
               <span class="history-subtitle">Le retour à la réalité, de retour en présentiel!</span>
             </header>
 
@@ -1248,7 +1270,8 @@ D'ailleurs, en essayant du nouveau, nous avons étrangement réservé l'édition
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">The N1ghtmar3s Edition</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2021 : </span>The N1ghtmar3s Edition</h3>
               <span class="history-subtitle">Le cauchemar continue...mais essaie de sortir de la terre!</span>
             </header>
 
@@ -1376,7 +1399,8 @@ D'ailleurs, en essayant du nouveau, nous avons étrangement réservé l'édition
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">12 Challenges of Hackfest</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2020 : </span>12 Challenges of Hackfest</h3>
               <span class="history-subtitle">L'édition covid</span>
             </header>
 
@@ -1501,7 +1525,8 @@ D'ailleurs, en essayant du nouveau, nous avons étrangement réservé l'édition
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">Upside Down</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2019 : </span>Upside Down</h3>
               <span class="history-subtitle">La fin du plaza</span>
             </header>
 
@@ -1680,7 +1705,8 @@ Nous avons constaté de grands progrès dans la formation des employés et la ge
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">Decade</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2018 : </span>Decade</h3>
               <span class="history-subtitle">10e anniversaire</span>
             </header>
 
@@ -1703,10 +1729,10 @@ Avec cette accessibilité, d’autres horizons s’ouvrent, car les interurbains
 
 Petit à petit, les patenteux des BBS et des communautés IRC sortent de l’école et s’établissent sur le marché du travail pour tranquillement pas vite maturer et vieillir, manquer de temps pour chiller sur des chats.  De l’expérience est acquise durant cette décennie, tandis que d’autres communautés ou événements prennent la place - MafiaBoy, iLoveYou, … Les temps changent, une génération ne reconnaît ou ne supporte pas la précédente tellement les choses évoluent rapidement, notamment les acteurs malicieux.
 
-Des événements et meetups se mettent en place pour échanger localement, à l’image des meetups 2600 qui ont lieu à Montréal et Québec (sporadiquement), le forum mtl2600 et la première version du Hackfest, organisée par le CENTINEL (d’où pensez-vous que le nom de notre mascotte sort?) de l’Université Laval.
+Des événements et meetups se mettent en place pour échanger localement, à l’image des meetups 2600 qui ont lieu à Montréal et Québec (sporadiquement), le forum mtl2600 et les événements étudiants précurseurs du Hackfest, organisés par le CENTINEL (d’où pensez-vous que le nom de notre mascotte sort?) de l’Université Laval.
 
 10 YEARS AGO
-Après 3 éditions du Hackfest organisées par l'Université Laval, les rencontres qc2600 débutent avec plusieurs membres des groupes de hacking et piratage éthique de la scène de Québec, ceux-ci étant plutôt sur la ligne grosse de la légalité, se sont transformés en rencontres mensuelles à la Cage aux Sports ou à la Halte-Bouffe de Place Laurier avec des amis de sécurité ayant débuté un emploi en sécurité informatique de 2004 jusqu'autour de l’été 2009 où l’un de nos co-fondateurs a l'idée de refaire le Hackfest mais hors-université. Ainsi par un certain matin de juin, une planification à eu lieu, une incorporation fut créée, et le Hackfest Reloaded naît. Celui-ci devait avoir lieu à l'université Laval mais le virus H1N1 nous vole notre local ainsi l'événement fut transféré dans un hôtel et 4 mois plus tard, le 7 novembre 2009 plus de 175 personnes se sont présentées dans le sous-sol de l'hôtel Universel où environ 8 conférences ont eu lieu suivi d'un concours de lockpicking et d’un CTF Red vs Blue!
+Après 3 événements étudiants précurseurs organisés à l'Université Laval, les rencontres qc2600 débutent avec plusieurs membres des groupes de hacking et piratage éthique de la scène de Québec, ceux-ci étant plutôt sur la ligne grosse de la légalité, se sont transformés en rencontres mensuelles à la Cage aux Sports ou à la Halte-Bouffe de Place Laurier avec des amis de sécurité ayant débuté un emploi en sécurité informatique de 2004 jusqu'autour de l’été 2009 où l’un de nos co-fondateurs a l'idée de refaire le Hackfest mais hors-université. Ainsi, un certain matin, une planification a eu lieu, une incorporation fut créée, et le Hackfest Reloaded naît. Celui-ci devait avoir lieu à l'université Laval mais le virus H1N1 nous vole notre local ainsi l'événement fut transféré dans un hôtel et le 7 novembre 2009 plus de 175 personnes se sont présentées dans le sous-sol de l'hôtel Universel où environ 8 conférences ont eu lieu suivi d'un concours de lockpicking et d’un CTF Red vs Blue!
 
 AUJOURD’HUI
 Le partage d’informations, le réseautage, et échanger sur des projets ou défis en milieu d’emploi sont des éléments critiques à l’avancement de la communauté en sécurité de l’information, notamment avec des acteurs malicieux qui ont fortement progressé ces dernières années en étant souvent associés avec le crime organisé ou des gouvernements.  Il va sans parler des organisations qui sont désemparées face aux défis et qui commencent à peine à s’organiser.  C’est ce que le Hackfest promouvoit depuis 10 ans et a bien l’intention de continuer!
@@ -1858,7 +1884,8 @@ Vous désirez en savoir plus sur l’historique du Hackfest?  Venez nous voir à
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">Nine Lives</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2017 : </span>Nine Lives</h3>
               <span class="history-subtitle">Les neuf vies</span>
             </header>
 
@@ -2013,7 +2040,8 @@ Tous ensemble, nous nous souhaitons autant de vies que possible et une incroyabl
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">Infinity</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2016 : </span>Infinity</h3>
               <span class="history-subtitle">L'infini</span>
             </header>
 
@@ -2152,7 +2180,8 @@ Ensemble, la connaissance n’a pas de limite alors, bon HACKFEST 8e édition (I
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">Lucky Edition</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2015 : </span>Lucky Edition</h3>
               <span class="history-subtitle">Le chiffre chanceux 7</span>
             </header>
 
@@ -2315,7 +2344,8 @@ Vous êtes chanceux! Bon HACKFEST 2015!
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">The Return</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2014 : </span>The Return</h3>
               <span class="history-subtitle">Le retour d'une édition plus explosive.</span>
             </header>
 
@@ -2470,7 +2500,8 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">Strikes Back</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2013 : </span>Strikes Back</h3>
               <span class="history-subtitle">L'empire Contre-attaque</span>
             </header>
 
@@ -2641,7 +2672,8 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">Revolution</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2012 : </span>Revolution</h3>
               <span class="history-subtitle">Welcome to the real world</span>
             </header>
 
@@ -2805,7 +2837,8 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">Optimized</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2011 : </span>Optimized</h3>
               <span class="history-subtitle">'Cause the roof got a leak</span>
             </header>
 
@@ -2904,7 +2937,7 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
       
 
       
-      <article class="history-entry" data-year="2010" data-anecdotes="[&quot;2010 : Un nouveau chapitre à l&#39;Hôtel Classique: L&#39;édition 2010 marque aussi le passage à un format de deux jours complets, avec deux CTF, un par soir, animés par des DJ pour tenir les participants éveillés toute la nuit. Oui, on était peut-être un peu fous à l&#39;époque — planifier deux CTF on-site avec des serveurs on-prem en simultané, c&#39;était tout un défi. Mais c&#39;est exactement ce genre de folie organisée qui forge l&#39;ADN de Hackfest.&quot;,&quot;L&#39;édition 2010 marque aussi le passage à un format de deux jours complets, avec deux CTF, un par soir, animés par des DJ pour tenir les participants éveillés toute la nuit. Oui, on était peut-être un peu fous à l&#39;époque. Planifier deux CTF on-site avec des serveurs on-prem en simultané, c&#39;était tout un défi. Mais c&#39;est exactement ce genre de folie organisée qui forge l&#39;ADN de Hackfest.&quot;,&quot;Cette année-là, on fait aussi la connaissance d&#39;un certain conférencier qu&#39;on a dû aller réveiller dans sa chambre 10 minutes avant son talk. Malgré tout, il réussit à monter sur scène et à livrer sa présentation, même si son allure trahissait sans équivoque les excès de la veille. Une anecdote fondatrice, parmi tant d&#39;autres, qui illustre bien l&#39;ambiance unique de ces premières éditions.&quot;]">
+      <article class="history-entry" data-year="2010" data-anecdotes="[&quot;2010 : Un nouveau chapitre à l&#39;Hôtel Classique: L&#39;édition 2010 marque aussi le passage à un format de deux jours complets, avec deux CTF, un par soir, animés par des DJ pour tenir les participants éveillés toute la nuit. Oui, on était peut-être un peu fous à l&#39;époque : planifier deux CTF on-site avec des serveurs on-prem en simultané, c&#39;était tout un défi. Mais c&#39;est exactement ce genre de folie organisée qui forge l&#39;ADN de Hackfest.&quot;,&quot;L&#39;édition 2010 marque aussi le passage à un format de deux jours complets, avec deux CTF, un par soir, animés par des DJ pour tenir les participants éveillés toute la nuit. Oui, on était peut-être un peu fous à l&#39;époque. Planifier deux CTF on-site avec des serveurs on-prem en simultané, c&#39;était tout un défi. Mais c&#39;est exactement ce genre de folie organisée qui forge l&#39;ADN de Hackfest.&quot;,&quot;Cette année-là, on fait aussi la connaissance d&#39;un certain conférencier qu&#39;on a dû aller réveiller dans sa chambre 10 minutes avant son talk. Malgré tout, il réussit à monter sur scène et à livrer sa présentation, même si son allure trahissait sans équivoque les excès de la veille. Une anecdote fondatrice, parmi tant d&#39;autres, qui illustre bien l&#39;ambiance unique de ces premières éditions.&quot;]">
         <!-- Left Side: Year + Logo -->
         <div class="history-entry-left">
           <span class="history-year">2010</span>
@@ -2960,7 +2993,8 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">Harder Better, Longer, Stronger</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2010 : </span>Harder Better, Longer, Stronger</h3>
               <span class="history-subtitle">Toujours plus fort, toujours meilleur</span>
             </header>
 
@@ -3026,7 +3060,7 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
           
           <div class="history-gallery-anecdotes">
             
-            <p>2010 : Un nouveau chapitre à l'Hôtel Classique: L'édition 2010 marque aussi le passage à un format de deux jours complets, avec deux CTF, un par soir, animés par des DJ pour tenir les participants éveillés toute la nuit. Oui, on était peut-être un peu fous à l'époque — planifier deux CTF on-site avec des serveurs on-prem en simultané, c'était tout un défi. Mais c'est exactement ce genre de folie organisée qui forge l'ADN de Hackfest.</p>
+            <p>2010 : Un nouveau chapitre à l'Hôtel Classique: L'édition 2010 marque aussi le passage à un format de deux jours complets, avec deux CTF, un par soir, animés par des DJ pour tenir les participants éveillés toute la nuit. Oui, on était peut-être un peu fous à l'époque : planifier deux CTF on-site avec des serveurs on-prem en simultané, c'était tout un défi. Mais c'est exactement ce genre de folie organisée qui forge l'ADN de Hackfest.</p>
             
             <p>L'édition 2010 marque aussi le passage à un format de deux jours complets, avec deux CTF, un par soir, animés par des DJ pour tenir les participants éveillés toute la nuit. Oui, on était peut-être un peu fous à l'époque. Planifier deux CTF on-site avec des serveurs on-prem en simultané, c'était tout un défi. Mais c'est exactement ce genre de folie organisée qui forge l'ADN de Hackfest.</p>
             
@@ -3043,7 +3077,7 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
       
 
       
-      <article class="history-entry" data-year="2009" data-anecdotes="[&quot;Aux origines: Bien avant que Hackfest n&#39;existe, une communauté de passionnés de sécurité informatique se retrouvait déjà. À la fin des années 90, c&#39;est autour d&#39;e-zines et de sessions de wardriving que les premiers liens se tissent. Au début des années 2000, ces rencontres prennent de l&#39;ampleur : le groupe QC2600 se réunit au 2600 Laurier, puis à la Cage aux Sports, jetant les bases de ce qui deviendra éventuellement un HackerSpace.&quot;,&quot;La naissance de Hackfest: C&#39;est à l&#39;Université Laval, porté par le groupe étudiant C.E.N.T.I.N.E.L, que Hackfest voit le jour. Par un beau matin d&#39;août, la deuxième version de l&#39;événement est créée : Hackfest 2009, aussi connue sous le nom R3LOADED Edition, est née. Dans la foulée, l&#39;entité est formalisée sous forme d&#39;OBNL (organisme à but non lucratif).&quot;,&quot;La première épreuve: La pandémie de H1N1 frappe de plein fouet l&#39;organisation : Hackfest perd sa salle à l&#39;Université Laval. Qu&#39;à cela ne tienne — l&#39;événement déménage dans le sous-sol de l&#39;Hôtel Universel, prouvant dès ses débuts que la communauté Hackfest ne se laisse pas arrêter facilement.&quot;]">
+      <article class="history-entry" data-year="2009" data-anecdotes="[&quot;Aux origines: Bien avant que Hackfest n&#39;existe, une communauté de passionnés de sécurité informatique se retrouvait déjà. À la fin des années 90, c&#39;est autour d&#39;e-zines et de sessions de wardriving que les premiers liens se tissent. Au début des années 2000, ces rencontres prennent de l&#39;ampleur : le groupe QC2600 se réunit au 2600 Laurier, puis à la Cage aux Sports, jetant les bases de ce qui deviendra éventuellement un HackerSpace.&quot;,&quot;La naissance de Hackfest: C&#39;est à l&#39;Université Laval, avec les événements étudiants du groupe C.E.N.T.I.N.E.L, que l&#39;idée de Hackfest voit le jour. En novembre 2009, la première édition de Hackfest a lieu : Hackfest 2009, aussi connue sous le nom R3LOADED Edition, est née. Dans la foulée, l&#39;entité est formalisée sous forme d&#39;OBNL (organisme à but non lucratif).&quot;,&quot;La première épreuve: La pandémie de H1N1 frappe de plein fouet l&#39;organisation : Hackfest perd sa salle à l&#39;Université Laval. Qu&#39;à cela ne tienne : l&#39;événement déménage dans le sous-sol de l&#39;Hôtel Universel, prouvant dès ses débuts que la communauté Hackfest ne se laisse pas arrêter facilement.&quot;]">
         <!-- Left Side: Year + Logo -->
         <div class="history-entry-left">
           <span class="history-year">2009</span>
@@ -3099,7 +3133,8 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
         <div class="history-entry-right">
           <div class="history-card">
             <header class="history-card-header">
-              <h3 class="history-title">Reloaded</h3>
+              <!-- Year is repeated (visually hidden) so each heading reads "2009 : Reloaded" / "2009: Reloaded" -->
+              <h3 class="history-title"><span class="visually-hidden">2009 : </span>Reloaded</h3>
               <span class="history-subtitle">Le début d'une nouvelle génération de Hackfest</span>
             </header>
 
@@ -3110,7 +3145,7 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
 
             <!-- Full Text (shown when expanded) -->
             <div class="history-full-text" aria-hidden="true">
-              <p>La première édition du Hackfest voit le jour à Québec avec le thème 'Reloaded'. Ce nom fait référence au fait que c'est une version numéro 2 de l'événement. La première version a été organisée par les étudiants de l'Université Laval dans le groupe C.E.N.T.I.N.E.L (d'où le nom de notre mascotte)et a eu lieu en 2001, 2003 et 2005 Fondé par des passionnés, cet événement allait devenir le plus grand rassemblement de hackers éthiques au Québec, inspirant des générations de professionnels de la sécurité.</p>
+              <p>La première édition du Hackfest voit le jour à Québec avec le thème 'Reloaded'. Ce nom fait référence aux événements étudiants qui l'ont précédé : organisés par les étudiants de l'Université Laval dans le groupe C.E.N.T.I.N.E.L (d'où le nom de notre mascotte), ils ont eu lieu en 2001, 2003 et 2005. Fondé par des passionnés, cet événement allait devenir le plus grand rassemblement de hackers éthiques au Québec, inspirant des générations de professionnels de la sécurité.</p>
             </div>
 
             <!-- Toggle Button -->
@@ -3167,9 +3202,9 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
             
             <p>Aux origines: Bien avant que Hackfest n'existe, une communauté de passionnés de sécurité informatique se retrouvait déjà. À la fin des années 90, c'est autour d'e-zines et de sessions de wardriving que les premiers liens se tissent. Au début des années 2000, ces rencontres prennent de l'ampleur : le groupe QC2600 se réunit au 2600 Laurier, puis à la Cage aux Sports, jetant les bases de ce qui deviendra éventuellement un HackerSpace.</p>
             
-            <p>La naissance de Hackfest: C'est à l'Université Laval, porté par le groupe étudiant C.E.N.T.I.N.E.L, que Hackfest voit le jour. Par un beau matin d'août, la deuxième version de l'événement est créée : Hackfest 2009, aussi connue sous le nom R3LOADED Edition, est née. Dans la foulée, l'entité est formalisée sous forme d'OBNL (organisme à but non lucratif).</p>
+            <p>La naissance de Hackfest: C'est à l'Université Laval, avec les événements étudiants du groupe C.E.N.T.I.N.E.L, que l'idée de Hackfest voit le jour. En novembre 2009, la première édition de Hackfest a lieu : Hackfest 2009, aussi connue sous le nom R3LOADED Edition, est née. Dans la foulée, l'entité est formalisée sous forme d'OBNL (organisme à but non lucratif).</p>
             
-            <p>La première épreuve: La pandémie de H1N1 frappe de plein fouet l'organisation : Hackfest perd sa salle à l'Université Laval. Qu'à cela ne tienne — l'événement déménage dans le sous-sol de l'Hôtel Universel, prouvant dès ses débuts que la communauté Hackfest ne se laisse pas arrêter facilement.</p>
+            <p>La première épreuve: La pandémie de H1N1 frappe de plein fouet l'organisation : Hackfest perd sa salle à l'Université Laval. Qu'à cela ne tienne : l'événement déménage dans le sous-sol de l'Hôtel Universel, prouvant dès ses débuts que la communauté Hackfest ne se laisse pas arrêter facilement.</p>
             
             
             <p class="history-flickr-link"><a href="https://www.flickr.com/photos/hackfest2k9/albums/72157625205288550" target="_blank" rel="noopener"><span class="history-flickr-link-text">Voir les photos sur Flickr</span> ↗</a></p>
@@ -3224,6 +3259,10 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
           
           <li><a href="services">Services</a></li>
           
+          <li><a href="faq/index.html">FAQ</a></li>
+          
+          <li><a href="presse/index.html">Trousse média</a></li>
+          
           <li><a href="index.html">Page d'Accueil</a></li>
           
         </ul>
@@ -3239,14 +3278,14 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
           <li>
             <span class="footer-venue-label">Hackfest:</span>
             <span class="footer-venue-name">Centre des congrès de Québec</span>
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           
           <li>
             <span class="footer-venue-label">POLAR:</span>
-            <span class="footer-venue-name">Le Capitole de Québec — Salle Le Confessionnal</span>
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-name">Le Capitole de Québec, Salle Le Confessionnal</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           
@@ -3254,9 +3293,9 @@ Les jeux de piratages éthiques de type CTF (Capture the Flag) ont mobilisé plu
           <li>
             <span class="footer-venue-label">QuébecSec:</span>
             
-            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console — 830 Rue Saint-Joseph Est, 5e étage</a>
+            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console, 830 Rue Saint-Joseph Est, 5e étage</a>
             
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           

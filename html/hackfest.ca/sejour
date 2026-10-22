@@ -28,7 +28,7 @@
 
 
 <!-- Primary meta -->
-<title>Séjour — Hackfest & POLAR 2026 — Hackfest 2026</title>
+<title>Séjour : Hackfest & POLAR 2026 — Hackfest 2026</title>
 <meta name="description" content="Tout pour planifier votre venue au Hackfest & POLAR 2026 : adresses des lieux, hôtels partenaires avec rabais, stationnement et activités à découvrir à Québec.">
 
 
@@ -37,19 +37,22 @@
 <!-- Open Graph -->
 <meta property="og:type"        content="website">
 <meta property="og:site_name"   content="Hackfest 2026">
-<meta property="og:title"       content="Séjour — Hackfest & POLAR 2026 — Hackfest 2026">
+<meta property="og:title"       content="Séjour : Hackfest & POLAR 2026 — Hackfest 2026">
 <meta property="og:description" content="Tout pour planifier votre venue au Hackfest & POLAR 2026 : adresses des lieux, hôtels partenaires avec rabais, stationnement et activités à découvrir à Québec.">
 <meta property="og:url"         content="https://hackfest.ca/sejour/">
-<meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta property="og:image"       content="https://hackfest.ca/assets/images/og/stay.jpg">
+<meta property="og:image:width"  content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:image:alt"   content="Hackfest 2026">
 <meta property="og:locale"      content="fr_CA">
+<meta property="og:updated_time" content="2026-10-21T00:00:00+00:00">
 
 <!-- Twitter Card -->
-<meta name="twitter:card"        content="summary">
+<meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:site"        content="@hackfest_ca">
-<meta name="twitter:title"       content="Séjour — Hackfest & POLAR 2026 — Hackfest 2026">
+<meta name="twitter:title"       content="Séjour : Hackfest & POLAR 2026 — Hackfest 2026">
 <meta name="twitter:description" content="Tout pour planifier votre venue au Hackfest & POLAR 2026 : adresses des lieux, hôtels partenaires avec rabais, stationnement et activités à découvrir à Québec.">
-<meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta name="twitter:image"       content="https://hackfest.ca/assets/images/og/stay.jpg">
 
 <!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
 
@@ -285,6 +288,20 @@
               
             </li>
             
+            <li class="dropdown-item">
+              
+                <a href="faq/index.html">FAQ</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="presse/index.html">Médias</a>
+              
+              
+            </li>
+            
           </ul>
           
         </li>
@@ -486,7 +503,7 @@
               
               <h3 class="stay-venue-event">POLAR</h3>
             </div>
-            <p class="stay-venue-name">Le Capitole de Québec — Salle Le Confessionnal</p>
+            <p class="stay-venue-name">Le Capitole de Québec, Salle Le Confessionnal</p>
             <dl class="stay-venue-details">
               
               <dt>Adresse</dt>
@@ -614,8 +631,8 @@
           <article class="stay-hotel-card">
             
             
-            <a class="stay-hotel-card-image" href="https://www.hotelsjaro.com/en/palace-royal" target="_blank" rel="noopener" aria-label="Hôtel Palace Royal — par JARO">
-              <img src="https://hackfest.ca/assets/images/sejour/palace-royal-jaro.webp" alt="Hôtel Palace Royal — par JARO" loading="lazy">
+            <a class="stay-hotel-card-image" href="https://www.hotelsjaro.com/en/palace-royal" target="_blank" rel="noopener" aria-label="Hôtel Palace Royal, par JARO">
+              <img src="https://hackfest.ca/assets/images/sejour/palace-royal-jaro.webp" alt="Hôtel Palace Royal, par JARO" loading="lazy">
             </a>
             
             
@@ -623,7 +640,7 @@
             <header class="stay-hotel-card-header">
               <h3>
                 
-                <a href="https://www.hotelsjaro.com/en/palace-royal" target="_blank" rel="noopener">Hôtel Palace Royal — par JARO <span class="ext-icon" aria-hidden="true">↗</span></a>
+                <a href="https://www.hotelsjaro.com/en/palace-royal" target="_blank" rel="noopener">Hôtel Palace Royal, par JARO <span class="ext-icon" aria-hidden="true">↗</span></a>
                 
               </h3>
               <p class="stay-hotel-desc">Au cœur du Vieux-Québec. Jardin intérieur, piscine couverte, à deux pas du Centre des congrès.</p>
@@ -705,7 +722,7 @@
           <article class="stay-hotel-card">
             
             
-            <a class="stay-hotel-card-image" href="https://hoteluniversel.qc.ca/" target="_blank" rel="noopener" aria-label="Hôtel Universel Québec">
+            <a class="stay-hotel-card-image" href="https://hoteluniversel.qc.ca/fr" target="_blank" rel="noopener" aria-label="Hôtel Universel Québec">
               <img src="https://hackfest.ca/assets/images/sejour/hotel-universel.webp" alt="Hôtel Universel Québec" loading="lazy">
             </a>
             
@@ -714,7 +731,7 @@
             <header class="stay-hotel-card-header">
               <h3>
                 
-                <a href="https://hoteluniversel.qc.ca/" target="_blank" rel="noopener">Hôtel Universel Québec <span class="ext-icon" aria-hidden="true">↗</span></a>
+                <a href="https://hoteluniversel.qc.ca/fr" target="_blank" rel="noopener">Hôtel Universel Québec <span class="ext-icon" aria-hidden="true">↗</span></a>
                 
               </h3>
               <p class="stay-hotel-desc">Hôtel-spa avec jardin tropical intérieur, piscine chauffée et Spa nordique.</p>
@@ -793,8 +810,8 @@
     <section class="stay-section stay-parking" id="parking">
       <div class="stay-section-inner">
         <header class="stay-section-header">
-          <span class="stay-section-eyebrow">03 — Stationnement</span>
-          <h2>Stationnement</h2>
+          <span class="stay-section-eyebrow">03 — Stationnement et transport</span>
+          <h2>Stationnement et transport</h2>
         </header>
         <div class="stay-parking-card">
           <div class="stay-parking-icon" aria-hidden="true">P</div>
@@ -804,6 +821,20 @@
           </div>
           <a href="https://en.parkopedia.ca/parking/locations/1000_boulevard_ren%C3%A9-l%C3%A9vesque_est_quebec_city_quebec_g1r_4x3_canada_gbi5f2m673qp6np920/?arriving=202610291000&leaving=202611011000" class="btn btn-primary btn-lg stay-parking-cta" target="_blank" rel="noopener">Voir les stationnements près du lieu <span class="arrow">↗</span></a>
         </div>
+        
+        
+        <div class="stay-parking-card stay-transit-card" id="transport">
+          <div class="stay-parking-icon stay-transit-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="15" rx="3"/><path d="M4 11h16M8 18v2M16 18v2"/><circle cx="8" cy="14.5" r="1"/><circle cx="16" cy="14.5" r="1"/></svg>
+          </div>
+          <div class="stay-parking-text">
+            <h3 class="stay-transit-title">Transport en commun</h3>
+            <p class="stay-parking-description">Plus de 15 lignes d'autobus du RTC s'arrêtent à l'entrée du Centre des congrès. Planifiez votre trajet sur le site du RTC ; l'application RTC Nomade permet d'acheter vos titres sur votre téléphone.</p>
+            <p class="stay-parking-note">La gare du Palais (train et autocars) est à environ 10 minutes. Source : Centre des congrès de Québec.</p>
+          </div>
+          <a href="https://www.rtcquebec.ca/horaires-et-trajets/itineraire-en-bus" class="btn btn-primary btn-lg stay-parking-cta" target="_blank" rel="noopener">Planifier mon trajet (RTC) <span class="arrow">↗</span></a>
+        </div>
+        
       </div>
     </section>
     
@@ -1553,7 +1584,7 @@
                   8 min à pied
                 </span>
                 
-                <p>Diner classique québécois — déjeuners avec fèves au lard et confitures maison. 95 rue Saint-Paul, Vieux-Port.</p>
+                <p>Diner classique québécois : déjeuners avec fèves au lard et confitures maison. 95 rue Saint-Paul, Vieux-Port.</p>
                 
                 <div class="stay-todo-card-links">
                   
@@ -1682,7 +1713,7 @@
                   7 min à pied
                 </span>
                 
-                <p>Bar tournant au 28e étage de l'Hôtel Le Concorde — vue 360° sur Québec.</p>
+                <p>Bar tournant au 28e étage de l'Hôtel Le Concorde, vue 360° sur Québec.</p>
                 
                 <div class="stay-todo-card-links">
                   
@@ -1740,7 +1771,7 @@
                   4 min à pied
                 </span>
                 
-                <p>Salon de dégustation, fumoir et bar à scotch — Grande-Allée.</p>
+                <p>Salon de dégustation, fumoir et bar à scotch, sur la Grande-Allée.</p>
                 
                 <div class="stay-todo-card-links">
                   
@@ -1898,7 +1929,7 @@
                   30 min en voiture
                 </span>
                 
-                <p>Parc d'attractions 4 saisons à 30 min — glissades sur tubes en automne.</p>
+                <p>Parc d'attractions 4 saisons à 30 min : glissades sur tubes en automne.</p>
                 
                 <div class="stay-todo-card-links">
                   
@@ -1969,7 +2000,7 @@
                   20 min en voiture
                 </span>
                 
-                <p>Cascade de 28 m dans un canyon — sentiers et points de vue.</p>
+                <p>Cascade de 28 m dans un canyon : sentiers et points de vue.</p>
                 
                 <div class="stay-todo-card-links">
                   
@@ -2140,7 +2171,7 @@
                   10 min à pied
                 </span>
                 
-                <p>Joyau d'art québécois sur les Plaines d'Abraham — 4 pavillons.</p>
+                <p>Joyau d'art québécois sur les Plaines d'Abraham (4 pavillons).</p>
                 
                 <div class="stay-todo-card-links">
                   
@@ -2340,6 +2371,10 @@
           
           <li><a href="services">Services</a></li>
           
+          <li><a href="faq/index.html">FAQ</a></li>
+          
+          <li><a href="presse/index.html">Trousse média</a></li>
+          
           <li><a href="index.html">Page d'Accueil</a></li>
           
         </ul>
@@ -2355,14 +2390,14 @@
           <li>
             <span class="footer-venue-label">Hackfest:</span>
             <span class="footer-venue-name">Centre des congrès de Québec</span>
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           
           <li>
             <span class="footer-venue-label">POLAR:</span>
-            <span class="footer-venue-name">Le Capitole de Québec — Salle Le Confessionnal</span>
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-name">Le Capitole de Québec, Salle Le Confessionnal</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           
@@ -2370,9 +2405,9 @@
           <li>
             <span class="footer-venue-label">QuébecSec:</span>
             
-            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console — 830 Rue Saint-Joseph Est, 5e étage</a>
+            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console, 830 Rue Saint-Joseph Est, 5e étage</a>
             
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           

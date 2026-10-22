@@ -38,16 +38,19 @@
 <meta property="og:title"       content="Cybersecurity conference in Quebec City, October 29 to 31, 2026 — Hackfest 2026">
 <meta property="og:description" content="Hackfest 2026, the 18th edition: cybersecurity and hacking conference, October 29 to 31, 2026 at the Quebec City Convention Centre. Talks, trainings, CTFs, villages and POLAR.">
 <meta property="og:url"         content="https://hackfest.ca/en/">
-<meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta property="og:image"       content="https://hackfest.ca/assets/images/og/home.jpg">
+<meta property="og:image:width"  content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:image:alt"   content="Hackfest 2026">
 <meta property="og:locale"      content="en_CA">
+<meta property="og:updated_time" content="2026-10-21T00:00:00+00:00">
 
 <!-- Twitter Card -->
-<meta name="twitter:card"        content="summary">
+<meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:site"        content="@hackfest_ca">
 <meta name="twitter:title"       content="Cybersecurity conference in Quebec City, October 29 to 31, 2026 — Hackfest 2026">
 <meta name="twitter:description" content="Hackfest 2026, the 18th edition: cybersecurity and hacking conference, October 29 to 31, 2026 at the Quebec City Convention Centre. Talks, trainings, CTFs, villages and POLAR.">
-<meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta name="twitter:image"       content="https://hackfest.ca/assets/images/og/home.jpg">
 
 <!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
 
@@ -110,7 +113,7 @@
   "description": "18th edition of Hackfest, the annual cybersecurity and hacking conference in Quebec City: talks, trainings, CTFs, villages and POLAR. Bilingual event in French and English.",
   "inLanguage": ["fr-CA", "en-CA"],
   "url": "https://hackfest.ca/en/",
-  "image": ["https://hackfest.ca/assets/images/global/cercle-black-transparent.webp"],
+  "image": ["https://hackfest.ca/assets/images/og/default.jpg"],
   "startDate": "2026-10-29",
   "endDate": "2026-10-31",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -139,8 +142,10 @@
         "price": 150,
         "priceCurrency": "CAD",
         "valueAddedTaxIncluded": false
-      }
-    },
+      },
+      "availability": "https://schema.org/InStock"
+    }
+,
     {
       "@type": "Offer",
       "name": "CTF",
@@ -152,8 +157,10 @@
         "price": 15,
         "priceCurrency": "CAD",
         "valueAddedTaxIncluded": false
-      }
-    },
+      },
+      "availability": "https://schema.org/InStock"
+    }
+,
     {
       "@type": "Offer",
       "name": "POLAR",
@@ -165,8 +172,10 @@
         "price": 330,
         "priceCurrency": "CAD",
         "valueAddedTaxIncluded": false
-      }
-    },
+      },
+      "availability": "https://schema.org/InStock"
+    }
+,
     {
       "@type": "Offer",
       "name": "Hackfest + POLAR",
@@ -178,8 +187,10 @@
         "price": 420,
         "priceCurrency": "CAD",
         "valueAddedTaxIncluded": false
-      }
+      },
+      "availability": "https://schema.org/InStock"
     }
+
   ],
   "organizer": {
     "@type": "Organization",
@@ -195,6 +206,7 @@
       "name": "POLAR 2026",
       "description": "Polar 2026 - The annual gathering for security decision-makers",
       "url": "https://hackfest.ca/en/polar/",
+      "image": ["https://hackfest.ca/assets/images/og/polar.jpg"],
       "startDate": "2026-10-29T08:00:00-04:00",
       "endDate": "2026-10-29T18:00:00-04:00",
       "eventStatus": "https://schema.org/EventScheduled",
@@ -211,8 +223,22 @@
           "addressCountry": "CA"
         }
       },
-      "organizer": { "@id": "https://hackfest.ca/#organization" },
-      "superEvent": { "@id": "https://hackfest.ca/#event-2026" }
+      "offers": [{
+      "@type": "Offer",
+      "name": "POLAR",
+      "url": "https://www.eventbrite.ca/e/hackfest-2026-level-up-edition-tickets-1816217959809",
+      "price": 330,
+      "priceCurrency": "CAD",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": 330,
+        "priceCurrency": "CAD",
+        "valueAddedTaxIncluded": false
+      },
+      "availability": "https://schema.org/InStock"
+    }
+],
+      "organizer": { "@type": "Organization", "@id": "https://hackfest.ca/#organization", "name": "Hackfest", "url": "https://hackfest.ca/" }
     }
 ,
     {
@@ -221,6 +247,7 @@
       "name": "Hackfest 2026 Trainings",
       "description": "7 cybersecurity trainings at Hackfest 2026, from beginner to advanced, delivered by recognized experts. Hackfest ticket included.",
       "url": "https://hackfest.ca/en/trainings/",
+      "image": ["https://hackfest.ca/assets/images/og/training.jpg"],
       "startDate": "2026-10-26",
       "endDate": "2026-10-29",
       "eventStatus": "https://schema.org/EventScheduled",
@@ -237,8 +264,22 @@
           "addressCountry": "CA"
         }
       },
-      "organizer": { "@id": "https://hackfest.ca/#organization" },
-      "superEvent": { "@id": "https://hackfest.ca/#event-2026" }
+      "offers": [{
+      "@type": "Offer",
+      "name": "POLAR",
+      "url": "https://www.eventbrite.ca/e/hackfest-2026-level-up-edition-tickets-1816217959809",
+      "price": 330,
+      "priceCurrency": "CAD",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": 330,
+        "priceCurrency": "CAD",
+        "valueAddedTaxIncluded": false
+      },
+      "availability": "https://schema.org/InStock"
+    }
+],
+      "organizer": { "@type": "Organization", "@id": "https://hackfest.ca/#organization", "name": "Hackfest", "url": "https://hackfest.ca/" }
     }
 ,
     {
@@ -247,6 +288,7 @@
       "name": "Hackfest CTF 2026 (HFCTF)",
       "description": "HFCTF 2026: a 24-hour competition, 60+ teams of 6, dozens of cybersecurity challenges. October 29, 6 PM to October 30, 6 PM, on site at the Quebec City Convention Centre.",
       "url": "https://hackfest.ca/en/ctfs/hfctf/",
+      "image": ["https://hackfest.ca/assets/images/og/ctf-hfctf.jpg"],
       "startDate": "2026-10-29T18:00:00-04:00",
       "endDate": "2026-10-30T18:00:00-04:00",
       "eventStatus": "https://schema.org/EventScheduled",
@@ -263,8 +305,22 @@
           "addressCountry": "CA"
         }
       },
-      "organizer": { "@id": "https://hackfest.ca/#organization" },
-      "superEvent": { "@id": "https://hackfest.ca/#event-2026" }
+      "offers": [{
+      "@type": "Offer",
+      "name": "CTF",
+      "url": "https://www.eventbrite.ca/e/hackfest-2026-level-up-edition-tickets-1816217959809",
+      "price": 15,
+      "priceCurrency": "CAD",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": 15,
+        "priceCurrency": "CAD",
+        "valueAddedTaxIncluded": false
+      },
+      "availability": "https://schema.org/InStock"
+    }
+],
+      "organizer": { "@type": "Organization", "@id": "https://hackfest.ca/#organization", "name": "Hackfest", "url": "https://hackfest.ca/" }
     }
 ,
     {
@@ -273,6 +329,7 @@
       "name": "StealthCup 2026",
       "description": "StealthCup at Hackfest 2026: red teams attack a monitored IT/OT network and are scored on stealth. Saturday October 31, 9 AM to 5 PM, Quebec City.",
       "url": "https://hackfest.ca/en/ctfs/stealthcup/",
+      "image": ["https://hackfest.ca/assets/images/og/ctf-stealthcup.jpg"],
       "startDate": "2026-10-31T09:00:00-04:00",
       "endDate": "2026-10-31T17:00:00-04:00",
       "eventStatus": "https://schema.org/EventScheduled",
@@ -289,8 +346,22 @@
           "addressCountry": "CA"
         }
       },
-      "organizer": { "@id": "https://hackfest.ca/#organization" },
-      "superEvent": { "@id": "https://hackfest.ca/#event-2026" }
+      "offers": [{
+      "@type": "Offer",
+      "name": "CTF",
+      "url": "https://www.eventbrite.ca/e/hackfest-2026-level-up-edition-tickets-1816217959809",
+      "price": 15,
+      "priceCurrency": "CAD",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": 15,
+        "priceCurrency": "CAD",
+        "valueAddedTaxIncluded": false
+      },
+      "availability": "https://schema.org/InStock"
+    }
+],
+      "organizer": { "@type": "Organization", "@id": "https://hackfest.ca/#organization", "name": "Hackfest", "url": "https://hackfest.ca/" }
     }
 ,
     {
@@ -299,7 +370,9 @@
       "name": "Afterdark 2026",
       "description": "The Hackfest nighttime event: poker, Ghost Talks and an 18+ social engineering contest. October 31, 2026, 7 PM.",
       "url": "https://hackfest.ca/en/after-dark/",
+      "image": ["https://hackfest.ca/assets/images/og/afterdark.jpg"],
       "startDate": "2026-10-31T19:00:00-04:00",
+      "endDate": "2026-11-01T01:00:00-04:00",
       "eventStatus": "https://schema.org/EventScheduled",
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "location": {
@@ -314,8 +387,22 @@
           "addressCountry": "CA"
         }
       },
-      "organizer": { "@id": "https://hackfest.ca/#organization" },
-      "superEvent": { "@id": "https://hackfest.ca/#event-2026" }
+      "offers": [{
+      "@type": "Offer",
+      "name": "CTF",
+      "url": "https://www.eventbrite.ca/e/hackfest-2026-level-up-edition-tickets-1816217959809",
+      "price": 15,
+      "priceCurrency": "CAD",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": 15,
+        "priceCurrency": "CAD",
+        "valueAddedTaxIncluded": false
+      },
+      "availability": "https://schema.org/InStock"
+    }
+],
+      "organizer": { "@type": "Organization", "@id": "https://hackfest.ca/#organization", "name": "Hackfest", "url": "https://hackfest.ca/" }
     }
 
   ]
@@ -537,6 +624,20 @@
             <li class="dropdown-item">
               
                 <a href="https://hackfest.ca/en/contact/">Contact Us</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://hackfest.ca/en/faq/">FAQ</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="https://hackfest.ca/en/press/">Press</a>
               
               
             </li>
@@ -1593,6 +1694,10 @@
           
           <li><a href="https://hackfest.ca/en/services">Services</a></li>
           
+          <li><a href="https://hackfest.ca/en/faq/">FAQ</a></li>
+          
+          <li><a href="https://hackfest.ca/en/press/">Press kit</a></li>
+          
           <li><a href="index.html">Home page</a></li>
           
         </ul>
@@ -1608,14 +1713,14 @@
           <li>
             <span class="footer-venue-label">Hackfest:</span>
             <span class="footer-venue-name">Quebec City Convention Centre</span>
-            <span class="footer-venue-city">— Quebec City, QC</span>
+            <span class="footer-venue-city">(Quebec City, QC)</span>
           </li>
           
           
           <li>
             <span class="footer-venue-label">POLAR:</span>
-            <span class="footer-venue-name">Le Capitole de Québec — Salle Le Confessionnal</span>
-            <span class="footer-venue-city">— Quebec City, QC</span>
+            <span class="footer-venue-name">Le Capitole de Québec, Salle Le Confessionnal</span>
+            <span class="footer-venue-city">(Quebec City, QC)</span>
           </li>
           
           
@@ -1623,9 +1728,9 @@
           <li>
             <span class="footer-venue-label">QuébecSec:</span>
             
-            <a class="footer-venue-name footer-venue-name-link" href="https://hackfest.ca/en/quebecsec/">La Console — 830 Saint-Joseph East, 5th floor</a>
+            <a class="footer-venue-name footer-venue-name-link" href="https://hackfest.ca/en/quebecsec/">La Console, 830 Saint-Joseph East, 5th floor</a>
             
-            <span class="footer-venue-city">— Quebec City, QC</span>
+            <span class="footer-venue-city">(Quebec City, QC)</span>
           </li>
           
           

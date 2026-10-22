@@ -29,7 +29,7 @@
 
 <!-- Primary meta -->
 <title>Conférences & Présentations — Hackfest 2026</title>
-<meta name="description" content="Revivez les meilleures présentations du Hackfest, Polar, iHack et QuébecSEC — des années de contenu cybersécurité disponibles sur YouTube.">
+<meta name="description" content="Revivez les meilleures présentations du Hackfest, Polar, iHack et QuébecSEC : des années de contenu cybersécurité disponibles sur YouTube.">
 
 
 <link rel="canonical" href="conferences">
@@ -38,18 +38,21 @@
 <meta property="og:type"        content="website">
 <meta property="og:site_name"   content="Hackfest 2026">
 <meta property="og:title"       content="Conférences & Présentations — Hackfest 2026">
-<meta property="og:description" content="Revivez les meilleures présentations du Hackfest, Polar, iHack et QuébecSEC — des années de contenu cybersécurité disponibles sur YouTube.">
+<meta property="og:description" content="Revivez les meilleures présentations du Hackfest, Polar, iHack et QuébecSEC : des années de contenu cybersécurité disponibles sur YouTube.">
 <meta property="og:url"         content="https://hackfest.ca/conferences/">
-<meta property="og:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta property="og:image"       content="https://hackfest.ca/assets/images/og/presentations.jpg">
+<meta property="og:image:width"  content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:image:alt"   content="Hackfest 2026">
 <meta property="og:locale"      content="fr_CA">
 
+
 <!-- Twitter Card -->
-<meta name="twitter:card"        content="summary">
+<meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:site"        content="@hackfest_ca">
 <meta name="twitter:title"       content="Conférences & Présentations — Hackfest 2026">
-<meta name="twitter:description" content="Revivez les meilleures présentations du Hackfest, Polar, iHack et QuébecSEC — des années de contenu cybersécurité disponibles sur YouTube.">
-<meta name="twitter:image"       content="https://hackfest.ca/assets/images/global/cercle-black-transparent.webp">
+<meta name="twitter:description" content="Revivez les meilleures présentations du Hackfest, Polar, iHack et QuébecSEC : des années de contenu cybersécurité disponibles sur YouTube.">
+<meta name="twitter:image"       content="https://hackfest.ca/assets/images/og/presentations.jpg">
 
 <!-- News RSS feed for this language (built from _data/news-{lang}.yml) -->
 
@@ -281,6 +284,20 @@
             <li class="dropdown-item">
               
                 <a href="contact/index.html">Nous contacter</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="faq/index.html">FAQ</a>
+              
+              
+            </li>
+            
+            <li class="dropdown-item">
+              
+                <a href="presse/index.html">Médias</a>
               
               
             </li>
@@ -831,6 +848,10 @@
           
           <li><a href="services">Services</a></li>
           
+          <li><a href="faq/index.html">FAQ</a></li>
+          
+          <li><a href="presse/index.html">Trousse média</a></li>
+          
           <li><a href="index.html">Page d'Accueil</a></li>
           
         </ul>
@@ -846,14 +867,14 @@
           <li>
             <span class="footer-venue-label">Hackfest:</span>
             <span class="footer-venue-name">Centre des congrès de Québec</span>
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           
           <li>
             <span class="footer-venue-label">POLAR:</span>
-            <span class="footer-venue-name">Le Capitole de Québec — Salle Le Confessionnal</span>
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-name">Le Capitole de Québec, Salle Le Confessionnal</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           
@@ -861,9 +882,9 @@
           <li>
             <span class="footer-venue-label">QuébecSec:</span>
             
-            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console — 830 Rue Saint-Joseph Est, 5e étage</a>
+            <a class="footer-venue-name footer-venue-name-link" href="quebecsec">La Console, 830 Rue Saint-Joseph Est, 5e étage</a>
             
-            <span class="footer-venue-city">— Québec, QC</span>
+            <span class="footer-venue-city">(Québec, QC)</span>
           </li>
           
           
