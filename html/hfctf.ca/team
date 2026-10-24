@@ -581,50 +581,6 @@
 
                             
                             <div class="recent-article-item">
-                                <a href="https://hfctf.ca/team/m3ow/">
-                                    <div class="recent-article-thumb">
-                                        <img src="https://hfctf.ca/images/team/m3ow.png" alt="blog">
-                                    </div>
-                                    <div class="recent-article-content">
-                                        <h3>m3ow</h3>
-                                        
-                                        <sup style="color: yellow">Concepteur</sup>
-                                        
-                                        <ul class="blog-entry-list">
-                                            <li>
-                                                <i class="flaticon-comment"></i>
-                                                Discord: @m3ow.dev
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            
-
-                            
-                            <div class="recent-article-item">
-                                <a href="https://hfctf.ca/team/mroqui/">
-                                    <div class="recent-article-thumb">
-                                        <img src="https://hfctf.ca/images/team/placeholder-small.png" alt="blog">
-                                    </div>
-                                    <div class="recent-article-content">
-                                        <h3>mroqui</h3>
-                                        
-                                        <sup style="color: yellow">Concepteur</sup>
-                                        
-                                        <ul class="blog-entry-list">
-                                            <li>
-                                                <i class="flaticon-comment"></i>
-                                                Discord: @mroqui
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            
-
-                            
-                            <div class="recent-article-item">
                                 <a href="https://hfctf.ca/team/dekciw/">
                                     <div class="recent-article-thumb">
                                         <img src="https://hfctf.ca/images/team/dekciw.png" alt="blog">
