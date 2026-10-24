@@ -449,28 +449,6 @@
 
                             
                             <div class="recent-article-item">
-                                <a href="https://hfctf.ca/team/h3xit/">
-                                    <div class="recent-article-thumb">
-                                        <img src="https://hfctf.ca/images/team/h3xit.png" alt="blog">
-                                    </div>
-                                    <div class="recent-article-content">
-                                        <h3>h3xit</h3>
-                                        
-                                        <sup style="color: yellow">Concepteur</sup>
-                                        
-                                        <ul class="blog-entry-list">
-                                            <li>
-                                                <i class="flaticon-comment"></i>
-                                                Discord: @h3xit
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </a>
-                            </div>
-                            
-
-                            
-                            <div class="recent-article-item">
                                 <a href="https://hfctf.ca/team/houssem0x1/">
                                     <div class="recent-article-thumb">
                                         <img src="https://hfctf.ca/images/team/houssem0x1.png" alt="blog">
