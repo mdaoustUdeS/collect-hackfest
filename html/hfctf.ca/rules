@@ -296,7 +296,7 @@
             <h3>Logistique pour l&#39;intelligence artificielle</h3>
             <ul class="about-check-list about-check-list-second about-check-list-white">
                 
-                <li>Il y aura officiellement deux scoreboards séparés: un où les outils et agents IA seront permis et un ou l’IA sera interdit. Une description détaillée de ce qui est permis ou pas sera disponible durant la compétition.</li>
+                <li>Il y aura officiellement deux scoreboards séparés: un où les outils et agents IA seront permis et un ou l’IA sera interdit.</li>
                 
                 <li>Les inscriptions se feront de la même façon qu’avec les CTF Casual et Pro par le passé. Il n’y a pas de différence au niveau du prix d’inscription et il ne sera pas possible de changer de catégorie une fois inscrit. Les deux CTF se passent en parallèle dans la même salle et sont considérés “first-class citizens”.</li>
                 
@@ -304,9 +304,9 @@
                 
                 <li>Les mêmes défis seront présents dans les deux CTF. Toutefois, nos designers ont la liberté d’insérer quelques pièges supplémentaires au niveau du CTF IA.</li>
                 
-                <li>Le pointage dans les deux scoreboard sera essentiellement le même, à la différence que le pointage du CTF IA sera dynamique, c’est-à-dire que la valeur d’un flag sera réduite à chaque fois qu’il sera soumis.</li>
+                <li>Le pointage des différents défis pourrait différer entre les deux scoreboads.</li>
                 
-                <li>Il n’y aura pas de prix en argent dans aucun des deux CTF et les résultats finaux ne seront pas envoyés sur CTFTime. Les prix consisteront de coins, goodies, swag, et bien sûr de la gloire éternelle qui vient avec la victoire. Cela permettra aussi de donner des prix de participation aléatoires en plus.</li>
+                <li>Il n’y aura pas de prix en argent dans aucun des deux CTF et les résultats finaux ne seront pas envoyés sur CTFTime. Les prix consisteront de coins, goodies, swag, et bien sûr de la gloire éternelle qui vient avec la victoire.</li>
                 
             </ul>
         </div>
