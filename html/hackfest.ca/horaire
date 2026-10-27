@@ -1057,7 +1057,7 @@
           
           <div class="hr-allday__card">
             <span class="hr-allday__when">Dès 9h30</span>
-            <a class="hr-allday__title" href="ctfs">Beginner CTF et autres CTF</a>
+            <a class="hr-allday__title" href="https://hackfest.ca/ctfs/beginner/">Beginner CTF et autres CTF</a>
             
             
           </div>
@@ -1460,7 +1460,7 @@
      role="dialog"
      aria-modal="true"
      aria-labelledby="announce-modal-title"
-     data-announce-id="news-2026-10-26b"
+     data-announce-id="news-2026-10-27"
      data-announce-until="2026-10-31"
      data-announce-delay="1400">
 
@@ -1475,8 +1475,9 @@
     
     <ul class="announce-items">
       
+      
       <li>
-        <a href="horaire#talk-HMV3CS" class="announce-item announce-item--green">
+        <a href="https://www.eventbrite.ca/e/proofpoint-insider-threat-management-itm-adaptive-email-dlp-tickets-2003924552280" class="announce-item announce-item--green" target="_blank" rel="noopener">
           <span>
             <span class="announce-item-title">Proofpoint - Workshop/CTF – Insider Threat Management (ITM) &amp; Adaptive Email DLP: Detecting Malicious Users and Preventing Data Exfiltration</span>
             <span class="announce-item-text">Inscription obligatoire avant l&#39;atelier, faites-la maintenant. Apportez votre portable ! Salle 207, vendredi 30 octobre, 12h00 à 15h00.</span>
@@ -1484,6 +1485,18 @@
           <span class="announce-item-arrow" aria-hidden="true">&rarr;</span>
         </a>
       </li>
+      
+      
+      <li>
+        <a href="halloween/index.html" class="announce-item announce-item--orange">
+          <span>
+            <span class="announce-item-title">Halloween : shooting photo gratuit</span>
+            <span class="announce-item-text">Samedi 31 octobre, de 13h à 15h : viens te faire photographier en costume avant le jugement du concours (500 $ au meilleur costume).</span>
+          </span>
+          <span class="announce-item-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+      
       
       <li>
         <a href="https://hackfest.ca/villages/echecs/" class="announce-item announce-item--orange">
@@ -1495,6 +1508,7 @@
         </a>
       </li>
       
+      
       <li>
         <a href="https://hackfest.ca/ctfs/beginner/" class="announce-item announce-item--red">
           <span>
@@ -1504,6 +1518,7 @@
           <span class="announce-item-arrow" aria-hidden="true">&rarr;</span>
         </a>
       </li>
+      
       
       <li>
         <a href="https://hackfest.ca/ctfs/stealthcup/" class="announce-item announce-item--green">

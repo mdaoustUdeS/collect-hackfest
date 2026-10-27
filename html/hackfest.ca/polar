@@ -2180,16 +2180,20 @@
 <article class="sponsor-card">
   <div class="sponsor-card-logo">
     
-    <a href="https://www.trendmicro.com/" rel="noopener" aria-label="TrendAI"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI" loading="lazy"></a>
+    <a href="https://www.trendaisecurity.com/" rel="noopener" aria-label="TrendAI"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI" loading="lazy"></a>
     
   </div>
   <div class="sponsor-card-body">
     <h5 class="sponsor-card-name">TrendAI</h5>
     
-    <p class="sponsor-card-text">TrendAI est la division entreprise de Trend Micro (renommée en 2026), qui protège les organisations et les systèmes d&#39;IA sur lesquels elles s&#39;appuient.</p>
+    <p class="sponsor-card-text is-clamped">TrendAI est une entreprise mondiale de cybersécurité qui aide les organisations à gérer le risque cybernétique et à protéger leurs environnements infonuagiques, leurs réseaux, leurs appareils et leurs terminaux. Ses offres combinent la gestion des risques, les opérations de sécurité, la protection multicouche et des capacités alimentées par l’IA afin de contribuer à détecter et à prévenir les menaces.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
     
     
-    <a href="https://www.trendmicro.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+    <a href="https://www.trendaisecurity.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
   </div>
 </article>
 
@@ -2411,7 +2415,7 @@
      role="dialog"
      aria-modal="true"
      aria-labelledby="announce-modal-title"
-     data-announce-id="news-2026-10-26b"
+     data-announce-id="news-2026-10-27"
      data-announce-until="2026-10-31"
      data-announce-delay="1400">
 
@@ -2426,8 +2430,9 @@
     
     <ul class="announce-items">
       
+      
       <li>
-        <a href="horaire#talk-HMV3CS" class="announce-item announce-item--green">
+        <a href="https://www.eventbrite.ca/e/proofpoint-insider-threat-management-itm-adaptive-email-dlp-tickets-2003924552280" class="announce-item announce-item--green" target="_blank" rel="noopener">
           <span>
             <span class="announce-item-title">Proofpoint - Workshop/CTF – Insider Threat Management (ITM) &amp; Adaptive Email DLP: Detecting Malicious Users and Preventing Data Exfiltration</span>
             <span class="announce-item-text">Inscription obligatoire avant l&#39;atelier, faites-la maintenant. Apportez votre portable ! Salle 207, vendredi 30 octobre, 12h00 à 15h00.</span>
@@ -2435,6 +2440,18 @@
           <span class="announce-item-arrow" aria-hidden="true">&rarr;</span>
         </a>
       </li>
+      
+      
+      <li>
+        <a href="halloween/index.html" class="announce-item announce-item--orange">
+          <span>
+            <span class="announce-item-title">Halloween : shooting photo gratuit</span>
+            <span class="announce-item-text">Samedi 31 octobre, de 13h à 15h : viens te faire photographier en costume avant le jugement du concours (500 $ au meilleur costume).</span>
+          </span>
+          <span class="announce-item-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+      
       
       <li>
         <a href="https://hackfest.ca/villages/echecs/" class="announce-item announce-item--orange">
@@ -2446,6 +2463,7 @@
         </a>
       </li>
       
+      
       <li>
         <a href="https://hackfest.ca/ctfs/beginner/" class="announce-item announce-item--red">
           <span>
@@ -2455,6 +2473,7 @@
           <span class="announce-item-arrow" aria-hidden="true">&rarr;</span>
         </a>
       </li>
+      
       
       <li>
         <a href="https://hackfest.ca/ctfs/stealthcup/" class="announce-item announce-item--green">

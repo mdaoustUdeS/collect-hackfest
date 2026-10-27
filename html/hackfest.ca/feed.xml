@@ -5,13 +5,25 @@
     <link>https://hackfest.ca/</link>
     <description>Les dernières nouvelles du Hackfest, de POLAR et de la communauté.</description>
     <language>fr-CA</language>
-    <lastBuildDate>Mon, 26 Oct 2026 21:37:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 15:51:49 +0000</lastBuildDate>
     <atom:link href="https://hackfest.ca/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://hackfest.ca/assets/images/global/cercle-black-transparent.webp</url>
       <title>Hackfest : nouvelles</title>
       <link>https://hackfest.ca/</link>
     </image>
+    
+    
+    
+    
+    <item>
+      <title>Shooting photo gratuit le samedi 31 octobre, de 13h à 15h : viens te…</title>
+      <link>https://hackfest.ca/halloween/</link>
+      <guid isPermaLink="false">https://hackfest.ca/#news-2026-10-27-10</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Shooting photo gratuit&lt;/strong&gt; le samedi 31 octobre, de 13h à 15h : viens te faire photographier en costume avant le jugement du &lt;strong&gt;concours de costumes d’Halloween&lt;/strong&gt; (500 $ au meilleur costume). Aussi : la carte du &lt;strong&gt;Beginner CTF&lt;/strong&gt; présente maintenant Root-Me PRO.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/halloween/&quot;&gt;Halloween&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://hackfest.ca/ctfs/#beginner&quot;&gt;Beginner CTF&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
     
     
     

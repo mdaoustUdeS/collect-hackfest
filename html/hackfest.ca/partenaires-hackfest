@@ -483,28 +483,7 @@
     
       
       
-    
-  
-    
-      
-      
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      
-      
-    
-  
-    
-      
+  <a href="partenaires-hackfest#ctf" class="sponsor-jump-link">CTF <span class="sponsor-jump-count">3</span></a>
       
     
   
@@ -517,8 +496,31 @@
   
     
   
+    
   
-  <a href="partenaires-hackfest#other-tiers" class="sponsor-jump-link">Autres partenariats <span class="sponsor-jump-count">10</span></a>
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+  
+    
+  
+  
+  <a href="partenaires-hackfest#other-tiers" class="sponsor-jump-link">Autres partenariats <span class="sponsor-jump-count">8</span></a>
   
 </nav>
 
@@ -862,16 +864,20 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
 <article class="sponsor-card">
   <div class="sponsor-card-logo">
     
-    <a href="https://www.trendmicro.com/" rel="noopener" aria-label="TrendAI"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI" loading="lazy"></a>
+    <a href="https://www.trendaisecurity.com/" rel="noopener" aria-label="TrendAI"><img src="https://hackfest.ca/assets/images/sponsors/trendai.webp" alt="TrendAI" loading="lazy"></a>
     
   </div>
   <div class="sponsor-card-body">
     <h3 class="sponsor-card-name">TrendAI</h3>
     
-    <p class="sponsor-card-text">TrendAI est la division entreprise de Trend Micro (renommée en 2026), qui protège les organisations et les systèmes d&#39;IA sur lesquels elles s&#39;appuient.</p>
+    <p class="sponsor-card-text is-clamped">TrendAI est une entreprise mondiale de cybersécurité qui aide les organisations à gérer le risque cybernétique et à protéger leurs environnements infonuagiques, leurs réseaux, leurs appareils et leurs terminaux. Ses offres combinent la gestion des risques, les opérations de sécurité, la protection multicouche et des capacités alimentées par l’IA afin de contribuer à détecter et à prévenir les menaces.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
     
     
-    <a href="https://www.trendmicro.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+    <a href="https://www.trendaisecurity.com/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
   </div>
 </article>
 
@@ -895,7 +901,7 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
   <div class="sponsor-card-body">
     <h3 class="sponsor-card-name">CyVault</h3>
     
-    <p class="sponsor-card-text is-clamped">CyVault, une division de PM SCADA Cyber Défense (Canada), protège en temps réel les organisations TI, les infrastructures critiques et les environnements OT contre les cybermenaces connues et émergentes, avec des bureaux à Montréal, Strasbourg et Casablanca.</p>
+    <p class="sponsor-card-text is-clamped">CyVault™ est un leader en cyber défense OT/xIoT pour les infrastructures industrielles et critiques. Une expertise approfondie en TO (Technologies Opérationnelles) et IoT. Aide les propriétaires et les exploitants OT/xIoT à protéger contre les cybermenaces et les acteurs malveillants avec son offre innovante OT/xIoT CyberSOCaaS &quot;CyVault™ | DOME&quot;.</p>
     
     <details class="sponsor-card-more">
       <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
@@ -1126,6 +1132,106 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
   
     
     
+<section class="sponsor-tier" id="ctf" aria-labelledby="ctf-title">
+  <h2 class="sponsor-tier-title" id="ctf-title">CTF <span class="sponsor-tier-count">3</span></h2>
+  <div class="sponsor-grid">
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.poka.io/fr" rel="noopener" aria-label="POKA"><img src="https://hackfest.ca/assets/images/sponsors/poka.svg" alt="POKA" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">POKA</h3>
+    
+    <p class="sponsor-card-text is-clamped">Poka aide les manufacturiers à stimuler le rendement en autonomisant les travailleurs dans leur apprentissage, la résolution de problèmes et la transmission des connaissances en temps réel, sur le plancher. Notre application est conçue pour connecter les travailleurs aux opérations numériques de la manufacture et favoriser une culture de l’amélioration continue.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.poka.io/fr" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.talenty.ca/" rel="noopener" aria-label="Talenty"><img src="https://hackfest.ca/assets/images/sponsors/talenty.webp" alt="Talenty" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">Talenty</h3>
+    
+    <p class="sponsor-card-text is-clamped">Talenty est votre partenaire stratégique en recrutement cybersécurité et TI au Québec. L&#39;équipe livre des candidats qualifiés, rapidement, avec un taux de rétention d&#39;environ 90 % après 12 mois. Pas un fournisseur, un partenaire : Talenty ne lance pas des CV, elle comprend ce que vous cherchez, pourquoi vous le cherchez, et trouve la bonne personne.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.talenty.ca/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+      
+    
+
+
+
+
+
+
+
+<article class="sponsor-card">
+  <div class="sponsor-card-logo">
+    
+    <a href="https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique" rel="noopener" aria-label="Ministère de la Cybersécurité et du Numérique"><img src="https://hackfest.ca/assets/images/sponsors/mcn.svg" alt="Ministère de la Cybersécurité et du Numérique" loading="lazy"></a>
+    
+  </div>
+  <div class="sponsor-card-body">
+    <h3 class="sponsor-card-name">Ministère de la Cybersécurité et du Numérique</h3>
+    
+    <p class="sponsor-card-text is-clamped">Le ministère de la Cybersécurité et du Numérique a pour mission de diriger et de coordonner les actions de l&#39;État dans les domaines de la cybersécurité et du numérique, de proposer au gouvernement les grandes orientations en ces domaines, de déterminer les secteurs d&#39;activités où il entend agir en priorité et de proposer au gouvernement des mesures en vue d&#39;accroître l&#39;efficacité de la lutte contre les cyberattaques et les cybermenaces au Québec.</p>
+    
+    <details class="sponsor-card-more">
+      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
+    </details>
+    
+    
+    <a href="https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique" class="sponsor-card-url" rel="noopener">Visiter le site</a>
+  </div>
+</article>
+
+      
+    
+  </div>
+</section>
+    
   
 
   
@@ -1164,7 +1270,7 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
 
 
 <section class="sponsor-tier" id="other-tiers" aria-labelledby="other-tiers-title">
-  <h2 class="sponsor-tier-title" id="other-tiers-title">Autres partenariats <span class="sponsor-tier-count">10</span></h2>
+  <h2 class="sponsor-tier-title" id="other-tiers-title">Autres partenariats <span class="sponsor-tier-count">8</span></h2>
   <div class="sponsor-subtiers">
     
       
@@ -1348,71 +1454,6 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
     
       
         
-        
-    <section class="sponsor-subtier sponsor-subtier-span-2" id="ctf" aria-labelledby="ctf-title">
-      <h3 class="sponsor-subtier-title" id="ctf-title">CTF</h3>
-      <div class="sponsor-subtier-cards">
-          
-        
-
-
-
-
-
-
-
-<article class="sponsor-card">
-  <div class="sponsor-card-logo">
-    
-    <a href="https://www.poka.io/fr" rel="noopener" aria-label="POKA"><img src="https://hackfest.ca/assets/images/sponsors/poka.svg" alt="POKA" loading="lazy"></a>
-    
-  </div>
-  <div class="sponsor-card-body">
-    <h4 class="sponsor-card-name">POKA</h4>
-    
-    <p class="sponsor-card-text is-clamped">Poka aide les manufacturiers à stimuler le rendement en autonomisant les travailleurs dans leur apprentissage, la résolution de problèmes et la transmission des connaissances en temps réel, sur le plancher. Notre application est conçue pour connecter les travailleurs aux opérations numériques de la manufacture et favoriser une culture de l’amélioration continue.</p>
-    
-    <details class="sponsor-card-more">
-      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
-    </details>
-    
-    
-    <a href="https://www.poka.io/fr" class="sponsor-card-url" rel="noopener">Visiter le site</a>
-  </div>
-</article>
-
-          
-        
-
-
-
-
-
-
-
-<article class="sponsor-card">
-  <div class="sponsor-card-logo">
-    
-    <a href="https://www.talenty.ca/" rel="noopener" aria-label="Talenty"><img src="https://hackfest.ca/assets/images/sponsors/talenty.webp" alt="Talenty" loading="lazy"></a>
-    
-  </div>
-  <div class="sponsor-card-body">
-    <h4 class="sponsor-card-name">Talenty</h4>
-    
-    <p class="sponsor-card-text is-clamped">Talenty est votre partenaire stratégique en recrutement cybersécurité et TI au Québec. L&#39;équipe livre des candidats qualifiés, rapidement, avec un taux de rétention d&#39;environ 90 % après 12 mois. Pas un fournisseur, un partenaire : Talenty ne lance pas des CV, elle comprend ce que vous cherchez, pourquoi vous le cherchez, et trouve la bonne personne.</p>
-    
-    <details class="sponsor-card-more">
-      <summary><span class="sponsor-card-more-open">Lire la suite</span><span class="sponsor-card-more-close">Réduire</span></summary>
-    </details>
-    
-    
-    <a href="https://www.talenty.ca/" class="sponsor-card-url" rel="noopener">Visiter le site</a>
-  </div>
-</article>
-
-          
-      </div>
-    </section>
         
       
     
@@ -1761,7 +1802,7 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
      role="dialog"
      aria-modal="true"
      aria-labelledby="announce-modal-title"
-     data-announce-id="news-2026-10-26b"
+     data-announce-id="news-2026-10-27"
      data-announce-until="2026-10-31"
      data-announce-delay="1400">
 
@@ -1776,8 +1817,9 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
     
     <ul class="announce-items">
       
+      
       <li>
-        <a href="horaire#talk-HMV3CS" class="announce-item announce-item--green">
+        <a href="https://www.eventbrite.ca/e/proofpoint-insider-threat-management-itm-adaptive-email-dlp-tickets-2003924552280" class="announce-item announce-item--green" target="_blank" rel="noopener">
           <span>
             <span class="announce-item-title">Proofpoint - Workshop/CTF – Insider Threat Management (ITM) &amp; Adaptive Email DLP: Detecting Malicious Users and Preventing Data Exfiltration</span>
             <span class="announce-item-text">Inscription obligatoire avant l&#39;atelier, faites-la maintenant. Apportez votre portable ! Salle 207, vendredi 30 octobre, 12h00 à 15h00.</span>
@@ -1785,6 +1827,18 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
           <span class="announce-item-arrow" aria-hidden="true">&rarr;</span>
         </a>
       </li>
+      
+      
+      <li>
+        <a href="halloween/index.html" class="announce-item announce-item--orange">
+          <span>
+            <span class="announce-item-title">Halloween : shooting photo gratuit</span>
+            <span class="announce-item-text">Samedi 31 octobre, de 13h à 15h : viens te faire photographier en costume avant le jugement du concours (500 $ au meilleur costume).</span>
+          </span>
+          <span class="announce-item-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+      
       
       <li>
         <a href="https://hackfest.ca/villages/echecs/" class="announce-item announce-item--orange">
@@ -1796,6 +1850,7 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
         </a>
       </li>
       
+      
       <li>
         <a href="https://hackfest.ca/ctfs/beginner/" class="announce-item announce-item--red">
           <span>
@@ -1805,6 +1860,7 @@ Le CST recrute des Canadiens possédant un large éventail de compétences, d’
           <span class="announce-item-arrow" aria-hidden="true">&rarr;</span>
         </a>
       </li>
+      
       
       <li>
         <a href="https://hackfest.ca/ctfs/stealthcup/" class="announce-item announce-item--green">
