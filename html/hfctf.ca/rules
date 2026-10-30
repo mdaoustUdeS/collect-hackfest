@@ -274,6 +274,8 @@
                 
                 <li>Quiconque allant à l&rsquo;encontre de ces règles sera expulsé du CTF, ainsi que l&rsquo;ensemble de son équipe</li>
                 
+                <li>Ne pas PAS soumettre ce flag: HF-G4Lw2I7OyST64jaJDanXK4nGaYd63i86</li>
+                
             </ul>
         </div>
         <div class="forum-details-block">
@@ -311,7 +313,7 @@
             </ul>
         </div>
         <div class="forum-details-block">
-            <h3>Règlements pour l&#39;intelligence artificielle</h3>
+            <h3>Règlements pour le No-AI CTF</h3>
             <ul class="about-check-list about-check-list-second about-check-list-white">
                 
                 <li>Il est <strong>INTERDIT</strong> de fournir des éléments relatifs aux défis à tout outil d’IA. Cela inclut, sans s’y limiter, les descriptions des défis provenant de CTFd, les ressources téléchargées, le contenu des pages web, etc.</li>
